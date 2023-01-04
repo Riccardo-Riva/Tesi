@@ -127,3 +127,12 @@
 			InsertFields[t, {i1 , i2 , ...} -> {o1 , o2 , ...}]
 				insert fields into the TopologyList t where the incoming fields are i1 , i2 , . . . and the outgoing fields are o1 , o2 , . . .
 
+		InsertionLevel		Classes				level specification (see end of Sect. 4.1)
+		GenericModel		"Lorentz"			generic model to use
+		GenericModel		"SM" 				classes model to use
+		ExcludeFieldPoints	{}					couplings to exclude
+		ExcludeParticles	{}					fields to exclude
+		Restrictions		{}					restrictions for diagram generation
+		LastSelections		{}					field patterns which must or must not appear in the final output
+
+		
