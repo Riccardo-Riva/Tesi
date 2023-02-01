@@ -1,12 +1,12 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/16)*EL^6*gWdu^2*gWNl^2*gZlL*gZuL*KiraPropagator[q1, 0]*
-  KiraPropagator[p2 + q1, MW]*KiraPropagator[p2 - p3 + q1, 0]*
-  KiraPropagator[p2 - p3 - p4 + q1, MZ]*(32*s12^2*SP[p3, q1] - 
-   16*d*s12^2*SP[p3, q1] + 2*d^2*s12^2*SP[p3, q1] - 112*s12*s13*SP[p3, q1] + 
-   76*d*s12*s13*SP[p3, q1] - 16*d^2*s12*s13*SP[p3, q1] + 
-   d^3*s12*s13*SP[p3, q1] - 16*s13^2*SP[p3, q1] + 4*d*s13^2*SP[p3, q1] - 
-   32*s23^2*SP[p3, q1] + 20*d*s23^2*SP[p3, q1] - 4*d^2*s23^2*SP[p3, q1] + 
-   32*s12*s23*SP[p4, q1] - 8*d*s12*s23*SP[p4, q1] - 
+((I/16)*EL^6*gWdu^2*gWNl^2*gZlL*gZuL*CKM[1, 1]*Conjugate[CKM[1, 1]]*
+  KiraPropagator[q1, 0]*KiraPropagator[p2 + q1, MW]*
+  KiraPropagator[p2 - p3 + q1, 0]*KiraPropagator[p2 - p3 - p4 + q1, MZ]*
+  (32*s12^2*SP[p3, q1] - 16*d*s12^2*SP[p3, q1] + 2*d^2*s12^2*SP[p3, q1] - 
+   112*s12*s13*SP[p3, q1] + 76*d*s12*s13*SP[p3, q1] - 
+   16*d^2*s12*s13*SP[p3, q1] + d^3*s12*s13*SP[p3, q1] - 16*s13^2*SP[p3, q1] + 
+   4*d*s13^2*SP[p3, q1] - 32*s23^2*SP[p3, q1] + 20*d*s23^2*SP[p3, q1] - 
+   4*d^2*s23^2*SP[p3, q1] + 32*s12*s23*SP[p4, q1] - 8*d*s12*s23*SP[p4, q1] - 
    4*d^2*s12*s23*SP[p4, q1] + d^3*s12*s23*SP[p4, q1] + 
    32*s13*s23*SP[p4, q1] - 24*d*s13*s23*SP[p4, q1] + 
    4*d^2*s13*s23*SP[p4, q1] + 224*s12*SP[p3, q1]*SP[p4, q1] - 

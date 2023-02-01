@@ -3,8 +3,14 @@ userLoopMomenta={
 q1
 };
 
-
 (* User-defined integral families *)
+
+userIntegralFamiliesNames={
+TopoCM,
+TopoCMp,
+TopoC2M,
+TopoC2Mp
+};
 
 userPropagatorMomenta[TopoCM]={
 	q1,
