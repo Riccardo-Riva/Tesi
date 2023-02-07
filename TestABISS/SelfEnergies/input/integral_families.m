@@ -1,8 +1,7 @@
 (* ::Package:: *)
 
 userLoopMomenta={
-q1,
-q2
+q1
 };
 
 
@@ -10,20 +9,13 @@ q2
 
 
 userIntegralFamiliesNames={
-B0
+A0
 };
 
 
-userPropagatorMomenta[B0]={
+userPropagatorMomenta[A0]={
 	q1,
-	q2,
-	q1-q2,
-	p1-q1,
-	p1-q2,
-	p1+p2-q1,
-	p1+p2-q2,
-	q1-p3,
-	q2-p3
+	-q1+p1
 };
 
-userIntegralMasses[B0]={0,0,0,0,0,0,0,0,0};
+userIntegralMasses[A0]={M1,M2};
