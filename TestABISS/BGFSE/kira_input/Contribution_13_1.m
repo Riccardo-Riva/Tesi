@@ -1,5 +1,5 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/16)*EL^2*ggmgmA^2*PolarizationVector[V[1], p1, {Lor1}]*
-  (SP[p2, {Lor1}] - SP[q1, {Lor1}])*SP[q1, {Lor2}]*
-  userIntegral[A0, {MW}, 1, 1]*Conjugate[PolarizationVector][V[1], p2, 
-   {Lor2}])/Pi^4
+((-I/64)*EL^2*ggmgmA^2*userIntegral[A0, {MW}, -1, 1])/(Pi^4*psm) + 
+ ((I/32)*EL^2*ggmgmA^2*userIntegral[A0, {MW}, 0, 0])/(Pi^4*psm) - 
+ ((I/64)*EL^2*ggmgmA^2*userIntegral[A0, {MW}, 1, -1])/(Pi^4*psm) + 
+ ((I/64)*EL^2*ggmgmA^2*psm*userIntegral[A0, {MW}, 1, 1])/Pi^4

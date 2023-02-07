@@ -1,13 +1,7 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/16)*EL^2*gWWA^2*PolarizationVector[V[1], p1, {Lor1}]*SP[{Lor1}, {Lor2}]*
-   userIntegral[A0, {MW}, 0, 1]*Conjugate[PolarizationVector][V[1], p2, 
-    {Lor2}])/Pi^4 - ((I/16)*EL^2*gWWA^2*PolarizationVector[V[1], p1, {Lor1}]*
-   SP[{Lor1}, {Lor2}]*userIntegral[A0, {MW}, 1, 0]*
-   Conjugate[PolarizationVector][V[1], p2, {Lor2}])/Pi^4 + 
- ((I/16)*EL^2*gWWA^2*PolarizationVector[V[1], p1, {Lor1}]*
-   (3*SP[p1, {Lor2}]*SP[p2, {Lor1}] - 3*SP[p2, {Lor2}]*SP[q1, {Lor1}] + 
-    2*d*SP[p2, {Lor2}]*SP[q1, {Lor1}] + 6*SP[q1, {Lor1}]*SP[q1, {Lor2}] - 
-    4*d*SP[q1, {Lor1}]*SP[q1, {Lor2}] + SP[p2, {Lor1}]*
-     (-((-3 + d)*SP[p2, {Lor2}]) + (-3 + 2*d)*SP[q1, {Lor2}]) - 
-    2*MW^2*SP[{Lor1}, {Lor2}])*userIntegral[A0, {MW}, 1, 1]*
-   Conjugate[PolarizationVector][V[1], p2, {Lor2}])/Pi^4
+((I/32)*(-3 + 2*d)*EL^2*gWWA^2*userIntegral[A0, {MW}, -1, 1])/(Pi^4*psm) - 
+ ((I/16)*(-3 + 2*d)*EL^2*gWWA^2*userIntegral[A0, {MW}, 0, 0])/(Pi^4*psm) + 
+ ((I/16)*EL^2*gWWA^2*userIntegral[A0, {MW}, 0, 1])/Pi^4 + 
+ ((I/32)*(-3 + 2*d)*EL^2*gWWA^2*userIntegral[A0, {MW}, 1, -1])/(Pi^4*psm) + 
+ ((I/16)*EL^2*gWWA^2*userIntegral[A0, {MW}, 1, 0])/Pi^4 + 
+ ((I/32)*EL^2*gWWA^2*(4*MW^2 - psm)*userIntegral[A0, {MW}, 1, 1])/Pi^4
