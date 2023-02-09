@@ -1,4 +1,3 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/32)*EL^2*ggpgpA*ggpgpZ*KiraPropagator[q1, MW]*
-  KiraPropagator[-p2 + q1, MW]*(pasq + pzsq - 2*SP[p1, q1])*SP[p1, q1])/
- (pasq*Pi^4)
+((-I/64)*EL^2*gFFA*gFFZ*KiraPropagator[q1, MW]*KiraPropagator[-p2 + q1, MW]*
+  (pasq + pzsq - 4*SP[p1, q1])^2)/(pasq*Pi^4)

@@ -1,0 +1,39 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This requested integral is a master integral: TopoCM[0,1,1,0] # 6
+This requested integral is a master integral: TopoCM[1,0,0,1] # 9
+This requested integral is a master integral: TopoCM[1,1,0,1] # 11
+This requested integral is a master integral: TopoCM[1,1,1,1] # 15
+This integral is unreduced: TopoC2M[0,1,1,0] # 6
+This integral is unreduced: TopoC2M[1,0,1,1] # 13
+This integral is unreduced: TopoC2M[1,1,1,0] # 7
+This integral is unreduced: TopoC2M[1,1,1,1] # 15
+This integral is unreduced: TopoC2M[0,1,1,0] # 6
+This integral is unreduced: TopoC2M[1,0,1,1] # 13
+This integral is unreduced: TopoC2M[1,1,1,0] # 7
+This integral is unreduced: TopoC2M[1,1,1,1] # 15
+This integral is unreduced: TopoCMp[1,0,0,1] # 9
+This integral is unreduced: TopoCMp[1,0,1,1] # 13
+This integral is unreduced: TopoCMp[1,1,1,1] # 15
+This integral is unreduced: TopoC2Mp[1,0,1,1] # 13
+This integral is unreduced: TopoC2Mp[1,1,1,1] # 15
+This integral is unreduced: TopoC2Mp[1,0,1,1] # 13
+This integral is unreduced: TopoC2Mp[1,1,1,1] # 15
+unreduced integrals: 15.
+
+closeCalc: 122047
+Total time:
+( 0.26829 s )

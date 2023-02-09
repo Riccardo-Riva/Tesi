@@ -1,9 +1,4 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/8)*EL^2*gAu*KiraPropagator[q1, MU]*KiraPropagator[-p2 + q1, MU]*
-  (gZuL*MU^2*pasq + gZuR*MU^2*pasq - (gZuL + gZuR)*(pasq + pzsq)*SP[p1, q1] + 
-   2*(gZuL + gZuR)*SP[p1, q1]^2 - I*(gZuL - gZuR)*p2**q1**{Lor1}**{Lor2}*
-    SP[p1, {Lor1}]*SP[p1, {Lor2}] - I*gZuL*(-q1)**q1**{Lor1}**{Lor2}*
-    SP[p1, {Lor1}]*SP[p1, {Lor2}] + I*gZuR*(-q1)**q1**{Lor1}**{Lor2}*
-    SP[p1, {Lor1}]*SP[p1, {Lor2}] + gZuL*pasq*SP[p2, q1] + 
-   gZuR*pasq*SP[p2, q1] - gZuL*pasq*SP[q1, q1] - gZuR*pasq*SP[q1, q1])*
-  SumOver[Index[Colour, 3], 3])/(pasq*Pi^4)
+((-I/8)*EL^2*gAl*(gZlL + gZlR)*KiraPropagator[q1, MM]*
+  KiraPropagator[-p2 + q1, MM]*(-((pasq + pzsq)*SP[p1, q1]) + 
+   2*SP[p1, q1]^2 + pasq*(MM^2 + SP[p2, q1] - SP[q1, q1])))/(pasq*Pi^4)
