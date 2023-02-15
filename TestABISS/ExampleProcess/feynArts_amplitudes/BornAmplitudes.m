@@ -1,8 +1,8 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
 {FermionChain[NonCommutative[DiracSpinor[-FourMomentum[Incoming, 2], 0]], 
-   I*EL*gWdu*Conjugate[CKM[1, 1]]*NonCommutative[
-     DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]], 
-   NonCommutative[DiracSpinor[FourMomentum[Incoming, 1], 0]]]*
+   I*EL*gWdu*CKMC[1, 1]*NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
+     ChiralityProjector[-1]], NonCommutative[
+    DiracSpinor[FourMomentum[Incoming, 1], 0]]]*
   FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], 0]], 
    I*EL*gWNl*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
      ChiralityProjector[-1]], NonCommutative[

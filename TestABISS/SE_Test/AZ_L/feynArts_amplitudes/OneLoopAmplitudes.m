@@ -1,24 +1,19 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
 {((I/16)*EL^2*gFFAZ*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MW]]*MetricTensor[Index[Lorentz, 1], 
-    Index[Lorentz, 2]]*PolarizationVector[V[10], FourMomentum[Incoming, 1], 
-    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[20], 
+    Index[Lorentz, 2]]*PolarizationVector[V[1], FourMomentum[Incoming, 1], 
+    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[2], 
     FourMomentum[Outgoing, 1], Index[Lorentz, 2]])/Pi^4, 
- ((-I/8)*EL^2*ggmgmAZ*FeynAmpDenominator[PropagatorDenominator[
-     FourMomentum[Internal, 1], MW]]*MetricTensor[Index[Lorentz, 1], 
-    Index[Lorentz, 2]]*PolarizationVector[V[10], FourMomentum[Incoming, 1], 
-    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[20], 
-    FourMomentum[Outgoing, 1], Index[Lorentz, 2]])/Pi^4, 
- ((-I/8)*EL^2*ggpgpAZ*FeynAmpDenominator[PropagatorDenominator[
-     FourMomentum[Internal, 1], MW]]*MetricTensor[Index[Lorentz, 1], 
-    Index[Lorentz, 2]]*PolarizationVector[V[10], FourMomentum[Incoming, 1], 
-    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[20], 
-    FourMomentum[Outgoing, 1], Index[Lorentz, 2]])/Pi^4, 
- ((-I/8)*EL^2*gWWAZ*FeynAmpDenominator[PropagatorDenominator[
-     FourMomentum[Internal, 1], MW]]*MetricTensor[Index[Lorentz, 1], 
-    Index[Lorentz, 2]]*MetricTensor[Index[Lorentz, 3], Index[Lorentz, 4]]^2*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+ ((I/16)*EL^2*gWWAZ*FeynAmpDenominator[PropagatorDenominator[
+     FourMomentum[Internal, 1], MW]]*MetricTensor[Index[Lorentz, 3], 
+    Index[Lorentz, 4]]*(MetricTensor[Index[Lorentz, 1], Index[Lorentz, 4]]*
+     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 3]] + 
+    MetricTensor[Index[Lorentz, 1], Index[Lorentz, 3]]*
+     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] - 
+    2*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 2]]*
+     MetricTensor[Index[Lorentz, 3], Index[Lorentz, 4]])*
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  ((-I/16)*FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], 
      ME], PropagatorDenominator[FourMomentum[Internal, 1] - 
@@ -32,8 +27,8 @@
     I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  ((-I/16)*FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], 
      MM], PropagatorDenominator[FourMomentum[Internal, 1] - 
@@ -47,8 +42,8 @@
     I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  ((-I/16)*FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], 
      ML], PropagatorDenominator[FourMomentum[Internal, 1] - 
@@ -62,8 +57,8 @@
     I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MU], PropagatorDenominator[
@@ -77,8 +72,8 @@
     I*EL*gAu*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MC], PropagatorDenominator[
@@ -92,8 +87,8 @@
     I*EL*gAu*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MT], PropagatorDenominator[
@@ -107,8 +102,8 @@
     I*EL*gAu*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MD], PropagatorDenominator[
@@ -122,8 +117,8 @@
     I*EL*gAd*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MS], PropagatorDenominator[
@@ -137,8 +132,8 @@
     I*EL*gAd*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MB], PropagatorDenominator[
@@ -152,8 +147,8 @@
     I*EL*gAd*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
        ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
         Index[Lorentz, 1]], ChiralityProjector[1]])]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  ((I/16)*EL^2*gFFA*gFFZ*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MW], PropagatorDenominator[
@@ -166,142 +161,61 @@
        Index[Lorentz, 1]] + FourVector[-FourMomentum[Internal, 1] + 
         FourMomentum[Outgoing, 1], Index[Lorentz, 1]])*
      FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 2]])*PolarizationVector[V[10], 
-    FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
-    Index[Lorentz, 2]])/Pi^4, 
- ((I/16)*EL^2*ggmgmA*ggmgmZ*FeynAmpDenominator[PropagatorDenominator[
+      Index[Lorentz, 2]])*PolarizationVector[V[1], FourMomentum[Incoming, 1], 
+    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[2], 
+    FourMomentum[Outgoing, 1], Index[Lorentz, 2]])/Pi^4, 
+ ((-I/16)*EL^2*ggmgmA*ggmgmZ*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MW], PropagatorDenominator[
      FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], MW]]*
-   (FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 1]]*
-     FourVector[FourMomentum[Internal, 1], Index[Lorentz, 2]] + 
-    FourVector[FourMomentum[Internal, 1], Index[Lorentz, 2]]*
-     FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 1]] + (FourVector[FourMomentum[Internal, 1], 
-       Index[Lorentz, 1]] + FourVector[FourMomentum[Internal, 1] - 
-        FourMomentum[Outgoing, 1], Index[Lorentz, 1]])*
-     FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 2]])*PolarizationVector[V[10], 
-    FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
-    Index[Lorentz, 2]])/Pi^4, 
+   FourVector[FourMomentum[Internal, 1], Index[Lorentz, 2]]*
+   FourVector[FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], 
+    Index[Lorentz, 1]]*PolarizationVector[V[1], FourMomentum[Incoming, 1], 
+    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[2], 
+    FourMomentum[Outgoing, 1], Index[Lorentz, 2]])/Pi^4, 
  ((-I/16)*EL^2*ggpgpA*ggpgpZ*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MW], PropagatorDenominator[
      FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], MW]]*
-   (FourVector[FourMomentum[Internal, 1], Index[Lorentz, 1]]*
-     FourVector[FourMomentum[Internal, 1], Index[Lorentz, 2]] + 
-    FourVector[FourMomentum[Internal, 1], Index[Lorentz, 2]]*
-     FourVector[FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 1]] + (FourVector[-FourMomentum[Internal, 1], 
-       Index[Lorentz, 1]] + FourVector[-FourMomentum[Internal, 1] + 
-        FourMomentum[Outgoing, 1], Index[Lorentz, 1]])*
-     FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 2]])*PolarizationVector[V[10], 
-    FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   FourVector[FourMomentum[Internal, 1], Index[Lorentz, 2]]*
+   FourVector[FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], 
+    Index[Lorentz, 1]]*PolarizationVector[V[1], FourMomentum[Incoming, 1], 
+    Index[Lorentz, 1]]*Conjugate[PolarizationVector][V[2], 
+    FourMomentum[Outgoing, 1], Index[Lorentz, 2]])/Pi^4, 
+ ((-I/16)*EL^2*gFAW*gFZW*SW*FeynAmpDenominator[PropagatorDenominator[
+     FourMomentum[Internal, 1], MW], PropagatorDenominator[
+     FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], MW]]*
+   MetricTensor[Index[Lorentz, 1], Index[Lorentz, 3]]*
+   MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]]*
+   MetricTensor[Index[Lorentz, 3], Index[Lorentz, 4]]*
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
- ((I/16)*EL^2*gWWA*gWWZ*FeynAmpDenominator[PropagatorDenominator[
+ ((-I/16)*EL^2*gFAW*gFZW*SW*FeynAmpDenominator[PropagatorDenominator[
+     FourMomentum[Internal, 1], MW], PropagatorDenominator[
+     FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], MW]]*
+   MetricTensor[Index[Lorentz, 1], Index[Lorentz, 3]]*
+   MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]]*
+   MetricTensor[Index[Lorentz, 3], Index[Lorentz, 4]]*
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
+    Index[Lorentz, 2]])/Pi^4, 
+ ((-I/16)*EL^2*gWWA*gWWZ*FeynAmpDenominator[PropagatorDenominator[
      FourMomentum[Internal, 1], MW], PropagatorDenominator[
      FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], MW]]*
    MetricTensor[Index[Lorentz, 3], Index[Lorentz, 4]]*
-   (FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 3]]*
-     FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
-    FourVector[-FourMomentum[Incoming, 1] + FourMomentum[Internal, 1] - 
+   (FourVector[-FourMomentum[Incoming, 1] - FourMomentum[Internal, 1], 
+      Index[Lorentz, 5]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 3]] + 
+    FourVector[FourMomentum[Incoming, 1] - FourMomentum[Internal, 1] + 
        FourMomentum[Outgoing, 1], Index[Lorentz, 3]]*
-     FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
-    FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 3]]*
-     FourVector[FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
-    FourVector[-FourMomentum[Incoming, 1] + FourMomentum[Internal, 1] - 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 3]]*
-     FourVector[FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
-    FourVector[FourMomentum[Internal, 1], Index[Lorentz, 3]]*
-     FourVector[FourMomentum[Internal, 1], Index[Lorentz, 4]]*
-     MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
-    FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 3]]*
-     FourVector[FourMomentum[Internal, 1] - 2*FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 4]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
-    FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 4]]*
-     FourVector[-FourMomentum[Incoming, 1] + FourMomentum[Internal, 1] - 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 3]]*
-     MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
+     MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]] + 
+    FourVector[2*FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], 
+      Index[Lorentz, 1]]*MetricTensor[Index[Lorentz, 3], Index[Lorentz, 5]])*
+   (FourVector[FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
+      Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
     FourVector[FourMomentum[Internal, 1] - 2*FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 4]]*FourVector[-FourMomentum[Incoming, 1] + 
-       FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 3]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
+      Index[Lorentz, 4]]*MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
     FourVector[-2*FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 1]]*FourVector[-FourMomentum[Internal, 1] + 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 6]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]]*
-     MetricTensor[Index[Lorentz, 3], Index[Lorentz, 5]] + 
-    FourVector[-2*FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 1]]*FourVector[FourMomentum[Internal, 1] + 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 6]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]]*
-     MetricTensor[Index[Lorentz, 3], Index[Lorentz, 5]] + 
-    FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 4]]*
-     FourVector[-2*FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 1]]*MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]]*
-     MetricTensor[Index[Lorentz, 3], Index[Lorentz, 5]] + 
-    FourVector[FourMomentum[Internal, 1] - 2*FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 4]]*FourVector[-2*FourMomentum[Internal, 1] + 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 1]]*
-     MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]]*
-     MetricTensor[Index[Lorentz, 3], Index[Lorentz, 5]] + 
-    FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 3]]*
-     FourVector[-2*FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 2]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 4], Index[Lorentz, 6]] + 
-    FourVector[-FourMomentum[Incoming, 1] + FourMomentum[Internal, 1] - 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 3]]*
-     FourVector[-2*FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 2]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 4], Index[Lorentz, 6]] + 
-    FourVector[-2*FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 1]]*FourVector[-2*FourMomentum[Internal, 1] + 
-       FourMomentum[Outgoing, 1], Index[Lorentz, 2]]*
-     MetricTensor[Index[Lorentz, 3], Index[Lorentz, 5]]*
-     MetricTensor[Index[Lorentz, 4], Index[Lorentz, 6]] + 
-    FourVector[FourMomentum[Incoming, 1] + FourMomentum[Internal, 1], 
-      Index[Lorentz, 5]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 3]]*
-     (FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-        Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 2], 
-        Index[Lorentz, 4]] + FourVector[FourMomentum[Internal, 1] + 
-         FourMomentum[Outgoing, 1], Index[Lorentz, 6]]*
-       MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
-      FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 4]]*
-       MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
-      FourVector[FourMomentum[Internal, 1] - 2*FourMomentum[Outgoing, 1], 
-        Index[Lorentz, 4]]*MetricTensor[Index[Lorentz, 2], 
-        Index[Lorentz, 6]] + FourVector[-2*FourMomentum[Internal, 1] + 
-         FourMomentum[Outgoing, 1], Index[Lorentz, 2]]*
-       MetricTensor[Index[Lorentz, 4], Index[Lorentz, 6]]) + 
-    FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-      Index[Lorentz, 5]]*MetricTensor[Index[Lorentz, 1], Index[Lorentz, 3]]*
-     (FourVector[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1], 
-        Index[Lorentz, 6]]*MetricTensor[Index[Lorentz, 2], 
-        Index[Lorentz, 4]] + FourVector[FourMomentum[Internal, 1] + 
-         FourMomentum[Outgoing, 1], Index[Lorentz, 6]]*
-       MetricTensor[Index[Lorentz, 2], Index[Lorentz, 4]] + 
-      FourVector[-FourMomentum[Internal, 1], Index[Lorentz, 4]]*
-       MetricTensor[Index[Lorentz, 2], Index[Lorentz, 6]] + 
-      FourVector[FourMomentum[Internal, 1] - 2*FourMomentum[Outgoing, 1], 
-        Index[Lorentz, 4]]*MetricTensor[Index[Lorentz, 2], 
-        Index[Lorentz, 6]] + FourVector[-2*FourMomentum[Internal, 1] + 
-         FourMomentum[Outgoing, 1], Index[Lorentz, 2]]*
-       MetricTensor[Index[Lorentz, 4], Index[Lorentz, 6]]))*
+      Index[Lorentz, 2]]*MetricTensor[Index[Lorentz, 4], Index[Lorentz, 6]])*
    MetricTensor[Index[Lorentz, 5], Index[Lorentz, 6]]*
-   PolarizationVector[V[10], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
-   Conjugate[PolarizationVector][V[20], FourMomentum[Outgoing, 1], 
+   PolarizationVector[V[1], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+   Conjugate[PolarizationVector][V[2], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4}
