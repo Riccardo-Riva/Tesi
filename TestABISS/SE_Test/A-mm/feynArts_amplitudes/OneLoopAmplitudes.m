@@ -1,54 +1,54 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-{-(FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], 
-       MLE[2]]], I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
+{-(FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
+     I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
         ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
          Index[Lorentz, 2]], ChiralityProjector[1]]), 
-     NonCommutative[DiracSlash[FourMomentum[Internal, 1]] + MLE[2]], 
+     NonCommutative[MM + DiracSlash[FourMomentum[Internal, 1]]], 
      I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
         ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
          Index[Lorentz, 1]], ChiralityProjector[1]]), 
-     NonCommutative[DiracSlash[FourMomentum[Internal, 1] - 
-         FourMomentum[Outgoing, 1] - FourMomentum[Outgoing, 2]] + MLE[2]], 
+     NonCommutative[MM + DiracSlash[FourMomentum[Internal, 1] - 
+         FourMomentum[Outgoing, 1] - FourMomentum[Outgoing, 2]]], 
      I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 3]], 
         ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
          Index[Lorentz, 3]], ChiralityProjector[1]]), 
-     NonCommutative[DiracSpinor[-FourMomentum[Outgoing, 2], MLE[2]]]]*
-    FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], 
-      MLE[2]], PropagatorDenominator[FourMomentum[Internal, 1] - 
+     NonCommutative[DiracSpinor[-FourMomentum[Outgoing, 2], MM]]]*
+    FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], MM], 
+     PropagatorDenominator[FourMomentum[Internal, 1] - 
        FourMomentum[Outgoing, 1], 0], PropagatorDenominator[
       FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1] - 
-       FourMomentum[Outgoing, 2], MLE[2]]]*MetricTensor[Index[Lorentz, 2], 
+       FourMomentum[Outgoing, 2], MM]]*MetricTensor[Index[Lorentz, 2], 
      Index[Lorentz, 3]]*PolarizationVector[V[1], FourMomentum[Incoming, 1], 
      Index[Lorentz, 1]])/(16*Pi^4), 
- -(FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], 
-       MLE[2]]], I*EL*(gZlL*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
+ -(FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
+     I*EL*(gZlL*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
          ChiralityProjector[-1]] + gZlR*NonCommutative[
          DiracMatrix[Index[Lorentz, 2]], ChiralityProjector[1]]), 
-     NonCommutative[DiracSlash[FourMomentum[Internal, 1]] + MLE[2]], 
+     NonCommutative[MM + DiracSlash[FourMomentum[Internal, 1]]], 
      I*EL*gAl*(NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
         ChiralityProjector[-1]] + NonCommutative[DiracMatrix[
          Index[Lorentz, 1]], ChiralityProjector[1]]), 
-     NonCommutative[DiracSlash[FourMomentum[Internal, 1] - 
-         FourMomentum[Outgoing, 1] - FourMomentum[Outgoing, 2]] + MLE[2]], 
+     NonCommutative[MM + DiracSlash[FourMomentum[Internal, 1] - 
+         FourMomentum[Outgoing, 1] - FourMomentum[Outgoing, 2]]], 
      I*EL*(gZlL*NonCommutative[DiracMatrix[Index[Lorentz, 3]], 
          ChiralityProjector[-1]] + gZlR*NonCommutative[
          DiracMatrix[Index[Lorentz, 3]], ChiralityProjector[1]]), 
-     NonCommutative[DiracSpinor[-FourMomentum[Outgoing, 2], MLE[2]]]]*
-    FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], 
-      MLE[2]], PropagatorDenominator[FourMomentum[Internal, 1] - 
+     NonCommutative[DiracSpinor[-FourMomentum[Outgoing, 2], MM]]]*
+    FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], MM], 
+     PropagatorDenominator[FourMomentum[Internal, 1] - 
        FourMomentum[Outgoing, 1], MZ], PropagatorDenominator[
       FourMomentum[Internal, 1] - FourMomentum[Outgoing, 1] - 
-       FourMomentum[Outgoing, 2], MLE[2]]]*MetricTensor[Index[Lorentz, 2], 
+       FourMomentum[Outgoing, 2], MM]]*MetricTensor[Index[Lorentz, 2], 
      Index[Lorentz, 3]]*PolarizationVector[V[1], FourMomentum[Incoming, 1], 
      Index[Lorentz, 1]])/(16*Pi^4), 
  ((-I/16)*EL*gWWA*FermionChain[NonCommutative[
-     DiracSpinor[FourMomentum[Outgoing, 1], MLE[2]]], 
+     DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
     I*EL*gWlN*NonCommutative[DiracMatrix[Index[Lorentz, 3]], 
       ChiralityProjector[-1]], NonCommutative[
      DiracSlash[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 1]]], 
     I*EL*gWNl*NonCommutative[DiracMatrix[Index[Lorentz, 5]], 
       ChiralityProjector[-1]], NonCommutative[
-     DiracSpinor[-FourMomentum[Outgoing, 2], MLE[2]]]]*
+     DiracSpinor[-FourMomentum[Outgoing, 2], MM]]]*
    FeynAmpDenominator[PropagatorDenominator[FourMomentum[Internal, 1], MW], 
     PropagatorDenominator[FourMomentum[Internal, 1] - 
       FourMomentum[Outgoing, 1], 0], PropagatorDenominator[

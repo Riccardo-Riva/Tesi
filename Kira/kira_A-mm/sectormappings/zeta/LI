@@ -1,0 +1,8 @@
+zeta[-1,1,0]*(-psq*a1)
+zeta[0,0,0]*(psq*a2-psq*a1)
+zeta[0,1,0]*(psq^2*a1-2*psq*mmsq*a1-2*psq*m1^2*a1+2*m2^2*psq*a1)
+zeta[0,0,1]*(m2^2*psq*a2-psq*a2*m1^2+psq*a2*mmsq)
+zeta[0,1,-1]*(2*psq*a1)
+zeta[-1,0,1]*(2*a2*mmsq-psq*a2)
+zeta[0,-1,1]*(-2*a2*mmsq)
+

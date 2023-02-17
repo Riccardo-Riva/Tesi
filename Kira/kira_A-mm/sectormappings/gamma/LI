@@ -1,0 +1,8 @@
+gamma[-1,1,0]*(-psq*a1)
+gamma[0,0,0]*(psq*a2-psq*a1)
+gamma[0,1,0]*(psq^2*a1-2*psq*mmsq*a1-2*psq*m1^2*a1)
+gamma[0,0,1]*(-psq*a2*m1^2+psq*a2*mmsq)
+gamma[0,1,-1]*(2*psq*a1)
+gamma[-1,0,1]*(2*a2*mmsq-psq*a2)
+gamma[0,-1,1]*(-2*a2*mmsq)
+

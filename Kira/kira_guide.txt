@@ -1,0 +1,165 @@
+First of all you have to define the integral family inside Kira. The topology you want to study is 
+
+Which corresponds to the integral family
+
+STEP 1: So as a first thing you have to modify the file config/integralfamilies.yaml
+
+integralfamilies:
+
+  - name: "bubble"
+
+    loop_momenta: [q1]
+
+    top_level_sectors: [b11]
+
+    propagators:
+
+      - [ "q1",       m^2] 
+
+      - [ "q1-p1",    m^2] 
+
+You write the name (you can chose the one you prefer), the loop momenta (in this case you only have q1), the sector and the propagators.
+
+The sector is something which becomes relevant at 2-loop and beyond. The reason is that the denominators need to create an algebra, that is you have to be able to write any dot product involving a loop momenta in terms of denominators. For example in the example above you have:
+
+D1 = q^2 - m^2
+
+D2 = (q-p)^2 - m^2
+
+
+And you can write:
+
+q^2 = D1 + m^2 
+
+(q dot p) = 1/2 (D1 - D2 + p^2)
+
+
+It might happen that you have to write some extra denominators just for closing the algebra. With the top_level_sector you can specify that some denominators do not appear in the integrals you are considering, but they are there just to close the algebra. In practice is a number in binary, so you write a b and then a 1 if the propagator is active and 0 if is not. In the above example both denominators appear so you write b11 (you write a 1 for every propagator). If you are in doubt ask me or just write b11…1 (with the number of 1 equal to the number of propagators).
+
+
+Then you write the propagators. First you write the momentum and then the mass squared. 
+
+
+STEP 2: After that you modify the config/kinematics.yaml
+
+
+kinematics:
+
+  incoming_momenta: [p1]
+
+  outgoing_momenta: [p2]
+
+  momentum_conservation: [p2,p1]
+
+  kinematic_invariants:
+
+     - [psq,  2]
+
+     - [m, 1]
+
+  scalarproduct_rules:
+
+     - [[p1,p1], psq]
+
+
+momentum_conservation: [p2,p1] means that p2=p1. In kinematic_invariants you write all the parameters that you introduce and its mass dimension. In scalarproduct_rules you need to add all the scalar products between external momenta. You can look at some examples if you need help, usually they are pretty standard.
+
+
+STEP 3: Then you modify jobs.yaml
+
+
+jobs:
+
+ - reduce_sectors:
+
+    reduce:
+
+     - {sectors: [b11], r: 6, s: 2} 
+
+    select_integrals:
+
+     select_mandatory_recursively:
+
+      - {sectors: [b11], r: 6, s: 2} 
+
+    run_initiate: true
+
+    run_triangular: true
+
+    run_back_substitution: true
+
+
+You have to modify sectors (write the same thing as before). Suppose now that the integrals you have to reduce to a base of master integrals are:
+
+
+bubble[2,3] -> r=5, s=0
+
+bubble[2,4] -> r=6, s=0
+
+bubble[-2,3] -> r=3, s=2
+
+bubble[-1,-1] -> r=0, s=2
+
+
+r is the sum of all positive numbers, s is the sum of all the negative. In the jobs.yaml file you write the max value of r and s that you have. You can put also higher values, be aware that the execution time will increase (you can make some tests).
+
+
+STEP 4: Now you run, so in the terminal, from the folder where is the jobs.yaml file type
+
+kira jobs.yaml
+
+In result/bubble/master.final you can find the list of master integrals.
+
+
+STEP 5: Now if you want to reduce some integrals you modify the myintegrals file, for example you can write:
+
+
+bubble[2,3]
+
+bubble[2,4]
+
+bubble[-2,3] 
+
+bubble[-1,-1]
+
+
+Now in the terminal you type
+
+kira export.yaml
+
+And kira will write the rules you need in 
+
+result/bubble/kira_myintegrals.m
+
+
+If you want to ask the rules for different integrals just repeat the step 5. If you want to modify the sector, the definition of the integrals or any other thing delete everything
+
+rm -rf kira.log sectormappings/ tmp/ results/
+
+And run again from the step 1.
+
+
+Exercise 1: As an exercise you can reduce the bubble integral like the one in the example but with a mass m1 in the first propagator and a mass m2 in the second one. How many master integrals there are now? Write 
+
+bubblem1m2[0,0]
+
+bubblem1m2[2,0]
+
+bubblem1m2[-1,2]
+
+bubblem1m2[4,3]
+
+In terms of the masters.
+
+
+Exercise 2: You can reduce the triangle family with all the masses equal
+
+
+So this topology where the three internal lines have a mass m.
+
+
+
+
+
+
+

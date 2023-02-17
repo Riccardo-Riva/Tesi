@@ -1,0 +1,16 @@
+ integralfamilies:
+##BASIS
+  - name: "gamma"
+    loop_momenta: [q1]
+    top_level_sectors: [b111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", m1^2] #2
+      - [ "-p2+q1", 0] #3
+  - name: "zeta"
+    loop_momenta: [q1]
+    top_level_sectors: [b111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", m1^2] #2
+      - [ "-p2+q1", m2^2] #3
