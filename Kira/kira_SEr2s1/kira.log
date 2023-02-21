@@ -1,0 +1,33 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: C0[1,1] # 3
+This integral is unreduced: C0[0,1] # 2
+This integral is unreduced: B0[1,1] # 3
+This integral is unreduced: B0[1,0] # 1
+unreduced integrals: 13.
+
+closeCalc: 6334
+Total time:
+( 0.549955 s )

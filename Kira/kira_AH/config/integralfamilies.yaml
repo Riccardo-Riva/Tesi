@@ -1,0 +1,8 @@
+ integralfamilies:
+##BASIS
+  - name: "A0"
+    loop_momenta: [q1]
+    top_level_sectors: [b11]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "p1-q1", m1^2] #2
