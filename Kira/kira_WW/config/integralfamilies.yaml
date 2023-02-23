@@ -1,0 +1,32 @@
+ integralfamilies:
+##BASIS
+  - name: "A0"
+    loop_momenta: [q1]
+    top_level_sectors: [b11]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", 0] #2
+  - name: "B0"
+    loop_momenta: [q1]
+    top_level_sectors: [b11]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", m1^2] #2
+  - name: "C0"
+    loop_momenta: [q1]
+    top_level_sectors: [b11]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", m2^2] #2
+  - name: "D0"
+    loop_momenta: [q1]
+    top_level_sectors: [b11]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", 0] #2
+  - name: "E0"
+    loop_momenta: [q1]
+    top_level_sectors: [b11]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", m1^2] #2
