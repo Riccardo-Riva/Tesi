@@ -100,9 +100,9 @@
     I*EL*gWud*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
       ChiralityProjector[-1]], NonCommutative[
      MD + DiracSlash[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 
-         1]]], I*EL*gWdu*CKMC[1, 1]*NonCommutative[
-      DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]]]*
-   PolarizationVector[V[30], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+         1]]], I*EL*gWdu*NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
+      ChiralityProjector[-1]]]*PolarizationVector[V[30], 
+    FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
    Conjugate[PolarizationVector][V[30], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
@@ -112,9 +112,9 @@
     I*EL*gWud*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
       ChiralityProjector[-1]], NonCommutative[
      MS + DiracSlash[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 
-         1]]], I*EL*gWdu*CKMC[2, 2]*NonCommutative[
-      DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]]]*
-   PolarizationVector[V[30], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+         1]]], I*EL*gWdu*NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
+      ChiralityProjector[-1]]]*PolarizationVector[V[30], 
+    FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
    Conjugate[PolarizationVector][V[30], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  (((-3*I)/16)*FeynAmpDenominator[PropagatorDenominator[
@@ -124,9 +124,9 @@
     I*EL*gWud*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
       ChiralityProjector[-1]], NonCommutative[
      MB + DiracSlash[-FourMomentum[Internal, 1] + FourMomentum[Outgoing, 
-         1]]], I*EL*gWdu*CKMC[3, 3]*NonCommutative[
-      DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]]]*
-   PolarizationVector[V[30], FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
+         1]]], I*EL*gWdu*NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
+      ChiralityProjector[-1]]]*PolarizationVector[V[30], 
+    FourMomentum[Incoming, 1], Index[Lorentz, 1]]*
    Conjugate[PolarizationVector][V[30], FourMomentum[Outgoing, 1], 
     Index[Lorentz, 2]])/Pi^4, 
  ((I/16)*EL^2*gHFW^2*FeynAmpDenominator[PropagatorDenominator[
