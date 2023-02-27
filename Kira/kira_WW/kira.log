@@ -13,18 +13,20 @@ kira2math: Reconstruct results
 ################################################
 
 Algebraic reconstruction is switched off.
-This integral is unreduced: B0[1,0] # 1
-This integral is unreduced: B0[1,0] # 1
-This integral is unreduced: B0[1,0] # 1
 This integral is unreduced: C0[1,1] # 3
+This integral is unreduced: C0[0,1] # 2
 This integral is unreduced: C0[1,1] # 3
+This integral is unreduced: C0[0,1] # 2
 This integral is unreduced: C0[1,1] # 3
+This integral is unreduced: C0[0,1] # 2
 This integral is unreduced: C0[1,1] # 3
+This integral is unreduced: C0[0,1] # 2
 This integral is unreduced: C0[1,1] # 3
-This integral is unreduced: C0[1,1] # 3
+This integral is unreduced: C0[0,1] # 2
 This integral is unreduced: D0[1,1] # 3
-unreduced integrals: 10.
+This integral is unreduced: C0[1,1] # 3
+unreduced integrals: 12.
 
-closeCalc: 6664
+closeCalc: 17775
 Total time:
-( 0.493569 s )
+( 0.287941 s )

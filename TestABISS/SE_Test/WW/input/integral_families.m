@@ -1,3 +1,12 @@
+(* ::Package:: *)
+
+userLoopMomenta={
+q1
+};
+
+
+(*User-defined integral families*)
+
 userIntegralFamiliesNames={
 A0,
 B0,
@@ -5,7 +14,6 @@ C0,
 D0,
 E0
 };
-
 
 userPropagatorMomenta[A0]={
 	q1,
