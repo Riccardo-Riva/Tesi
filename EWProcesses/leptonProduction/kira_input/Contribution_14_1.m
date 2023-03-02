@@ -1,3007 +1,1266 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*userIntegral[B0, {mw}, -1, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
+((-I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*userIntegral[B0, {mw}, -1, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*
    userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, -1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, -1, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
    userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*userIntegral[B0, {mw}, -1, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, -1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*userIntegral[B0, {mw}, -1, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, -1, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, -1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, -1, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, -1, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, -1, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, -1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*userIntegral[B0, {mw}, 0, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*
+   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 0, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
+   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 0, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 0, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 0, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 0, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 0, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*userIntegral[B0, {mw}, 0, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes2*userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*userIntegral[B0, {mw}, 0, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 0, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 0, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    s*userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 0, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 0, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 0, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 0, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*userIntegral[B0, {mw}, 0, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 0, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 0, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*userIntegral[B0, {mw}, 0, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1*userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 0, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 0, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 0, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 0, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*userIntegral[B0, {mw}, 0, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 0, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 0, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    s*userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 0, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 0, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 0, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 0, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 0, 1, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*userIntegral[B0, {mw}, 0, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 0, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 0, 1, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*userIntegral[B0, {mw}, 0, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*userIntegral[B0, {mw}, 0, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*userIntegral[B0, {mw}, 0, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 0, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 0, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 0, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 0, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 0, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 0, 1, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 0, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 0, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 0, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*
-   mm^2*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes*userIntegral[B0, {mw}, 0, 1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   mm^2*pes*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*userIntegral[B0, {mw}, 0, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes^2*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes^2*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*
+ ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2^2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2^2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2^2*
+ (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*pms*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2^2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
+ (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*pms*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*pms*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*pms*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*pms*userIntegral[B0, {mw}, 0, 1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pes*pms*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms^2*userIntegral[B0, {mw}, 0, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms^2*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms^2*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms^2*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   pms1*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   pms1*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   pms2*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   pms2*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*s*userIntegral[B0, {mw}, 0, 1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   me^2*s*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*userIntegral[B0, {mw}, 0, 1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
    mm^2*s*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((15*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   s*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((23*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
+ (((7*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((15*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((23*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
+ (((3*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
+ (((23*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((15*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   s*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
+ (((23*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((23*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
+ (((3*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((23*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
+ (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*userIntegral[B0, {mw}, 0, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
+ (((3*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
+ (((9*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
+ (((3*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
+ (((5*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 0, 1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    s^2*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
+ (((11*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
+ (((3*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*t*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes2*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms1*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms2*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((13*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((17*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
+ (((13*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + (((17*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 0, 1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + (((17*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 0, 1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + (((17*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    s*t*userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((21*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
+ (((21*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
+ (((3*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*userIntegral[B0, {mw}, 0, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*userIntegral[B0, {mw}, 0, 1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*userIntegral[B0, {mw}, 0, 1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*userIntegral[B0, {mw}, 0, 1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms + t)*
+   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 0, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 1, -1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, -1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 1, -1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, -1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 1, 
+    -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, -1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, -1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, -1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, -1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 
+    -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, -1, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, -1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, -1, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, -1, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, -1, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   t*userIntegral[B0, {mw}, 1, -1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 0, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 1, 0, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 
+    -1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, -1, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*userIntegral[B0, {mw}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
+   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
+   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
+   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
+   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pes*userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
+   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
+   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pms*userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 1, 0, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
+ (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 0, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 0, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 0, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 0, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 0, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   userIntegral[B0, {mw}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 0, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
-   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 0, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*userIntegral[B0, {mw}, 1, 0, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*userIntegral[B0, {mw}, 1, 0, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 0, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 0, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 0, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 0, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
+   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, 0, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
+   userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 1, 0, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 0, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, 0, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 0, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 0, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*userIntegral[B0, {mw}, 1, 0, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms2*userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 0, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 0, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 0, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    s*userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 0, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 0, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 0, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 0, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 1, 0, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*userIntegral[B0, {mw}, 1, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes^2*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pes^2*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   pes1*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
-   mm^2*pes2*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   pes2*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pes2*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2^2*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2^2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*pms*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   me^2*pms*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2^2*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*s*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   me^2*s*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
+ (((5*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
+ ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
+ (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
+ ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
-   pms1*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
+ (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
+   pes*s*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
+ (((17*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*userIntegral[B0, {mw}, 1, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
+   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms2*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
+   s*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((5*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms2*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((31*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((45*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + (((41*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1*pms2*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((51*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((19*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
+ (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((21*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((17*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   pms2*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1*s*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*userIntegral[B0, {mw}, 1, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
    t*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*t*userIntegral[B0, {mw}, 1, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*t*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*userIntegral[B0, {mw}, 1, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
-   pms2*t*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pms*t*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((11*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 0, 
-    1, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 0, 
+    1, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    t*userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
+ (((15*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*userIntegral[B0, {mw}, 1, 0, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*userIntegral[B0, {mw}, 1, 0, 1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*userIntegral[B0, {mw}, 1, 0, 1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*userIntegral[B0, {mw}, 1, 0, 1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(2*mw^2 - 2*pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(2*mw^2 - 2*pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(2*mw^2 - 2*pms1 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(2*mw^2 - 2*pms1 + t)*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(2*mw^2 - 2*pms1 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(2*mw^2 - 2*pms + t)*
+   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(2*mw^2 - 2*pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(2*mw^2 - 2*pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(2*mw^2 - 2*pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(2*mw^2 - 2*pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(2*mw^2 - 2*pms + t)*
+   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(2*mw^2 - 2*pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(2*mw^2 - 2*pms1 + t)*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(2*mw^2 - 2*pms + t)*
+   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(2*mw^2 - 2*pms1 + t)*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(2*mw^2 - 2*pms + t)*
+   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(2*mw^2 - 2*pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(2*mw^2 - 2*pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(2*mw^2 - 2*pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(2*mw^2 - 2*pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(2*mw^2 - 2*pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(2*mw^2 - 2*pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(2*mw^2 - 2*pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(2*mw^2 - 2*pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(2*mw^2 - 2*pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(2*mw^2 - 2*pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(2*mw^2 - 2*pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(2*mw^2 - 2*pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(2*mw^2 - 2*pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)*
+   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(2*mw^2 - 2*pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 0, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 1, 1, -1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, 1, -1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 1, 1, -1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, 1, -1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 1, 1, 
+    -1, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, 1, -1, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 1, -1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, 1, -1, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 1, -1, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 1, 
+    -1, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 1, -1, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 1, -1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 1, -1, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 1, -1, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 1, 
-    -1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 1, 
+    -1, 0])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    t*userIntegral[B0, {mw}, 1, 1, -1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 1, 0, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 1, 0, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 1, 0, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 1, 0, -1])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*userIntegral[B0, {mw}, 1, 1, 0, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*userIntegral[B0, {mw}, 1, 1, 0, -1])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*userIntegral[B0, {mw}, 1, 1, 0, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*userIntegral[B0, {mw}, 1, 1, 0, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 1, 0, -1])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, 1, 0, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 1, 0, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 1, 0, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*userIntegral[B0, {mw}, 1, 1, 
-    0, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms1*userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 1, 0, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 1, 0, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 1, 0, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 1, 0, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 1, 0, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 1, 
-    0, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 1, 
+    0, -1])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
    s*userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 1, 0, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*userIntegral[B0, {mw}, 1, 1, 0, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 1, 0, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*userIntegral[B0, {mw}, 1, 1, 0, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
    userIntegral[B0, {mw}, 1, 1, 0, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   pes1*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes^2*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pes^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   pes2*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pes2*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*pms*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   me^2*pms*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*s*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   me^2*s*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
+ (((5*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
+ ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*
+ (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms1*
+ ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms1*
+ (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
+   pes*s*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms1*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms1*
+ (((17*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((19*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((21*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((17*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
+   s*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((5*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((31*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((45*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + (((41*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes2*pms1*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((51*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
-   pms2*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   pms2*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
    t*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes2*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
-   pms1*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*t*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 1, 
-    0, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pms*t*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((11*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - (((7*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 1, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    t*userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
+ (((15*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*userIntegral[B0, {mw}, 1, 1, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*userIntegral[B0, {mw}, 1, 1, 0, 
-    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*userIntegral[B0, {mw}, 1, 1, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms + t)*
+   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms1 + t)*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ (((3*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -2])/(Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*userIntegral[B0, {mw}, 1, 1, 1, 
+    -2])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
    userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 1, 1, -2])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*userIntegral[B0, {mw}, 1, 1, 1, -2])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
    userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*userIntegral[B0, {mw}, 1, 1, 1, -2])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*userIntegral[B0, {mw}, 1, 1, 1, -2])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*userIntegral[B0, {mw}, 1, 1, 1, 
-    -2])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*userIntegral[B0, {mw}, 1, 1, 1, -2])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -2])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*userIntegral[B0, {mw}, 1, 1, 1, 
+    -2])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 1, 1, -2])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*userIntegral[B0, {mw}, 1, 1, 1, -2])/
+  (Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
    userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 1, 1, 
-    -2])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*userIntegral[B0, {mw}, 1, 1, 1, 
+    -2])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, -2])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   mm^2*pes*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*
+   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*
+   mm^2*pms*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*pms*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*pms*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pes*pms*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms1*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms1*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms^2*userIntegral[B0, {mw}, 1, 1, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms^2*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   pms1*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms^2*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pms^2*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
+ (((13*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*
+ (((21*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*
+ ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   pms2*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((5*I)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((13*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((21*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) - (((19*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*
+ (((11*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) - (((19*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*
    mm^2*s*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
+ ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pes1*s*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
+   pes*s*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
+ (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*
+   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
-   (mw^2 - pms1)*s*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*
+ (((13*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((13*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + (((9*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
-   pms1*s*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
+ (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((17*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
+ (((17*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
+ (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
+ (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*
+   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
+   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
+   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ (((5*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((13*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + (((9*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
-   pms2*s*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((17*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
+   t*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   (-2*mw^2 + pms1 + pms2 - 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*
-   (mw^2 - pms1)*t*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*userIntegral[B0, {mw}, 1, 1, 1, -1])/
+  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms1*t*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms2*t*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 1, 1, 
-    -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*userIntegral[B0, {mw}, 1, 1, 
-    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*
    t*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*userIntegral[B0, {mw}, 1, 1, 1, 
+    -1])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*userIntegral[B0, {mw}, 1, 1, 
+    1, -1])/(Pi^4*(mz^2 - s)^2) + ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
+   t*userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(2*mw^2 - pms1 - pms2 + 2*t)*
-   userIntegral[B0, {mw}, 1, 1, 1, -1])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (2*mw^2 - pms1 - pms2 + 2*t)*userIntegral[B0, {mw}, 1, 1, 1, -1])/
-  (Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*
-   (mw^2 - pms1)*userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*(mw^2 - pms1)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2^2*(mw^2 - pms1)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*pms1*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*pms2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*me^2*mm^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*pms2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*pms2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*pms2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*pms2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*pms2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*pms2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes^2*(mw^2 - pms)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*s*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms1)*s*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*s*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((23*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*s*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((31*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*s*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((35*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((23*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*pms*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((31*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((35*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*s*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*s*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)^2*s*
+ ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)^2*s*
+ ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*me^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)^2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)^2*s*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*s*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*s*
+ (((11*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*s*
+ (((23*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*s*
+ (((5*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*s*
+ (((31*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*s*
+ (((35*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*s*
+ (((5*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*s*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*s*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*s*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s^2*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)^2*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s^2*
+ (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s^2*
+ (((7*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s^2*
+ (((5*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((17*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s^2*
+ (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s^2*
+ (((15*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*t*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*t*
+ (((5*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*s*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*t*
+ (((7*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1)*t*
+ (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*t*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*t*
+ (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*t*
+ (((17*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*(mw^2 - pms1)*t*
+ (((5*I)/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*t*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms1*t*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*t*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*t*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*pms2*t*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((19*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*t*
+ (((19*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((27*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*t*
+ (((27*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*t*
+ (((5*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((23*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*t*
+ (((23*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((31*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*t*
+ (((31*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*s*t*
+ (((5*I)/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*t*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*(mw^2 - pms)*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*(mw^2 - pms)*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   (mw^2 - pms1)*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
-   pms1*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms1*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms1*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((15*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((23*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((21*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((25*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   pms1*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((9*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((15*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((21*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((23*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((13*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((3*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((2*I)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((9*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((13*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   pms2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2^2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2^2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms2^2*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((15*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((23*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((23*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   s*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((7*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((13*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*
-   s*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*s*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*s*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((7*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   s*(mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((15*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((21*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((13*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   (mw^2 - pms1 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*pms*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*(mw^2 - pms1 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*(mw^2 - pms1 + t)*
+ (((13*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*(mw^2 - pms1 + t)*
+ (((21*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*(mw^2 - pms1 + t)*
+ ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*(mw^2 - pms1 + t)*
+ (((11*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t*(mw^2 - pms1 + t)*
+ (((19*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((3*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((2*I)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*(mw^2 - pms1 + t)*
+ ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*(mw^2 - pms1 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((9*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((13*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*(mw^2 - pms1 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*(mw^2 - pms1 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((9*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*(mw^2 - pms1 + t)*
+ ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((13*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*(mw^2 - pms1 + t)*
+ (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*(mw^2 - pms1 + t)*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((3*I)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*(mw^2 - pms1 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((2*I)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*(mw^2 - pms1 + t)*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((13*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*(mw^2 - pms1 + t)*
+ ((I/32)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((13*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*(mw^2 - pms1 + t)*
+ (((13*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((2*I)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*(mw^2 - pms1 + t)*
+ (((9*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*(mw^2 - pms1 + t)*
+ (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*(mw^2 - pms1 + t)*
+ (((17*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*(mw^2 - pms1 + t)*
+ (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*(mw^2 - pms1 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)^2*
+ (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*s*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)^2*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1 + t)^2*
+ ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)^2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)^2*
+ (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*(mw^2 - pms1 + t)^2*
+ (((5*I)/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)^2*
+ ((I/64)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*(mw^2 - pms1 + t)^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*(mw^2 - pms1 + t)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms)*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms1 + t)^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms)*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*(mw^2 - pms1 + t)^2*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)^2*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)^2*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*(mw^2 - pms1 + t)^2*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*(mw^2 - pms2 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*ME^2*mm^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms2 + t)*
+ (((3*I)/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes1*(mw^2 - pms2 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*(mw^2 - pms + t)*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms2 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes1*(mw^2 - pms2 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*(mw^2 - pms2 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1^2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*(mw^2 - pms2 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1^2*(mw^2 - pms2 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms2 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms2 + t)*
+ ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms2 + t)*
+ ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pes2*(mw^2 - pms2 + t)*
-   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*(mw^2 - pms2 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pes2*(mw^2 - pms2 + t)*
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) - 
- (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*(mw^2 - pms2 + t)*
+ ((I/16)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)^2*
    userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2) + 
- ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*(mw^2 - pms1)*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*(mw^2 - pms1)*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*(mw^2 - pms1)*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   (mw^2 - pms1)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*
-   pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((19*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((21*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((17*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((31*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((45*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((41*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((51*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*pms1*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*
-   pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*
-   pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*pms1*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   pms1^2*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms2*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   pms2*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*
-   pms2*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*pms2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   pms2*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   pms2*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*ME^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   s*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*
-   s*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*
-   s*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*s*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*s*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   s*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*s*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (I*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*(mw^2 - pms1)*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*(mw^2 - pms1)*
-   t*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*
-   (mw^2 - pms1)*t*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   t*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   t*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((11*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((7*I)/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((15*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*t*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t^2*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^2*gZlR*mm^2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlR^3*mm^2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms2*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*(mw^2 - pms1 + t)*
-   (mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*s*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/4)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/8)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (mw^2 - pms1 + t)*(mw^2 - pms2 + t)*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pes1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pes1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*pms1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*pms1*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/4)*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/4)*d*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL^3*t*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/2)*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/8)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/
-  (Pi^4*(mz^2 - s)^2) + ((I/16)*d^2*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*t*
-   (mw^2 - pms2 + t)^2*userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2)
+ ((I/32)*d*EL^6*gWlN*gWNl*gWWZ*gZlL*gZlR^2*s*(mw^2 - pms + t)^2*
+   userIntegral[B0, {mw}, 1, 1, 1, 0])/(Pi^4*(mz^2 - s)^2)
