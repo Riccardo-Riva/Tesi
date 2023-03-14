@@ -8,15 +8,14 @@ kinematics:
      - [m1, 1]
      - [m2, 1]
      - [m3, 1]
-     - [pes, 2]
-     - [pms, 2]
+     - [mm, 1]
 
   scalarproduct_rules:
-     - [[p1,p1], pes]
-     - [[p2,p2], pes]
-     - [[p3,p3], pms]
-     - [[p4,p4], pms]
+     - [[p1,p1], 0]
+     - [[p2,p2], 0]
+     - [[p3,p3], mm^2]
+     - [[p4,p4], mm^2]
      - [[p1+p2, p1+p2], s]
      - [[p1-p3, p1-p3], t]
-     - [[p2-p3, p2-p3], 2*pes+2*pms-s-t]
+     - [[p2-p3, p2-p3], 2*mm^2-s-t]
 #  symbol_to_replace_by_one: mu

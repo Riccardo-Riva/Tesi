@@ -19,8 +19,8 @@ This requested integral is a master integral: A0[1,0,0,0] # 1
 This requested integral is a master integral: A0[0,1,1,0] # 6
 This requested integral is a master integral: A0[0,1,0,0] # 2
 This requested integral is a master integral: A0[1,1,1,0] # 7
-This requested integral is a master integral: A0[1,1,0,0] # 3
 This requested integral is a master integral: A0[1,0,0,0] # 1
+This requested integral is a master integral: A0[1,1,0,0] # 3
 This requested integral is a master integral: A0[0,1,1,0] # 6
 This requested integral is a master integral: A0[0,1,0,0] # 2
 This integral is unreduced: C0[1,1,1,0] # 7
@@ -41,6 +41,6 @@ This integral is unreduced: B0[1,1,0,0] # 3
 This integral is unreduced: B0[0,1,1,0] # 6
 unreduced integrals: 16.
 
-closeCalc: 11993
+closeCalc: 17002
 Total time:
-( 0.30908 s )
+( 0.220826 s )
