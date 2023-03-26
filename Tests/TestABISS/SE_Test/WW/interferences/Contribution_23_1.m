@@ -1,0 +1,2 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+((-I/12)*EL^2*gFAW^2*KiraPropagator[q1, mw]*KiraPropagator[-p1 + q1, 0])/Pi^4
