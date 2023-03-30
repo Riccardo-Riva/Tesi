@@ -1,4 +1,16 @@
-{gZlL[1]->(I3l1 -Ql1*sw^2)/(cw*sw),
+{
+gZlL->(I3l -Ql*sw^2)/(cw*sw),
+gZlR->(-Ql*sw^2)/(cw*sw),
+gZNL->(I3N)/(cw*sw),
+gZuL->(I3u - (Qu*sw^2))/(cw*sw),
+gZuR->(-Qu*sw^2)/(cw*sw),
+gZdL->(I3d - (Qd*sw^2))/(cw*sw),
+gZdR->(-Qd*sw^2)/(cw*sw),
+gAl->-Ql,
+gAu->-Qu,
+gAd->-Qd,
+
+gZlL[1]->(I3l1 -Ql1*sw^2)/(cw*sw),
 gZlR[1]->(-Ql1*sw^2)/(cw*sw),
 gZlL[2]->(I3l2 -Ql2*sw^2)/(cw*sw),
 gZlR[2]->(-Ql2*sw^2)/(cw*sw),
