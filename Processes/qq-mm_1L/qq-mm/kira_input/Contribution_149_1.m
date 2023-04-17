@@ -1,0 +1,73 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+(((-3*I)/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*mm^2*userIntegral[B0, {mz}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*
+   mm^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*mm^2*userIntegral[B0, {mz}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + (((3*I)/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*
+   mm^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*mm^2*userIntegral[B0, {mz}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*
+   mm^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*mm^2*userIntegral[B0, {mz}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*
+   mm^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*mm^2*userIntegral[B0, {mz}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - (((3*I)/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*
+   mm^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*mm^2*userIntegral[B0, {mz}, 1, 0, 
+    0, 0])/(Pi^4*(mz^2 - s)^2) - ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*
+   mm^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*mm^4*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*mm^4*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2*s) + 
+ ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*mm^4*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*mm^4*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2*s) + 
+ ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*s*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*s*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/128)*d^2*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*s*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*s*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((3*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*s*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/128)*d^2*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*s*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*s*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + (((3*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*s*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/128)*d^2*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*s*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*s*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/32)*d*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*s*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + ((I/128)*d^2*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*s*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/8)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*t*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) - (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*t*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) + 
+ (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*t*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) - ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*t*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2) + (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*t*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ (((5*I)/64)*d*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*t*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2) - 
+ ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*mm^2*t*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2*s) - ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*mm^2*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2*s) - 
+ ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*mm^2*t*userIntegral[B0, {mz}, 1, 0, 0, 
+    0])/(Pi^4*(mz^2 - s)^2*s) - ((I/16)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*mm^2*t*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2*s) + 
+ ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuL*t^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuL*t^2*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2*s) + 
+ ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlL*gZuR*t^2*userIntegral[B0, {mz}, 1, 0, 0, 0])/
+  (Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gXXZZ*gZlR*gZuR*t^2*
+   userIntegral[B0, {mz}, 1, 0, 0, 0])/(Pi^4*(mz^2 - s)^2*s)

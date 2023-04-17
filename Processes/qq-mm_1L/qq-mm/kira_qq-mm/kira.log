@@ -1,0 +1,82 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This integral is unreduced: A0[1,1,0,1] # 11
+This integral is unreduced: A0[1,1,0,0] # 3
+This integral is unreduced: A0[0,1,0,1] # 10
+This integral is unreduced: A0[0,1,0,0] # 2
+This integral is unreduced: A0[1,1,0,1] # 11
+This integral is unreduced: A0[1,1,0,0] # 3
+This integral is unreduced: A0[0,1,0,1] # 10
+This integral is unreduced: A0[0,1,0,0] # 2
+This integral is unreduced: B0[1,1,0,1] # 11
+This integral is unreduced: B0[1,1,0,0] # 3
+This integral is unreduced: C0[1,1,0,1] # 11
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: D0[1,0,0,1] # 9
+This integral is unreduced: D0[1,1,0,1] # 11
+This integral is unreduced: D0[0,1,0,1] # 10
+This integral is unreduced: D0[0,0,0,1] # 8
+This integral is unreduced: D0[1,0,0,1] # 9
+This integral is unreduced: D0[1,1,0,1] # 11
+This integral is unreduced: D0[0,1,0,1] # 10
+This integral is unreduced: D0[0,0,0,1] # 8
+This integral is unreduced: C0[1,1,0,1] # 11
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,1,1] # 14
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,1,1] # 14
+This requested integral is a master integral: E0[0,1,0,1] # 10
+This integral is unreduced: A1[1,1,1,0] # 7
+This integral is unreduced: A1[1,0,0,0] # 1
+This integral is unreduced: A1[1,1,1,0] # 7
+This integral is unreduced: A1[1,0,0,0] # 1
+This integral is unreduced: B0[1,1,1,1] # 15
+This integral is unreduced: B0[1,1,0,1] # 11
+This integral is unreduced: B0[1,1,0,0] # 3
+This integral is unreduced: B1[1,1,1,1] # 15
+This integral is unreduced: B1[0,1,1,1] # 14
+This integral is unreduced: B1[1,0,1,1] # 13
+This integral is unreduced: B1[0,1,0,1] # 10
+This integral is unreduced: B1[1,0,0,1] # 9
+This integral is unreduced: B1[0,1,1,0] # 6
+This integral is unreduced: A0[1,1,1,1] # 15
+This integral is unreduced: A0[1,1,0,1] # 11
+This integral is unreduced: A0[1,1,1,0] # 7
+This integral is unreduced: A0[1,1,0,0] # 3
+This integral is unreduced: A0[0,1,1,1] # 14
+This integral is unreduced: A0[0,1,0,1] # 10
+This integral is unreduced: A2[1,0,0,1] # 9
+This integral is unreduced: A2[1,1,1,1] # 15
+This integral is unreduced: B2[1,1,1,1] # 15
+This integral is unreduced: B2[1,0,1,1] # 13
+This integral is unreduced: B2[1,0,0,1] # 9
+This integral is unreduced: D2[1,1,1,1] # 15
+This integral is unreduced: D2[0,1,1,1] # 14
+This integral is unreduced: E2[1,1,1,1] # 15
+This integral is unreduced: E2[1,1,0,1] # 11
+This integral is unreduced: E2[1,0,0,1] # 9
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: C0[0,1,0,1] # 10
+This integral is unreduced: A3[1,0,1,0] # 5
+unreduced integrals: 61.
+
+closeCalc: 9797
+Total time:
+( 0.128361 s )

@@ -1,0 +1,114 @@
+ integralfamilies:
+##BASIS
+  - name: "E0"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "p3+q1", 0] #2
+      - [ "-p1+p3+q1", 0] #3
+      - [ "-p1-p2+p3+q1", 0] #4
+  - name: "A1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", 0] #2
+      - [ "p2+q1", 0] #3
+      - [ "-p1+p3+q1", 0] #4
+  - name: "B0"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "p3+q1", 0] #2
+      - [ "-p1+p3+q1", 0] #3
+      - [ "-p1-p2+p3+q1", 0] #4
+  - name: "C0"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "p3+q1", m1^2] #2
+      - [ "-p1+p3+q1", 0] #3
+      - [ "-p1-p2+p3+q1", m1^2] #4
+  - name: "A2"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", 0] #2
+      - [ "p2+q1", 0] #3
+      - [ "p2-p3+q1", m1^2] #4
+  - name: "E2"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", m1^2] #2
+      - [ "p2+q1", m1^2] #3
+      - [ "p2-p3+q1", 0] #4
+  - name: "A0"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "p3+q1", m2^2] #2
+      - [ "-p1+p3+q1", 0] #3
+      - [ "-p1-p2+p3+q1", m2^2] #4
+  - name: "B1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", 0] #2
+      - [ "p2+q1", m1^2] #3
+      - [ "-p1+p3+q1", m2^2] #4
+  - name: "C1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", m1^2] #2
+      - [ "p2+q1", 0] #3
+      - [ "-p1+p3+q1", m2^2] #4
+  - name: "B2"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", 0] #2
+      - [ "p2+q1", m1^2] #3
+      - [ "p2-p3+q1", m2^2] #4
+  - name: "C2"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", m1^2] #2
+      - [ "p2+q1", 0] #3
+      - [ "p2-p3+q1", m2^2] #4
+  - name: "D2"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", 0] #1
+      - [ "-p1+q1", m1^2] #2
+      - [ "p2+q1", m1^2] #3
+      - [ "p2-p3+q1", m2^2] #4
+  - name: "A3"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "-p1+q1", 0] #2
+      - [ "-p1-p2+q1", m2^2] #3
+      - [ "p3+q1", 0] #4
+  - name: "D0"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - [ "q1", m1^2] #1
+      - [ "p3+q1", m2^2] #2
+      - [ "-p1+p3+q1", 0] #3
+      - [ "-p1-p2+p3+q1", m3^2] #4
