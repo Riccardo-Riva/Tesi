@@ -1,733 +1,132 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/16)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/Pi^4 + 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/(Pi^4*s) + 
- ((I/16)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/Pi^4 - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/(Pi^4*s) - 
- ((I/4)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]^2)/Pi^4 + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]^2)/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]^2)/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]^2)/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]^2)/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]^2)/(Pi^4*s) - 
- ((I/16)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/Pi^4 + 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/(Pi^4*s) + 
- ((I/16)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/Pi^4 - 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/(Pi^4*s) + 
- (((3*I)/4)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p1]*SP[p1, p2])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p2])/Pi^4 + 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p2])/(Pi^4*s) - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p2])/(Pi^4*s) - 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p2])/(Pi^4*s) + 
- ((I/2)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p2])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]^2)/(Pi^4*s) - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]^2)/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]^2)/(Pi^4*s) + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]^2)/(Pi^4*s) + 
- (((3*I)/16)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/Pi^4 - 
- (((3*I)/4)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/(Pi^4*s) - 
- (((3*I)/16)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/Pi^4 + 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/(Pi^4*s) - 
- ((I/4)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p1]*SP[p1, p3])/Pi^4 - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p3])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p3])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, p3])/(Pi^4*s) - 
- ((2*I)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, p3])/(Pi^4*s) + 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, p3])/(Pi^4*s) + 
- ((2*I)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, p3])/(Pi^4*s) - 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]^2)/Pi^4 + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]^2)/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]^2)/(Pi^4*s) + 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/Pi^4 + 
- ((I/16)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/Pi^4 + 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*s*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/Pi^4 + 
- (((3*I)/16)*d*EL^6*gAl^3*gAu^3*s*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/Pi^4 + 
- ((I/4)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/Pi^4 - 
- ((I/16)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/Pi^4 - 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/(Pi^4*s) + 
- (((3*I)/4)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p1]*SP[p1, q1])/Pi^4 - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, q1])/Pi^4 - 
- (I*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p1, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p2]*SP[p1, q1])/Pi^4 - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, q1])/Pi^4 - 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, q1])/(Pi^4*s) + 
- ((I/2)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, q1])/(Pi^4*s) + 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, q1])/(Pi^4*s) - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p1, q1])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p3]*SP[p1, q1])/Pi^4 + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p1, q1])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p1, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p1, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]^2)/Pi^4 + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]^2)/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]^2)/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]^2)/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]^2)/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]^2)/(Pi^4*s) + 
- ((I/16)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/Pi^4 - 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/(Pi^4*s) - 
- ((I/16)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/Pi^4 + 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/(Pi^4*s) - 
- (((3*I)/4)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p1]*SP[p2, p3])/Pi^4 - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, p3])/Pi^4 - 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, p3])/(Pi^4*s) + 
- ((I/2)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, p3])/(Pi^4*s) + 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, p3])/(Pi^4*s) - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, p3])/(Pi^4*s) - 
- ((2*I)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, p3])/(Pi^4*s) + 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, p3])/(Pi^4*s) + 
- ((2*I)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, p3])/(Pi^4*s) - 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, p3])/(Pi^4*s) + 
- ((2*I)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, p3])/(Pi^4*s) - 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, p3])/(Pi^4*s) - 
- ((2*I)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, p3])/(Pi^4*s) + 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, p3])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, q1]*SP[p2, p3])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, p3])/Pi^4 + 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, p3])/(Pi^4*s) - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, p3])/(Pi^4*s) - 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, p3])/(Pi^4*s) + 
- ((I/2)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, p3])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]^2)/(Pi^4*s) - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]^2)/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]^2)/(Pi^4*s) + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]^2)/(Pi^4*s) + 
- ((I/16)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/Pi^4 - 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/(Pi^4*s) - 
- ((I/16)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/Pi^4 + 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/(Pi^4*s) - 
- (((3*I)/4)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p1]*SP[p2, q1])/Pi^4 - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, q1])/Pi^4 - 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, q1])/(Pi^4*s) + 
- ((I/2)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, q1])/(Pi^4*s) + 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, q1])/(Pi^4*s) - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p2, q1])/(Pi^4*s) - 
- ((2*I)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, q1])/(Pi^4*s) + 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, q1])/(Pi^4*s) + 
- ((2*I)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, q1])/(Pi^4*s) - 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p2, q1])/(Pi^4*s) + 
- ((2*I)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, q1])/(Pi^4*s) - 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, q1])/(Pi^4*s) - 
- ((2*I)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, q1])/(Pi^4*s) + 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p2, q1])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, q1]*SP[p2, q1])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, q1])/Pi^4 + 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, q1])/(Pi^4*s) - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, q1])/(Pi^4*s) - 
- (((3*I)/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, q1])/(Pi^4*s) + 
- ((I/2)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p2, q1])/(Pi^4*s) + 
- ((2*I)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p2, q1])/(Pi^4*s) - 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p2, q1])/(Pi^4*s) - 
- ((2*I)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p2, q1])/(Pi^4*s) + 
- (((3*I)/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p2, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]^2)/(Pi^4*s) - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]^2)/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]^2)/(Pi^4*s) + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]^2)/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3])/Pi^4 - 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3])/(Pi^4*s) - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, p3])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, p3])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, p3])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p2]*SP[p3, p3])/Pi^4 - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, p3])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, p3])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, p3])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p3]*SP[p3, p3])/Pi^4 + 
- (((5*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, p3])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, p3])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, p3])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, p3])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, p3])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, p3])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p2, p3]*SP[p3, p3])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, p3])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, p3])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, p3])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p2, q1]*SP[p3, p3])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, p3])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, p3])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, p3])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, p3])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, p3])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3]^2)/Pi^4 - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3]^2)/Pi^4 - 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1])/Pi^4 - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*s*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1])/Pi^4 - 
- (((3*I)/16)*d*EL^6*gAl^3*gAu^3*s*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1])/Pi^4 - 
- ((I/4)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1])/Pi^4 + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1])/Pi^4 - 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, q1])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, q1])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p1]*SP[p3, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p2]*SP[p3, q1])/Pi^4 - 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, q1])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p2]*SP[p3, q1])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p1, p3]*SP[p3, q1])/Pi^4 + 
- (((5*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, q1])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, p3]*SP[p3, q1])/(Pi^4*s) + 
- ((I/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, q1])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p1, q1]*SP[p3, q1])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p2, p3]*SP[p3, q1])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, q1])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, q1])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, p3]*SP[p3, q1])/(Pi^4*s) - 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p2, q1]*SP[p3, q1])/Pi^4 + 
- (((3*I)/8)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, q1])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, q1])/(Pi^4*s) + 
- ((I/4)*d*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, q1])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, q1])/(Pi^4*s) - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p2, q1]*SP[p3, q1])/(Pi^4*s) + 
- (I*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*KiraPropagator[p1 - p3 - q1, 
-    0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*KiraPropagator[-q1, mm]*
-   SP[p3, p3]*SP[p3, q1])/Pi^4 - 
- ((I/2)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, p3]*SP[p3, q1])/Pi^4 + 
- ((I/2)*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1]^2)/Pi^4 - 
- ((I/4)*d*EL^6*gAl^3*gAu^3*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[p3, q1]^2)/Pi^4 - 
- ((I/4)*EL^6*gAl^3*gAu^3*mm^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/Pi^4 - 
- ((I/2)*EL^6*gAl^3*gAu^3*mm^4*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/(Pi^4*s) + 
- ((I/2)*EL^6*gAl^3*gAu^3*s*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/Pi^4 - 
- (((3*I)/16)*d*EL^6*gAl^3*gAu^3*s*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/Pi^4 - 
- ((I/4)*EL^6*gAl^3*gAu^3*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/Pi^4 + 
- (I*EL^6*gAl^3*gAu^3*mm^2*t*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/(Pi^4*s) - 
- ((I/2)*EL^6*gAl^3*gAu^3*t^2*KiraPropagator[-p3 - q1, 0]*
-   KiraPropagator[p1 - p3 - q1, 0]*KiraPropagator[p1 + p2 - p3 - q1, 0]*
-   KiraPropagator[-q1, mm]*SP[q1, q1])/(Pi^4*s)
+(PropList[KiraPropagator[q1, 0], KiraPropagator[-p1 + q1, 0], 
+    KiraPropagator[p2 + q1, 0], KiraPropagator[-p1 + p3 + q1, mm]]*
+   (((I/4)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(2*(2 + d)*mm^2 + 4*t - d*(s + 2*t))*
+      SPList[SP[p1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(2*(2 + d)*mm^4 + (-8 + 3*d)*s^2 - (-4 + d)*s*t + 
+       2*(-2 + d)*t^2 + mm^2*((4 + d)*s - 4*d*t))*SPList[SP[p2, q1]])/
+     (Pi^4*s) + ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(-4*mm^2 + d*s + 4*t)*
+      SPList[SP[p3, q1]])/(Pi^4*s) + 
+    ((I/4)*EL^6*gAl^3*gAu^3*(8*mm^4 + (-8 + 3*d)*s^2 + 4*mm^2*(s - 4*t) + 
+       4*s*t + 8*t^2)*SPList[SP[p4, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(8*mm^4 + (-8 + 3*d)*s^2 + 4*mm^2*(s - 4*t) + 
+       4*s*t + 8*t^2)*SPList[SP[q1, q1]])/(Pi^4*s) + 
+    ((I/2)*(-4 + d)*EL^6*gAl^3*gAu^3*(-mm^2 + s + t)*
+      SPList[SP[p1, q1], SP[p1, q1]])/(Pi^4*s) + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(-4*(-3 + d)*mm^2 + (-8 + 3*d)*s + 4*(-3 + d)*t)*
+      SPList[SP[p1, q1], SP[p2, q1]])/(Pi^4*s) + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(-2*(-2 + d)*mm^2 - 4*t + d*(s + 2*t))*
+      SPList[SP[p1, q1], SP[p3, q1]])/(Pi^4*s) - 
+    ((I/2)*(-8 + 3*d)*EL^6*gAl^3*gAu^3*(mm^2 - t)*SPList[SP[p2, q1], 
+       SP[p2, q1]])/(Pi^4*s) + ((I/2)*EL^6*gAl^3*gAu^3*
+      (2*(-2 + d)*mm^2 + (-8 + 3*d)*s - 2*(-2 + d)*t)*
+      SPList[SP[p2, q1], SP[p3, q1]])/(Pi^4*s) - 
+    (I*(-2 + d)*EL^6*gAl^3*gAu^3*SPList[SP[p3, q1], SP[p3, q1]])/Pi^4) + 
+  PropList[KiraPropagator[q1, 0], KiraPropagator[-p1 + q1, 0], 
+    KiraPropagator[-p1 + q1, 0], KiraPropagator[p2 + q1, 0], 
+    KiraPropagator[-p1 + p3 + q1, mm]]*
+   (((I/4)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 
+       4*s*t + 4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[q1, q1]])/(Pi^4*s) + 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p1, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p2, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p3, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p4, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[q1, q1], SP[q1, q1]])/(Pi^4*s)) + 
+  PropList[KiraPropagator[q1, 0], KiraPropagator[-p1 + q1, 0], 
+    KiraPropagator[p2 + q1, 0], KiraPropagator[p2 + q1, 0], 
+    KiraPropagator[-p1 + p3 + q1, mm]]*
+   (((I/4)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 
+       4*s*t + 4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[q1, q1]])/(Pi^4*s) + 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p1, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p2, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p3, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[p4, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/4)*EL^6*gAl^3*gAu^3*(4*mm^4 + (-2 + d)*s^2 - 8*mm^2*t + 4*s*t + 
+       4*t^2)*(-1 + GaugeXi[Q])*SPList[SP[q1, q1], SP[q1, q1]])/(Pi^4*s)) + 
+  PropList[KiraPropagator[q1, 0], KiraPropagator[-p1 + q1, 0], 
+    KiraPropagator[-p1 + q1, 0], KiraPropagator[p2 + q1, 0], 
+    KiraPropagator[p2 + q1, 0], KiraPropagator[-p1 + p3 + q1, mm]]*
+   (((-I/4)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(2*mm^4 + 2*s^2 + 3*s*t + 2*t^2 - 
+       mm^2*(3*s + 4*t))*(-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[q1, q1]])/
+     (Pi^4*s) + ((I/4)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(2*mm^4 - s^2 + s*t + 
+       2*t^2 - mm^2*(s + 4*t))*(-1 + GaugeXi[Q])^2*SPList[SP[p2, q1], 
+       SP[q1, q1]])/(Pi^4*s) - ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*
+      (mm^2 - s - t)*(-1 + GaugeXi[Q])^2*SPList[SP[p3, q1], SP[q1, q1]])/
+     Pi^4 + ((I/4)*EL^6*gAl^3*gAu^3*s*(mm^2 - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p4, q1], SP[q1, q1]])/Pi^4 + 
+    ((I/4)*EL^6*gAl^3*gAu^3*s*(mm^2 - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[q1, q1], SP[q1, q1]])/Pi^4 - 
+    ((I/2)*EL^6*gAl^3*gAu^3*(mm^4 + s^2 + s*t + t^2 - mm^2*(s + 2*t))*
+      (-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p1, q1], SP[q1, q1]])/
+     (Pi^4*s) - (I*EL^6*gAl^3*gAu^3*(mm^2 - t)*(-mm^2 + 2*s + t)*
+      (-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p2, q1], SP[q1, q1]])/
+     (Pi^4*s) + ((I/2)*EL^6*gAl^3*gAu^3*(2*mm^4 + 2*s^2 + 3*s*t + 2*t^2 - 
+       mm^2*(3*s + 4*t))*(-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p3, q1], 
+       SP[q1, q1]])/(Pi^4*s) + ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*
+      (-2*mm^2 + 3*s + 2*t)*(-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], 
+       SP[p4, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((I/4)*EL^6*gAl^3*gAu^3*(2*mm^4 + 2*s^2 + 3*s*t + 2*t^2 - 
+       mm^2*(3*s + 4*t))*(-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[q1, q1], 
+       SP[q1, q1]])/(Pi^4*s) + ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*
+      (-mm^2 + s + t)*(-1 + GaugeXi[Q])^2*SPList[SP[p2, q1], SP[p2, q1], 
+       SP[q1, q1]])/(Pi^4*s) + ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*
+      (-2*mm^2 + s + 2*t)*(-1 + GaugeXi[Q])^2*SPList[SP[p2, q1], SP[p3, q1], 
+       SP[q1, q1]])/(Pi^4*s) - ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*
+      (-2*mm^2 + s + 2*t)*(-1 + GaugeXi[Q])^2*SPList[SP[p2, q1], SP[p4, q1], 
+       SP[q1, q1]])/(Pi^4*s) - ((I/4)*EL^6*gAl^3*gAu^3*
+      (2*mm^4 + s^2 + s*t + 2*t^2 - mm^2*(s + 4*t))*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[q1, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(2*mm^2 - s - 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p3, q1], SP[p3, q1], SP[q1, q1]])/Pi^4 - 
+    (I*EL^6*gAl^3*gAu^3*(mm^2 - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p3, q1], SP[p4, q1], SP[q1, q1]])/Pi^4 + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - s - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p3, q1], SP[q1, q1], SP[q1, q1]])/Pi^4 + 
+    ((I/4)*EL^6*gAl^3*gAu^3*s*(-1 + GaugeXi[Q])^2*SPList[SP[p4, q1], 
+       SP[q1, q1], SP[q1, q1]])/Pi^4 - 
+    ((I/4)*EL^6*gAl^3*gAu^3*s*(-1 + GaugeXi[Q])^2*SPList[SP[q1, q1], 
+       SP[q1, q1], SP[q1, q1]])/Pi^4 - (I*EL^6*gAl^3*gAu^3*(-mm^2 + s + t)*
+      (-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p1, q1], SP[p2, q1], 
+       SP[q1, q1]])/(Pi^4*s) + (I*EL^6*gAl^3*gAu^3*(-mm^2 + s + t)*
+      (-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p1, q1], SP[p4, q1], 
+       SP[q1, q1]])/(Pi^4*s) - ((I/2)*EL^6*gAl^3*gAu^3*(-mm^2 + s + t)*
+      (-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p1, q1], SP[q1, q1], 
+       SP[q1, q1]])/(Pi^4*s) + (I*EL^6*gAl^3*gAu^3*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p1, q1], SP[p2, q1], SP[p2, q1], SP[q1, q1]])/Pi^4 + 
+    (I*EL^6*gAl^3*gAu^3*(-2*mm^2 + 3*s + 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p1, q1], SP[p2, q1], SP[p3, q1], SP[q1, q1]])/(Pi^4*s) - 
+    (I*EL^6*gAl^3*gAu^3*(-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], SP[p2, q1], 
+       SP[p4, q1], SP[q1, q1]])/Pi^4 + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(-1 + GaugeXi[Q])^2*SPList[SP[p1, q1], 
+       SP[p2, q1], SP[q1, q1], SP[q1, q1]])/Pi^4 - 
+    (I*EL^6*gAl^3*gAu^3*(-2*mm^2 + 3*s + 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p1, q1], SP[p3, q1], SP[p4, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(-2*mm^2 + 3*s + 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p1, q1], SP[p3, q1], SP[q1, q1], SP[q1, q1]])/(Pi^4*s) - 
+    (I*EL^6*gAl^3*gAu^3*(mm^2 - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[p2, q1], SP[p2, q1], SP[q1, q1]])/(Pi^4*s) + 
+    (I*EL^6*gAl^3*gAu^3*(2*mm^2 + s - 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[p2, q1], SP[p3, q1], SP[q1, q1]])/(Pi^4*s) + 
+    (I*EL^6*gAl^3*gAu^3*(mm^2 - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[p2, q1], SP[p4, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((I/2)*EL^6*gAl^3*gAu^3*(mm^2 - t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[p2, q1], SP[q1, q1], SP[q1, q1]])/(Pi^4*s) - 
+    ((2*I)*EL^6*gAl^3*gAu^3*(-1 + GaugeXi[Q])^2*SPList[SP[p2, q1], 
+       SP[p3, q1], SP[p3, q1], SP[q1, q1]])/Pi^4 - 
+    (I*EL^6*gAl^3*gAu^3*(2*mm^2 + s - 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[p3, q1], SP[p4, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((I/2)*EL^6*gAl^3*gAu^3*(2*mm^2 + s - 2*t)*(-1 + GaugeXi[Q])^2*
+      SPList[SP[p2, q1], SP[p3, q1], SP[q1, q1], SP[q1, q1]])/(Pi^4*s) + 
+    ((2*I)*EL^6*gAl^3*gAu^3*(-1 + GaugeXi[Q])^2*SPList[SP[p3, q1], 
+       SP[p3, q1], SP[p4, q1], SP[q1, q1]])/Pi^4 - 
+    (I*EL^6*gAl^3*gAu^3*(-1 + GaugeXi[Q])^2*SPList[SP[p3, q1], SP[p3, q1], 
+       SP[q1, q1], SP[q1, q1]])/Pi^4))/4

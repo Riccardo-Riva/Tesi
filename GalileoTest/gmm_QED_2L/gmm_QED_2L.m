@@ -15,7 +15,7 @@ paths=<|
 "PathFeynArts" -> (Directory[]<>"/packages/FeynArts"),
 "PathFormCalc" -> (Directory[]<>"/packages/FormCalc")
 |>
-Write[(Directory[]<>"/packages/ABISS/config.m"),paths]
+Export[(Directory[]<>"/packages/ABISS/config.m"),paths]
 
 
 Get[Directory[]<>"/packages/ABISS/ABISS.m"];
@@ -39,4 +39,4 @@ myAmp2L=Get[Directory[]<>"/feynArts_amplitudes/TwoLoopAmplitudes.m"];
 time=(SquareSimplifyAndSave[myAmp2L,myAmpBorn]//AbsoluteTiming)[[1]]
 
 
-Write[(Directory[]<>"/risultati/time.m"),time]
+Export[(Directory[]<>"/risultati/time.m"),time]

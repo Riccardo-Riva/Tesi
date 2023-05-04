@@ -1,73 +1,11 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(((-3*I)/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*mm^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*mm^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*mm^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*mm^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*mm^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*mm^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*mm^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*mm^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*mm^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - (((3*I)/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*mm^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*mm^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*mm^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*mm^4*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*mm^4*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2*s) + 
- ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*mm^4*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*mm^4*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2*s) + 
- ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*s*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - ((I/32)*d*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*s*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- ((I/128)*d^2*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*s*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*s*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- (((3*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*s*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - ((I/128)*d^2*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*s*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*s*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + (((3*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*s*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/128)*d^2*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*s*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*s*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/32)*d*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*s*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + ((I/128)*d^2*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*s*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- ((I/8)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) + 
- (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) - ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + ((I/8)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- (((5*I)/64)*d*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2) + ((I/64)*d^2*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2) - 
- ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*mm^2*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2*s) - ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*mm^2*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2*s) - 
- ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*mm^2*t*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2*s) - ((I/16)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*mm^2*t*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2*s) + 
- ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuL*t^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuL*t^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2*s) + 
- ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlL*gZuR*t^2*KiraPropagator[q1, mh])/
-  (Pi^4*(mz^2 - s)^2*s) + ((I/32)*EL^6*gAl*gAu*gHHZZ*gZlR*gZuR*t^2*
-   KiraPropagator[q1, mh])/(Pi^4*(mz^2 - s)^2*s)
+((I/128)*EL^6*gAl*gAu*gHHZZ*
+  (gZlR*gZuL*(4*mm^4 - (8 - 6*d + d^2)*s^2 + 
+     2*mm^2*((6 - 5*d + d^2)*s - 4*t) - 2*(4 - 5*d + d^2)*s*t + 4*t^2) + 
+   gZlL*gZuR*(4*mm^4 - (8 - 6*d + d^2)*s^2 + 
+     2*mm^2*((6 - 5*d + d^2)*s - 4*t) - 2*(4 - 5*d + d^2)*s*t + 4*t^2) + 
+   gZlL*gZuL*(4*mm^4 + (-2 + d)^2*s^2 + 2*(8 - 5*d + d^2)*s*t + 4*t^2 - 
+     2*mm^2*((6 - 5*d + d^2)*s + 4*t)) + 
+   gZlR*gZuR*(4*mm^4 + (-2 + d)^2*s^2 + 2*(8 - 5*d + d^2)*s*t + 4*t^2 - 
+     2*mm^2*((6 - 5*d + d^2)*s + 4*t)))*PropList[KiraPropagator[q1, mh]])/
+ (Pi^4*(mz^2 - s)^2*s)

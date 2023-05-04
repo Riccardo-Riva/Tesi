@@ -16,11 +16,10 @@ cp -r ${MYDIR}feynArts_amplitudes .
 cp -r ${MYDIR}input .
 cp -r ${MYDIR}packages .
 
-math<test.m
+math<gmm_QED_2L.m
 
 cp -r risultati ${MYDIR}.
+cp -r interferences ${MYDIR}.
 " > r.sh
-
-
 
 sbatch --partition=general r.sh
