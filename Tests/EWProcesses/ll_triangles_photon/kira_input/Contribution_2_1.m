@@ -1,82 +1,28 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((I/8)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, -1, 1, 
-    1, 0])/(Pi^4*s) - ((I/8)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*
+((I/8)*EL^6*gAl^4*gXll^2*mm^2*userIntegral[A0, {mz, mm}, -1, 1, 1, 0])/
+  (Pi^4*s) - ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 + s - 2*t)*
    userIntegral[A0, {mz, mm}, 0, 0, 1, 0])/(Pi^4*s^2) - 
- ((I/16)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 0, 
-    1, 0])/(Pi^4*s) + ((I/8)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 0, 0, 1, 0])/(Pi^4*s^2) - 
- ((I/8)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 1, 
-    0, 0])/(Pi^4*s^2) - ((I/16)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 0, 1, 0, 0])/(Pi^4*s) + 
- ((I/8)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 1, 
-    0, 0])/(Pi^4*s^2) + ((I/4)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*
+ ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 + s - 2*t)*
+   userIntegral[A0, {mz, mm}, 0, 1, 0, 0])/(Pi^4*s^2) + 
+ ((I/8)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 - s - 2*t)*
    userIntegral[A0, {mz, mm}, 0, 1, 1, -1])/(Pi^4*s^2) - 
- ((I/8)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 1, 
-    1, -1])/(Pi^4*s) - ((I/4)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 0, 1, 1, -1])/(Pi^4*s^2) + 
- ((I/4)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 1, 
-    1, 0])/Pi^4 - ((I/16)*d*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 0, 1, 1, 0])/Pi^4 - 
- ((I/4)*EL^6*gXll^2*mm^6*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 1, 
-    1, 0])/(Pi^4*s^2) + ((I/4)*EL^6*gXll^2*mm^2*mz^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 0, 1, 1, 0])/(Pi^4*s) + 
- ((I/4)*EL^6*gXll^2*mm^4*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 0, 1, 
-    1, 0])/(Pi^4*s^2) - ((I/8)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 0, 1, 1, 0])/(Pi^4*s) + 
- ((I/16)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, -1, 
-    1, 0])/(Pi^4*s^2) - ((I/16)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*
+ ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(4*mm^4 - 4*mm^2*t + 
+    s*(-4*mz^2 + (-4 + d)*s + 2*t))*userIntegral[A0, {mz, mm}, 0, 1, 1, 0])/
+  (Pi^4*s^2) + ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(mm^2 - t)*
    userIntegral[A0, {mz, mm}, 1, -1, 1, 0])/(Pi^4*s^2) + 
- ((I/8)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 0, 
-    0, 0])/(Pi^4*s^2) + ((I/8)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 0, 0, 0])/(Pi^4*s) - 
- ((I/8)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 0, 
-    0, 0])/(Pi^4*s^2) - ((I/8)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 0, 1, -1])/(Pi^4*s^2) - 
- ((I/16)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 0, 
-    1, -1])/(Pi^4*s) + ((I/8)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 0, 1, -1])/(Pi^4*s^2) - 
- ((I/4)*EL^6*gXll^2*mm^2*mz^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 
-    0, 1, 0])/(Pi^4*s) - ((I/8)*EL^6*gXll^2*mm^4*(mz^2 - t)*gAl[1]^2*gAl[2]^2*
+ ((I/8)*EL^6*gAl^4*gXll^2*mm^2*(mm^2 + s - t)*userIntegral[A0, {mz, mm}, 1, 
+    0, 0, 0])/(Pi^4*s^2) - ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 + s - 2*t)*
+   userIntegral[A0, {mz, mm}, 1, 0, 1, -1])/(Pi^4*s^2) + 
+ ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 + s - 2*t)*(-mz^2 + t)*
    userIntegral[A0, {mz, mm}, 1, 0, 1, 0])/(Pi^4*s^2) + 
- (((3*I)/16)*EL^6*gXll^2*mm^2*(mz^2 - t)*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 0, 1, 0])/(Pi^4*s) + 
- ((I/4)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 0, 
-    1, 0])/(Pi^4*s) + ((I/8)*EL^6*gXll^2*mm^2*(mz^2 - t)*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 0, 1, 0])/(Pi^4*s^2) + 
- ((I/16)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 1, 
-    -1, 0])/(Pi^4*s^2) - ((I/16)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, -1, 0])/(Pi^4*s^2) - 
- ((I/8)*EL^6*gXll^2*mm^4*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 1, 
-    0, -1])/(Pi^4*s^2) - ((I/16)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 0, -1])/(Pi^4*s) + 
- ((I/8)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 1, 
-    0, -1])/(Pi^4*s^2) - ((I/8)*EL^6*gXll^2*mm^4*mz^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 0, 0])/(Pi^4*s^2) - 
- ((I/16)*EL^6*gXll^2*mm^2*mz^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 
-    1, 1, 0, 0])/(Pi^4*s) + ((I/8)*EL^6*gXll^2*mm^4*t*gAl[1]^2*gAl[2]^2*
+ ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(mm^2 - t)*userIntegral[A0, {mz, mm}, 1, 1, 
+    -1, 0])/(Pi^4*s^2) - ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 + s - 2*t)*
+   userIntegral[A0, {mz, mm}, 1, 1, 0, -1])/(Pi^4*s^2) + 
+ ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2 + s - 2*t)*(-mz^2 + t)*
    userIntegral[A0, {mz, mm}, 1, 1, 0, 0])/(Pi^4*s^2) + 
- ((I/8)*EL^6*gXll^2*mm^2*mz^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 0, 0])/(Pi^4*s^2) + 
- ((I/16)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 
-    1, 0, 0])/(Pi^4*s) - ((I/8)*EL^6*gXll^2*mm^2*t^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 0, 0])/(Pi^4*s^2) + 
- ((I/8)*EL^6*gXll^2*mm^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 1, 
-    1, -2])/(Pi^4*s) + ((I/4)*EL^6*gXll^2*mm^4*mz^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, -1])/(Pi^4*s^2) - 
- ((I/8)*EL^6*gXll^2*mm^2*mz^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 
-    1, 1, -1])/(Pi^4*s) - ((I/4)*EL^6*gXll^2*mm^2*mz^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, -1])/(Pi^4*s^2) - 
- ((I/4)*EL^6*gXll^2*mm^2*t*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 1, 
-    1, -1])/(Pi^4*s) + ((I/4)*EL^6*gXll^2*mm^2*mz^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, 0])/Pi^4 - 
- ((I/16)*d*EL^6*gXll^2*mm^2*mz^2*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, 0])/Pi^4 - 
- ((I/4)*EL^6*gXll^2*mm^6*mz^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 
-    1, 1, 0])/(Pi^4*s^2) + ((I/8)*EL^6*gXll^2*mm^2*mz^4*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, 0])/(Pi^4*s) + 
- ((I/4)*EL^6*gXll^2*mm^4*mz^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, 0])/(Pi^4*s^2) - 
- ((I/8)*EL^6*gXll^2*mm^2*mz^2*t*gAl[1]^2*gAl[2]^2*
-   userIntegral[A0, {mz, mm}, 1, 1, 1, 0])/(Pi^4*s) + 
- ((I/8)*EL^6*gXll^2*mm^2*t^2*gAl[1]^2*gAl[2]^2*userIntegral[A0, {mz, mm}, 1, 
-    1, 1, 0])/(Pi^4*s)
+ ((I/8)*EL^6*gAl^4*gXll^2*mm^2*userIntegral[A0, {mz, mm}, 1, 1, 1, -2])/
+  (Pi^4*s) + ((I/8)*EL^6*gAl^4*gXll^2*mm^2*(2*mm^2*mz^2 - 2*s*t - 
+    mz^2*(s + 2*t))*userIntegral[A0, {mz, mm}, 1, 1, 1, -1])/(Pi^4*s^2) - 
+ ((I/16)*EL^6*gAl^4*gXll^2*mm^2*(4*mm^4*mz^2 - 4*mm^2*mz^2*t + 
+    s*(-2*mz^4 - 2*t^2 + mz^2*((-4 + d)*s + 2*t)))*
+   userIntegral[A0, {mz, mm}, 1, 1, 1, 0])/(Pi^4*s^2)

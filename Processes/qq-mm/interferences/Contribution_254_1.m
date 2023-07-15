@@ -1,8 +1,11 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(PropList[KiraPropagator[q1, me], KiraPropagator[-p1 - p2 + q1, me]]*
-  (((-8*I)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*(-mm^2 + mu^2 + s + t)*
-     SPList[SP[p1, q1]])/(Pi^4*s^2*(-mh^2 + s)) - 
-   ((8*I)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*(mm^2 + mu^2 - t)*
-     SPList[SP[p2, q1]])/(Pi^4*s^2*(-mh^2 + s)) + 
-   ((8*I)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*(2*mu^2 + s)*SPList[SP[p3, q1]])/
-    (Pi^4*s^2*(-mh^2 + s))))/4
+PropList[KiraPropagator[p1 - q1, me], KiraPropagator[-p2 - q1, me]]*
+ (((-I)*2^(5 - d)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*(mmv^2 - t)*
+    SPList[SP[p1, p2]])/(Pi^d*s^2*(-mh^2 + s)) + 
+  (I*2^(5 - d)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*SPList[SP[p1, p3]])/
+   (Pi^d*s*(-mh^2 + s)) + (I*2^(5 - d)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*
+    (-mmv^2 + s + t)*SPList[SP[p1, q1]])/(Pi^d*s^2*(-mh^2 + s)) + 
+  (I*2^(5 - d)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*(mmv^2 - t)*
+    SPList[SP[p2, q1]])/(Pi^d*s^2*(-mh^2 + s)) + 
+  (I*2^(5 - d)*EL^6*gAl^2*gAu^2*gHll^2*me^2*mm^2*SPList[SP[p3, q1]])/
+   (Pi^d*(mh^2 - s)*s))

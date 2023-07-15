@@ -23,7 +23,7 @@ userPropagatorMomenta[A0]={
 	p3+q1-p1
 };
 
-userIntegralMasses[A0]={M1,M2,M2,0};
+userIntegralMasses[A0]={m1,m2,m2,0};
 
 userPropagatorMomenta[B0]={
 	q1,
@@ -32,4 +32,4 @@ userPropagatorMomenta[B0]={
 	p3+q1-p1
 };
 
-userIntegralMasses[B0]={0,M1,M1,0};
+userIntegralMasses[B0]={0,m1,m1,0};

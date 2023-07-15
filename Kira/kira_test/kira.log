@@ -34,6 +34,6 @@ This integral is unreduced: TopoC2Mp[1,0,1,1] # 13
 This integral is unreduced: TopoC2Mp[1,1,1,1] # 15
 unreduced integrals: 15.
 
-closeCalc: 3645
+closeCalc: 21956
 Total time:
-( 0.241027 s )
+( 0.16832 s )

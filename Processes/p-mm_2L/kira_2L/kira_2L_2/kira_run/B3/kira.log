@@ -1,0 +1,88 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The directories for the temporary files, result files and the sector mapping files are: 
+./tmp
+./results
+./sectormappings
+Kira prepares topology: B3 and top level sector: 
+63 
+Following reductions will be performed for the topology: B3
+Sector: 63 rmax: 9 smax: 3 
+
+***********************************************************
+Find IBP LI and symmetry relations for the topology: B3
+***********************************************************
+
+*****Search trivial sectors********************************
+read from: ./sectormappings/B3/nonTrivialSector
+
+Non trivial sectors in total: 378
+Trivial sectors in total: 134
+( 0.008099 s )
+
+Search symmetry relations: 
+read from: ./sectormappings/B3/canonica
+Number of symmetries read out: 332
+
+( 0.000688 s )
+***********************************************************
+Prepare Symmetries for the topology: B3
+***********************************************************
+read from: ./sectormappings/B3/sectorRelations
+Number of symmetries read out: 32
+read from: ./sectormappings/B3/sectorSymmetries
+Number of symmetries read out: 24
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+
+***********************************************************
+Kira starts the reduction of the topology: B3
+***********************************************************
+
+***** Select equations recursively ************************
+Select integrals for: topology: B3
+ sectors: 63 rmax: 9 smax: 3
+
+length of mandatory list: 242988
+Algebraic reconstruction is switched off.
+2127 independent coefficients
+Number of master integrals: 20
+B3[0,1,0,1,0,0,0,0,0]  # 10
+B3[1,1,0,1,0,0,0,0,0]  # 11
+B3[0,1,1,1,0,0,0,0,0]  # 14
+B3[1,1,1,1,0,0,0,0,0]  # 15
+B3[1,1,0,1,1,0,0,0,0]  # 27
+B3[0,1,1,1,1,0,0,0,0]  # 30
+B3[1,1,1,1,1,0,0,0,0]  # 31
+B3[1,0,0,1,0,1,0,0,0]  # 41
+B3[1,-1,0,1,0,1,0,0,0] # 41
+B3[0,0,1,1,0,1,0,0,0]  # 44
+B3[-1,0,1,1,0,1,0,0,0] # 44
+B3[1,0,1,1,0,1,0,0,0]  # 45
+B3[1,-1,1,1,0,1,0,0,0] # 45
+B3[1,0,1,1,-1,1,0,0,0] # 45
+B3[1,0,0,1,1,1,0,0,0]  # 57
+B3[1,-1,0,1,1,1,0,0,0] # 57
+B3[1,1,0,1,1,1,0,0,0]  # 59
+B3[1,1,-1,1,1,1,0,0,0] # 59
+B3[1,1,0,1,1,1,-1,0,0] # 59
+B3[1,1,-2,1,1,1,0,0,0] # 59
+Regenerate:
+
+Number of selected equations to reduce: 278801 equations
+( 35.9712 s )
+closeCalc: 7911
+Algebraic reconstruction is switched off.
+
+***** Select equations recursively ************************
+Select integrals for: topology: B3
+ sectors: 63 rmax: 9 smax: 3
+
+length of mandatory list: 242988
+
+***** Bring system in triangular form *********************
+
+Iterate the system until it is in triangular form: 
+iteration: 0; items left: 156440; 

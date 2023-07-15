@@ -1,0 +1,12 @@
+1 q1 p3+q1-p1 1 8 1 0 {place==holder} {place==holder} 3 -1 -1 -1 0 1
+5 placeholder placeholder 1 3 2 0 {place==holder} {place==holder} 0 -1 1 -1 1 3
+6 q1 q1 1 6 2 0 {place==holder} {place==holder} -1 1 2 -1 0 0
+6 q1 -p2-q1+p1 -1 6 2 0 {place==holder} {place==holder} -1 2 1 -1 0 0
+9 q1 -p2+p3-q1 -1 9 2 0 {place==holder} {place==holder} 3 -1 -1 0 0 2
+10 placeholder placeholder 1 10 2 0 {place==holder} {place==holder} -1 1 -1 3 1 0
+10 placeholder placeholder 1 10 2 0 {place==holder} {place==holder} -1 3 -1 1 1 0
+12 q1 -p2-q1+p1 -1 10 2 0 {place==holder} {place==holder} -1 -1 1 3 0 0
+12 q1 -p2+p3+q1-p1 1 10 2 0 {place==holder} {place==holder} -1 -1 3 1 0 0
+13 placeholder placeholder 1 11 3 0 {place==holder} {place==holder} 0 -1 1 3 1 3
+14 q1 -p2-q1+p1 -1 14 3 0 {place==holder} {place==holder} -1 2 1 3 0 0
+14 placeholder placeholder 1 14 3 0 {place==holder} {place==holder} -1 1 2 3 1 0
