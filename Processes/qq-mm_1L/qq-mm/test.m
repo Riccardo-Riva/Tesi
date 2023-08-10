@@ -1,3 +1,0 @@
-(* ::Package:: *)
-
-Directory[]<>"di"

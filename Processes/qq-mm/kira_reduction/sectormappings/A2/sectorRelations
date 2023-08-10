@@ -1,8 +1,0 @@
-4 q1 -p2+p3+q1-p1 1 8 1 0 {place==holder} {place==holder} -1 -1 3 -1 0 1
-5 placeholder placeholder 1 3 2 0 {place==holder} {place==holder} 1 -1 0 -1 1 3
-6 q1 q1 1 6 2 0 {place==holder} {place==holder} -1 1 2 -1 0 6
-7 q1 q1 1 7 3 0 {place==holder} {place==holder} 0 1 2 -1 0 6
-8 q1 p3+q1 1 4 1 0 {place==holder} {place==holder} -1 -1 -1 2 0 5
-10 placeholder placeholder 1 12 2 0 {place==holder} {place==holder} -1 3 -1 2 1 5
-12 placeholder placeholder 1 12 2 0 {place==holder} {place==holder} -1 -1 2 3 1 6
-14 placeholder placeholder 1 14 3 0 {place==holder} {place==holder} -1 1 2 3 1 6

@@ -1,0 +1,3093 @@
+***COPIED***
+Mathematica 12.0.0 Kernel for Linux x86 (64-bit)
+Copyright 1988-2019 Wolfram Research, Inc.
+
+In[1]:= 
+In[2]:= In[2]:= 
+In[3]:= In[3]:= In[3]:= 
+FeynArts 3.11 (25 Mar 2022)
+by Hagen Eck, Sepp Kueblbeck, and Thomas Hahn
+
+In[4]:= 
+FormCalc 9.10 (30 Aug 2022)
+by Thomas Hahn
+
+In[5]:= 
+In[6]:= 
+In[7]:= +++++ ABISS` +++++
+Version 1.0.0
+Amplitudes Builder, Interference Solver and Simplifier
+ln: failed to create symbolic link '/home/riccardo/Programs/FeynArts/FeynArts//Models/SMbgf_Anglerfish_CT_v1.mod': No such file or directory
+ABISS: A link to the model file SMbgf_Anglerfish_CT_v1.mod has been added to\
+ 
+      the FeynArts directory
+ln: failed to create symbolic link '/home/riccardo/Programs/FeynArts/FeynArts//Models/SMbgf_Anglerfish.mod': No such file or directory
+ABISS: A link to the model file SMbgf_Anglerfish.mod has been added to the\
+ 
+      FeynArts directory
+ln: failed to create symbolic link '/home/riccardo/Programs/FeynArts/FeynArts//Models/SMbgf_FARAMIR_general_backup.mod': No such file or directory
+ABISS: A link to the model file SMbgf_FARAMIR_general_backup.mod has been\
+ 
+      added to the FeynArts directory
+ln: failed to create symbolic link '/home/riccardo/Programs/FeynArts/FeynArts//Models/SMbgf_FARAMIR_general+SM.mod': No such file or directory
+ABISS: A link to the model file SMbgf_FARAMIR_general+SM.mod has been added\
+ 
+      to the FeynArts directory
+ln: failed to create symbolic link '/home/riccardo/Programs/FeynArts/FeynArts//Models/SMbgfQCD_Anglerfish.mod': No such file or directory
+ABISS: A link to the model file SMbgfQCD_Anglerfish.mod has been added to the\
+ 
+      FeynArts directory
+ln: failed to create symbolic link '/home/riccardo/Programs/FeynArts/FeynArts//Models/SMbgf_TelescopeOctopus_backup.mod': No such file or directory
+ABISS: A link to the model file SMbgf_TelescopeOctopus_backup.mod has been\
+ 
+      added to the FeynArts directory
+
+In[8]:= In[8]:= In[8]:= 
+In[9]:= 
+In[10]:= 
+In[11]:= In[11]:= ABISS: Imported input file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/input/kinematics.m.
+ABISS: Imported input file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/input/integral_families.m.
+ABISS: Imported input file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/input/equivalence_classes.m
+
+In[12]:= In[12]:= In[12]:= 
+In[13]:= 
+In[14]:= In[14]:= In[14]:= ABISS: Computed contribution 1-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_1_1.m.
+ABISS: Computed contribution 1-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_1_2.m.
+ABISS: Computed contribution 2-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_2_1.m.
+ABISS: Computed contribution 2-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_2_2.m.
+ABISS: Computed contribution 3-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_3_1.m.
+ABISS: Computed contribution 3-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_3_2.m.
+ABISS: Computed contribution 4-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_4_1.m.
+ABISS: Computed contribution 4-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_4_2.m.
+ABISS: Computed contribution 5-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_5_1.m.
+ABISS: Computed contribution 5-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_5_2.m.
+ABISS: Computed contribution 6-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_6_1.m.
+ABISS: Computed contribution 6-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_6_2.m.
+ABISS: Computed contribution 7-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_7_1.m.
+ABISS: Computed contribution 7-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_7_2.m.
+ABISS: Computed contribution 8-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_8_1.m.
+ABISS: Computed contribution 8-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_8_2.m.
+ABISS: Computed contribution 9-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_9_1.m.
+ABISS: Computed contribution 9-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_9_2.m.
+ABISS: Computed contribution 10-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_10_1.m.
+ABISS: Computed contribution 10-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_10_2.m.
+ABISS: Computed contribution 11-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_11_1.m.
+ABISS: Computed contribution 11-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_11_2.m.
+ABISS: Computed contribution 12-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_12_1.m.
+ABISS: Computed contribution 12-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_12_2.m.
+ABISS: Computed contribution 13-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_13_1.m.
+ABISS: Computed contribution 13-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_13_2.m.
+ABISS: Computed contribution 14-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_14_1.m.
+ABISS: Computed contribution 14-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_14_2.m.
+ABISS: Computed contribution 15-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_15_1.m.
+ABISS: Computed contribution 15-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_15_2.m.
+ABISS: Computed contribution 16-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_16_1.m.
+ABISS: Computed contribution 16-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_16_2.m.
+ABISS: Computed contribution 17-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_17_1.m.
+ABISS: Computed contribution 17-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_17_2.m.
+ABISS: Computed contribution 18-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_18_1.m.
+ABISS: Computed contribution 18-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_18_2.m.
+ABISS: Computed contribution 19-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_19_1.m.
+ABISS: Computed contribution 19-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_19_2.m.
+ABISS: Computed contribution 20-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_20_1.m.
+ABISS: Computed contribution 20-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_20_2.m.
+ABISS: Computed contribution 21-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_21_1.m.
+ABISS: Computed contribution 21-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_21_2.m.
+ABISS: Computed contribution 22-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_22_1.m.
+ABISS: Computed contribution 22-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_22_2.m.
+ABISS: Computed contribution 23-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_23_1.m.
+ABISS: Computed contribution 23-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_23_2.m.
+ABISS: Computed contribution 24-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_24_1.m.
+ABISS: Computed contribution 24-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_24_2.m.
+ABISS: Computed contribution 25-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_25_1.m.
+ABISS: Computed contribution 25-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_25_2.m.
+ABISS: Computed contribution 26-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_26_1.m.
+ABISS: Computed contribution 26-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_26_2.m.
+ABISS: Computed contribution 27-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_27_1.m.
+ABISS: Computed contribution 27-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_27_2.m.
+ABISS: Computed contribution 28-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_28_1.m.
+ABISS: Computed contribution 28-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_28_2.m.
+ABISS: Computed contribution 29-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_29_1.m.
+ABISS: Computed contribution 29-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_29_2.m.
+ABISS: Computed contribution 30-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_30_1.m.
+ABISS: Computed contribution 30-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_30_2.m.
+ABISS: Computed contribution 31-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_31_1.m.
+ABISS: Computed contribution 31-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_31_2.m.
+ABISS: Computed contribution 32-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_32_1.m.
+ABISS: Computed contribution 32-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_32_2.m.
+ABISS: Computed contribution 33-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_33_1.m.
+ABISS: Computed contribution 33-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_33_2.m.
+ABISS: Computed contribution 34-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_34_1.m.
+ABISS: Computed contribution 34-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_34_2.m.
+ABISS: Computed contribution 35-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_35_1.m.
+ABISS: Computed contribution 35-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_35_2.m.
+ABISS: Computed contribution 36-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_36_1.m.
+ABISS: Computed contribution 36-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_36_2.m.
+ABISS: Computed contribution 37-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_37_1.m.
+ABISS: Computed contribution 37-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_37_2.m.
+ABISS: Computed contribution 38-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_38_1.m.
+ABISS: Computed contribution 38-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_38_2.m.
+ABISS: Computed contribution 39-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_39_1.m.
+ABISS: Computed contribution 39-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_39_2.m.
+ABISS: Computed contribution 40-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_40_1.m.
+ABISS: Computed contribution 40-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_40_2.m.
+ABISS: Computed contribution 41-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_41_1.m.
+ABISS: Computed contribution 41-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_41_2.m.
+ABISS: Computed contribution 42-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_42_1.m.
+ABISS: Computed contribution 42-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_42_2.m.
+ABISS: Computed contribution 43-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_43_1.m.
+ABISS: Computed contribution 43-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_43_2.m.
+ABISS: Computed contribution 44-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_44_1.m.
+ABISS: Computed contribution 44-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_44_2.m.
+ABISS: Computed contribution 45-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_45_1.m.
+ABISS: Computed contribution 45-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_45_2.m.
+ABISS: Computed contribution 46-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_46_1.m.
+ABISS: Computed contribution 46-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_46_2.m.
+ABISS: Computed contribution 47-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_47_1.m.
+ABISS: Computed contribution 47-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_47_2.m.
+ABISS: Computed contribution 48-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_48_1.m.
+ABISS: Computed contribution 48-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_48_2.m.
+ABISS: Computed contribution 49-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_49_1.m.
+ABISS: Computed contribution 49-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_49_2.m.
+ABISS: Computed contribution 50-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_50_1.m.
+ABISS: Computed contribution 50-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_50_2.m.
+ABISS: Computed contribution 51-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_51_1.m.
+ABISS: Computed contribution 51-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_51_2.m.
+ABISS: Computed contribution 52-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_52_1.m.
+ABISS: Computed contribution 52-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_52_2.m.
+ABISS: Computed contribution 53-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_53_1.m.
+ABISS: Computed contribution 53-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_53_2.m.
+ABISS: Computed contribution 54-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_54_1.m.
+ABISS: Computed contribution 54-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_54_2.m.
+ABISS: Computed contribution 55-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_55_1.m.
+ABISS: Computed contribution 55-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_55_2.m.
+ABISS: Computed contribution 56-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_56_1.m.
+ABISS: Computed contribution 56-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_56_2.m.
+ABISS: Computed contribution 57-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_57_1.m.
+ABISS: Computed contribution 57-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_57_2.m.
+ABISS: Computed contribution 58-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_58_1.m.
+ABISS: Computed contribution 58-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_58_2.m.
+ABISS: Computed contribution 59-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_59_1.m.
+ABISS: Computed contribution 59-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_59_2.m.
+ABISS: Computed contribution 60-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_60_1.m.
+ABISS: Computed contribution 60-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_60_2.m.
+ABISS: Computed contribution 61-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_61_1.m.
+ABISS: Computed contribution 61-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_61_2.m.
+ABISS: Computed contribution 62-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_62_1.m.
+ABISS: Computed contribution 62-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_62_2.m.
+ABISS: Computed contribution 63-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_63_1.m.
+ABISS: Computed contribution 63-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_63_2.m.
+ABISS: Computed contribution 64-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_64_1.m.
+ABISS: Computed contribution 64-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_64_2.m.
+ABISS: Computed contribution 65-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_65_1.m.
+ABISS: Computed contribution 65-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_65_2.m.
+ABISS: Computed contribution 66-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_66_1.m.
+ABISS: Computed contribution 66-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_66_2.m.
+ABISS: Computed contribution 67-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_67_1.m.
+ABISS: Computed contribution 67-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_67_2.m.
+ABISS: Computed contribution 68-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_68_1.m.
+ABISS: Computed contribution 68-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_68_2.m.
+ABISS: Computed contribution 69-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_69_1.m.
+ABISS: Computed contribution 69-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_69_2.m.
+ABISS: Computed contribution 70-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_70_1.m.
+ABISS: Computed contribution 70-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_70_2.m.
+ABISS: Computed contribution 71-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_71_1.m.
+ABISS: Computed contribution 71-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_71_2.m.
+ABISS: Computed contribution 72-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_72_1.m.
+ABISS: Computed contribution 72-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_72_2.m.
+ABISS: Computed contribution 73-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_73_1.m.
+ABISS: Computed contribution 73-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_73_2.m.
+ABISS: Computed contribution 74-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_74_1.m.
+ABISS: Computed contribution 74-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_74_2.m.
+ABISS: Computed contribution 75-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_75_1.m.
+ABISS: Computed contribution 75-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_75_2.m.
+ABISS: Computed contribution 76-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_76_1.m.
+ABISS: Computed contribution 76-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_76_2.m.
+ABISS: Computed contribution 77-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_77_1.m.
+ABISS: Computed contribution 77-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_77_2.m.
+ABISS: Computed contribution 78-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_78_1.m.
+
+Simplify::time: 
+   Time spent on a transformation exceeded 1.
+     seconds, and the transformation was aborted. Increasing the value of
+     TimeConstraint option may improve the result of simplification.
+
+Simplify::time: 
+   Time spent on a transformation exceeded 1.
+     seconds, and the transformation was aborted. Increasing the value of
+     TimeConstraint option may improve the result of simplification.
+
+Simplify::time: 
+   Time spent on a transformation exceeded 1.
+     seconds, and the transformation was aborted. Increasing the value of
+     TimeConstraint option may improve the result of simplification.
+
+General::stop: Further output of Simplify::time
+     will be suppressed during this calculation.
+ABISS: Computed contribution 78-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_78_2.m.
+ABISS: Computed contribution 79-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_79_1.m.
+ABISS: Computed contribution 79-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_79_2.m.
+ABISS: Computed contribution 80-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_80_1.m.
+ABISS: Computed contribution 80-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_80_2.m.
+ABISS: Computed contribution 81-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_81_1.m.
+ABISS: Computed contribution 81-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_81_2.m.
+ABISS: Computed contribution 82-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_82_1.m.
+ABISS: Computed contribution 82-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_82_2.m.
+ABISS: Computed contribution 83-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_83_1.m.
+ABISS: Computed contribution 83-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_83_2.m.
+ABISS: Computed contribution 84-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_84_1.m.
+ABISS: Computed contribution 84-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_84_2.m.
+ABISS: Computed contribution 85-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_85_1.m.
+ABISS: Computed contribution 85-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_85_2.m.
+ABISS: Computed contribution 86-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_86_1.m.
+ABISS: Computed contribution 86-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_86_2.m.
+ABISS: Computed contribution 87-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_87_1.m.
+ABISS: Computed contribution 87-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_87_2.m.
+ABISS: Computed contribution 88-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_88_1.m.
+ABISS: Computed contribution 88-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_88_2.m.
+ABISS: Computed contribution 89-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_89_1.m.
+ABISS: Computed contribution 89-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_89_2.m.
+ABISS: Computed contribution 90-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_90_1.m.
+ABISS: Computed contribution 90-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_90_2.m.
+ABISS: Computed contribution 91-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_91_1.m.
+ABISS: Computed contribution 91-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_91_2.m.
+ABISS: Computed contribution 92-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_92_1.m.
+ABISS: Computed contribution 92-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_92_2.m.
+ABISS: Computed contribution 93-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_93_1.m.
+ABISS: Computed contribution 93-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_93_2.m.
+ABISS: Computed contribution 94-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_94_1.m.
+ABISS: Computed contribution 94-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_94_2.m.
+ABISS: Computed contribution 95-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_95_1.m.
+ABISS: Computed contribution 95-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_95_2.m.
+ABISS: Computed contribution 96-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_96_1.m.
+ABISS: Computed contribution 96-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_96_2.m.
+ABISS: Computed contribution 97-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_97_1.m.
+ABISS: Computed contribution 97-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_97_2.m.
+ABISS: Computed contribution 98-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_98_1.m.
+ABISS: Computed contribution 98-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_98_2.m.
+ABISS: Computed contribution 99-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_99_1.m.
+ABISS: Computed contribution 99-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_99_2.m.
+ABISS: Computed contribution 100-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_100_1.m.
+ABISS: Computed contribution 100-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_100_2.m.
+ABISS: Computed contribution 101-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_101_1.m.
+ABISS: Computed contribution 101-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_101_2.m.
+ABISS: Computed contribution 102-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_102_1.m.
+ABISS: Computed contribution 102-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_102_2.m.
+ABISS: Computed contribution 103-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_103_1.m.
+ABISS: Computed contribution 103-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_103_2.m.
+ABISS: Computed contribution 104-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_104_1.m.
+ABISS: Computed contribution 104-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_104_2.m.
+ABISS: Computed contribution 105-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_105_1.m.
+ABISS: Computed contribution 105-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_105_2.m.
+ABISS: Computed contribution 106-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_106_1.m.
+ABISS: Computed contribution 106-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_106_2.m.
+ABISS: Computed contribution 107-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_107_1.m.
+ABISS: Computed contribution 107-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_107_2.m.
+ABISS: Computed contribution 108-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_108_1.m.
+ABISS: Computed contribution 108-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_108_2.m.
+ABISS: Computed contribution 109-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_109_1.m.
+ABISS: Computed contribution 109-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_109_2.m.
+ABISS: Computed contribution 110-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_110_1.m.
+ABISS: Computed contribution 110-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_110_2.m.
+ABISS: Computed contribution 111-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_111_1.m.
+ABISS: Computed contribution 111-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_111_2.m.
+ABISS: Computed contribution 112-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_112_1.m.
+ABISS: Computed contribution 112-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_112_2.m.
+ABISS: Computed contribution 113-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_113_1.m.
+ABISS: Computed contribution 113-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_113_2.m.
+ABISS: Computed contribution 114-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_114_1.m.
+ABISS: Computed contribution 114-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_114_2.m.
+ABISS: Computed contribution 115-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_115_1.m.
+ABISS: Computed contribution 115-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_115_2.m.
+ABISS: Computed contribution 116-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_116_1.m.
+ABISS: Computed contribution 116-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_116_2.m.
+ABISS: Computed contribution 117-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_117_1.m.
+ABISS: Computed contribution 117-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_117_2.m.
+ABISS: Computed contribution 118-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_118_1.m.
+ABISS: Computed contribution 118-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_118_2.m.
+ABISS: Computed contribution 119-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_119_1.m.
+ABISS: Computed contribution 119-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_119_2.m.
+ABISS: Computed contribution 120-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_120_1.m.
+ABISS: Computed contribution 120-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_120_2.m.
+ABISS: Computed contribution 121-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_121_1.m.
+ABISS: Computed contribution 121-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_121_2.m.
+ABISS: Computed contribution 122-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_122_1.m.
+ABISS: Computed contribution 122-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_122_2.m.
+ABISS: Computed contribution 123-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_123_1.m.
+ABISS: Computed contribution 123-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_123_2.m.
+ABISS: Computed contribution 124-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_124_1.m.
+ABISS: Computed contribution 124-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_124_2.m.
+ABISS: Computed contribution 125-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_125_1.m.
+ABISS: Computed contribution 125-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_125_2.m.
+ABISS: Computed contribution 126-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_126_1.m.
+ABISS: Computed contribution 126-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_126_2.m.
+ABISS: Computed contribution 127-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_127_1.m.
+ABISS: Computed contribution 127-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_127_2.m.
+ABISS: Computed contribution 128-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_128_1.m.
+ABISS: Computed contribution 128-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_128_2.m.
+ABISS: Computed contribution 129-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_129_1.m.
+ABISS: Computed contribution 129-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_129_2.m.
+ABISS: Computed contribution 130-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_130_1.m.
+ABISS: Computed contribution 130-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_130_2.m.
+ABISS: Computed contribution 131-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_131_1.m.
+ABISS: Computed contribution 131-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_131_2.m.
+ABISS: Computed contribution 132-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_132_1.m.
+ABISS: Computed contribution 132-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_132_2.m.
+ABISS: Computed contribution 133-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_133_1.m.
+ABISS: Computed contribution 133-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_133_2.m.
+ABISS: Computed contribution 134-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_134_1.m.
+ABISS: Computed contribution 134-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_134_2.m.
+ABISS: Computed contribution 135-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_135_1.m.
+ABISS: Computed contribution 135-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_135_2.m.
+ABISS: Computed contribution 136-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_136_1.m.
+ABISS: Computed contribution 136-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_136_2.m.
+ABISS: Computed contribution 137-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_137_1.m.
+ABISS: Computed contribution 137-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_137_2.m.
+ABISS: Computed contribution 138-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_138_1.m.
+ABISS: Computed contribution 138-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_138_2.m.
+ABISS: Computed contribution 139-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_139_1.m.
+ABISS: Computed contribution 139-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_139_2.m.
+ABISS: Computed contribution 140-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_140_1.m.
+ABISS: Computed contribution 140-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_140_2.m.
+ABISS: Computed contribution 141-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_141_1.m.
+ABISS: Computed contribution 141-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_141_2.m.
+ABISS: Computed contribution 142-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_142_1.m.
+ABISS: Computed contribution 142-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_142_2.m.
+ABISS: Computed contribution 143-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_143_1.m.
+ABISS: Computed contribution 143-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_143_2.m.
+ABISS: Computed contribution 144-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_144_1.m.
+ABISS: Computed contribution 144-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_144_2.m.
+ABISS: Computed contribution 145-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_145_1.m.
+ABISS: Computed contribution 145-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_145_2.m.
+ABISS: Computed contribution 146-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_146_1.m.
+ABISS: Computed contribution 146-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_146_2.m.
+ABISS: Computed contribution 147-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_147_1.m.
+ABISS: Computed contribution 147-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_147_2.m.
+ABISS: Computed contribution 148-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_148_1.m.
+ABISS: Computed contribution 148-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_148_2.m.
+ABISS: Computed contribution 149-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_149_1.m.
+ABISS: Computed contribution 149-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_149_2.m.
+ABISS: Computed contribution 150-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_150_1.m.
+ABISS: Computed contribution 150-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_150_2.m.
+ABISS: Computed contribution 151-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_151_1.m.
+ABISS: Computed contribution 151-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_151_2.m.
+ABISS: Computed contribution 152-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_152_1.m.
+ABISS: Computed contribution 152-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_152_2.m.
+ABISS: Computed contribution 153-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_153_1.m.
+ABISS: Computed contribution 153-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_153_2.m.
+ABISS: Computed contribution 154-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_154_1.m.
+ABISS: Computed contribution 154-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_154_2.m.
+ABISS: Computed contribution 155-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_155_1.m.
+ABISS: Computed contribution 155-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_155_2.m.
+ABISS: Computed contribution 156-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_156_1.m.
+ABISS: Computed contribution 156-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_156_2.m.
+ABISS: Computed contribution 157-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_157_1.m.
+ABISS: Computed contribution 157-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_157_2.m.
+ABISS: Computed contribution 158-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_158_1.m.
+ABISS: Computed contribution 158-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_158_2.m.
+ABISS: Computed contribution 159-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_159_1.m.
+ABISS: Computed contribution 159-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_159_2.m.
+ABISS: Computed contribution 160-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_160_1.m.
+ABISS: Computed contribution 160-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_160_2.m.
+ABISS: Computed contribution 161-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_161_1.m.
+ABISS: Computed contribution 161-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_161_2.m.
+ABISS: Computed contribution 162-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_162_1.m.
+ABISS: Computed contribution 162-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_162_2.m.
+ABISS: Computed contribution 163-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_163_1.m.
+ABISS: Computed contribution 163-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_163_2.m.
+ABISS: Computed contribution 164-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_164_1.m.
+ABISS: Computed contribution 164-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_164_2.m.
+ABISS: Computed contribution 165-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_165_1.m.
+ABISS: Computed contribution 165-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_165_2.m.
+ABISS: Computed contribution 166-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_166_1.m.
+ABISS: Computed contribution 166-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_166_2.m.
+ABISS: Computed contribution 167-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_167_1.m.
+ABISS: Computed contribution 167-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_167_2.m.
+ABISS: Computed contribution 168-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_168_1.m.
+ABISS: Computed contribution 168-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_168_2.m.
+ABISS: Computed contribution 169-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_169_1.m.
+ABISS: Computed contribution 169-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_169_2.m.
+ABISS: Computed contribution 170-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_170_1.m.
+ABISS: Computed contribution 170-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_170_2.m.
+ABISS: Computed contribution 171-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_171_1.m.
+ABISS: Computed contribution 171-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_171_2.m.
+ABISS: Computed contribution 172-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_172_1.m.
+ABISS: Computed contribution 172-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_172_2.m.
+ABISS: Computed contribution 173-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_173_1.m.
+ABISS: Computed contribution 173-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_173_2.m.
+ABISS: Computed contribution 174-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_174_1.m.
+ABISS: Computed contribution 174-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_174_2.m.
+ABISS: Computed contribution 175-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_175_1.m.
+ABISS: Computed contribution 175-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_175_2.m.
+ABISS: Computed contribution 176-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_176_1.m.
+ABISS: Computed contribution 176-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_176_2.m.
+ABISS: Computed contribution 177-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_177_1.m.
+ABISS: Computed contribution 177-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_177_2.m.
+ABISS: Computed contribution 178-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_178_1.m.
+ABISS: Computed contribution 178-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_178_2.m.
+ABISS: Computed contribution 179-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_179_1.m.
+ABISS: Computed contribution 179-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_179_2.m.
+ABISS: Computed contribution 180-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_180_1.m.
+ABISS: Computed contribution 180-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_180_2.m.
+ABISS: Computed contribution 181-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_181_1.m.
+ABISS: Computed contribution 181-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_181_2.m.
+ABISS: Computed contribution 182-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_182_1.m.
+ABISS: Computed contribution 182-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_182_2.m.
+ABISS: Computed contribution 183-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_183_1.m.
+ABISS: Computed contribution 183-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_183_2.m.
+ABISS: Computed contribution 184-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_184_1.m.
+ABISS: Computed contribution 184-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_184_2.m.
+ABISS: Computed contribution 185-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_185_1.m.
+ABISS: Computed contribution 185-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_185_2.m.
+ABISS: Computed contribution 186-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_186_1.m.
+ABISS: Computed contribution 186-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_186_2.m.
+ABISS: Computed contribution 187-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_187_1.m.
+ABISS: Computed contribution 187-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_187_2.m.
+ABISS: Computed contribution 188-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_188_1.m.
+ABISS: Computed contribution 188-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_188_2.m.
+ABISS: Computed contribution 189-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_189_1.m.
+ABISS: Computed contribution 189-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_189_2.m.
+ABISS: Computed contribution 190-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_190_1.m.
+ABISS: Computed contribution 190-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_190_2.m.
+ABISS: Computed contribution 191-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_191_1.m.
+ABISS: Computed contribution 191-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_191_2.m.
+ABISS: Computed contribution 192-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_192_1.m.
+ABISS: Computed contribution 192-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_192_2.m.
+ABISS: Computed contribution 193-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_193_1.m.
+ABISS: Computed contribution 193-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_193_2.m.
+ABISS: Computed contribution 194-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_194_1.m.
+ABISS: Computed contribution 194-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_194_2.m.
+ABISS: Computed contribution 195-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_195_1.m.
+ABISS: Computed contribution 195-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_195_2.m.
+ABISS: Computed contribution 196-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_196_1.m.
+ABISS: Computed contribution 196-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_196_2.m.
+ABISS: Computed contribution 197-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_197_1.m.
+ABISS: Computed contribution 197-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_197_2.m.
+ABISS: Computed contribution 198-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_198_1.m.
+ABISS: Computed contribution 198-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_198_2.m.
+ABISS: Computed contribution 199-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_199_1.m.
+ABISS: Computed contribution 199-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_199_2.m.
+ABISS: Computed contribution 200-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_200_1.m.
+ABISS: Computed contribution 200-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_200_2.m.
+ABISS: Computed contribution 201-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_201_1.m.
+ABISS: Computed contribution 201-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_201_2.m.
+ABISS: Computed contribution 202-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_202_1.m.
+ABISS: Computed contribution 202-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_202_2.m.
+ABISS: Computed contribution 203-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_203_1.m.
+ABISS: Computed contribution 203-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_203_2.m.
+ABISS: Computed contribution 204-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_204_1.m.
+ABISS: Computed contribution 204-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_204_2.m.
+ABISS: Computed contribution 205-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_205_1.m.
+ABISS: Computed contribution 205-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_205_2.m.
+ABISS: Computed contribution 206-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_206_1.m.
+ABISS: Computed contribution 206-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_206_2.m.
+ABISS: Computed contribution 207-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_207_1.m.
+ABISS: Computed contribution 207-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_207_2.m.
+ABISS: Computed contribution 208-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_208_1.m.
+ABISS: Computed contribution 208-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_208_2.m.
+ABISS: Computed contribution 209-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_209_1.m.
+ABISS: Computed contribution 209-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_209_2.m.
+ABISS: Computed contribution 210-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_210_1.m.
+ABISS: Computed contribution 210-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_210_2.m.
+ABISS: Computed contribution 211-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_211_1.m.
+ABISS: Computed contribution 211-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_211_2.m.
+ABISS: Computed contribution 212-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_212_1.m.
+ABISS: Computed contribution 212-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_212_2.m.
+ABISS: Computed contribution 213-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_213_1.m.
+ABISS: Computed contribution 213-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_213_2.m.
+ABISS: Computed contribution 214-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_214_1.m.
+ABISS: Computed contribution 214-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_214_2.m.
+ABISS: Computed contribution 215-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_215_1.m.
+ABISS: Computed contribution 215-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_215_2.m.
+ABISS: Computed contribution 216-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_216_1.m.
+ABISS: Computed contribution 216-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_216_2.m.
+ABISS: Computed contribution 217-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_217_1.m.
+ABISS: Computed contribution 217-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_217_2.m.
+ABISS: Computed contribution 218-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_218_1.m.
+ABISS: Computed contribution 218-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_218_2.m.
+ABISS: Computed contribution 219-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_219_1.m.
+ABISS: Computed contribution 219-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_219_2.m.
+ABISS: Computed contribution 220-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_220_1.m.
+ABISS: Computed contribution 220-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_220_2.m.
+ABISS: Computed contribution 221-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_221_1.m.
+ABISS: Computed contribution 221-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_221_2.m.
+ABISS: Computed contribution 222-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_222_1.m.
+ABISS: Computed contribution 222-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_222_2.m.
+ABISS: Computed contribution 223-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_223_1.m.
+ABISS: Computed contribution 223-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_223_2.m.
+ABISS: Computed contribution 224-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_224_1.m.
+ABISS: Computed contribution 224-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_224_2.m.
+ABISS: Computed contribution 225-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_225_1.m.
+ABISS: Computed contribution 225-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_225_2.m.
+ABISS: Computed contribution 226-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_226_1.m.
+ABISS: Computed contribution 226-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_226_2.m.
+ABISS: Computed contribution 227-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_227_1.m.
+ABISS: Computed contribution 227-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_227_2.m.
+ABISS: Computed contribution 228-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_228_1.m.
+ABISS: Computed contribution 228-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_228_2.m.
+ABISS: Computed contribution 229-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_229_1.m.
+ABISS: Computed contribution 229-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_229_2.m.
+ABISS: Computed contribution 230-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_230_1.m.
+ABISS: Computed contribution 230-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_230_2.m.
+ABISS: Computed contribution 231-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_231_1.m.
+ABISS: Computed contribution 231-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_231_2.m.
+ABISS: Computed contribution 232-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_232_1.m.
+ABISS: Computed contribution 232-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_232_2.m.
+ABISS: Computed contribution 233-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_233_1.m.
+ABISS: Computed contribution 233-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_233_2.m.
+ABISS: Computed contribution 234-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_234_1.m.
+ABISS: Computed contribution 234-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_234_2.m.
+ABISS: Computed contribution 235-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_235_1.m.
+ABISS: Computed contribution 235-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_235_2.m.
+ABISS: Computed contribution 236-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_236_1.m.
+ABISS: Computed contribution 236-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_236_2.m.
+ABISS: Computed contribution 237-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_237_1.m.
+ABISS: Computed contribution 237-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_237_2.m.
+ABISS: Computed contribution 238-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_238_1.m.
+ABISS: Computed contribution 238-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_238_2.m.
+ABISS: Computed contribution 239-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_239_1.m.
+ABISS: Computed contribution 239-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_239_2.m.
+ABISS: Computed contribution 240-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_240_1.m.
+ABISS: Computed contribution 240-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_240_2.m.
+ABISS: Computed contribution 241-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_241_1.m.
+ABISS: Computed contribution 241-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_241_2.m.
+ABISS: Computed contribution 242-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_242_1.m.
+ABISS: Computed contribution 242-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_242_2.m.
+ABISS: Computed contribution 243-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_243_1.m.
+ABISS: Computed contribution 243-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_243_2.m.
+ABISS: Computed contribution 244-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_244_1.m.
+ABISS: Computed contribution 244-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_244_2.m.
+ABISS: Computed contribution 245-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_245_1.m.
+ABISS: Computed contribution 245-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_245_2.m.
+ABISS: Computed contribution 246-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_246_1.m.
+ABISS: Computed contribution 246-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_246_2.m.
+ABISS: Computed contribution 247-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_247_1.m.
+ABISS: Computed contribution 247-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_247_2.m.
+ABISS: Computed contribution 248-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_248_1.m.
+ABISS: Computed contribution 248-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_248_2.m.
+ABISS: Computed contribution 249-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_249_1.m.
+ABISS: Computed contribution 249-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_249_2.m.
+ABISS: Computed contribution 250-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_250_1.m.
+ABISS: Computed contribution 250-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_250_2.m.
+ABISS: Computed contribution 251-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_251_1.m.
+ABISS: Computed contribution 251-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_251_2.m.
+ABISS: Computed contribution 252-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_252_1.m.
+ABISS: Computed contribution 252-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_252_2.m.
+ABISS: Computed contribution 253-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_253_1.m.
+ABISS: Computed contribution 253-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_253_2.m.
+ABISS: Computed contribution 254-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_254_1.m.
+ABISS: Computed contribution 254-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_254_2.m.
+ABISS: Computed contribution 255-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_255_1.m.
+ABISS: Computed contribution 255-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_255_2.m.
+ABISS: Computed contribution 256-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_256_1.m.
+ABISS: Computed contribution 256-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_256_2.m.
+ABISS: Computed contribution 257-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_257_1.m.
+ABISS: Computed contribution 257-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_257_2.m.
+ABISS: Computed contribution 258-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_258_1.m.
+ABISS: Computed contribution 258-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_258_2.m.
+ABISS: Computed contribution 259-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_259_1.m.
+ABISS: Computed contribution 259-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_259_2.m.
+ABISS: Computed contribution 260-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_260_1.m.
+ABISS: Computed contribution 260-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_260_2.m.
+ABISS: Computed contribution 261-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_261_1.m.
+ABISS: Computed contribution 261-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_261_2.m.
+ABISS: Computed contribution 262-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_262_1.m.
+ABISS: Computed contribution 262-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_262_2.m.
+ABISS: Computed contribution 263-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_263_1.m.
+ABISS: Computed contribution 263-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_263_2.m.
+ABISS: Computed contribution 264-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_264_1.m.
+ABISS: Computed contribution 264-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_264_2.m.
+ABISS: Computed contribution 265-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_265_1.m.
+ABISS: Computed contribution 265-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_265_2.m.
+ABISS: Computed contribution 266-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_266_1.m.
+ABISS: Computed contribution 266-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_266_2.m.
+ABISS: Computed contribution 267-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_267_1.m.
+ABISS: Computed contribution 267-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_267_2.m.
+ABISS: Computed contribution 268-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_268_1.m.
+ABISS: Computed contribution 268-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_268_2.m.
+ABISS: Computed contribution 269-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_269_1.m.
+ABISS: Computed contribution 269-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_269_2.m.
+ABISS: Computed contribution 270-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_270_1.m.
+ABISS: Computed contribution 270-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_270_2.m.
+ABISS: Computed contribution 271-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_271_1.m.
+ABISS: Computed contribution 271-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_271_2.m.
+ABISS: Computed contribution 272-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_272_1.m.
+ABISS: Computed contribution 272-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_272_2.m.
+ABISS: Computed contribution 273-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_273_1.m.
+ABISS: Computed contribution 273-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_273_2.m.
+ABISS: Computed contribution 274-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_274_1.m.
+ABISS: Computed contribution 274-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_274_2.m.
+ABISS: Computed contribution 275-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_275_1.m.
+ABISS: Computed contribution 275-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_275_2.m.
+ABISS: Computed contribution 276-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_276_1.m.
+ABISS: Computed contribution 276-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_276_2.m.
+ABISS: Computed contribution 277-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_277_1.m.
+ABISS: Computed contribution 277-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_277_2.m.
+ABISS: Computed contribution 278-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_278_1.m.
+ABISS: Computed contribution 278-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_278_2.m.
+ABISS: Computed contribution 279-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_279_1.m.
+ABISS: Computed contribution 279-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_279_2.m.
+ABISS: Computed contribution 280-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_280_1.m.
+ABISS: Computed contribution 280-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_280_2.m.
+ABISS: Computed contribution 281-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_281_1.m.
+ABISS: Computed contribution 281-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_281_2.m.
+ABISS: Computed contribution 282-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_282_1.m.
+ABISS: Computed contribution 282-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_282_2.m.
+ABISS: Computed contribution 283-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_283_1.m.
+ABISS: Computed contribution 283-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_283_2.m.
+ABISS: Computed contribution 284-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_284_1.m.
+ABISS: Computed contribution 284-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_284_2.m.
+ABISS: Computed contribution 285-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_285_1.m.
+ABISS: Computed contribution 285-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_285_2.m.
+ABISS: Computed contribution 286-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_286_1.m.
+ABISS: Computed contribution 286-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_286_2.m.
+ABISS: Computed contribution 287-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_287_1.m.
+ABISS: Computed contribution 287-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_287_2.m.
+ABISS: Computed contribution 288-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_288_1.m.
+ABISS: Computed contribution 288-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_288_2.m.
+ABISS: Computed contribution 289-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_289_1.m.
+ABISS: Computed contribution 289-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_289_2.m.
+ABISS: Computed contribution 290-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_290_1.m.
+ABISS: Computed contribution 290-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_290_2.m.
+ABISS: Computed contribution 291-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_291_1.m.
+ABISS: Computed contribution 291-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_291_2.m.
+ABISS: Computed contribution 292-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_292_1.m.
+ABISS: Computed contribution 292-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_292_2.m.
+ABISS: Computed contribution 293-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_293_1.m.
+ABISS: Computed contribution 293-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_293_2.m.
+ABISS: Computed contribution 294-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_294_1.m.
+ABISS: Computed contribution 294-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_294_2.m.
+ABISS: Computed contribution 295-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_295_1.m.
+ABISS: Computed contribution 295-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_295_2.m.
+ABISS: Computed contribution 296-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_296_1.m.
+ABISS: Computed contribution 296-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_296_2.m.
+ABISS: Computed contribution 297-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_297_1.m.
+ABISS: Computed contribution 297-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_297_2.m.
+ABISS: Computed contribution 298-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_298_1.m.
+ABISS: Computed contribution 298-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_298_2.m.
+ABISS: Computed contribution 299-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_299_1.m.
+ABISS: Computed contribution 299-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_299_2.m.
+ABISS: Computed contribution 300-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_300_1.m.
+ABISS: Computed contribution 300-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_300_2.m.
+ABISS: Computed contribution 301-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_301_1.m.
+ABISS: Computed contribution 301-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_301_2.m.
+ABISS: Computed contribution 302-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_302_1.m.
+ABISS: Computed contribution 302-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_302_2.m.
+ABISS: Computed contribution 303-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_303_1.m.
+ABISS: Computed contribution 303-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_303_2.m.
+ABISS: Computed contribution 304-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_304_1.m.
+ABISS: Computed contribution 304-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_304_2.m.
+ABISS: Computed contribution 305-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_305_1.m.
+ABISS: Computed contribution 305-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_305_2.m.
+ABISS: Computed contribution 306-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_306_1.m.
+ABISS: Computed contribution 306-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_306_2.m.
+ABISS: Computed contribution 307-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_307_1.m.
+ABISS: Computed contribution 307-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_307_2.m.
+ABISS: Computed contribution 308-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_308_1.m.
+ABISS: Computed contribution 308-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_308_2.m.
+ABISS: Computed contribution 309-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_309_1.m.
+ABISS: Computed contribution 309-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_309_2.m.
+ABISS: Computed contribution 310-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_310_1.m.
+ABISS: Computed contribution 310-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_310_2.m.
+ABISS: Computed contribution 311-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_311_1.m.
+ABISS: Computed contribution 311-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_311_2.m.
+ABISS: Computed contribution 312-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_312_1.m.
+ABISS: Computed contribution 312-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_312_2.m.
+ABISS: Computed contribution 313-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_313_1.m.
+ABISS: Computed contribution 313-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_313_2.m.
+ABISS: Computed contribution 314-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_314_1.m.
+ABISS: Computed contribution 314-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_314_2.m.
+ABISS: Computed contribution 315-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_315_1.m.
+ABISS: Computed contribution 315-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_315_2.m.
+ABISS: Computed contribution 316-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_316_1.m.
+ABISS: Computed contribution 316-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_316_2.m.
+ABISS: Computed contribution 317-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_317_1.m.
+ABISS: Computed contribution 317-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_317_2.m.
+ABISS: Computed contribution 318-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_318_1.m.
+ABISS: Computed contribution 318-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_318_2.m.
+ABISS: Computed contribution 319-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_319_1.m.
+ABISS: Computed contribution 319-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_319_2.m.
+ABISS: Computed contribution 320-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_320_1.m.
+ABISS: Computed contribution 320-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_320_2.m.
+ABISS: Computed contribution 321-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_321_1.m.
+ABISS: Computed contribution 321-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_321_2.m.
+ABISS: Computed contribution 322-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_322_1.m.
+ABISS: Computed contribution 322-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_322_2.m.
+ABISS: Computed contribution 323-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_323_1.m.
+ABISS: Computed contribution 323-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_323_2.m.
+ABISS: Computed contribution 324-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_324_1.m.
+ABISS: Computed contribution 324-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_324_2.m.
+ABISS: Computed contribution 325-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_325_1.m.
+ABISS: Computed contribution 325-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_325_2.m.
+ABISS: Computed contribution 326-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_326_1.m.
+ABISS: Computed contribution 326-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_326_2.m.
+ABISS: Computed contribution 327-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_327_1.m.
+ABISS: Computed contribution 327-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_327_2.m.
+ABISS: Computed contribution 328-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_328_1.m.
+ABISS: Computed contribution 328-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_328_2.m.
+ABISS: Computed contribution 329-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_329_1.m.
+ABISS: Computed contribution 329-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_329_2.m.
+ABISS: Computed contribution 330-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_330_1.m.
+ABISS: Computed contribution 330-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_330_2.m.
+ABISS: Computed contribution 331-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_331_1.m.
+ABISS: Computed contribution 331-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_331_2.m.
+ABISS: Computed contribution 332-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_332_1.m.
+ABISS: Computed contribution 332-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_332_2.m.
+ABISS: Computed contribution 333-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_333_1.m.
+ABISS: Computed contribution 333-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_333_2.m.
+ABISS: Computed contribution 334-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_334_1.m.
+ABISS: Computed contribution 334-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_334_2.m.
+ABISS: Computed contribution 335-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_335_1.m.
+ABISS: Computed contribution 335-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_335_2.m.
+ABISS: Computed contribution 336-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_336_1.m.
+ABISS: Computed contribution 336-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_336_2.m.
+ABISS: Computed contribution 337-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_337_1.m.
+ABISS: Computed contribution 337-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_337_2.m.
+ABISS: Computed contribution 338-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_338_1.m.
+ABISS: Computed contribution 338-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_338_2.m.
+ABISS: Computed contribution 339-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_339_1.m.
+ABISS: Computed contribution 339-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_339_2.m.
+ABISS: Computed contribution 340-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_340_1.m.
+ABISS: Computed contribution 340-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_340_2.m.
+ABISS: Computed contribution 341-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_341_1.m.
+ABISS: Computed contribution 341-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_341_2.m.
+ABISS: Computed contribution 342-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_342_1.m.
+ABISS: Computed contribution 342-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_342_2.m.
+ABISS: Computed contribution 343-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_343_1.m.
+ABISS: Computed contribution 343-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_343_2.m.
+ABISS: Computed contribution 344-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_344_1.m.
+ABISS: Computed contribution 344-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_344_2.m.
+ABISS: Computed contribution 345-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_345_1.m.
+ABISS: Computed contribution 345-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_345_2.m.
+ABISS: Computed contribution 346-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_346_1.m.
+ABISS: Computed contribution 346-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_346_2.m.
+ABISS: Computed contribution 347-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_347_1.m.
+ABISS: Computed contribution 347-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_347_2.m.
+ABISS: Computed contribution 348-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_348_1.m.
+ABISS: Computed contribution 348-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_348_2.m.
+ABISS: Computed contribution 349-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_349_1.m.
+ABISS: Computed contribution 349-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_349_2.m.
+ABISS: Computed contribution 350-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_350_1.m.
+ABISS: Computed contribution 350-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_350_2.m.
+ABISS: Computed contribution 351-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_351_1.m.
+ABISS: Computed contribution 351-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_351_2.m.
+ABISS: Computed contribution 352-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_352_1.m.
+ABISS: Computed contribution 352-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_352_2.m.
+ABISS: Computed contribution 353-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_353_1.m.
+ABISS: Computed contribution 353-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_353_2.m.
+ABISS: Computed contribution 354-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_354_1.m.
+ABISS: Computed contribution 354-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_354_2.m.
+ABISS: Computed contribution 355-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_355_1.m.
+ABISS: Computed contribution 355-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_355_2.m.
+ABISS: Computed contribution 356-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_356_1.m.
+ABISS: Computed contribution 356-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_356_2.m.
+ABISS: Computed contribution 357-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_357_1.m.
+ABISS: Computed contribution 357-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_357_2.m.
+ABISS: Computed contribution 358-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_358_1.m.
+ABISS: Computed contribution 358-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_358_2.m.
+ABISS: Computed contribution 359-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_359_1.m.
+ABISS: Computed contribution 359-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_359_2.m.
+ABISS: Computed contribution 360-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_360_1.m.
+ABISS: Computed contribution 360-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_360_2.m.
+ABISS: Computed contribution 361-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_361_1.m.
+ABISS: Computed contribution 361-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_361_2.m.
+ABISS: Computed contribution 362-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_362_1.m.
+ABISS: Computed contribution 362-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_362_2.m.
+ABISS: Computed contribution 363-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_363_1.m.
+ABISS: Computed contribution 363-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_363_2.m.
+ABISS: Computed contribution 364-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_364_1.m.
+ABISS: Computed contribution 364-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_364_2.m.
+ABISS: Computed contribution 365-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_365_1.m.
+ABISS: Computed contribution 365-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_365_2.m.
+ABISS: Computed contribution 366-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_366_1.m.
+ABISS: Computed contribution 366-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_366_2.m.
+ABISS: Computed contribution 367-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_367_1.m.
+ABISS: Computed contribution 367-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_367_2.m.
+ABISS: Computed contribution 368-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_368_1.m.
+ABISS: Computed contribution 368-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_368_2.m.
+ABISS: Computed contribution 369-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_369_1.m.
+ABISS: Computed contribution 369-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_369_2.m.
+ABISS: Computed contribution 370-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_370_1.m.
+ABISS: Computed contribution 370-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_370_2.m.
+ABISS: Computed contribution 371-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_371_1.m.
+ABISS: Computed contribution 371-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_371_2.m.
+ABISS: Computed contribution 372-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_372_1.m.
+ABISS: Computed contribution 372-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_372_2.m.
+ABISS: Computed contribution 373-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_373_1.m.
+ABISS: Computed contribution 373-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_373_2.m.
+ABISS: Computed contribution 374-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_374_1.m.
+ABISS: Computed contribution 374-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_374_2.m.
+ABISS: Computed contribution 375-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_375_1.m.
+ABISS: Computed contribution 375-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_375_2.m.
+ABISS: Computed contribution 376-1.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_376_1.m.
+ABISS: Computed contribution 376-2.
+ABISS: Saved file\
+ 
+      /storage/local/slurm-llnl/tmp/1883648/kira_input/Contribution_376_2.m.
+
+Out[14]= 6927.13
+
+In[15]:= In[15]:= In[15]:= 
+Out[15]= /storage/local/slurm-llnl/tmp/1883648/time/time.m
+
+In[16]:= 
+***MATHEMATICA DONE***
