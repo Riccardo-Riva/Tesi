@@ -1,0 +1,221 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+./packages/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This integral is unreduced: C1[-1,0,1,1,1,1,0,0,0] # 60
+This integral is unreduced: C1[-1,1,1,0,1,1,0,0,0] # 54
+This requested integral is a master integral: C1[-1,1,1,1,0,1,0,0,0] # 46
+This requested integral is a master integral: C1[-1,1,1,1,1,0,0,0,0] # 30
+This integral is unreduced: C1[-1,1,1,1,1,1,-1,0,0] # 62
+This integral is unreduced: C1[-1,1,1,1,1,1,0,0,-1] # 62
+This integral is unreduced: C1[-1,1,1,1,1,1,0,0,0] # 62
+This integral is unreduced: C1[0,-1,1,1,1,1,0,0,0] # 60
+This integral is unreduced: C1[0,0,0,1,1,1,0,0,0] # 56
+This integral is unreduced: C1[0,0,1,0,1,1,0,0,0] # 52
+This requested integral is a master integral: C1[0,0,1,1,1,0,0,0,0] # 28
+This integral is unreduced: C1[0,0,1,1,1,1,-1,0,0] # 60
+This integral is unreduced: C1[0,0,1,1,1,1,0,-1,0] # 60
+This integral is unreduced: C1[0,0,1,1,1,1,0,0,-1] # 60
+This integral is unreduced: C1[0,0,1,1,1,1,0,0,0] # 60
+This integral is unreduced: C1[0,1,0,0,1,1,0,0,0] # 50
+This integral is unreduced: C1[0,1,0,1,0,1,0,0,0] # 42
+This integral is unreduced: C1[0,1,0,1,1,1,-1,0,0] # 58
+This integral is unreduced: C1[0,1,0,1,1,1,0,0,-1] # 58
+This integral is unreduced: C1[0,1,0,1,1,1,0,0,0] # 58
+This integral is unreduced: C1[0,1,1,-1,1,1,0,0,0] # 54
+This integral is unreduced: C1[0,1,1,0,1,0,0,0,0] # 22
+This integral is unreduced: C1[0,1,1,0,1,1,-1,0,0] # 54
+This integral is unreduced: C1[0,1,1,0,1,1,0,-1,0] # 54
+This integral is unreduced: C1[0,1,1,0,1,1,0,0,-1] # 54
+This integral is unreduced: C1[0,1,1,0,1,1,0,0,0] # 54
+This integral is unreduced: C1[0,1,1,1,-1,1,0,0,0] # 46
+This requested integral is a master integral: C1[0,1,1,1,0,0,0,0,0] # 14
+This integral is unreduced: C1[0,1,1,1,0,1,-1,0,0] # 46
+This integral is unreduced: C1[0,1,1,1,0,1,0,-1,0] # 46
+This integral is unreduced: C1[0,1,1,1,0,1,0,0,-1] # 46
+This requested integral is a master integral: C1[0,1,1,1,0,1,0,0,0] # 46
+This requested integral is a master integral: C1[0,1,1,1,1,-1,0,0,0] # 30
+This integral is unreduced: C1[0,1,1,1,1,0,-1,0,0] # 30
+This integral is unreduced: C1[0,1,1,1,1,0,0,-1,0] # 30
+This integral is unreduced: C1[0,1,1,1,1,0,0,0,-1] # 30
+This requested integral is a master integral: C1[0,1,1,1,1,0,0,0,0] # 30
+This integral is unreduced: C1[0,1,1,1,1,1,-2,0,0] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,-1,-1,0] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,-1,0,-1] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,-1,0,0] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,0,-1,-1] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,0,-1,0] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,0,0,-2] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,0,0,-1] # 62
+This integral is unreduced: C1[0,1,1,1,1,1,0,0,0] # 62
+This integral is unreduced: C1[1,-2,1,1,1,1,0,0,0] # 61
+This integral is unreduced: C1[1,-1,0,1,1,1,0,0,0] # 57
+This requested integral is a master integral: C1[1,-1,1,0,1,1,0,0,0] # 53
+This integral is unreduced: C1[1,-1,1,1,0,1,0,0,0] # 45
+This requested integral is a master integral: C1[1,-1,1,1,1,0,0,0,0] # 29
+This integral is unreduced: C1[1,-1,1,1,1,1,-1,0,0] # 61
+This integral is unreduced: C1[1,-1,1,1,1,1,0,-1,0] # 61
+This integral is unreduced: C1[1,-1,1,1,1,1,0,0,-1] # 61
+This integral is unreduced: C1[1,-1,1,1,1,1,0,0,0] # 61
+This integral is unreduced: C1[1,0,-1,1,1,1,0,0,0] # 57
+This integral is unreduced: C1[1,0,0,0,1,1,0,0,0] # 49
+This integral is unreduced: C1[1,0,0,1,0,1,0,0,0] # 41
+This integral is unreduced: C1[1,0,0,1,1,0,0,0,0] # 25
+This integral is unreduced: C1[1,0,0,1,1,1,-1,0,0] # 57
+This integral is unreduced: C1[1,0,0,1,1,1,0,-1,0] # 57
+This integral is unreduced: C1[1,0,0,1,1,1,0,0,-1] # 57
+This integral is unreduced: C1[1,0,0,1,1,1,0,0,0] # 57
+This integral is unreduced: C1[1,0,1,-1,1,1,0,0,0] # 53
+This requested integral is a master integral: C1[1,0,1,0,0,1,0,0,0] # 37
+This requested integral is a master integral: C1[1,0,1,0,1,0,0,0,0] # 21
+This integral is unreduced: C1[1,0,1,0,1,1,-1,0,0] # 53
+This integral is unreduced: C1[1,0,1,0,1,1,0,-1,0] # 53
+This integral is unreduced: C1[1,0,1,0,1,1,0,0,-1] # 53
+This requested integral is a master integral: C1[1,0,1,0,1,1,0,0,0] # 53
+This integral is unreduced: C1[1,0,1,1,-1,1,0,0,0] # 45
+This requested integral is a master integral: C1[1,0,1,1,0,0,0,0,0] # 13
+This integral is unreduced: C1[1,0,1,1,0,1,-1,0,0] # 45
+This integral is unreduced: C1[1,0,1,1,0,1,0,-1,0] # 45
+This integral is unreduced: C1[1,0,1,1,0,1,0,0,-1] # 45
+This requested integral is a master integral: C1[1,0,1,1,0,1,0,0,0] # 45
+This integral is unreduced: C1[1,0,1,1,1,-1,0,0,0] # 29
+This integral is unreduced: C1[1,0,1,1,1,0,-1,0,0] # 29
+This integral is unreduced: C1[1,0,1,1,1,0,0,-1,0] # 29
+This integral is unreduced: C1[1,0,1,1,1,0,0,0,-1] # 29
+This requested integral is a master integral: C1[1,0,1,1,1,0,0,0,0] # 29
+This integral is unreduced: C1[1,0,1,1,1,1,-2,0,0] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,-1,-1,0] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,-1,0,-1] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,-1,0,0] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,0,-2,0] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,0,-1,-1] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,0,-1,0] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,0,0,-2] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,0,0,-1] # 61
+This integral is unreduced: C1[1,0,1,1,1,1,0,0,0] # 61
+This integral is unreduced: C1[1,1,-1,0,1,1,0,0,0] # 51
+This integral is unreduced: C1[1,1,-1,1,0,1,0,0,0] # 43
+This integral is unreduced: C1[1,1,-1,1,1,0,0,0,0] # 27
+This integral is unreduced: C1[1,1,-1,1,1,1,-1,0,0] # 59
+This integral is unreduced: C1[1,1,-1,1,1,1,0,0,-1] # 59
+This integral is unreduced: C1[1,1,-1,1,1,1,0,0,0] # 59
+This integral is unreduced: C1[1,1,0,-1,1,1,0,0,0] # 51
+This integral is unreduced: C1[1,1,0,0,0,1,0,0,0] # 35
+This integral is unreduced: C1[1,1,0,0,1,0,0,0,0] # 19
+This integral is unreduced: C1[1,1,0,0,1,1,-1,0,0] # 51
+This integral is unreduced: C1[1,1,0,0,1,1,0,-1,0] # 51
+This integral is unreduced: C1[1,1,0,0,1,1,0,0,-1] # 51
+This integral is unreduced: C1[1,1,0,0,1,1,0,0,0] # 51
+This integral is unreduced: C1[1,1,0,1,-1,1,0,0,0] # 43
+This integral is unreduced: C1[1,1,0,1,0,1,-1,0,0] # 43
+This integral is unreduced: C1[1,1,0,1,0,1,0,-1,0] # 43
+This integral is unreduced: C1[1,1,0,1,0,1,0,0,-1] # 43
+This integral is unreduced: C1[1,1,0,1,0,1,0,0,0] # 43
+This integral is unreduced: C1[1,1,0,1,1,-1,0,0,0] # 27
+This integral is unreduced: C1[1,1,0,1,1,0,-1,0,0] # 27
+This integral is unreduced: C1[1,1,0,1,1,0,0,-1,0] # 27
+This integral is unreduced: C1[1,1,0,1,1,0,0,0,-1] # 27
+This requested integral is a master integral: C1[1,1,0,1,1,0,0,0,0] # 27
+This integral is unreduced: C1[1,1,0,1,1,1,-2,0,0] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,-1,-1,0] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,-1,0,-1] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,-1,0,0] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,0,-1,-1] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,0,-1,0] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,0,0,-2] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,0,0,-1] # 59
+This integral is unreduced: C1[1,1,0,1,1,1,0,0,0] # 59
+This integral is unreduced: C1[1,1,1,-2,1,1,0,0,0] # 55
+This integral is unreduced: C1[1,1,1,-1,0,1,0,0,0] # 39
+This integral is unreduced: C1[1,1,1,-1,1,0,0,0,0] # 23
+This integral is unreduced: C1[1,1,1,-1,1,1,-1,0,0] # 55
+This integral is unreduced: C1[1,1,1,-1,1,1,0,-1,0] # 55
+This integral is unreduced: C1[1,1,1,-1,1,1,0,0,-1] # 55
+This requested integral is a master integral: C1[1,1,1,-1,1,1,0,0,0] # 55
+This integral is unreduced: C1[1,1,1,0,-1,1,0,0,0] # 39
+This integral is unreduced: C1[1,1,1,0,0,0,0,0,0] # 7
+This integral is unreduced: C1[1,1,1,0,0,1,-1,0,0] # 39
+This integral is unreduced: C1[1,1,1,0,0,1,0,-1,0] # 39
+This integral is unreduced: C1[1,1,1,0,0,1,0,0,-1] # 39
+This integral is unreduced: C1[1,1,1,0,0,1,0,0,0] # 39
+This integral is unreduced: C1[1,1,1,0,1,-1,0,0,0] # 23
+This integral is unreduced: C1[1,1,1,0,1,0,-1,0,0] # 23
+This integral is unreduced: C1[1,1,1,0,1,0,0,-1,0] # 23
+This integral is unreduced: C1[1,1,1,0,1,0,0,0,-1] # 23
+This integral is unreduced: C1[1,1,1,0,1,0,0,0,0] # 23
+This integral is unreduced: C1[1,1,1,0,1,1,-2,0,0] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,-1,-1,0] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,-1,0,-1] # 55
+This requested integral is a master integral: C1[1,1,1,0,1,1,-1,0,0] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,0,-2,0] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,0,-1,-1] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,0,-1,0] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,0,0,-2] # 55
+This integral is unreduced: C1[1,1,1,0,1,1,0,0,-1] # 55
+This requested integral is a master integral: C1[1,1,1,0,1,1,0,0,0] # 55
+This integral is unreduced: C1[1,1,1,1,-1,1,-1,0,0] # 47
+This integral is unreduced: C1[1,1,1,1,-1,1,0,-1,0] # 47
+This integral is unreduced: C1[1,1,1,1,-1,1,0,0,-1] # 47
+This requested integral is a master integral: C1[1,1,1,1,-1,1,0,0,0] # 47
+This integral is unreduced: C1[1,1,1,1,0,-1,0,0,0] # 15
+This integral is unreduced: C1[1,1,1,1,0,0,-1,0,0] # 15
+This integral is unreduced: C1[1,1,1,1,0,0,0,-1,0] # 15
+This integral is unreduced: C1[1,1,1,1,0,0,0,0,-1] # 15
+This integral is unreduced: C1[1,1,1,1,0,0,0,0,0] # 15
+This integral is unreduced: C1[1,1,1,1,0,1,-2,0,0] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,-1,-1,0] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,-1,0,-1] # 47
+This requested integral is a master integral: C1[1,1,1,1,0,1,-1,0,0] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,0,-2,0] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,0,-1,-1] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,0,-1,0] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,0,0,-2] # 47
+This integral is unreduced: C1[1,1,1,1,0,1,0,0,-1] # 47
+This requested integral is a master integral: C1[1,1,1,1,0,1,0,0,0] # 47
+This integral is unreduced: C1[1,1,1,1,1,-2,0,0,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,-1,-1,0,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,-1,0,-1,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,-1,0,0,-1] # 31
+This requested integral is a master integral: C1[1,1,1,1,1,-1,0,0,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,-2,0,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,-1,-1,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,-1,0,-1] # 31
+This requested integral is a master integral: C1[1,1,1,1,1,0,-1,0,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,0,-2,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,0,-1,-1] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,0,-1,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,0,0,-2] # 31
+This integral is unreduced: C1[1,1,1,1,1,0,0,0,-1] # 31
+This requested integral is a master integral: C1[1,1,1,1,1,0,0,0,0] # 31
+This integral is unreduced: C1[1,1,1,1,1,1,-3,0,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-2,-1,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-2,0,-1] # 63
+This requested integral is a master integral: C1[1,1,1,1,1,1,-2,0,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-1,-2,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-1,-1,-1] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-1,-1,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-1,0,-2] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,-1,0,-1] # 63
+This requested integral is a master integral: C1[1,1,1,1,1,1,-1,0,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,0,-2,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,0,-1,-1] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,0,-1,0] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,0,0,-2] # 63
+This integral is unreduced: C1[1,1,1,1,1,1,0,0,-1] # 63
+This requested integral is a master integral: C1[1,1,1,1,1,1,0,0,0] # 63
+unreduced integrals: 173.
+
+closeCalc: 77218
+Total time:
+( 0.289252 s )

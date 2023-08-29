@@ -1,0 +1,44 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+./packages/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This requested integral is a master integral: B2[-1,1,0,0,1,1,0,0,1] # 306
+This requested integral is a master integral: B2[0,0,0,0,1,1,0,0,1] # 304
+This requested integral is a master integral: B2[0,1,-1,0,1,1,0,0,1] # 306
+This requested integral is a master integral: B2[0,1,0,0,1,1,0,0,0] # 50
+This requested integral is a master integral: B2[0,1,0,0,1,1,0,0,1] # 306
+This requested integral is a master integral: B2[1,0,0,1,1,1,0,0,1] # 313
+This requested integral is a master integral: B2[1,1,-1,0,1,1,0,0,0] # 51
+This requested integral is a master integral: B2[1,1,-1,0,1,1,0,0,1] # 307
+This requested integral is a master integral: B2[1,1,-1,1,1,0,0,0,0] # 27
+This requested integral is a master integral: B2[1,1,-1,1,1,1,0,0,0] # 59
+This requested integral is a master integral: B2[1,1,0,-1,1,1,0,0,1] # 307
+This requested integral is a master integral: B2[1,1,0,0,0,1,0,0,0] # 35
+This requested integral is a master integral: B2[1,1,0,0,0,1,0,0,1] # 291
+This requested integral is a master integral: B2[1,1,0,0,1,0,0,0,0] # 19
+This requested integral is a master integral: B2[1,1,0,0,1,1,0,0,0] # 51
+This requested integral is a master integral: B2[1,1,0,0,1,1,0,0,1] # 307
+This requested integral is a master integral: B2[1,1,0,1,0,0,0,0,0] # 11
+This requested integral is a master integral: B2[1,1,0,1,0,0,0,0,1] # 267
+This requested integral is a master integral: B2[1,1,0,1,0,1,0,0,0] # 43
+This requested integral is a master integral: B2[1,1,0,1,0,1,0,0,1] # 299
+This requested integral is a master integral: B2[1,1,0,1,1,0,0,0,0] # 27
+This requested integral is a master integral: B2[1,1,0,1,1,1,-1,0,0] # 59
+This requested integral is a master integral: B2[1,1,0,1,1,1,0,0,0] # 59
+This requested integral is a master integral: B2[1,1,0,1,1,1,0,0,1] # 315
+unreduced integrals: 0.
+
+closeCalc: 126916
+Total time:
+( 0.877095 s )

@@ -1,0 +1,345 @@
+config
+export.yaml
+jobs.yaml
+myintegrals
+output
+packages
+The user defined environment variable FERMATPATH for Fermat is set:
+./packages/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The directories for the temporary files, result files and the sector mapping files are: 
+./tmp
+./results
+./sectormappings
+Kira prepares topology: C1 and top level sector: 
+63 
+Following reductions will be performed for the topology: C1
+Sector: 63 rmax: 9 smax: 3 
+
+***********************************************************
+Find IBP LI and symmetry relations for the topology: C1
+***********************************************************
+
+*****Generate IBP identities*******************************
+There are 10 IBP identities
+( 0.011155 s )
+
+*****Generate LI identities********************************
+There are 3 LI identities
+( 0.017388 s )
+
+*****Search trivial sectors********************************
+  1.2% []  2.3% [=]  3.5% [=]  4.7% [==]  5.9% [==]  7.0% [===]  8.2% [====]  9.4% [====] 10.5% [=====] 11.7% [=====] 12.9% [======] 14.1% [=======] 15.2% [=======] 16.4% [========] 17.6% [========] 18.8% [=========] 19.9% [=========] 21.1% [==========] 22.3% [===========] 23.4% [===========] 24.6% [============] 25.8% [============] 27.0% [=============] 28.1% [==============] 29.3% [==============] 30.5% [===============] 31.6% [===============] 32.8% [================] 34.0% [================] 35.2% [=================] 36.3% [==================] 37.5% [==================] 38.7% [===================] 39.8% [===================] 41.0% [====================] 42.2% [=====================] 43.4% [=====================] 44.5% [======================] 45.7% [======================] 46.9% [=======================] 48.0% [========================] 49.2% [========================] 50.4% [=========================] 51.6% [=========================] 52.7% [==========================] 53.9% [==========================] 55.1% [===========================] 56.2% [============================] 57.4% [============================] 58.6% [=============================] 59.8% [=============================] 60.9% [==============================] 62.1% [===============================] 63.3% [===============================] 64.5% [================================] 65.6% [================================] 66.8% [=================================] 68.0% [=================================] 69.1% [==================================] 70.3% [===================================] 71.5% [===================================] 72.7% [====================================] 73.8% [====================================] 75.0% [=====================================] 76.2% [======================================] 77.3% [======================================] 78.5% [=======================================] 79.7% [=======================================] 80.9% [========================================] 82.0% [=========================================] 83.2% [=========================================] 84.4% [==========================================] 85.5% [==========================================] 86.7% [===========================================] 87.9% [===========================================] 89.1% [============================================] 90.2% [=============================================] 91.4% [=============================================] 92.6% [==============================================] 93.8% [==============================================] 94.9% [===============================================] 96.1% [================================================] 97.3% [================================================] 98.4% [=================================================] 99.6% [=================================================]100.0% [==================================================]
+Non trivial sectors in total: 418
+Trivial sectors in total: 94
+( 0.0 s )
+
+Search symmetry relations: 
+  0.0% [] 16.7% [========] 33.3% [================] 50.0% [=========================] 66.7% [=================================] 83.3% [=========================================]100.0% [==================================================]
+( 0.0 s )
+***********************************************************
+Prepare Symmetries for the topology: C1
+***********************************************************
+Build symmetries for C1 x C1 
+ 14.3% [=======] 28.6% [==============] 42.9% [=====================] 57.1% [============================] 71.4% [===================================] 85.7% [==========================================]100.0% [==================================================]
+Sector relations: 39
+Sector symmetries: 21
+( 0.0 s )
+
+*****Integral ordering*************************************
+VERSION table created successfully
+Kira database version number: 2.1
+WEIGHTBITS table created successfully
+INTEGRALORDERING table created successfully
+Kira will use the integral ordering: 1.
+
+***********************************************************
+Kira starts the reduction of the topology: C1
+***********************************************************
+
+***** Select equations recursively ************************
+Select integrals for: topology: C1
+ sectors: 63 rmax: 9 smax: 3
+
+length of mandatory list: 268476
+Algebraic reconstruction is switched off.
+Generate equations for topology C1, sector 5 (1 of 43)
+Generate equations for topology C1, sector 7 (2 of 43)
+Generate equations for topology C1, sector 13 (3 of 43)
+Generate equations for topology C1, sector 14 (4 of 43)
+Generate equations for topology C1, sector 15 (5 of 43)
+Generate equations for topology C1, sector 17 (6 of 43)
+Generate equations for topology C1, sector 19 (7 of 43)
+Generate equations for topology C1, sector 20 (8 of 43)
+Generate equations for topology C1, sector 21 (9 of 43)
+Generate equations for topology C1, sector 22 (10 of 43)
+Generate equations for topology C1, sector 23 (11 of 43)
+Generate equations for topology C1, sector 25 (12 of 43)
+Generate equations for topology C1, sector 27 (13 of 43)
+Generate equations for topology C1, sector 28 (14 of 43)
+Generate equations for topology C1, sector 29 (15 of 43)
+Generate equations for topology C1, sector 30 (16 of 43)
+Generate equations for topology C1, sector 31 (17 of 43)
+Generate equations for topology C1, sector 33 (18 of 43)
+Generate equations for topology C1, sector 35 (19 of 43)
+Generate equations for topology C1, sector 37 (20 of 43)
+Generate equations for topology C1, sector 39 (21 of 43)
+Generate equations for topology C1, sector 41 (22 of 43)
+Generate equations for topology C1, sector 42 (23 of 43)
+Generate equations for topology C1, sector 43 (24 of 43)
+Generate equations for topology C1, sector 45 (25 of 43)
+Generate equations for topology C1, sector 46 (26 of 43)
+Generate equations for topology C1, sector 47 (27 of 43)
+Generate equations for topology C1, sector 48 (28 of 43)
+Generate equations for topology C1, sector 49 (29 of 43)
+Generate equations for topology C1, sector 50 (30 of 43)
+Generate equations for topology C1, sector 51 (31 of 43)
+Generate equations for topology C1, sector 52 (32 of 43)
+Generate equations for topology C1, sector 53 (33 of 43)
+Generate equations for topology C1, sector 54 (34 of 43)
+Generate equations for topology C1, sector 55 (35 of 43)
+Generate equations for topology C1, sector 56 (36 of 43)
+Generate equations for topology C1, sector 57 (37 of 43)
+Generate equations for topology C1, sector 58 (38 of 43)
+Generate equations for topology C1, sector 59 (39 of 43)
+Generate equations for topology C1, sector 60 (40 of 43)
+Generate equations for topology C1, sector 61 (41 of 43)
+Generate equations for topology C1, sector 62 (42 of 43)
+Generate equations for topology C1, sector 63 (43 of 43)
+2347750 equations: 1527161 zero + 820589 independent
+solve backward: 0.8
+prepare content for selector: 0.1
+4366 independent coefficients
+directory to the masters: C1
+Number of master integrals: 35
+C1[1,0,1,0,0,0,0,0,0]  #  5
+C1[1,0,1,1,0,0,0,0,0]  # 13
+C1[0,1,1,1,0,0,0,0,0]  # 14
+C1[-1,1,1,1,0,0,0,0,0] # 14
+C1[1,0,1,0,1,0,0,0,0]  # 21
+C1[1,-2,1,0,1,0,0,0,0] # 21
+C1[1,1,0,1,1,0,0,0,0]  # 27
+C1[0,0,1,1,1,0,0,0,0]  # 28
+C1[-1,0,1,1,1,0,0,0,0] # 28
+C1[1,0,1,1,1,0,0,0,0]  # 29
+C1[1,-1,1,1,1,0,0,0,0] # 29
+C1[1,-2,1,1,1,0,0,0,0] # 29
+C1[0,1,1,1,1,0,0,0,0]  # 30
+C1[-1,1,1,1,1,0,0,0,0] # 30
+C1[0,1,1,1,1,-1,0,0,0] # 30
+C1[1,1,1,1,1,0,0,0,0]  # 31
+C1[1,1,1,1,1,-1,0,0,0] # 31
+C1[1,1,1,1,1,0,-1,0,0] # 31
+C1[1,0,1,0,0,1,0,0,0]  # 37
+C1[1,0,1,1,0,1,0,0,0]  # 45
+C1[0,1,1,1,0,1,0,0,0]  # 46
+C1[-1,1,1,1,0,1,0,0,0] # 46
+C1[1,1,1,1,0,1,0,0,0]  # 47
+C1[1,1,1,1,-1,1,0,0,0] # 47
+C1[1,1,1,1,0,1,-1,0,0] # 47
+C1[1,1,1,1,-2,1,0,0,0] # 47
+C1[1,0,1,0,1,1,0,0,0]  # 53
+C1[1,-1,1,0,1,1,0,0,0] # 53
+C1[1,-2,1,0,1,1,0,0,0] # 53
+C1[1,1,1,0,1,1,0,0,0]  # 55
+C1[1,1,1,-1,1,1,0,0,0] # 55
+C1[1,1,1,0,1,1,-1,0,0] # 55
+C1[1,1,1,1,1,1,0,0,0]  # 63
+C1[1,1,1,1,1,1,-1,0,0] # 63
+C1[1,1,1,1,1,1,-2,0,0] # 63
+Regenerate:
+Generate equations for topology C1, sector 5 (1 of 43)
+Generate equations for topology C1, sector 7 (2 of 43)
+Generate equations for topology C1, sector 13 (3 of 43)
+Generate equations for topology C1, sector 14 (4 of 43)
+Generate equations for topology C1, sector 15 (5 of 43)
+Generate equations for topology C1, sector 17 (6 of 43)
+Generate equations for topology C1, sector 19 (7 of 43)
+Generate equations for topology C1, sector 20 (8 of 43)
+Generate equations for topology C1, sector 21 (9 of 43)
+Generate equations for topology C1, sector 22 (10 of 43)
+Generate equations for topology C1, sector 23 (11 of 43)
+Generate equations for topology C1, sector 25 (12 of 43)
+Generate equations for topology C1, sector 27 (13 of 43)
+Generate equations for topology C1, sector 28 (14 of 43)
+Generate equations for topology C1, sector 29 (15 of 43)
+Generate equations for topology C1, sector 30 (16 of 43)
+Generate equations for topology C1, sector 31 (17 of 43)
+Generate equations for topology C1, sector 33 (18 of 43)
+Generate equations for topology C1, sector 35 (19 of 43)
+Generate equations for topology C1, sector 37 (20 of 43)
+Generate equations for topology C1, sector 39 (21 of 43)
+Generate equations for topology C1, sector 41 (22 of 43)
+Generate equations for topology C1, sector 42 (23 of 43)
+Generate equations for topology C1, sector 43 (24 of 43)
+Generate equations for topology C1, sector 45 (25 of 43)
+Generate equations for topology C1, sector 46 (26 of 43)
+Generate equations for topology C1, sector 47 (27 of 43)
+Generate equations for topology C1, sector 48 (28 of 43)
+Generate equations for topology C1, sector 49 (29 of 43)
+Generate equations for topology C1, sector 50 (30 of 43)
+Generate equations for topology C1, sector 51 (31 of 43)
+Generate equations for topology C1, sector 52 (32 of 43)
+Generate equations for topology C1, sector 53 (33 of 43)
+Generate equations for topology C1, sector 54 (34 of 43)
+Generate equations for topology C1, sector 55 (35 of 43)
+Generate equations for topology C1, sector 56 (36 of 43)
+Generate equations for topology C1, sector 57 (37 of 43)
+Generate equations for topology C1, sector 58 (38 of 43)
+Generate equations for topology C1, sector 59 (39 of 43)
+Generate equations for topology C1, sector 60 (40 of 43)
+Generate equations for topology C1, sector 61 (41 of 43)
+Generate equations for topology C1, sector 62 (42 of 43)
+Generate equations for topology C1, sector 63 (43 of 43)
+
+Number of selected equations to reduce: 347654 equations
+( 48.6 s )
+closeCalc: 100937
+
+***** Select equations recursively ************************
+Select integrals for: topology: C1
+ sectors: 63 rmax: 9 smax: 3
+
+length of mandatory list: 268476
+FIREFLY table created successfully
+Loading 347654 equations.
+
+[1;34mFireFly info:[0m 34766 / 347654[1;34mFireFly info:[0m 69531 / 347654[1;34mFireFly info:[0m 104297 / 347654[1;34mFireFly info:[0m 139062 / 347654[1;34mFireFly info:[0m 173828 / 347654[1;34mFireFly info:[0m 208593 / 347654[1;34mFireFly info:[0m 243358 / 347654[1;34mFireFly info:[0m 278124 / 347654[1;34mFireFly info:[0m 312889 / 347654[1;34mFireFly info:[0m 347654 / 347654
+[1;34mFireFly info:[0m Parsed 5321420 functions of which 3223 are distinct
+
+System loaded in 7.579627 s
+[1;34mFireFly info:[0m Precomputing tokens
+Reconstructing in: s, t, m1, mm, d
+Equation table created successfully
+
+Fire[1;32mFly[0m 2.0.3
+
+[1;34mFireFly info: [0mLaunching 1 thread(s) with maximum bunch size 1
+[1;34mFireFly info: [0mUsing seed 1688709638 for random numbers
+
+[1;34mFireFly info: [0mPromote to new prime field: F(9223372036854775783)
+[1;34mFireFly info: [0mScanning for factors
+[1;34mFireFly info: [0mTime for the first black-box probe: 1.608369 s
+[1;34mFireFly info: [0m1354213 function(s) will be interpolated
+
+[1;34mFireFly info: [0mScanning for factors in x1
+[1;34mFireFly info: [0mMaximum degree of x1: 41
+[1;34mFireFly info: [0mPotential factors in x1: 7371018
+[1;34mFireFly info: [0mIdentified factors in x1: 828901
+[1;34mFireFly info: [0mStarting reconstruction of coefficients
+[1;34mFireFly info: [0mCompleted factor scan in x1 | 300 probes in total
+[1;34mFireFly info: [0mRequired prime fields: 2
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.655671 s
+
+[1;34mFireFly info: [0mScanning for factors in x2
+[1;34mFireFly info: [0mMaximum degree of x2: 3
+[1;34mFireFly info: [0mPotential factors in x2: 1122585
+[1;34mFireFly info: [0mIdentified factors in x2: 2595
+[1;34mFireFly info: [0mStarting reconstruction of coefficients
+[1;34mFireFly info: [0mCompleted factor scan in x2 | 321 probes in total
+[1;34mFireFly info: [0mRequired prime fields: 2
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.656604 s
+
+[1;34mFireFly info: [0mScanning for factors in x3
+[1;34mFireFly info: [0mMaximum degree of x3: 90
+[1;34mFireFly info: [0mPotential factors in x3: 13706483
+[1;34mFireFly info: [0mIdentified factors in x3: 1158741
+[1;34mFireFly info: [0mMaximum degree of x3 after factoring: 88
+[1;34mFireFly info: [0mStarting reconstruction of coefficients
+[1;34mFireFly info: [0mCompleted factor scan in x3 | 760 probes in total
+[1;34mFireFly info: [0mRequired prime fields: 2
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.683355 s
+
+[1;34mFireFly info: [0mScanning for factors in x4
+[1;34mFireFly info: [0mMaximum degree of x4: 88
+[1;34mFireFly info: [0mPotential factors in x4: 12783001
+[1;34mFireFly info: [0mIdentified factors in x4: 822344
+[1;34mFireFly info: [0mStarting reconstruction of coefficients
+[1;34mFireFly info: [0mCompleted factor scan in x4 | 1196 probes in total
+[1;34mFireFly info: [0mRequired prime fields: 2
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.696321 s
+
+[1;34mFireFly info: [0mScanning for factors in x5
+[1;34mFireFly info: [0mMaximum degree of x5: 28
+[1;34mFireFly info: [0mPotential factors in x5: 6260902
+[1;34mFireFly info: [0mIdentified factors in x5: 2703816
+[1;34mFireFly info: [0mStarting reconstruction of coefficients
+[1;34mFireFly info: [0mCompleted factor scan in x5 | 1469 probes in total
+[1;34mFireFly info: [0mRequired prime fields: 3
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.694761 s
+
+[1;34mFireFly info: [0mCompleted factor scan in 49054.408547 s | 1469 probes in total
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.694761 s
+[1;34mFireFly info: [0mUsing optimized variable order: (x3, x4, x1, x5, x2)
+
+[1;34mFireFly info: [0mScanning for a sparse shift
+[1;34mFireFly info: [0mMaximum degree of numerator: 134 | Maximum degree of denominator: 103
+[1;34mFireFly info: [0mFound a sparse shift after 13 scans
+[1;34mFireFly info: [0mShift the variable tuple (0, 1, 1, 0, 0)
+[1;34mFireFly info: [0mCompleted scan in 38510.551274 s | 4127 probes in total
+[1;34mFireFly info: [0mAverage time of the black-box probe: 1.716585 s
+
+[1;34mFireFly info: [0mProceeding with interpolation over prime field F(9223372036854775783)
+[1;34mFireFly info:[0m Probe: 1[1;34mFireFly info:[0m Probe: 2[1;34mFireFly info: [0mProbe: 2 | Done: 0 / 1354213 | Requires new prime field: 3693 / 1354213
+[1;34mFireFly info:[0m Probe: 3[1;34mFireFly info:[0m Probe: 4[1;34mFireFly info:[0m Probe: 5[1;34mFireFly info:[0m Probe: 6[1;34mFireFly info:[0m Probe: 7[1;34mFireFly info:[0m Probe: 8[1;34mFireFly info:[0m Probe: 9[1;34mFireFly info:[0m Probe: 10[1;34mFireFly info:[0m Probe: 11[1;34mFireFly info:[0m Probe: 12[1;34mFireFly info:[0m Probe: 13[1;34mFireFly info:[0m Probe: 14[1;34mFireFly info:[0m Probe: 15[1;34mFireFly info:[0m Probe: 16[1;34mFireFly info:[0m Probe: 17[1;34mFireFly info:[0m Probe: 18[1;34mFireFly info:[0m Probe: 19[1;34mFireFly info:[0m Probe: 20[1;34mFireFly info:[0m Probe: 21[1;34mFireFly info:[0m Probe: 22[1;34mFireFly info:[0m Probe: 23[1;34mFireFly info:[0m Probe: 24[1;34mFireFly info:[0m Probe: 25[1;34mFireFly info:[0m Probe: 26[1;34mFireFly info:[0m Probe: 27[1;34mFireFly info:[0m Probe: 28[1;34mFireFly info:[0m Probe: 29[1;34mFireFly info:[0m Probe: 30[1;34mFireFly info:[0m Probe: 31[1;34mFireFly info:[0m Probe: 32[1;34mFireFly info:[0m Probe: 33[1;34mFireFly info:[0m Probe: 34[1;34mFireFly info:[0m Probe: 35[1;34mFireFly info:[0m Probe: 36[1;34mFireFly info:[0m Probe: 37[1;34mFireFly info:[0m Probe: 38[1;34mFireFly info:[0m Probe: 39[1;34mFireFly info:[0m Probe: 40[1;34mFireFly info:[0m Probe: 41[1;34mFireFly info:[0m Probe: 42[1;34mFireFly info:[0m Probe: 43[1;34mFireFly info:[0m Probe: 44[1;34mFireFly info:[0m Probe: 45[1;34mFireFly info:[0m Probe: 46[1;34mFireFly info:[0m Probe: 47[1;34mFireFly info:[0m Probe: 48[1;34mFireFly info:[0m Probe: 49[1;34mFireFly info:[0m Probe: 50[1;34mFireFly info:[0m Probe: 51[1;34mFireFly info:[0m Probe: 52[1;34mFireFly info:[0m Probe: 53[1;34mFireFly info:[0m Probe: 54[1;34mFireFly info:[0m Probe: 55[1;34mFireFly info:[0m Probe: 56[1;34mFireFly info:[0m Probe: 57[1;34mFireFly info:[0m Probe: 58[1;34mFireFly info:[0m Probe: 59[1;34mFireFly info:[0m Probe: 60[1;34mFireFly info:[0m Probe: 61[1;34mFireFly info:[0m Probe: 62[1;34mFireFly info:[0m Probe: 63[1;34mFireFly info:[0m Probe: 64[1;34mFireFly info:[0m Probe: 65[1;34mFireFly info:[0m Probe: 66[1;34mFireFly info:[0m Probe: 67[1;34mFireFly info:[0m Probe: 68[1;34mFireFly info:[0m Probe: 69[1;34mFireFly info:[0m Probe: 70[1;34mFireFly info:[0m Probe: 71[1;34mFireFly info:[0m Probe: 72[1;34mFireFly info:[0m Probe: 73[1;34mFireFly info:[0m Probe: 74[1;34mFireFly info:[0m Probe: 75[1;34mFireFly info:[0m Probe: 76[1;34mFireFly info:[0m Probe: 77[1;34mFireFly info:[0m Probe: 78[1;34mFireFly info:[0m Probe: 79[1;34mFireFly info:[0m Probe: 80[1;34mFireFly info:[0m Probe: 81[1;34mFireFly info:[0m Probe: 82[1;34mFireFly info:[0m Probe: 83[1;34mFireFly info:[0m Probe: 84[1;34mFireFly info:[0m Probe: 85[1;34mFireFly info:[0m Probe: 86[1;34mFireFly info:[0m Probe: 87[1;34mFireFly info:[0m Probe: 88[1;34mFireFly info: [0mProbe: 88 | Done: 0 / 1354213 | Requires new prime field: 3855 / 1354213
+[1;34mFireFly info:[0m Probe: 89[1;34mFireFly info:[0m Probe: 90[1;34mFireFly info:[0m Probe: 91[1;34mFireFly info:[0m Probe: 92[1;34mFireFly info:[0m Probe: 93[1;34mFireFly info:[0m Probe: 94[1;34mFireFly info:[0m Probe: 95[1;34mFireFly info:[0m Probe: 96[1;34mFireFly info:[0m Probe: 97[1;34mFireFly info:[0m Probe: 98[1;34mFireFly info:[0m Probe: 99[1;34mFireFly info:[0m Probe: 100[1;34mFireFly info:[0m Probe: 101[1;34mFireFly info:[0m Probe: 102[1;34mFireFly info:[0m Probe: 103[1;34mFireFly info:[0m Probe: 104[1;34mFireFly info:[0m Probe: 105[1;34mFireFly info:[0m Probe: 106[1;34mFireFly info:[0m Probe: 107[1;34mFireFly info:[0m Probe: 108[1;34mFireFly info:[0m Probe: 109[1;34mFireFly info:[0m Probe: 110[1;34mFireFly info:[0m Probe: 111[1;34mFireFly info:[0m Probe: 112[1;34mFireFly info:[0m Probe: 113[1;34mFireFly info:[0m Probe: 114[1;34mFireFly info:[0m Probe: 115[1;34mFireFly info:[0m Probe: 116[1;34mFireFly info:[0m Probe: 117[1;34mFireFly info: [0mProbe: 117 | Done: 0 / 1354213 | Requires new prime field: 3884 / 1354213
+[1;34mFireFly info: [0mProbe: 117 | Done: 0 / 1354213 | Requires new prime field: 3886 / 1354213
+[1;34mFireFly info:[0m Probe: 118[1;34mFireFly info:[0m Probe: 119[1;34mFireFly info:[0m Probe: 120[1;34mFireFly info:[0m Probe: 121[1;34mFireFly info:[0m Probe: 122[1;34mFireFly info:[0m Probe: 123[1;34mFireFly info:[0m Probe: 124[1;34mFireFly info:[0m Probe: 125[1;34mFireFly info:[0m Probe: 126[1;34mFireFly info:[0m Probe: 127[1;34mFireFly info:[0m Probe: 128[1;34mFireFly info:[0m Probe: 129[1;34mFireFly info:[0m Probe: 130[1;34mFireFly info:[0m Probe: 131[1;34mFireFly info:[0m Probe: 132[1;34mFireFly info:[0m Probe: 133[1;34mFireFly info:[0m Probe: 134[1;34mFireFly info:[0m Probe: 135[1;34mFireFly info:[0m Probe: 136[1;34mFireFly info:[0m Probe: 137[1;34mFireFly info:[0m Probe: 138[1;34mFireFly info:[0m Probe: 139[1;34mFireFly info:[0m Probe: 140[1;34mFireFly info:[0m Probe: 141[1;34mFireFly info:[0m Probe: 142[1;34mFireFly info:[0m Probe: 143[1;34mFireFly info:[0m Probe: 144[1;34mFireFly info:[0m Probe: 145[1;34mFireFly info:[0m Probe: 146[1;34mFireFly info:[0m Probe: 147[1;34mFireFly info:[0m Probe: 148[1;34mFireFly info:[0m Probe: 149[1;34mFireFly info:[0m Probe: 150[1;34mFireFly info:[0m Probe: 151[1;34mFireFly info:[0m Probe: 152[1;34mFireFly info:[0m Probe: 153[1;34mFireFly info:[0m Probe: 154[1;34mFireFly info:[0m Probe: 155[1;34mFireFly info:[0m Probe: 156[1;34mFireFly info:[0m Probe: 157[1;34mFireFly info:[0m Probe: 158[1;34mFireFly info:[0m Probe: 159[1;34mFireFly info:[0m Probe: 160[1;34mFireFly info:[0m Probe: 161[1;34mFireFly info: [0mProbe: 161 | Done: 0 / 1354213 | Requires new prime field: 3899 / 1354213
+[1;34mFireFly info:[0m Probe: 162[1;34mFireFly info:[0m Probe: 163[1;34mFireFly info:[0m Probe: 164[1;34mFireFly info:[0m Probe: 165[1;34mFireFly info:[0m Probe: 166[1;34mFireFly info:[0m Probe: 167[1;34mFireFly info:[0m Probe: 168[1;34mFireFly info:[0m Probe: 169[1;34mFireFly info:[0m Probe: 170[1;34mFireFly info:[0m Probe: 171[1;34mFireFly info:[0m Probe: 172[1;34mFireFly info:[0m Probe: 173[1;34mFireFly info:[0m Probe: 174[1;34mFireFly info:[0m Probe: 175[1;34mFireFly info:[0m Probe: 176[1;34mFireFly info:[0m Probe: 177[1;34mFireFly info:[0m Probe: 178[1;34mFireFly info:[0m Probe: 179[1;34mFireFly info:[0m Probe: 180[1;34mFireFly info:[0m Probe: 181[1;34mFireFly info:[0m Probe: 182[1;34mFireFly info:[0m Probe: 183[1;34mFireFly info:[0m Probe: 184[1;34mFireFly info:[0m Probe: 185[1;34mFireFly info:[0m Probe: 186[1;34mFireFly info:[0m Probe: 187[1;34mFireFly info:[0m Probe: 188[1;34mFireFly info:[0m Probe: 189[1;34mFireFly info:[0m Probe: 190[1;34mFireFly info:[0m Probe: 191[1;34mFireFly info:[0m Probe: 192[1;34mFireFly info:[0m Probe: 193[1;34mFireFly info:[0m Probe: 194[1;34mFireFly info:[0m Probe: 195[1;34mFireFly info:[0m Probe: 196[1;34mFireFly info:[0m Probe: 197[1;34mFireFly info:[0m Probe: 198[1;34mFireFly info:[0m Probe: 199[1;34mFireFly info:[0m Probe: 200[1;34mFireFly info:[0m Probe: 201[1;34mFireFly info:[0m Probe: 202[1;34mFireFly info:[0m Probe: 203[1;34mFireFly info:[0m Probe: 204[1;34mFireFly info:[0m Probe: 205[1;34mFireFly info:[0m Probe: 206[1;34mFireFly info:[0m Probe: 207[1;34mFireFly info:[0m Probe: 208[1;34mFireFly info:[0m Probe: 209[1;34mFireFly info:[0m Probe: 210[1;34mFireFly info:[0m Probe: 211[1;34mFireFly info:[0m Probe: 212[1;34mFireFly info:[0m Probe: 213[1;34mFireFly info:[0m Probe: 214[1;34mFireFly info:[0m Probe: 215[1;34mFireFly info:[0m Probe: 216[1;34mFireFly info:[0m Probe: 217[1;34mFireFly info:[0m Probe: 218[1;34mFireFly info:[0m Probe: 219[1;34mFireFly info:[0m Probe: 220[1;34mFireFly info:[0m Probe: 221[1;34mFireFly info:[0m Probe: 222[1;34mFireFly info:[0m Probe: 223[1;34mFireFly info:[0m Probe: 224[1;34mFireFly info:[0m Probe: 225[1;34mFireFly info:[0m Probe: 226[1;34mFireFly info:[0m Probe: 227[1;34mFireFly info:[0m Probe: 228[1;34mFireFly info:[0m Probe: 229[1;34mFireFly info:[0m Probe: 230[1;34mFireFly info:[0m Probe: 231[1;34mFireFly info:[0m Probe: 232[1;34mFireFly info:[0m Probe: 233[1;34mFireFly info:[0m Probe: 234[1;34mFireFly info:[0m Probe: 235[1;34mFireFly info:[0m Probe: 236[1;34mFireFly info:[0m Probe: 237[1;34mFireFly info:[0m Probe: 238[1;34mFireFly info:[0m Probe: 239[1;34mFireFly info: [0mProbe: 239 | Done: 0 / 1354213 | Requires new prime field: 6114 / 1354213
+[1;34mFireFly info:[0m Probe: 240[1;34mFireFly info:[0m Probe: 241[1;34mFireFly info:[0m Probe: 242[1;34mFireFly info:[0m Probe: 243[1;34mFireFly info:[0m Probe: 244[1;34mFireFly info:[0m Probe: 245[1;34mFireFly info:[0m Probe: 246[1;34mFireFly info:[0m Probe: 247[1;34mFireFly info:[0m Probe: 248[1;34mFireFly info:[0m Probe: 249[1;34mFireFly info:[0m Probe: 250[1;34mFireFly info:[0m Probe: 251[1;34mFireFly info:[0m Probe: 252[1;34mFireFly info:[0m Probe: 253[1;34mFireFly info:[0m Probe: 254[1;34mFireFly info:[0m Probe: 255[1;34mFireFly info:[0m Probe: 256[1;34mFireFly info:[0m Probe: 257[1;34mFireFly info:[0m Probe: 258[1;34mFireFly info:[0m Probe: 259[1;34mFireFly info:[0m Probe: 260[1;34mFireFly info:[0m Probe: 261[1;34mFireFly info:[0m Probe: 262[1;34mFireFly info:[0m Probe: 263[1;34mFireFly info:[0m Probe: 264[1;34mFireFly info:[0m Probe: 265[1;34mFireFly info:[0m Probe: 266[1;34mFireFly info:[0m Probe: 267[1;34mFireFly info:[0m Probe: 268[1;34mFireFly info:[0m Probe: 269[1;34mFireFly info:[0m Probe: 270[1;34mFireFly info:[0m Probe: 271[1;34mFireFly info:[0m Probe: 272[1;34mFireFly info:[0m Probe: 273[1;34mFireFly info: [0mProbe: 273 | Done: 0 / 1354213 | Requires new prime field: 7049 / 1354213
+[1;34mFireFly info:[0m Probe: 274[1;34mFireFly info:[0m Probe: 275[1;34mFireFly info: [0mProbe: 275 | Done: 0 / 1354213 | Requires new prime field: 7078 / 1354213
+[1;34mFireFly info:[0m Probe: 276[1;34mFireFly info:[0m Probe: 277[1;34mFireFly info:[0m Probe: 278[1;34mFireFly info:[0m Probe: 279[1;34mFireFly info:[0m Probe: 280[1;34mFireFly info:[0m Probe: 281[1;34mFireFly info: [0mProbe: 281 | Done: 0 / 1354213 | Requires new prime field: 7083 / 1354213
+[1;34mFireFly info:[0m Probe: 282[1;34mFireFly info:[0m Probe: 283[1;34mFireFly info:[0m Probe: 284[1;34mFireFly info:[0m Probe: 285[1;34mFireFly info:[0m Probe: 286[1;34mFireFly info:[0m Probe: 287[1;34mFireFly info:[0m Probe: 288[1;34mFireFly info:[0m Probe: 289[1;34mFireFly info:[0m Probe: 290[1;34mFireFly info:[0m Probe: 291[1;34mFireFly info:[0m Probe: 292[1;34mFireFly info:[0m Probe: 293[1;34mFireFly info: [0mProbe: 293 | Done: 0 / 1354213 | Requires new prime field: 7130 / 1354213
+[1;34mFireFly info:[0m Probe: 294[1;34mFireFly info:[0m Probe: 295[1;34mFireFly info:[0m Probe: 296[1;34mFireFly info:[0m Probe: 297[1;34mFireFly info:[0m Probe: 298[1;34mFireFly info:[0m Probe: 299[1;34mFireFly info:[0m Probe: 300[1;34mFireFly info:[0m Probe: 301[1;34mFireFly info:[0m Probe: 302[1;34mFireFly info:[0m Probe: 303[1;34mFireFly info:[0m Probe: 304[1;34mFireFly info:[0m Probe: 305[1;34mFireFly info:[0m Probe: 306[1;34mFireFly info:[0m Probe: 307[1;34mFireFly info:[0m Probe: 308[1;34mFireFly info:[0m Probe: 309[1;34mFireFly info:[0m Probe: 310[1;34mFireFly info:[0m Probe: 311[1;34mFireFly info:[0m Probe: 312[1;34mFireFly info:[0m Probe: 313[1;34mFireFly info:[0m Probe: 314[1;34mFireFly info:[0m Probe: 315[1;34mFireFly info:[0m Probe: 316[1;34mFireFly info:[0m Probe: 317[1;34mFireFly info:[0m Probe: 318[1;34mFireFly info:[0m Probe: 319[1;34mFireFly info:[0m Probe: 320[1;34mFireFly info:[0m Probe: 321[1;34mFireFly info:[0m Probe: 322[1;34mFireFly info:[0m Probe: 323[1;34mFireFly info:[0m Probe: 324[1;34mFireFly info:[0m Probe: 325[1;34mFireFly info:[0m Probe: 326[1;34mFireFly info:[0m Probe: 327[1;34mFireFly info:[0m Probe: 328[1;34mFireFly info:[0m Probe: 329[1;34mFireFly info:[0m Probe: 330[1;34mFireFly info:[0m Probe: 331[1;34mFireFly info:[0m Probe: 332[1;34mFireFly info:[0m Probe: 333[1;34mFireFly info:[0m Probe: 334[1;34mFireFly info:[0m Probe: 335[1;34mFireFly info:[0m Probe: 336[1;34mFireFly info:[0m Probe: 337[1;34mFireFly info:[0m Probe: 338[1;34mFireFly info:[0m Probe: 339[1;34mFireFly info:[0m Probe: 340[1;34mFireFly info:[0m Probe: 341[1;34mFireFly info:[0m Probe: 342[1;34mFireFly info:[0m Probe: 343[1;34mFireFly info:[0m Probe: 344[1;34mFireFly info:[0m Probe: 345[1;34mFireFly info:[0m Probe: 346[1;34mFireFly info:[0m Probe: 347[1;34mFireFly info:[0m Probe: 348[1;34mFireFly info:[0m Probe: 349[1;34mFireFly info:[0m Probe: 350[1;34mFireFly info:[0m Probe: 351[1;34mFireFly info:[0m Probe: 352[1;34mFireFly info:[0m Probe: 353[1;34mFireFly info:[0m Probe: 354[1;34mFireFly info:[0m Probe: 355[1;34mFireFly info:[0m Probe: 356[1;34mFireFly info:[0m Probe: 357[1;34mFireFly info:[0m Probe: 358[1;34mFireFly info:[0m Probe: 359[1;34mFireFly info:[0m Probe: 360[1;34mFireFly info:[0m Probe: 361[1;34mFireFly info:[0m Probe: 362[1;34mFireFly info:[0m Probe: 363[1;34mFireFly info:[0m Probe: 364[1;34mFireFly info:[0m Probe: 365[1;34mFireFly info:[0m Probe: 366[1;34mFireFly info:[0m Probe: 367[1;34mFireFly info:[0m Probe: 368[1;34mFireFly info:[0m Probe: 369[1;34mFireFly info:[0m Probe: 370[1;34mFireFly info:[0m Probe: 371[1;34mFireFly info:[0m Probe: 372[1;34mFireFly info:[0m Probe: 373[1;34mFireFly info:[0m Probe: 374[1;34mFireFly info:[0m Probe: 375[1;34mFireFly info:[0m Probe: 376[1;34mFireFly info:[0m Probe: 377[1;34mFireFly info:[0m Probe: 378[1;34mFireFly info:[0m Probe: 379[1;34mFireFly info:[0m Probe: 380[1;34mFireFly info:[0m Probe: 381[1;34mFireFly info:[0m Probe: 382[1;34mFireFly info:[0m Probe: 383[1;34mFireFly info:[0m Probe: 384[1;34mFireFly info:[0m Probe: 385[1;34mFireFly info:[0m Probe: 386[1;34mFireFly info:[0m Probe: 387[1;34mFireFly info:[0m Probe: 388[1;34mFireFly info:[0m Probe: 389[1;34mFireFly info:[0m Probe: 390[1;34mFireFly info:[0m Probe: 391[1;34mFireFly info:[0m Probe: 392[1;34mFireFly info:[0m Probe: 393[1;34mFireFly info:[0m Probe: 394[1;34mFireFly info:[0m Probe: 395[1;34mFireFly info:[0m Probe: 396[1;34mFireFly info:[0m Probe: 397[1;34mFireFly info:[0m Probe: 398[1;34mFireFly info:[0m Probe: 399[1;34mFireFly info:[0m Probe: 400[1;34mFireFly info:[0m Probe: 401[1;34mFireFly info:[0m Probe: 402[1;34mFireFly info:[0m Probe: 403[1;34mFireFly info:[0m Probe: 404[1;34mFireFly info:[0m Probe: 405[1;34mFireFly info:[0m Probe: 406[1;34mFireFly info:[0m Probe: 407[1;34mFireFly info:[0m Probe: 408[1;34mFireFly info:[0m Probe: 409[1;34mFireFly info:[0m Probe: 410[1;34mFireFly info:[0m Probe: 411[1;34mFireFly info:[0m Probe: 412[1;34mFireFly info:[0m Probe: 413[1;34mFireFly info:[0m Probe: 414[1;34mFireFly info:[0m Probe: 415[1;34mFireFly info:[0m Probe: 416[1;34mFireFly info:[0m Probe: 417[1;34mFireFly info:[0m Probe: 418[1;34mFireFly info: [0mProbe: 418 | Done: 0 / 1354213 | Requires new prime field: 8056 / 1354213
+[1;34mFireFly info:[0m Probe: 419[1;34mFireFly info:[0m Probe: 420[1;34mFireFly info: [0mProbe: 420 | Done: 0 / 1354213 | Requires new prime field: 8176 / 1354213
+[1;34mFireFly info:[0m Probe: 421[1;34mFireFly info: [0mProbe: 421 | Done: 0 / 1354213 | Requires new prime field: 8379 / 1354213
+[1;34mFireFly info:[0m Probe: 422[1;34mFireFly info:[0m Probe: 423[1;34mFireFly info: [0mProbe: 423 | Done: 0 / 1354213 | Requires new prime field: 9074 / 1354213
+[1;34mFireFly info:[0m Probe: 424[1;34mFireFly info:[0m Probe: 425[1;34mFireFly info:[0m Probe: 426[1;34mFireFly info:[0m Probe: 427[1;34mFireFly info:[0m Probe: 428/storage/local/slurm-llnl/lib/slurmd/job1873499/slurm_script: line 16: 100933 Killed                  ./packages/Kira/kira jobs.yaml
+The user defined environment variable FERMATPATH for Fermat is set:
+./packages/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This requested integral is a master integral: C1[-1,1,1,1,0,1,0,0,0] # 46
+This requested integral is a master integral: C1[-1,1,1,1,1,0,0,0,0] # 30
+This requested integral is a master integral: C1[0,0,1,1,1,0,0,0,0] # 28
+This requested integral is a master integral: C1[0,1,1,1,0,0,0,0,0] # 14
+This requested integral is a master integral: C1[0,1,1,1,0,1,0,0,0] # 46
+This requested integral is a master integral: C1[0,1,1,1,1,-1,0,0,0] # 30
+This requested integral is a master integral: C1[0,1,1,1,1,0,0,0,0] # 30
+This requested integral is a master integral: C1[1,-1,1,0,1,1,0,0,0] # 53
+This requested integral is a master integral: C1[1,-1,1,1,1,0,0,0,0] # 29
+This requested integral is a master integral: C1[1,0,1,0,0,1,0,0,0] # 37
+This requested integral is a master integral: C1[1,0,1,0,1,0,0,0,0] # 21
+This requested integral is a master integral: C1[1,0,1,0,1,1,0,0,0] # 53
+This requested integral is a master integral: C1[1,0,1,1,0,0,0,0,0] # 13
+This requested integral is a master integral: C1[1,0,1,1,0,1,0,0,0] # 45
+This requested integral is a master integral: C1[1,0,1,1,1,0,0,0,0] # 29
+This requested integral is a master integral: C1[1,1,0,1,1,0,0,0,0] # 27
+This requested integral is a master integral: C1[1,1,1,-1,1,1,0,0,0] # 55
+This requested integral is a master integral: C1[1,1,1,0,1,1,-1,0,0] # 55
+This requested integral is a master integral: C1[1,1,1,0,1,1,0,0,0] # 55
+This requested integral is a master integral: C1[1,1,1,1,-1,1,0,0,0] # 47
+This requested integral is a master integral: C1[1,1,1,1,0,1,-1,0,0] # 47
+This requested integral is a master integral: C1[1,1,1,1,0,1,0,0,0] # 47
+This requested integral is a master integral: C1[1,1,1,1,1,-1,0,0,0] # 31
+This requested integral is a master integral: C1[1,1,1,1,1,0,-1,0,0] # 31
+This requested integral is a master integral: C1[1,1,1,1,1,0,0,0,0] # 31
+This requested integral is a master integral: C1[1,1,1,1,1,1,-2,0,0] # 63
+This requested integral is a master integral: C1[1,1,1,1,1,1,-1,0,0] # 63
+This requested integral is a master integral: C1[1,1,1,1,1,1,0,0,0] # 63
+unreduced integrals: 173.
+
+closeCalc: 77218
+Total time:
+( 0.289252 s )
