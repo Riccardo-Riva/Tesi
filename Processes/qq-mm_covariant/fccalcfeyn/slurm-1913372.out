@@ -1,0 +1,83 @@
+***COPIED***
+sh: 1: cannot create /dev/null: Permission denied
+Mathematica 12.0.0 Kernel for Linux x86 (64-bit)
+Copyright 1988-2019 Wolfram Research, Inc.
+
+In[1]:= 
+
+In[2]:= + + + + TEST + + + +
+
+In[3]:= 
+
+In[4]:= 
+sh: 1: cannot create /dev/null: Permission denied
+Mathematica 12.0.0 Kernel for Linux x86 (64-bit)
+Copyright 1988-2019 Wolfram Research, Inc.
+
+In[1]:= 
+In[2]:= In[2]:= 
+In[3]:= In[3]:= In[3]:=                 
+In[4]:= 
+FeynArts 3.11 (25 Mar 2022)
+by Hagen Eck, Sepp Kueblbeck, and Thomas Hahn
++++++ ABISS` +++++
+Version 1.0.0
+Amplitudes Builder, Interference Solver and Simplifier
+
+In[5]:= In[5]:= *** PKG LOADED ***
+
+In[6]:= In[6]:= 
+In[7]:= 
+In[8]:= 
+In[9]:= 
+In[10]:= In[10]:= ***** FIELDS LOADED *******
+
+In[11]:= In[11]:= 
+loading generic model file /home/riccardoriva/packages/FeynArts/Models/Lorent\
+ 
+      zbgf.gen
+> $GenericMixing is OFF
+generic model {Lorentzbgf} initialized
+
+loading classes model file /home/riccardoriva/packages/FeynArts/Models/SMbgf_\
+ 
+      Anglerfish.mod
+> 60 particles (incl. antiparticles) in 24 classes
+> $CounterTerms are ON
+> 689 vertices
+> 334 counterterms of order 1
+> 2 counterterms of order 2
+classes model {SMbgf_Anglerfish} initialized
+
+creating amplitudes at level(s) {Particles}
+> Top. 1: 4 Particles amplitudes
+in total: 4 Particles amplitudes
+
+In[12]:= 
+creating amplitudes at level(s) {Particles}
+> Top. 1: 185 Particles amplitudes
+in total: 185 Particles amplitudes
+
+In[13]:= 
+creating amplitudes at level(s) {Particles}
+> Top. 1: 16 Particles amplitudes
+> Top. 2: 20 Particles amplitudes
+> Top. 3: 43 Particles amplitudes
+> Top. 4: 49 Particles amplitudes
+> Top. 5: 34 Particles amplitudes
+> Top. 6: 214 Particles amplitudes
+in total: 376 Particles amplitudes
+
+In[14]:= In[14]:= ***** AMPS CREATED *******
+
+In[15]:= In[15]:= 
+In[16]:= 
+In[17]:= 
+In[18]:= 
+In[19]:= In[19]:= *** DONE ***
+
+In[20]:= In[20]:= 
+In[21]:= 
+In[22]:= 
+In[23]:= 
+***MATHEMATICA DONE***

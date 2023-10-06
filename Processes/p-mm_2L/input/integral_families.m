@@ -41,7 +41,7 @@ userPropagatorMomenta[A2]={
 	p1+p2-q1
 };
 
-userIntegralMasses[A2]={M1,0,M2,M2,0,0,0,0,M1};
+userIntegralMasses[A2]={MU,0,M2,M2,0,0,0,0,MU};
 
 userPropagatorMomenta[B1]={
 	q1,

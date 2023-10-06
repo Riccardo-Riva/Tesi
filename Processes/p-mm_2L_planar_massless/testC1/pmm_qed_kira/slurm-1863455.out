@@ -1,2467 +1,0 @@
-config
-export.yaml
-jobs.yaml
-myintegrals
-output
-packages
-The user defined environment variable FERMATPATH for Fermat is set:
-./packages/Fermat/ferl6/fer64
-One variable is set to 1: {}
-The directories for the temporary files, result files and the sector mapping files are: 
-./tmp
-./results
-./sectormappings
-Kira prepares topology: B1 and top level sector: 
-319 
-Following reductions will be performed for the topology: B1
-Sector: 319 rmax: 9 smax: 3 
-
-***********************************************************
-Find IBP LI and symmetry relations for the topology: B1
-***********************************************************
-
-*****Generate IBP identities*******************************
-There are 10 IBP identities
-( 0.015489 s )
-
-*****Generate LI identities********************************
-There are 3 LI identities
-( 0.036277 s )
-
-*****Search trivial sectors********************************
-  1.2% []  2.3% [=]  3.5% [=]  4.7% [==]  5.9% [==]  7.0% [===]  8.2% [====]  9.4% [====] 10.5% [=====] 11.7% [=====] 12.9% [======] 14.1% [=======] 15.2% [=======] 16.4% [========] 17.6% [========] 18.8% [=========] 19.9% [=========] 21.1% [==========] 22.3% [===========] 23.4% [===========] 24.6% [============] 25.8% [============] 27.0% [=============] 28.1% [==============] 29.3% [==============] 30.5% [===============] 31.6% [===============] 32.8% [================] 34.0% [================] 35.2% [=================] 36.3% [==================] 37.5% [==================] 38.7% [===================] 39.8% [===================] 41.0% [====================] 42.2% [=====================] 43.4% [=====================] 44.5% [======================] 45.7% [======================] 46.9% [=======================] 48.0% [========================] 49.2% [========================] 50.4% [=========================] 51.6% [=========================] 52.7% [==========================] 53.9% [==========================] 55.1% [===========================] 56.2% [============================] 57.4% [============================] 58.6% [=============================] 59.8% [=============================] 60.9% [==============================] 62.1% [===============================] 63.3% [===============================] 64.5% [================================] 65.6% [================================] 66.8% [=================================] 68.0% [=================================] 69.1% [==================================] 70.3% [===================================] 71.5% [===================================] 72.7% [====================================] 73.8% [====================================] 75.0% [=====================================] 76.2% [======================================] 77.3% [======================================] 78.5% [=======================================] 79.7% [=======================================] 80.9% [========================================] 82.0% [=========================================] 83.2% [=========================================] 84.4% [==========================================] 85.5% [==========================================] 86.7% [===========================================] 87.9% [===========================================] 89.1% [============================================] 90.2% [=============================================] 91.4% [=============================================] 92.6% [==============================================] 93.8% [==============================================] 94.9% [===============================================] 96.1% [================================================] 97.3% [================================================] 98.4% [=================================================] 99.6% [=================================================]100.0% [==================================================]
-Non trivial sectors in total: 378
-Trivial sectors in total: 134
-( 0.1 s )
-
-Search symmetry relations: 
-  0.0% [] 14.3% [=======] 28.6% [==============] 42.9% [=====================] 57.1% [============================] 71.4% [===================================] 85.7% [==========================================]100.0% [==================================================]
-( 0.0 s )
-***********************************************************
-Prepare Symmetries for the topology: B1
-***********************************************************
-Build symmetries for B1 x B1 
- 12.5% [======] 25.0% [============] 37.5% [==================] 50.0% [=========================] 62.5% [===============================] 75.0% [=====================================] 87.5% [===========================================]100.0% [==================================================]
-Sector relations: 95
-Sector symmetries: 42
-( 0.0 s )
-
-*****Integral ordering*************************************
-VERSION table created successfully
-Kira database version number: 2.1
-WEIGHTBITS table created successfully
-INTEGRALORDERING table created successfully
-Kira will use the integral ordering: 1.
-
-***********************************************************
-Kira starts the reduction of the topology: B1
-***********************************************************
-
-***** Select equations recursively ************************
-Select integrals for: topology: B1
- sectors: 319 rmax: 9 smax: 3
-
-length of mandatory list: 481866
-Algebraic reconstruction is switched off.
-Generate equations for topology B1, sector 6 (1 of 84)
-Generate equations for topology B1, sector 7 (2 of 84)
-Generate equations for topology B1, sector 12 (3 of 84)
-Generate equations for topology B1, sector 13 (4 of 84)
-Generate equations for topology B1, sector 14 (5 of 84)
-Generate equations for topology B1, sector 15 (6 of 84)
-Generate equations for topology B1, sector 19 (7 of 84)
-Generate equations for topology B1, sector 22 (8 of 84)
-Generate equations for topology B1, sector 23 (9 of 84)
-Generate equations for topology B1, sector 25 (10 of 84)
-Generate equations for topology B1, sector 27 (11 of 84)
-Generate equations for topology B1, sector 28 (12 of 84)
-Generate equations for topology B1, sector 29 (13 of 84)
-Generate equations for topology B1, sector 30 (14 of 84)
-Generate equations for topology B1, sector 31 (15 of 84)
-Generate equations for topology B1, sector 34 (16 of 84)
-Generate equations for topology B1, sector 35 (17 of 84)
-Generate equations for topology B1, sector 38 (18 of 84)
-Generate equations for topology B1, sector 39 (19 of 84)
-Generate equations for topology B1, sector 40 (20 of 84)
-Generate equations for topology B1, sector 41 (21 of 84)
-Generate equations for topology B1, sector 42 (22 of 84)
-Generate equations for topology B1, sector 43 (23 of 84)
-Generate equations for topology B1, sector 44 (24 of 84)
-Generate equations for topology B1, sector 45 (25 of 84)
-Generate equations for topology B1, sector 46 (26 of 84)
-Generate equations for topology B1, sector 47 (27 of 84)
-Generate equations for topology B1, sector 50 (28 of 84)
-Generate equations for topology B1, sector 51 (29 of 84)
-Generate equations for topology B1, sector 54 (30 of 84)
-Generate equations for topology B1, sector 55 (31 of 84)
-Generate equations for topology B1, sector 56 (32 of 84)
-Generate equations for topology B1, sector 57 (33 of 84)
-Generate equations for topology B1, sector 58 (34 of 84)
-Generate equations for topology B1, sector 59 (35 of 84)
-Generate equations for topology B1, sector 60 (36 of 84)
-Generate equations for topology B1, sector 61 (37 of 84)
-Generate equations for topology B1, sector 62 (38 of 84)
-Generate equations for topology B1, sector 63 (39 of 84)
-Generate equations for topology B1, sector 262 (40 of 84)
-Generate equations for topology B1, sector 263 (41 of 84)
-Generate equations for topology B1, sector 268 (42 of 84)
-Generate equations for topology B1, sector 269 (43 of 84)
-Generate equations for topology B1, sector 270 (44 of 84)
-Generate equations for topology B1, sector 271 (45 of 84)
-Generate equations for topology B1, sector 275 (46 of 84)
-Generate equations for topology B1, sector 276 (47 of 84)
-Generate equations for topology B1, sector 277 (48 of 84)
-Generate equations for topology B1, sector 278 (49 of 84)
-Generate equations for topology B1, sector 279 (50 of 84)
-Generate equations for topology B1, sector 281 (51 of 84)
-Generate equations for topology B1, sector 283 (52 of 84)
-Generate equations for topology B1, sector 284 (53 of 84)
-Generate equations for topology B1, sector 285 (54 of 84)
-Generate equations for topology B1, sector 286 (55 of 84)
-Generate equations for topology B1, sector 287 (56 of 84)
-Generate equations for topology B1, sector 290 (57 of 84)
-Generate equations for topology B1, sector 291 (58 of 84)
-Generate equations for topology B1, sector 294 (59 of 84)
-Generate equations for topology B1, sector 295 (60 of 84)
-Generate equations for topology B1, sector 296 (61 of 84)
-Generate equations for topology B1, sector 297 (62 of 84)
-Generate equations for topology B1, sector 298 (63 of 84)
-Generate equations for topology B1, sector 299 (64 of 84)
-Generate equations for topology B1, sector 300 (65 of 84)
-Generate equations for topology B1, sector 301 (66 of 84)
-Generate equations for topology B1, sector 302 (67 of 84)
-Generate equations for topology B1, sector 303 (68 of 84)
-Generate equations for topology B1, sector 304 (69 of 84)
-Generate equations for topology B1, sector 305 (70 of 84)
-Generate equations for topology B1, sector 306 (71 of 84)
-Generate equations for topology B1, sector 307 (72 of 84)
-Generate equations for topology B1, sector 308 (73 of 84)
-Generate equations for topology B1, sector 309 (74 of 84)
-Generate equations for topology B1, sector 310 (75 of 84)
-Generate equations for topology B1, sector 311 (76 of 84)
-Generate equations for topology B1, sector 312 (77 of 84)
-Generate equations for topology B1, sector 313 (78 of 84)
-Generate equations for topology B1, sector 314 (79 of 84)
-Generate equations for topology B1, sector 315 (80 of 84)
-Generate equations for topology B1, sector 316 (81 of 84)
-Generate equations for topology B1, sector 317 (82 of 84)
-Generate equations for topology B1, sector 318 (83 of 84)
-Generate equations for topology B1, sector 319 (84 of 84)
-3457010 equations: 2180030 zero + 1276980 independent
-solve backward: 1.2
-prepare content for selector: 0.2
-2864 independent coefficients
-directory to the masters: B1
-Number of master integrals: 24
-B1[0,1,1,0,0,0,0,0,0]  #   6
-B1[1,1,1,0,0,0,0,0,0]  #   7
-B1[0,1,1,1,0,0,0,0,0]  #  14
-B1[1,1,1,1,0,0,0,0,0]  #  15
-B1[1,1,0,0,1,0,0,0,0]  #  19
-B1[1,1,-1,0,1,0,0,0,0] #  19
-B1[1,1,0,1,1,0,0,0,0]  #  27
-B1[1,1,-1,1,1,0,0,0,0] #  27
-B1[0,0,1,1,1,0,0,0,0]  #  28
-B1[-1,0,1,1,1,0,0,0,0] #  28
-B1[1,0,1,1,1,0,0,0,0]  #  29
-B1[1,-1,1,1,1,0,0,0,0] #  29
-B1[1,0,1,1,1,-1,0,0,0] #  29
-B1[1,1,1,1,1,0,0,0,0]  #  31
-B1[1,1,1,1,1,-1,0,0,0] #  31
-B1[1,1,1,1,1,0,-1,0,0] #  31
-B1[1,1,1,1,1,-2,0,0,0] #  31
-B1[1,1,1,0,0,1,0,0,0]  #  39
-B1[0,1,1,1,0,1,0,0,0]  #  46
-B1[1,1,1,1,0,1,0,0,0]  #  47
-B1[1,1,1,0,0,0,0,0,1]  # 263
-B1[1,1,1,1,0,0,0,0,1]  # 271
-B1[1,0,1,1,1,0,0,0,1]  # 285
-B1[1,1,1,1,0,1,0,0,1]  # 303
-Regenerate:
-Generate equations for topology B1, sector 6 (1 of 84)
-Generate equations for topology B1, sector 7 (2 of 84)
-Generate equations for topology B1, sector 12 (3 of 84)
-Generate equations for topology B1, sector 13 (4 of 84)
-Generate equations for topology B1, sector 14 (5 of 84)
-Generate equations for topology B1, sector 15 (6 of 84)
-Generate equations for topology B1, sector 19 (7 of 84)
-Generate equations for topology B1, sector 22 (8 of 84)
-Generate equations for topology B1, sector 23 (9 of 84)
-Generate equations for topology B1, sector 25 (10 of 84)
-Generate equations for topology B1, sector 27 (11 of 84)
-Generate equations for topology B1, sector 28 (12 of 84)
-Generate equations for topology B1, sector 29 (13 of 84)
-Generate equations for topology B1, sector 30 (14 of 84)
-Generate equations for topology B1, sector 31 (15 of 84)
-Generate equations for topology B1, sector 34 (16 of 84)
-Generate equations for topology B1, sector 35 (17 of 84)
-Generate equations for topology B1, sector 38 (18 of 84)
-Generate equations for topology B1, sector 39 (19 of 84)
-Generate equations for topology B1, sector 40 (20 of 84)
-Generate equations for topology B1, sector 41 (21 of 84)
-Generate equations for topology B1, sector 42 (22 of 84)
-Generate equations for topology B1, sector 43 (23 of 84)
-Generate equations for topology B1, sector 44 (24 of 84)
-Generate equations for topology B1, sector 45 (25 of 84)
-Generate equations for topology B1, sector 46 (26 of 84)
-Generate equations for topology B1, sector 47 (27 of 84)
-Generate equations for topology B1, sector 50 (28 of 84)
-Generate equations for topology B1, sector 51 (29 of 84)
-Generate equations for topology B1, sector 54 (30 of 84)
-Generate equations for topology B1, sector 55 (31 of 84)
-Generate equations for topology B1, sector 56 (32 of 84)
-Generate equations for topology B1, sector 57 (33 of 84)
-Generate equations for topology B1, sector 58 (34 of 84)
-Generate equations for topology B1, sector 59 (35 of 84)
-Generate equations for topology B1, sector 60 (36 of 84)
-Generate equations for topology B1, sector 61 (37 of 84)
-Generate equations for topology B1, sector 62 (38 of 84)
-Generate equations for topology B1, sector 63 (39 of 84)
-Generate equations for topology B1, sector 262 (40 of 84)
-Generate equations for topology B1, sector 263 (41 of 84)
-Generate equations for topology B1, sector 268 (42 of 84)
-Generate equations for topology B1, sector 269 (43 of 84)
-Generate equations for topology B1, sector 270 (44 of 84)
-Generate equations for topology B1, sector 271 (45 of 84)
-Generate equations for topology B1, sector 275 (46 of 84)
-Generate equations for topology B1, sector 276 (47 of 84)
-Generate equations for topology B1, sector 277 (48 of 84)
-Generate equations for topology B1, sector 278 (49 of 84)
-Generate equations for topology B1, sector 279 (50 of 84)
-Generate equations for topology B1, sector 281 (51 of 84)
-Generate equations for topology B1, sector 283 (52 of 84)
-Generate equations for topology B1, sector 284 (53 of 84)
-Generate equations for topology B1, sector 285 (54 of 84)
-Generate equations for topology B1, sector 286 (55 of 84)
-Generate equations for topology B1, sector 287 (56 of 84)
-Generate equations for topology B1, sector 290 (57 of 84)
-Generate equations for topology B1, sector 291 (58 of 84)
-Generate equations for topology B1, sector 294 (59 of 84)
-Generate equations for topology B1, sector 295 (60 of 84)
-Generate equations for topology B1, sector 296 (61 of 84)
-Generate equations for topology B1, sector 297 (62 of 84)
-Generate equations for topology B1, sector 298 (63 of 84)
-Generate equations for topology B1, sector 299 (64 of 84)
-Generate equations for topology B1, sector 300 (65 of 84)
-Generate equations for topology B1, sector 301 (66 of 84)
-Generate equations for topology B1, sector 302 (67 of 84)
-Generate equations for topology B1, sector 303 (68 of 84)
-Generate equations for topology B1, sector 304 (69 of 84)
-Generate equations for topology B1, sector 305 (70 of 84)
-Generate equations for topology B1, sector 306 (71 of 84)
-Generate equations for topology B1, sector 307 (72 of 84)
-Generate equations for topology B1, sector 308 (73 of 84)
-Generate equations for topology B1, sector 309 (74 of 84)
-Generate equations for topology B1, sector 310 (75 of 84)
-Generate equations for topology B1, sector 311 (76 of 84)
-Generate equations for topology B1, sector 312 (77 of 84)
-Generate equations for topology B1, sector 313 (78 of 84)
-Generate equations for topology B1, sector 314 (79 of 84)
-Generate equations for topology B1, sector 315 (80 of 84)
-Generate equations for topology B1, sector 316 (81 of 84)
-Generate equations for topology B1, sector 317 (82 of 84)
-Generate equations for topology B1, sector 318 (83 of 84)
-Generate equations for topology B1, sector 319 (84 of 84)
-
-Number of selected equations to reduce: 554086 equations
-( 61.3 s )
-closeCalc: 101521
-Algebraic reconstruction is switched off.
-
-***** Select equations recursively ************************
-Select integrals for: topology: B1
- sectors: 319 rmax: 9 smax: 3
-
-length of mandatory list: 481866
-
-***** Bring system in triangular form *********************
-
-Iterate the system until it is in triangular form: 
-iteration: 0; items left: 50029; time: ( 6.4 s )
-iteration: 1; items left: 33813; time: ( 11.4 s )
-iteration: 2; items left: 23727; time: ( 15.5 s )
-iteration: 3; items left: 17622; time: ( 18.7 s )
-iteration: 4; items left: 13198; time: ( 21.5 s )
-iteration: 5; items left: 10255; time: ( 24.0 s )
-iteration: 6; items left: 8286; time: ( 26.0 s )
-iteration: 7; items left: 7239; time: ( 27.9 s )
-iteration: 8; items left: 6304; time: ( 29.7 s )
-iteration: 9; items left: 5687; time: ( 31.2 s )
-iteration: 10; items left: 4966; time: ( 32.7 s )
-iteration: 11; items left: 4498; time: ( 34.1 s )
-iteration: 12; items left: 4097; time: ( 35.4 s )
-iteration: 13; items left: 3815; time: ( 36.7 s )
-iteration: 14; items left: 3465; time: ( 38.1 s )
-iteration: 15; items left: 3173; time: ( 39.3 s )
-iteration: 16; items left: 2911; time: ( 40.5 s )
-iteration: 17; items left: 2740; time: ( 41.7 s )
-iteration: 18; items left: 2551; time: ( 42.7 s )
-iteration: 19; items left: 2406; time: ( 43.8 s )
-iteration: 20; items left: 2248; time: ( 45.0 s )
-iteration: 21; items left: 2142; time: ( 46.2 s )
-iteration: 22; items left: 2046; time: ( 47.2 s )
-iteration: 23; items left: 1941; time: ( 48.4 s )
-iteration: 24; items left: 1851; time: ( 49.5 s )
-iteration: 25; items left: 1739; time: ( 50.5 s )
-iteration: 26; items left: 1679; time: ( 51.6 s )
-iteration: 27; items left: 1588; time: ( 52.6 s )
-iteration: 28; items left: 1529; time: ( 53.7 s )
-iteration: 29; items left: 1474; time: ( 54.6 s )
-iteration: 30; items left: 1429; time: ( 55.7 s )
-iteration: 31; items left: 1369; time: ( 56.6 s )
-iteration: 32; items left: 1317; time: ( 57.6 s )
-iteration: 33; items left: 1257; time: ( 58.5 s )
-iteration: 34; items left: 1205; time: ( 59.5 s )
-iteration: 35; items left: 1165; time: ( 60.5 s )
-iteration: 36; items left: 1110; time: ( 61.5 s )
-iteration: 37; items left: 1079; time: ( 62.5 s )
-iteration: 38; items left: 1040; time: ( 63.4 s )
-iteration: 39; items left: 1022; time: ( 64.3 s )
-iteration: 40; items left: 992; time: ( 65.1 s )
-iteration: 41; items left: 953; time: ( 66.0 s )
-iteration: 42; items left: 924; time: ( 66.8 s )
-iteration: 43; items left: 905; time: ( 67.7 s )
-iteration: 44; items left: 873; time: ( 68.4 s )
-iteration: 45; items left: 861; time: ( 69.3 s )
-iteration: 46; items left: 830; time: ( 70.1 s )
-iteration: 47; items left: 816; time: ( 70.9 s )
-iteration: 48; items left: 796; time: ( 71.9 s )
-iteration: 49; items left: 768; time: ( 72.8 s )
-iteration: 50; items left: 753; time: ( 73.7 s )
-iteration: 51; items left: 734; time: ( 74.6 s )
-iteration: 52; items left: 714; time: ( 75.4 s )
-iteration: 53; items left: 707; time: ( 76.0 s )
-iteration: 54; items left: 687; time: ( 76.9 s )
-iteration: 55; items left: 671; time: ( 77.6 s )
-iteration: 56; items left: 657; time: ( 78.5 s )
-iteration: 57; items left: 637; time: ( 79.5 s )
-iteration: 58; items left: 619; time: ( 80.1 s )
-iteration: 59; items left: 600; time: ( 80.9 s )
-iteration: 60; items left: 584; time: ( 81.5 s )
-iteration: 61; items left: 570; time: ( 82.3 s )
-iteration: 62; items left: 563; time: ( 83.1 s )
-iteration: 63; items left: 548; time: ( 84.1 s )
-iteration: 64; items left: 543; time: ( 84.8 s )
-iteration: 65; items left: 527; time: ( 85.6 s )
-iteration: 66; items left: 518; time: ( 86.3 s )
-iteration: 67; items left: 500; time: ( 87.0 s )
-iteration: 68; items left: 480; time: ( 87.7 s )
-iteration: 69; items left: 466; time: ( 88.4 s )
-iteration: 70; items left: 458; time: ( 89.0 s )
-iteration: 71; items left: 443; time: ( 89.9 s )
-iteration: 72; items left: 430; time: ( 90.4 s )
-iteration: 73; items left: 422; time: ( 91.0 s )
-iteration: 74; items left: 410; time: ( 91.5 s )
-iteration: 75; items left: 402; time: ( 92.2 s )
-iteration: 76; items left: 397; time: ( 92.7 s )
-iteration: 77; items left: 393; time: ( 93.4 s )
-iteration: 78; items left: 387; time: ( 93.9 s )
-iteration: 79; items left: 377; time: ( 94.5 s )
-iteration: 80; items left: 371; time: ( 95.1 s )
-iteration: 81; items left: 371; time: ( 95.6 s )
-iteration: 82; items left: 361; time: ( 96.5 s )
-iteration: 83; items left: 351; time: ( 97.1 s )
-iteration: 84; items left: 345; time: ( 97.7 s )
-iteration: 85; items left: 336; time: ( 98.4 s )
-iteration: 86; items left: 333; time: ( 98.9 s )
-iteration: 87; items left: 326; time: ( 99.5 s )
-iteration: 88; items left: 317; time: ( 100.1 s )
-iteration: 89; items left: 314; time: ( 100.6 s )
-iteration: 90; items left: 306; time: ( 101.3 s )
-iteration: 91; items left: 302; time: ( 101.7 s )
-iteration: 92; items left: 299; time: ( 102.1 s )
-iteration: 93; items left: 299; time: ( 102.6 s )
-iteration: 94; items left: 300; time: ( 103.2 s )
-iteration: 95; items left: 293; time: ( 103.8 s )
-iteration: 96; items left: 289; time: ( 104.6 s )
-iteration: 97; items left: 286; time: ( 105.1 s )
-iteration: 98; items left: 282; time: ( 105.9 s )
-iteration: 99; items left: 275; time: ( 106.4 s )
-iteration: 100; items left: 269; time: ( 106.7 s )
-iteration: 101; items left: 262; time: ( 107.1 s )
-iteration: 102; items left: 254; time: ( 107.9 s )
-iteration: 103; items left: 250; time: ( 108.2 s )
-iteration: 104; items left: 248; time: ( 108.5 s )
-iteration: 105; items left: 241; time: ( 108.9 s )
-iteration: 106; items left: 239; time: ( 109.3 s )
-iteration: 107; items left: 234; time: ( 109.7 s )
-iteration: 108; items left: 232; time: ( 110.2 s )
-iteration: 109; items left: 228; time: ( 110.6 s )
-iteration: 110; items left: 222; time: ( 111.0 s )
-iteration: 111; items left: 219; time: ( 111.4 s )
-iteration: 112; items left: 215; time: ( 111.8 s )
-iteration: 113; items left: 214; time: ( 112.1 s )
-iteration: 114; items left: 213; time: ( 112.5 s )
-iteration: 115; items left: 208; time: ( 113.0 s )
-iteration: 116; items left: 202; time: ( 113.7 s )
-iteration: 117; items left: 201; time: ( 114.0 s )
-iteration: 118; items left: 195; time: ( 114.4 s )
-iteration: 119; items left: 194; time: ( 114.7 s )
-iteration: 120; items left: 191; time: ( 115.1 s )
-iteration: 121; items left: 189; time: ( 115.5 s )
-iteration: 122; items left: 189; time: ( 116.1 s )
-iteration: 123; items left: 184; time: ( 116.5 s )
-iteration: 124; items left: 181; time: ( 116.9 s )
-iteration: 125; items left: 180; time: ( 117.3 s )
-iteration: 126; items left: 179; time: ( 117.7 s )
-iteration: 127; items left: 174; time: ( 118.0 s )
-iteration: 128; items left: 171; time: ( 118.3 s )
-iteration: 129; items left: 168; time: ( 118.7 s )
-iteration: 130; items left: 165; time: ( 119.7 s )
-iteration: 131; items left: 163; time: ( 119.9 s )
-iteration: 132; items left: 161; time: ( 120.3 s )
-iteration: 133; items left: 160; time: ( 120.6 s )
-iteration: 134; items left: 157; time: ( 121.0 s )
-iteration: 135; items left: 157; time: ( 121.4 s )
-iteration: 136; items left: 156; time: ( 121.7 s )
-iteration: 137; items left: 150; time: ( 122.1 s )
-iteration: 138; items left: 151; time: ( 122.4 s )
-iteration: 139; items left: 151; time: ( 122.8 s )
-iteration: 140; items left: 150; time: ( 123.1 s )
-iteration: 141; items left: 148; time: ( 123.5 s )
-iteration: 142; items left: 147; time: ( 123.9 s )
-iteration: 143; items left: 146; time: ( 124.2 s )
-iteration: 144; items left: 144; time: ( 124.6 s )
-iteration: 145; items left: 141; time: ( 125.0 s )
-iteration: 146; items left: 138; time: ( 125.4 s )
-iteration: 147; items left: 135; time: ( 125.8 s )
-iteration: 148; items left: 133; time: ( 126.3 s )
-iteration: 149; items left: 131; time: ( 126.6 s )
-iteration: 150; items left: 126; time: ( 127.3 s )
-iteration: 151; items left: 125; time: ( 127.5 s )
-iteration: 152; items left: 120; time: ( 127.8 s )
-iteration: 153; items left: 119; time: ( 128.1 s )
-iteration: 154; items left: 119; time: ( 128.3 s )
-iteration: 155; items left: 119; time: ( 128.6 s )
-iteration: 156; items left: 118; time: ( 128.8 s )
-iteration: 157; items left: 117; time: ( 129.2 s )
-iteration: 158; items left: 116; time: ( 129.5 s )
-iteration: 159; items left: 113; time: ( 129.8 s )
-iteration: 160; items left: 111; time: ( 130.1 s )
-iteration: 161; items left: 111; time: ( 130.5 s )
-iteration: 162; items left: 109; time: ( 130.7 s )
-iteration: 163; items left: 109; time: ( 131.0 s )
-iteration: 164; items left: 107; time: ( 131.2 s )
-iteration: 165; items left: 107; time: ( 131.4 s )
-iteration: 166; items left: 105; time: ( 131.7 s )
-iteration: 167; items left: 104; time: ( 132.1 s )
-iteration: 168; items left: 102; time: ( 132.4 s )
-iteration: 169; items left: 100; time: ( 132.6 s )
-iteration: 170; items left: 100; time: ( 132.8 s )
-iteration: 171; items left: 100; time: ( 133.1 s )
-iteration: 172; items left: 97; time: ( 133.4 s )
-iteration: 173; items left: 97; time: ( 133.9 s )
-iteration: 174; items left: 95; time: ( 134.2 s )
-iteration: 175; items left: 94; time: ( 134.5 s )
-iteration: 176; items left: 94; time: ( 134.8 s )
-iteration: 177; items left: 91; time: ( 135.6 s )
-iteration: 178; items left: 90; time: ( 135.9 s )
-iteration: 179; items left: 90; time: ( 136.4 s )
-iteration: 180; items left: 89; time: ( 136.8 s )
-iteration: 181; items left: 89; time: ( 137.3 s )
-iteration: 182; items left: 88; time: ( 138.1 s )
-iteration: 183; items left: 86; time: ( 138.3 s )
-iteration: 184; items left: 86; time: ( 138.6 s )
-iteration: 185; items left: 86; time: ( 138.9 s )
-iteration: 186; items left: 85; time: ( 139.2 s )
-iteration: 187; items left: 81; time: ( 139.6 s )
-iteration: 188; items left: 81; time: ( 140.0 s )
-iteration: 189; items left: 81; time: ( 140.4 s )
-iteration: 190; items left: 81; time: ( 140.8 s )
-iteration: 191; items left: 81; time: ( 141.3 s )
-iteration: 192; items left: 78; time: ( 141.9 s )
-iteration: 193; items left: 76; time: ( 142.1 s )
-iteration: 194; items left: 75; time: ( 142.4 s )
-iteration: 195; items left: 75; time: ( 142.7 s )
-iteration: 196; items left: 75; time: ( 142.9 s )
-iteration: 197; items left: 75; time: ( 143.3 s )
-iteration: 198; items left: 73; time: ( 143.7 s )
-iteration: 199; items left: 72; time: ( 144.0 s )
-iteration: 200; items left: 68; time: ( 144.2 s )
-iteration: 201; items left: 68; time: ( 144.5 s )
-iteration: 202; items left: 67; time: ( 144.9 s )
-iteration: 203; items left: 67; time: ( 145.3 s )
-iteration: 204; items left: 67; time: ( 145.7 s )
-iteration: 205; items left: 67; time: ( 146.0 s )
-iteration: 206; items left: 67; time: ( 146.4 s )
-iteration: 207; items left: 66; time: ( 146.9 s )
-iteration: 208; items left: 65; time: ( 147.1 s )
-iteration: 209; items left: 65; time: ( 147.3 s )
-iteration: 210; items left: 63; time: ( 147.6 s )
-iteration: 211; items left: 63; time: ( 147.8 s )
-iteration: 212; items left: 63; time: ( 148.0 s )
-iteration: 213; items left: 63; time: ( 148.2 s )
-iteration: 214; items left: 63; time: ( 148.3 s )
-iteration: 215; items left: 62; time: ( 148.5 s )
-iteration: 216; items left: 61; time: ( 148.6 s )
-iteration: 217; items left: 60; time: ( 148.8 s )
-iteration: 218; items left: 60; time: ( 148.9 s )
-iteration: 219; items left: 59; time: ( 149.2 s )
-iteration: 220; items left: 59; time: ( 149.3 s )
-iteration: 221; items left: 57; time: ( 149.4 s )
-iteration: 222; items left: 56; time: ( 149.7 s )
-iteration: 223; items left: 55; time: ( 150.1 s )
-iteration: 224; items left: 55; time: ( 150.2 s )
-iteration: 225; items left: 53; time: ( 150.5 s )
-iteration: 226; items left: 53; time: ( 150.6 s )
-iteration: 227; items left: 52; time: ( 150.9 s )
-iteration: 228; items left: 51; time: ( 151.1 s )
-iteration: 229; items left: 51; time: ( 151.3 s )
-iteration: 230; items left: 50; time: ( 151.5 s )
-iteration: 231; items left: 49; time: ( 151.7 s )
-iteration: 232; items left: 49; time: ( 151.8 s )
-iteration: 233; items left: 48; time: ( 152.0 s )
-iteration: 234; items left: 48; time: ( 152.3 s )
-iteration: 235; items left: 48; time: ( 152.5 s )
-iteration: 236; items left: 48; time: ( 152.7 s )
-iteration: 237; items left: 47; time: ( 152.9 s )
-iteration: 238; items left: 47; time: ( 153.1 s )
-iteration: 239; items left: 47; time: ( 153.4 s )
-iteration: 240; items left: 47; time: ( 153.6 s )
-iteration: 241; items left: 47; time: ( 153.8 s )
-iteration: 242; items left: 47; time: ( 153.9 s )
-iteration: 243; items left: 47; time: ( 154.2 s )
-iteration: 244; items left: 47; time: ( 154.5 s )
-iteration: 245; items left: 47; time: ( 154.6 s )
-iteration: 246; items left: 46; time: ( 155.0 s )
-iteration: 247; items left: 43; time: ( 155.1 s )
-iteration: 248; items left: 42; time: ( 155.5 s )
-iteration: 249; items left: 40; time: ( 155.7 s )
-iteration: 250; items left: 39; time: ( 156.0 s )
-iteration: 251; items left: 39; time: ( 156.3 s )
-iteration: 252; items left: 39; time: ( 156.5 s )
-iteration: 253; items left: 39; time: ( 156.6 s )
-iteration: 254; items left: 38; time: ( 156.8 s )
-iteration: 255; items left: 35; time: ( 156.9 s )
-iteration: 256; items left: 35; time: ( 157.0 s )
-iteration: 257; items left: 35; time: ( 157.1 s )
-iteration: 258; items left: 35; time: ( 157.2 s )
-iteration: 259; items left: 33; time: ( 157.4 s )
-iteration: 260; items left: 33; time: ( 157.5 s )
-iteration: 261; items left: 32; time: ( 157.7 s )
-iteration: 262; items left: 32; time: ( 157.9 s )
-iteration: 263; items left: 32; time: ( 158.1 s )
-iteration: 264; items left: 32; time: ( 158.3 s )
-iteration: 265; items left: 31; time: ( 158.5 s )
-iteration: 266; items left: 30; time: ( 158.8 s )
-iteration: 267; items left: 30; time: ( 158.9 s )
-iteration: 268; items left: 29; time: ( 159.2 s )
-iteration: 269; items left: 28; time: ( 159.3 s )
-iteration: 270; items left: 28; time: ( 159.5 s )
-iteration: 271; items left: 28; time: ( 159.7 s )
-iteration: 272; items left: 28; time: ( 159.9 s )
-iteration: 273; items left: 28; time: ( 160.2 s )
-iteration: 274; items left: 28; time: ( 160.7 s )
-iteration: 275; items left: 28; time: ( 161.0 s )
-iteration: 276; items left: 27; time: ( 161.2 s )
-iteration: 277; items left: 26; time: ( 161.3 s )
-iteration: 278; items left: 26; time: ( 161.5 s )
-iteration: 279; items left: 26; time: ( 161.6 s )
-iteration: 280; items left: 26; time: ( 161.6 s )
-iteration: 281; items left: 24; time: ( 161.7 s )
-iteration: 282; items left: 23; time: ( 161.8 s )
-iteration: 283; items left: 23; time: ( 161.8 s )
-iteration: 284; items left: 22; time: ( 161.9 s )
-iteration: 285; items left: 22; time: ( 162.1 s )
-iteration: 286; items left: 22; time: ( 162.2 s )
-iteration: 287; items left: 22; time: ( 162.2 s )
-iteration: 288; items left: 22; time: ( 162.3 s )
-iteration: 289; items left: 22; time: ( 162.3 s )
-iteration: 290; items left: 22; time: ( 162.4 s )
-iteration: 291; items left: 22; time: ( 162.5 s )
-iteration: 292; items left: 22; time: ( 162.5 s )
-iteration: 293; items left: 22; time: ( 162.6 s )
-iteration: 294; items left: 22; time: ( 162.7 s )
-iteration: 295; items left: 22; time: ( 162.8 s )
-iteration: 296; items left: 22; time: ( 162.8 s )
-iteration: 297; items left: 22; time: ( 162.9 s )
-iteration: 298; items left: 22; time: ( 163.0 s )
-iteration: 299; items left: 22; time: ( 163.0 s )
-iteration: 300; items left: 22; time: ( 163.1 s )
-iteration: 301; items left: 22; time: ( 163.2 s )
-iteration: 302; items left: 22; time: ( 163.3 s )
-iteration: 303; items left: 22; time: ( 163.3 s )
-iteration: 304; items left: 22; time: ( 163.4 s )
-iteration: 305; items left: 21; time: ( 163.5 s )
-iteration: 306; items left: 21; time: ( 163.5 s )
-iteration: 307; items left: 20; time: ( 163.6 s )
-iteration: 308; items left: 19; time: ( 163.7 s )
-iteration: 309; items left: 19; time: ( 163.7 s )
-iteration: 310; items left: 19; time: ( 163.8 s )
-iteration: 311; items left: 19; time: ( 163.9 s )
-iteration: 312; items left: 18; time: ( 163.9 s )
-iteration: 313; items left: 18; time: ( 164.0 s )
-iteration: 314; items left: 18; time: ( 164.1 s )
-iteration: 315; items left: 18; time: ( 164.2 s )
-iteration: 316; items left: 18; time: ( 164.2 s )
-iteration: 317; items left: 17; time: ( 164.3 s )
-iteration: 318; items left: 17; time: ( 164.5 s )
-iteration: 319; items left: 17; time: ( 164.5 s )
-iteration: 320; items left: 17; time: ( 164.6 s )
-iteration: 321; items left: 17; time: ( 164.7 s )
-iteration: 322; items left: 17; time: ( 164.8 s )
-iteration: 323; items left: 17; time: ( 164.9 s )
-iteration: 324; items left: 17; time: ( 165.0 s )
-iteration: 325; items left: 16; time: ( 165.0 s )
-iteration: 326; items left: 16; time: ( 165.1 s )
-iteration: 327; items left: 16; time: ( 165.2 s )
-iteration: 328; items left: 16; time: ( 165.3 s )
-iteration: 329; items left: 16; time: ( 165.3 s )
-iteration: 330; items left: 16; time: ( 165.5 s )
-iteration: 331; items left: 16; time: ( 165.5 s )
-iteration: 332; items left: 16; time: ( 165.6 s )
-iteration: 333; items left: 15; time: ( 165.7 s )
-iteration: 334; items left: 15; time: ( 165.8 s )
-iteration: 335; items left: 15; time: ( 165.8 s )
-iteration: 336; items left: 15; time: ( 165.9 s )
-iteration: 337; items left: 15; time: ( 166.0 s )
-iteration: 338; items left: 15; time: ( 166.1 s )
-iteration: 339; items left: 15; time: ( 166.2 s )
-iteration: 340; items left: 15; time: ( 166.2 s )
-iteration: 341; items left: 14; time: ( 166.3 s )
-iteration: 342; items left: 14; time: ( 166.4 s )
-iteration: 343; items left: 14; time: ( 166.4 s )
-iteration: 344; items left: 14; time: ( 166.5 s )
-iteration: 345; items left: 14; time: ( 166.6 s )
-iteration: 346; items left: 14; time: ( 166.6 s )
-iteration: 347; items left: 14; time: ( 166.7 s )
-iteration: 348; items left: 14; time: ( 166.8 s )
-iteration: 349; items left: 14; time: ( 166.8 s )
-iteration: 350; items left: 14; time: ( 166.9 s )
-iteration: 351; items left: 13; time: ( 167.0 s )
-iteration: 352; items left: 13; time: ( 167.0 s )
-iteration: 353; items left: 13; time: ( 167.1 s )
-iteration: 354; items left: 13; time: ( 167.2 s )
-iteration: 355; items left: 13; time: ( 167.2 s )
-iteration: 356; items left: 12; time: ( 167.3 s )
-iteration: 357; items left: 11; time: ( 167.4 s )
-iteration: 358; items left: 11; time: ( 167.4 s )
-iteration: 359; items left: 11; time: ( 167.5 s )
-iteration: 360; items left: 11; time: ( 167.6 s )
-iteration: 361; items left: 11; time: ( 167.8 s )
-iteration: 362; items left: 11; time: ( 167.9 s )
-iteration: 363; items left: 11; time: ( 168.1 s )
-iteration: 364; items left: 10; time: ( 168.2 s )
-iteration: 365; items left: 10; time: ( 168.4 s )
-iteration: 366; items left: 10; time: ( 168.7 s )
-iteration: 367; items left: 10; time: ( 169.0 s )
-iteration: 368; items left: 10; time: ( 169.0 s )
-iteration: 369; items left: 9; time: ( 169.0 s )
-iteration: 370; items left: 8; time: ( 169.1 s )
-iteration: 371; items left: 8; time: ( 169.1 s )
-iteration: 372; items left: 8; time: ( 169.1 s )
-iteration: 373; items left: 8; time: ( 169.1 s )
-iteration: 374; items left: 7; time: ( 169.2 s )
-iteration: 375; items left: 7; time: ( 169.2 s )
-iteration: 376; items left: 7; time: ( 169.2 s )
-iteration: 377; items left: 7; time: ( 169.2 s )
-iteration: 378; items left: 7; time: ( 169.2 s )
-iteration: 379; items left: 7; time: ( 169.2 s )
-iteration: 380; items left: 7; time: ( 169.2 s )
-iteration: 381; items left: 7; time: ( 169.3 s )
-iteration: 382; items left: 7; time: ( 169.3 s )
-iteration: 383; items left: 7; time: ( 169.3 s )
-iteration: 384; items left: 7; time: ( 169.3 s )
-iteration: 385; items left: 7; time: ( 169.3 s )
-iteration: 386; items left: 7; time: ( 169.3 s )
-iteration: 387; items left: 7; time: ( 169.4 s )
-iteration: 388; items left: 7; time: ( 169.4 s )
-iteration: 389; items left: 6; time: ( 169.4 s )
-iteration: 390; items left: 6; time: ( 169.4 s )
-iteration: 391; items left: 6; time: ( 169.4 s )
-iteration: 392; items left: 6; time: ( 169.4 s )
-iteration: 393; items left: 6; time: ( 169.5 s )
-iteration: 394; items left: 6; time: ( 169.5 s )
-iteration: 395; items left: 6; time: ( 169.5 s )
-iteration: 396; items left: 6; time: ( 169.5 s )
-iteration: 397; items left: 6; time: ( 169.5 s )
-iteration: 398; items left: 6; time: ( 169.5 s )
-iteration: 399; items left: 6; time: ( 169.5 s )
-iteration: 400; items left: 6; time: ( 169.5 s )
-iteration: 401; items left: 6; time: ( 169.6 s )
-iteration: 402; items left: 6; time: ( 169.6 s )
-iteration: 403; items left: 6; time: ( 169.6 s )
-iteration: 404; items left: 6; time: ( 169.6 s )
-iteration: 405; items left: 6; time: ( 169.6 s )
-iteration: 406; items left: 6; time: ( 169.6 s )
-iteration: 407; items left: 6; time: ( 169.6 s )
-iteration: 408; items left: 6; time: ( 169.7 s )
-iteration: 409; items left: 6; time: ( 169.7 s )
-iteration: 410; items left: 6; time: ( 169.7 s )
-iteration: 411; items left: 6; time: ( 169.7 s )
-iteration: 412; items left: 5; time: ( 169.7 s )
-iteration: 413; items left: 5; time: ( 169.8 s )
-iteration: 414; items left: 5; time: ( 169.8 s )
-iteration: 415; items left: 5; time: ( 169.8 s )
-iteration: 416; items left: 5; time: ( 169.8 s )
-iteration: 417; items left: 5; time: ( 169.8 s )
-iteration: 418; items left: 5; time: ( 169.9 s )
-iteration: 419; items left: 5; time: ( 169.9 s )
-iteration: 420; items left: 5; time: ( 169.9 s )
-iteration: 421; items left: 3; time: ( 169.9 s )
-iteration: 422; items left: 3; time: ( 169.9 s )
-iteration: 423; items left: 3; time: ( 169.9 s )
-iteration: 424; items left: 3; time: ( 169.9 s )
-iteration: 425; items left: 3; time: ( 169.9 s )
-iteration: 426; items left: 3; time: ( 170.0 s )
-iteration: 427; items left: 3; time: ( 170.0 s )
-iteration: 428; items left: 3; time: ( 170.0 s )
-iteration: 429; items left: 3; time: ( 170.0 s )
-iteration: 430; items left: 3; time: ( 170.0 s )
-iteration: 431; items left: 3; time: ( 170.0 s )
-iteration: 432; items left: 3; time: ( 170.0 s )
-iteration: 433; items left: 3; time: ( 170.1 s )
-iteration: 434; items left: 3; time: ( 170.1 s )
-iteration: 435; items left: 3; time: ( 170.1 s )
-iteration: 436; items left: 3; time: ( 170.1 s )
-iteration: 437; items left: 3; time: ( 170.1 s )
-iteration: 438; items left: 3; time: ( 170.2 s )
-iteration: 439; items left: 3; time: ( 170.2 s )
-iteration: 440; items left: 3; time: ( 170.2 s )
-iteration: 441; items left: 3; time: ( 170.2 s )
-iteration: 442; items left: 3; time: ( 170.3 s )
-iteration: 443; items left: 3; time: ( 170.3 s )
-iteration: 444; items left: 3; time: ( 170.3 s )
-iteration: 445; items left: 3; time: ( 170.3 s )
-iteration: 446; items left: 3; time: ( 170.3 s )
-iteration: 447; items left: 3; time: ( 170.3 s )
-iteration: 448; items left: 3; time: ( 170.3 s )
-iteration: 449; items left: 3; time: ( 170.4 s )
-iteration: 450; items left: 3; time: ( 170.4 s )
-iteration: 451; items left: 3; time: ( 170.4 s )
-iteration: 452; items left: 3; time: ( 170.4 s )
-iteration: 453; items left: 3; time: ( 170.4 s )
-iteration: 454; items left: 3; time: ( 170.4 s )
-iteration: 455; items left: 3; time: ( 170.5 s )
-iteration: 456; items left: 3; time: ( 170.5 s )
-iteration: 457; items left: 3; time: ( 170.5 s )
-iteration: 458; items left: 3; time: ( 170.5 s )
-iteration: 459; items left: 3; time: ( 170.5 s )
-iteration: 460; items left: 3; time: ( 170.5 s )
-iteration: 461; items left: 3; time: ( 170.5 s )
-iteration: 462; items left: 3; time: ( 170.5 s )
-iteration: 463; items left: 3; time: ( 170.6 s )
-iteration: 464; items left: 3; time: ( 170.6 s )
-iteration: 465; items left: 3; time: ( 170.6 s )
-iteration: 466; items left: 3; time: ( 170.6 s )
-iteration: 467; items left: 3; time: ( 170.6 s )
-iteration: 468; items left: 3; time: ( 170.6 s )
-iteration: 469; items left: 3; time: ( 170.6 s )
-iteration: 470; items left: 3; time: ( 170.6 s )
-iteration: 471; items left: 3; time: ( 170.7 s )
-iteration: 472; items left: 3; time: ( 170.7 s )
-iteration: 473; items left: 2; time: ( 170.7 s )
-iteration: 474; items left: 2; time: ( 170.7 s )
-iteration: 475; items left: 2; time: ( 170.7 s )
-iteration: 476; items left: 2; time: ( 170.8 s )
-iteration: 477; items left: 2; time: ( 170.8 s )
-iteration: 478; items left: 2; time: ( 170.8 s )
-iteration: 479; items left: 2; time: ( 170.8 s )
-iteration: 480; items left: 2; time: ( 170.8 s )
-iteration: 481; items left: 2; time: ( 170.9 s )
-iteration: 482; items left: 2; time: ( 170.9 s )
-iteration: 483; items left: 2; time: ( 170.9 s )
-iteration: 484; items left: 2; time: ( 170.9 s )
-iteration: 485; items left: 2; time: ( 170.9 s )
-iteration: 486; items left: 2; time: ( 171.0 s )
-iteration: 487; items left: 2; time: ( 171.0 s )
-iteration: 488; items left: 2; time: ( 171.0 s )
-iteration: 489; items left: 2; time: ( 171.0 s )
-iteration: 490; items left: 2; time: ( 171.0 s )
-iteration: 491; items left: 2; time: ( 171.0 s )
-iteration: 492; items left: 2; time: ( 171.1 s )
-iteration: 493; items left: 2; time: ( 171.1 s )
-iteration: 494; items left: 2; time: ( 171.1 s )
-iteration: 495; items left: 2; time: ( 171.1 s )
-iteration: 496; items left: 2; time: ( 171.1 s )
-iteration: 497; items left: 2; time: ( 171.2 s )
-iteration: 498; items left: 2; time: ( 171.2 s )
-iteration: 499; items left: 2; time: ( 171.2 s )
-iteration: 500; items left: 2; time: ( 171.2 s )
-iteration: 501; items left: 2; time: ( 171.3 s )
-iteration: 502; items left: 2; time: ( 171.3 s )
-iteration: 503; items left: 2; time: ( 171.3 s )
-iteration: 504; items left: 2; time: ( 171.4 s )
-iteration: 505; items left: 2; time: ( 171.4 s )
-iteration: 506; items left: 2; time: ( 171.4 s )
-iteration: 507; items left: 2; time: ( 171.4 s )
-iteration: 508; items left: 2; time: ( 171.5 s )
-iteration: 509; items left: 2; time: ( 171.5 s )
-iteration: 510; items left: 1; time: ( 171.5 s )
-iteration: 511; items left: 1; time: ( 171.5 s )
-iteration: 512; items left: 1; time: ( 171.6 s )
-iteration: 513; items left: 1; time: ( 171.6 s )
-iteration: 514; items left: 1; time: ( 171.6 s )
-iteration: 515; items left: 1; time: ( 171.6 s )
-iteration: 516; items left: 1; time: ( 171.6 s )
-iteration: 517; items left: 1; time: ( 171.6 s )
-iteration: 518; items left: 1; time: ( 171.6 s )
-iteration: 519; items left: 1; time: ( 171.6 s )
-iteration: 520; items left: 1; time: ( 171.7 s )
-iteration: 521; items left: 1; time: ( 171.7 s )
-iteration: 522; items left: 1; time: ( 171.7 s )
-iteration: 523; items left: 1; time: ( 171.7 s )
-iteration: 524; items left: 1; time: ( 171.7 s )
-iteration: 525; items left: 1; time: ( 171.7 s )
-iteration: 526; items left: 1; time: ( 171.7 s )
-iteration: 527; items left: 1; time: ( 171.7 s )
-iteration: 528; items left: 1; time: ( 171.7 s )
-iteration: 529; items left: 1; time: ( 171.7 s )
-iteration: 530; items left: 1; time: ( 171.7 s )
-iteration: 531; items left: 1; time: ( 171.7 s )
-iteration: 532; items left: 1; time: ( 171.7 s )
-iteration: 533; items left: 1; time: ( 171.7 s )
-iteration: 534; items left: 1; time: ( 171.7 s )
-iteration: 535; items left: 1; time: ( 171.8 s )
-iteration: 536; items left: 1; time: ( 171.8 s )
-iteration: 537; items left: 1; time: ( 171.8 s )
-iteration: 538; items left: 1; time: ( 171.8 s )
-iteration: 539; items left: 1; time: ( 171.9 s )
-iteration: 540; items left: 1; time: ( 172.0 s )
-iteration: 541; items left: 1; time: ( 172.1 s )
-iteration: 542; items left: 1; time: ( 172.3 s )
-iteration: 543; items left: 1; time: ( 172.4 s )
-iteration: 544; items left: 1; time: ( 172.4 s )
-iteration: 545; items left: 1; time: ( 172.5 s )
-iteration: 546; items left: 1; time: ( 172.7 s )
-iteration: 547; items left: 1; time: ( 172.7 s )
-iteration: 548; items left: 1; time: ( 172.8 s )
-iteration: 549; items left: 1; time: ( 172.9 s )
-iteration: 550; items left: 1; time: ( 172.9 s )
-iteration: 551; items left: 1; time: ( 173.1 s )
-iteration: 552; items left: 1; time: ( 173.1 s )
-iteration: 553; items left: 1; time: ( 173.4 s )
-iteration: 554; items left: 1; time: ( 173.7 s )
-iteration: 555; items left: 1; time: ( 173.9 s )
-iteration: 556; items left: 1; time: ( 174.1 s )
-iteration: 557; items left: 1; time: ( 174.2 s )
-iteration: 558; items left: 1; time: ( 174.2 s )
-iteration: 559; items left: 1; time: ( 174.3 s )
-redundant: 0; insertions 366060
-All coefficients will be normalized
-
-Equations out of bounds rmax and smax: 72244
-Equations in the bounds rmax and smax: 481842
-( 241.6 s )
-
-Write the triangular system to ./tmp/ on hard disk
-(--> ./tmp/B1/VERconfig, ./tmp/B1/VER###) 
-
-Triangular form completed after ( 257.7 s )
-closeCalc: 101695
-FIREFLY table created successfully
-Algebraic reconstruction is switched off.
-Equation table created successfully
-
-***** Run the back substitution ***********************
-
-Load all files from ./tmp/
-Take 481842 equations to reduce 481842 missing equations
-
-Back substitution: 
-  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.1% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.3% []  0.3% []  0.4% []  0.4% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.6% []  0.7% []  0.8% []  0.8% []  0.9% []  0.9% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.1% []  1.2% []  1.3% []  1.3% []  1.3% []  1.4% []  1.5% []  1.5% []  1.6% []  1.7% []  1.7% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.8% []  1.9% []  2.2% []  2.3% []  2.4% []  2.8% []  2.9% []  2.9% []  2.9% []  2.9% []  2.9% []  2.9% []  3.0% []  3.0% []  3.0% []  3.0% []  3.0% []  3.0% []  3.0% []  3.1% []  3.1% []  3.1% []  3.1% []  3.1% []  3.1% []  3.1% []  3.2% []  3.4% []  3.4% []  3.4% []  3.4% []  3.4% []  3.4% []  3.4% []  3.4% []  3.5% []  3.6% []  3.6% []  3.6% []  3.7% []  3.7% []  3.7% []  3.8% []  3.9% []  3.9% []  3.9% []  4.0% []  4.1% []  4.1% []  4.1% []  4.2% []  4.3% []  4.3% []  4.3% []  4.7% []  5.0% []  5.0% []  5.0% []  5.0% []  5.0% []  5.1% []  5.2% []  5.2% []  5.2% []  5.2% []  5.2% []  5.2% []  5.2% []  5.3% []  5.3% []  5.3% []  5.3% []  5.3% []  5.3% []  5.3% []  5.3% []  5.5% []  5.5% []  5.5% []  5.5% []  5.6% []  5.6% []  5.6% []  5.6% []  5.6% []  5.6% []  5.6% []  5.6% []  5.6% []  5.9% []  6.0% []  6.2% []  6.2% []  6.2% []  6.4% []  6.5% []  6.6% []  6.6% []  6.7% []  6.7% []  6.8% []  6.9% []  6.9% []  6.9% []  6.9% []  6.9% []  7.0% []  7.0% []  7.0% []  7.0% []  7.0% []  7.0% []  7.1% []  7.1% []  7.1% []  7.2% []  7.2% []  7.3% []  7.3% []  7.4% []  7.7% []  8.0% []  8.0% []  8.0% []  8.0% []  8.1% []  8.3% []  8.3% []  8.4% []  8.5% []  8.6% []  8.6% []  8.7% []  8.7% []  8.7% []  8.9% []  9.0% []  9.0% []  9.0% []  9.1% []  9.1% []  9.1% []  9.2% []  9.2% []  9.4% []  9.5% []  9.5% []  9.5% []  9.6% []  9.8% []  9.8% []  9.8% []  9.9% []  9.9% []  9.9% []  9.9% [] 10.0% [] 10.0% [] 10.0% [] 10.0% []
-
-Equations reduced: 48730 / 481842
-Kira committed results ( 602.1 s )
- 10.4% [] 10.4% [] 10.4% [] 10.5% [] 10.5% [] 10.5% [] 10.6% [] 10.6% [] 10.6% [] 10.6% [] 10.8% [] 10.8% [] 10.8% [] 11.1% [] 11.2% [] 11.2% [] 11.2% [] 11.2% [] 11.2% [] 11.5% [] 11.6% [] 11.7% [] 11.7% [] 11.9% [] 11.9% []
-
-Equations reduced: 58751 / 481842
-Kira committed results ( 903.2 s )
- 12.3% [] 12.3% [] 12.5% [] 12.5% [] 12.5% [] 12.5% [] 12.5% [] 12.5% [] 12.5% [] 12.6% [] 12.7% [] 12.7% [] 12.8% [] 12.9% [] 12.9% [] 13.0% [] 13.0% [] 13.0% [] 13.5% [] 13.6% [] 13.7% [] 13.8% [] 13.9% [] 13.9% [] 14.0% [] 14.0% [] 14.0% []
-
-Equations reduced: 67693 / 481842
-Kira committed results ( 1203.3 s )
- 14.1% [] 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.3% [] 14.4% [] 14.4% [] 14.4% [] 14.4% [] 14.4% [] 14.5% [] 14.5% [] 14.5% [] 14.5% [] 14.5% [] 14.6% [] 14.6% [] 14.6% [] 14.6% [] 14.6% [] 14.6% [] 14.6% [] 14.6% [] 14.6% [] 14.8% [] 14.8% [] 14.9% [] 14.9% [] 14.9% [] 14.9% [] 15.0% [] 15.1% [] 15.1% [] 15.4% [] 15.5% [] 15.6% [] 15.6% [] 15.6% [] 15.8% [] 15.8% [] 15.9% [] 15.9% [] 15.9% [] 15.9% [] 15.9% [] 15.9% [] 16.0% [] 16.1% [] 16.1% [] 16.2% [] 16.2% [] 16.2% [] 16.2% [] 16.2% [] 16.3% [] 16.3% [] 16.3% [] 16.4% [] 16.4% [] 16.4% [] 16.4% [] 16.4% [] 16.5% [] 16.5% [] 16.6% [] 16.7% [] 16.7% [] 16.7% [] 16.9% [] 17.0% [] 17.0% [] 17.2% [] 17.3% [] 17.3% [] 17.4% [] 17.5% [] 17.6% [] 17.6% [] 17.7% [] 17.7% []
-
-Equations reduced: 86616 / 481842
-Kira committed results ( 1574.5 s )
- 18.0% [] 18.0% [] 18.0% [] 18.1% [] 18.1% [] 18.2% [] 18.2% [] 18.3% [] 18.3% [] 18.3% [] 18.3% [] 18.3% []
-
-Equations reduced: 88795 / 481842
-Kira committed results ( 1874.9 s )
- 18.7% [] 19.1% [] 19.1% [] 19.1% [] 19.2% [] 19.3% [] 19.4% [] 19.4% [] 19.4% [] 19.4% [] 19.4% [] 19.5% [] 19.6% [] 19.7% [] 19.8% [] 19.8% [] 19.8% [] 19.8% [] 19.9% []
-
-Equations reduced: 95933 / 481842
-Kira committed results ( 2017.2 s )
- 20.0% [] 20.1% [] 20.1% [] 20.1% [] 20.3% [] 20.4% [] 20.4% [] 20.4% [] 20.4% [] 20.4% [] 20.5% []
-
-Equations reduced: 99097 / 481842
-Kira committed results ( 2175.0 s )
- 20.6% [] 20.7% [] 20.8% [] 20.8% [] 20.9% [] 21.2% [] 21.3% [] 21.3% [] 21.3% [] 21.3% []
-
-Equations reduced: 103855 / 481842
-Kira committed results ( 2475.5 s )
- 22.0% [] 22.0% [] 22.1% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.2% [] 22.3% [] 22.3% [] 22.3% [] 22.3% [] 22.3% [] 22.3% [] 22.3% [] 22.3% []
-
-Equations reduced: 107736 / 481842
-Kira committed results ( 2775.9 s )
- 22.4% [] 22.4% [] 22.4% [] 22.5% [] 22.5% [] 22.6% [] 22.9% [] 22.9% [] 23.0% [] 23.0% [] 23.1% [] 23.1% [] 23.2% [] 23.3% []
-
-Equations reduced: 112630 / 481842
-Kira committed results ( 3076.2 s )
- 23.4% [] 23.4% [] 23.5% [] 23.6% [] 23.6% [] 23.7% [] 23.8% [] 24.2% [] 24.4% [] 24.4% []
-
-Equations reduced: 117703 / 481842
-Kira committed results ( 3280.5 s )
-
-
-Equations reduced: 117708 / 481842
-Kira committed results ( 3280.5 s )
- 24.5% [] 24.7% [] 24.7% [] 24.7% [] 24.7% []
-
-Equations reduced: 119597 / 481842
-Kira committed results ( 3376.0 s )
- 25.1% [] 25.3% [] 25.3% [] 25.3% [] 25.6% [] 25.6% []
-
-Equations reduced: 123486 / 481842
-Kira committed results ( 3676.8 s )
- 25.7% [] 25.7% [] 25.7% [] 25.7% []
-
-Equations reduced: 124248 / 481842
-Kira committed results ( 3704.0 s )
- 25.8% [] 25.8% [] 25.8% [] 25.8% [] 25.9% [] 25.9% [] 26.0% [] 26.0% [] 26.0% [] 26.0% [] 26.0% [] 26.0% [] 26.0% [] 26.1% [] 26.1% [] 26.2% [] 26.2% [] 26.2% [] 26.2% [] 26.2% [] 26.2% [] 26.4% [] 26.4% [] 26.5% [] 26.6% [] 26.6% [] 26.7% [] 26.8% [] 26.8% [] 26.8% [] 26.9% []
-
-Equations reduced: 129724 / 481842
-Kira committed results ( 3977.8 s )
- 27.0% [] 27.0% [] 27.0% [] 27.0% [] 27.0% [] 27.0% [] 27.1% [] 27.1% [] 27.1% [] 27.2% [] 27.2% [] 27.2% [] 27.2% [] 27.3% [] 27.3% [] 27.4% [] 27.5% [] 27.5% [] 27.5% []
-
-Equations reduced: 133014 / 481842
-Kira committed results ( 4287.7 s )
- 27.6% [] 27.8% []
-
-Equations reduced: 134053 / 481842
-Kira committed results ( 4588.0 s )
- 28.0% [] 28.0% [] 28.1% []
-
-Equations reduced: 135915 / 481842
-Kira committed results ( 4888.2 s )
- 28.3% [] 28.4% [] 28.4% [] 28.8% [] 28.9% [] 28.9% [] 28.9% [] 28.9% []
-
-Equations reduced: 139746 / 481842
-Kira committed results ( 5065.5 s )
- 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.0% [] 29.1% [] 29.3% [] 29.3% [] 29.4% [] 29.4% [] 29.5% []
-
-Equations reduced: 142560 / 481842
-Kira committed results ( 5188.2 s )
- 29.6% [] 29.9% [] 30.0% [] 30.0% [] 30.1% [] 30.2% [] 30.3% [] 30.3% [] 30.4% [] 30.5% [] 30.5% [] 30.5% [] 30.6% [] 30.6% [] 30.7% [] 30.8% [] 30.9% []
-
-Equations reduced: 149077 / 481842
-Kira committed results ( 5511.1 s )
- 31.0% [] 31.3% [] 31.3% [] 31.3% [] 31.3% [] 31.4% [] 31.4% [] 31.6% [] 31.6% [] 31.7% [] 31.7% [] 31.7% [] 31.8% [] 31.8% [] 31.9% [] 32.0% [] 32.1% [] 32.2% [] 32.4% []
-
-Equations reduced: 156463 / 481842
-Kira committed results ( 5811.1 s )
- 32.5% [] 32.5% [] 32.6% [] 32.8% [] 32.9% [] 33.1% [] 33.2% [] 33.2% [] 33.4% [] 33.5% [] 33.6% [] 33.6% [] 33.7% [] 33.7% [] 33.7% [] 33.7% [] 33.7% [] 33.8% [] 33.9% [] 33.9% [] 34.0% [] 34.0% [] 34.0% [] 34.0% [] 34.0% [] 34.0% [] 34.2% [] 34.4% [] 34.5% [] 34.6% [] 34.6% [] 34.7% [] 34.7% [] 35.0% [] 35.0% [] 35.0% [] 35.1% [] 35.1% [] 35.3% [] 35.4% [] 35.5% [] 35.7% [] 35.8% [] 35.9% []
-
-Equations reduced: 173498 / 481842
-Kira committed results ( 6111.3 s )
- 36.0% [] 36.1% [] 36.3% [] 36.6% []
-
-Equations reduced: 176659 / 481842
-Kira committed results ( 6500.7 s )
- 36.7% [] 36.8% [] 36.8% []
-
-Equations reduced: 177697 / 481842
-Kira committed results ( 7041.3 s )
- 36.9% [] 36.9% [] 37.3% [] 37.3% [] 37.3% [] 37.5% [] 37.5% [] 37.5% [] 37.6% [] 37.6% [] 37.8% [] 37.9% []
-
-Equations reduced: 183159 / 481842
-Kira committed results ( 7341.9 s )
- 38.0% [] 38.0% [] 38.1% [] 38.1% [] 38.6% [] 38.6% [] 38.7% [] 38.7% [] 38.8% [] 39.2% [] 39.4% [] 39.4% [] 39.4% [] 39.5% [] 39.5% [] 39.7% [] 39.8% [] 39.9% [] 40.0% [] 40.2% [] 40.2% [] 40.3% [] 40.3% [] 40.3% [] 40.3% [] 40.3% []
-
-Equations reduced: 194402 / 481842
-Kira committed results ( 7642.1 s )
- 40.4% [] 40.4% [] 40.4% [] 40.4% [] 40.4% [] 40.4% [] 40.5% [] 40.6% [] 40.6% [] 40.8% [] 40.9% [] 41.0% [] 41.1% [] 41.4% [] 41.5% [] 41.5% [] 41.5% []
-
-Equations reduced: 201524 / 481842
-Kira committed results ( 7942.6 s )
- 41.9% [] 42.2% [] 42.3% [] 42.4% [] 42.6% [] 42.7% [] 42.7% []
-
-Equations reduced: 206418 / 481842
-Kira committed results ( 8242.7 s )
- 43.0% [] 43.0% [] 43.1% [] 43.4% [] 43.4% []
-
-Equations reduced: 209953 / 481842
-Kira committed results ( 8534.1 s )
-
-
-Equations reduced: 210050 / 481842
-Kira committed results ( 8542.4 s )
- 43.8% [] 43.8% [] 44.1% [] 44.1% [] 44.2% [] 44.3% [] 44.5% [] 44.6% []
-
-Equations reduced: 215043 / 481842
-Kira committed results ( 8842.9 s )
-
-
-Equations reduced: 215243 / 481842
-Kira committed results ( 8864.7 s )
- 44.8% [] 44.8% [] 44.9% [] 45.0% [] 45.1% [] 45.1% [] 45.1% []
-
-Equations reduced: 217702 / 481842
-Kira committed results ( 9155.3 s )
- 45.4% [] 45.4% [] 45.4% []
-
-Equations reduced: 219164 / 481842
-Kira committed results ( 9240.8 s )
- 45.6% [] 45.6% [] 45.6% [] 45.6% [] 46.0% [] 46.1% [] 46.1% [] 46.1% []
-
-Equations reduced: 222680 / 481842
-Kira committed results ( 9455.7 s )
-
-
-Equations reduced: 223975 / 481842
-Kira committed results ( 9755.7 s )
- 46.8% [] 46.8% [] 46.9% [] 46.9% []
-
-Equations reduced: 226149 / 481842
-Kira committed results ( 10056.1 s )
- 47.1% [] 47.2% [] 47.2% [] 47.2% [] 47.2% [] 47.2% [] 47.5% [] 47.5% []
-
-Equations reduced: 229055 / 481842
-Kira committed results ( 10357.7 s )
- 47.6% []
-
-Equations reduced: 231206 / 481842
-Kira committed results ( 10658.0 s )
- 48.5% [] 48.5% []
-
-Equations reduced: 234028 / 481842
-Kira committed results ( 10961.3 s )
- 48.7% [] 48.7% [] 48.7% [] 48.7% [] 48.7% [] 48.8% [] 48.9% []
-
-Equations reduced: 236127 / 481842
-Kira committed results ( 11161.7 s )
-
-
-Equations reduced: 237133 / 481842
-Kira committed results ( 11261.3 s )
- 49.2% [] 49.4% []
-
-Equations reduced: 238240 / 481842
-Kira committed results ( 11322.4 s )
- 49.5% [] 49.6% [] 49.7% [] 49.9% [] 49.9% [] 49.9% []
-
-Equations reduced: 241697 / 481842
-Kira committed results ( 11563.1 s )
- 50.3% [] 50.5% []
-
-Equations reduced: 243503 / 481842
-Kira committed results ( 11687.0 s )
-
-
-Equations reduced: 244122 / 481842
-Kira committed results ( 11737.8 s )
- 51.0% []
-
-Equations reduced: 246113 / 481842
-Kira committed results ( 11863.0 s )
-
-
-Equations reduced: 247091 / 481842
-Kira committed results ( 11903.1 s )
-
-
-Equations reduced: 247103 / 481842
-Kira committed results ( 11903.1 s )
- 51.3% [] 51.3% []
-
-Equations reduced: 247657 / 481842
-Kira committed results ( 11924.5 s )
- 51.4% []
-
-Equations reduced: 248072 / 481842
-Kira committed results ( 11952.7 s )
- 51.5% [] 51.6% [] 51.6% []
-
-Equations reduced: 249620 / 481842
-Kira committed results ( 12038.3 s )
- 51.8% [] 51.9% [] 52.0% []
-
-Equations reduced: 251040 / 481842
-Kira committed results ( 12172.0 s )
- 52.1% [] 52.2% [] 52.4% [] 52.6% []
-
-Equations reduced: 253609 / 481842
-Kira committed results ( 12486.8 s )
-
-
-Equations reduced: 254599 / 481842
-Kira committed results ( 12787.5 s )
- 52.9% [] 53.0% []
-
-Equations reduced: 255767 / 481842
-Kira committed results ( 13095.2 s )
- 53.1% [] 53.2% [] 53.2% [] 53.2% [] 53.2% [] 53.2% [] 53.3% [] 53.3% []
-
-Equations reduced: 257315 / 481842
-Kira committed results ( 13395.7 s )
- 53.4% [] 53.5% [] 53.6% [] 53.6% [] 53.7% []
-
-Equations reduced: 259740 / 481842
-Kira committed results ( 13717.3 s )
- 54.0% [] 54.2% [] 54.3% []
-
-Equations reduced: 262143 / 481842
-Kira committed results ( 14018.2 s )
- 54.6% [] 54.7% [] 55.0% []
-
-Equations reduced: 266236 / 481842
-Kira committed results ( 14265.0 s )
-
-
-Equations reduced: 266301 / 481842
-Kira committed results ( 14268.2 s )
-
-
-Equations reduced: 267092 / 481842
-Kira committed results ( 14318.6 s )
-
-
-Equations reduced: 267306 / 481842
-Kira committed results ( 14328.8 s )
- 55.7% [] 55.8% []
-
-Equations reduced: 269848 / 481842
-Kira committed results ( 14619.3 s )
- 56.1% [] 56.1% [] 56.8% [] 56.8% []
-
-Equations reduced: 274099 / 481842
-Kira committed results ( 14919.7 s )
- 57.1% [] 57.6% []
-
-Equations reduced: 278093 / 481842
-Kira committed results ( 15220.2 s )
- 57.7% [] 57.7% [] 57.7% []
-
-Equations reduced: 278349 / 481842
-Kira committed results ( 15226.1 s )
- 57.9% [] 57.9% [] 58.2% []
-
-Equations reduced: 280986 / 481842
-Kira committed results ( 15344.3 s )
- 58.3% [] 58.5% [] 58.5% [] 58.5% []
-
-Equations reduced: 282155 / 481842
-Kira committed results ( 15381.0 s )
-
-
-Equations reduced: 282252 / 481842
-Kira committed results ( 15382.9 s )
-
-
-Equations reduced: 282267 / 481842
-Kira committed results ( 15383.0 s )
- 58.6% [] 58.7% [] 58.9% []
-
-Equations reduced: 283927 / 481842
-Kira committed results ( 15524.1 s )
- 59.0% [] 59.1% []
-
-Equations reduced: 285021 / 481842
-Kira committed results ( 15761.0 s )
-
-
-Equations reduced: 285152 / 481842
-Kira committed results ( 15836.2 s )
- 59.4% []
-
-Equations reduced: 286596 / 481842
-Kira committed results ( 16136.4 s )
- 59.6% [] 59.7% []
-
-Equations reduced: 287817 / 481842
-Kira committed results ( 16213.9 s )
- 59.8% [] 60.0% [] 60.1% [] 60.1% [] 60.6% []
-
-Equations reduced: 293143 / 481842
-Kira committed results ( 16436.7 s )
- 60.9% []
-
-Equations reduced: 294177 / 481842
-Kira committed results ( 16473.6 s )
- 61.4% [] 61.5% [] 61.6% [] 61.6% []
-
-Equations reduced: 297002 / 481842
-Kira committed results ( 16723.6 s )
-
-
-Equations reduced: 297041 / 481842
-Kira committed results ( 16746.5 s )
- 62.0% [] 62.0% []
-
-Equations reduced: 299354 / 481842
-Kira committed results ( 17049.7 s )
- 62.2% [] 62.2% [] 62.2% [] 62.3% [] 62.6% [] 62.6% [] 62.6% []
-
-Equations reduced: 302240 / 481842
-Kira committed results ( 17352.6 s )
- 62.8% [] 62.9% [] 63.0% [] 63.2% [] 63.3% [] 63.4% []
-
-Equations reduced: 305647 / 481842
-Kira committed results ( 17623.2 s )
-
-
-Equations reduced: 305695 / 481842
-Kira committed results ( 17694.9 s )
- 63.5% []
-
-Equations reduced: 306815 / 481842
-Kira committed results ( 17995.2 s )
- 63.7% [] 63.7% []
-
-Equations reduced: 307392 / 481842
-Kira committed results ( 18296.1 s )
- 63.9% [] 63.9% [] 63.9% []
-
-Equations reduced: 308073 / 481842
-Kira committed results ( 18403.4 s )
- 64.0% [] 64.0% []
-
-Equations reduced: 308506 / 481842
-Kira committed results ( 18643.1 s )
- 64.1% []
-
-Equations reduced: 309473 / 481842
-Kira committed results ( 18946.0 s )
-
-
-Equations reduced: 309914 / 481842
-Kira committed results ( 19260.3 s )
- 64.3% [] 64.3% [] 64.4% []
-
-Equations reduced: 311009 / 481842
-Kira committed results ( 19589.6 s )
- 64.6% [] 64.7% [] 64.7% []
-
-Equations reduced: 312316 / 481842
-Kira committed results ( 19890.5 s )
-
-
-Equations reduced: 313603 / 481842
-Kira committed results ( 20037.5 s )
- 65.3% []
-
-Equations reduced: 315123 / 481842
-Kira committed results ( 20190.7 s )
- 65.5% [] 65.6% [] 65.7% []
-
-Equations reduced: 317903 / 481842
-Kira committed results ( 20490.8 s )
- 66.1% [] 66.3% [] 66.3% [] 66.4% []
-
-Equations reduced: 320215 / 481842
-Kira committed results ( 20751.6 s )
-
-
-Equations reduced: 320438 / 481842
-Kira committed results ( 20797.6 s )
-
-
-Equations reduced: 321498 / 481842
-Kira committed results ( 20907.0 s )
-
-
-Equations reduced: 321743 / 481842
-Kira committed results ( 20933.3 s )
-
-
-Equations reduced: 322336 / 481842
-Kira committed results ( 20999.3 s )
-
-
-Equations reduced: 322642 / 481842
-Kira committed results ( 21031.4 s )
- 67.0% []
-
-Equations reduced: 323339 / 481842
-Kira committed results ( 21097.8 s )
- 67.1% [] 67.1% [] 67.1% [] 67.1% [] 67.4% [] 67.5% [] 67.5% []
-
-Equations reduced: 326174 / 481842
-Kira committed results ( 21398.8 s )
- 67.9% [] 68.0% [] 68.0% [] 68.0% []
-
-Equations reduced: 327850 / 481842
-Kira committed results ( 21625.7 s )
-
-
-Equations reduced: 328146 / 481842
-Kira committed results ( 21679.6 s )
-
-
-Equations reduced: 328255 / 481842
-Kira committed results ( 21698.9 s )
- 68.2% [] 68.2% []
-
-Equations reduced: 329066 / 481842
-Kira committed results ( 21775.5 s )
- 68.5% []
-
-Equations reduced: 331497 / 481842
-Kira committed results ( 22011.9 s )
-
-
-Equations reduced: 332030 / 481842
-Kira committed results ( 22046.7 s )
-
-
-Equations reduced: 332053 / 481842
-Kira committed results ( 22046.7 s )
-
-
-Equations reduced: 333330 / 481842
-Kira committed results ( 22312.7 s )
- 69.2% []
-
-Equations reduced: 334859 / 481842
-Kira committed results ( 22612.9 s )
- 69.6% [] 69.7% []
-
-Equations reduced: 336460 / 481842
-Kira committed results ( 22913.0 s )
- 70.0% []
-
-Equations reduced: 337899 / 481842
-Kira committed results ( 23198.5 s )
-
-
-Equations reduced: 337915 / 481842
-Kira committed results ( 23217.6 s )
-
-
-Equations reduced: 338631 / 481842
-Kira committed results ( 23361.1 s )
- 70.3% [] 70.3% []
-
-Equations reduced: 339165 / 481842
-Kira committed results ( 23536.0 s )
- 70.4% [] 70.5% []
-
-Equations reduced: 339899 / 481842
-Kira committed results ( 23836.1 s )
- 70.6% []
-
-Equations reduced: 340593 / 481842
-Kira committed results ( 24175.3 s )
- 70.8% []
-
-Equations reduced: 341260 / 481842
-Kira committed results ( 24477.3 s )
- 70.9% []
-
-Equations reduced: 342331 / 481842
-Kira committed results ( 24777.4 s )
- 71.2% [] 71.4% [] 71.4% []
-
-Equations reduced: 344455 / 481842
-Kira committed results ( 25077.5 s )
- 71.6% []
-
-Equations reduced: 345442 / 481842
-Kira committed results ( 25470.8 s )
- 71.8% []
-
-Equations reduced: 346258 / 481842
-Kira committed results ( 25770.9 s )
- 71.9% [] 71.9% [] 71.9% [] 71.9% [] 71.9% [] 72.0% []
-
-Equations reduced: 347198 / 481842
-Kira committed results ( 26071.5 s )
-
-
-Equations reduced: 347769 / 481842
-Kira committed results ( 26629.7 s )
-
-
-Equations reduced: 347955 / 481842
-Kira committed results ( 26965.8 s )
-
-
-Equations reduced: 347956 / 481842
-Kira committed results ( 27731.3 s )
-
-
-Equations reduced: 348087 / 481842
-Kira committed results ( 27761.5 s )
-
-
-Equations reduced: 348795 / 481842
-Kira committed results ( 28040.4 s )
-
-
-Equations reduced: 349734 / 481842
-Kira committed results ( 28348.1 s )
- 72.6% [] 72.6% []
-
-Equations reduced: 350383 / 481842
-Kira committed results ( 28659.2 s )
-
-
-Equations reduced: 350851 / 481842
-Kira committed results ( 28961.6 s )
- 72.9% []
-
-Equations reduced: 351824 / 481842
-Kira committed results ( 29262.7 s )
- 73.0% [] 73.1% []
-
-Equations reduced: 352851 / 481842
-Kira committed results ( 29564.1 s )
- 73.4% []
-
-Equations reduced: 354163 / 481842
-Kira committed results ( 29864.7 s )
- 73.5% []
-
-Equations reduced: 355845 / 481842
-Kira committed results ( 30196.1 s )
-
-
-Equations reduced: 356587 / 481842
-Kira committed results ( 30595.2 s )
- 74.0% []
-
-Equations reduced: 356826 / 481842
-Kira committed results ( 30897.8 s )
-
-
-Equations reduced: 357027 / 481842
-Kira committed results ( 31197.7 s )
-
-
-Equations reduced: 357118 / 481842
-Kira committed results ( 31625.1 s )
- 74.1% []
-
-Equations reduced: 357578 / 481842
-Kira committed results ( 31926.7 s )
-
-
-Equations reduced: 357958 / 481842
-Kira committed results ( 32226.9 s )
-
-
-Equations reduced: 358064 / 481842
-Kira committed results ( 32295.3 s )
- 74.3% []
-
-Equations reduced: 358450 / 481842
-Kira committed results ( 32550.2 s )
-
-
-Equations reduced: 358712 / 481842
-Kira committed results ( 32860.3 s )
-
-
-Equations reduced: 359020 / 481842
-Kira committed results ( 33175.1 s )
- 74.5% [] 74.5% [] 74.5% [] 74.5% [] 74.5% []
-
-Equations reduced: 359308 / 481842
-Kira committed results ( 33484.1 s )
- 74.6% []
-
-Equations reduced: 359747 / 481842
-Kira committed results ( 33785.6 s )
-
-
-Equations reduced: 360166 / 481842
-Kira committed results ( 34110.8 s )
-
-
-Equations reduced: 360287 / 481842
-Kira committed results ( 34451.5 s )
-
-
-Equations reduced: 360869 / 481842
-Kira committed results ( 34795.8 s )
-
-
-Equations reduced: 361311 / 481842
-Kira committed results ( 35230.3 s )
-
-
-Equations reduced: 361594 / 481842
-Kira committed results ( 35502.1 s )
-
-
-Equations reduced: 361643 / 481842
-Kira committed results ( 35530.5 s )
-
-
-Equations reduced: 361711 / 481842
-Kira committed results ( 35570.9 s )
- 75.1% []
-
-Equations reduced: 362218 / 481842
-Kira committed results ( 36509.4 s )
-
-
-Equations reduced: 362623 / 481842
-Kira committed results ( 36814.6 s )
- 75.3% [] 75.3% []
-
-Equations reduced: 363197 / 481842
-Kira committed results ( 37281.6 s )
-
-
-Equations reduced: 363630 / 481842
-Kira committed results ( 37609.4 s )
- 75.5% [] 75.5% [] 75.5% []
-
-Equations reduced: 364069 / 481842
-Kira committed results ( 37966.0 s )
-
-
-Equations reduced: 364216 / 481842
-Kira committed results ( 38042.8 s )
- 75.6% []
-
-Equations reduced: 364481 / 481842
-Kira committed results ( 38268.2 s )
-
-
-Equations reduced: 364987 / 481842
-Kira committed results ( 38573.8 s )
-
-
-Equations reduced: 365453 / 481842
-Kira committed results ( 38878.7 s )
- 75.9% []
-
-Equations reduced: 366080 / 481842
-Kira committed results ( 39179.0 s )
-
-
-Equations reduced: 366665 / 481842
-Kira committed results ( 39479.1 s )
-
-
-Equations reduced: 366970 / 481842
-Kira committed results ( 39635.1 s )
-
-
-Equations reduced: 366996 / 481842
-Kira committed results ( 39657.1 s )
-
-
-Equations reduced: 367258 / 481842
-Kira committed results ( 39780.0 s )
- 76.3% []
-
-Equations reduced: 367947 / 481842
-Kira committed results ( 40086.0 s )
-
-
-Equations reduced: 368104 / 481842
-Kira committed results ( 40203.0 s )
-
-
-Equations reduced: 368539 / 481842
-Kira committed results ( 40387.2 s )
-
-
-Equations reduced: 369130 / 481842
-Kira committed results ( 40699.6 s )
-
-
-Equations reduced: 369686 / 481842
-Kira committed results ( 41015.2 s )
-
-
-Equations reduced: 370224 / 481842
-Kira committed results ( 41315.6 s )
-
-
-Equations reduced: 370795 / 481842
-Kira committed results ( 41626.6 s )
-
-
-Equations reduced: 371247 / 481842
-Kira committed results ( 41927.2 s )
-
-
-Equations reduced: 371660 / 481842
-Kira committed results ( 42246.4 s )
-
-
-Equations reduced: 372052 / 481842
-Kira committed results ( 42555.9 s )
-
-
-Equations reduced: 372439 / 481842
-Kira committed results ( 42773.7 s )
-
-
-Equations reduced: 372624 / 481842
-Kira committed results ( 42875.4 s )
-
-
-Equations reduced: 372851 / 481842
-Kira committed results ( 43189.1 s )
-
-
-Equations reduced: 372923 / 481842
-Kira committed results ( 43525.3 s )
- 77.5% []
-
-Equations reduced: 373701 / 481842
-Kira committed results ( 43825.9 s )
- 77.6% []
-
-Equations reduced: 374495 / 481842
-Kira committed results ( 44040.6 s )
- 77.7% []
-
-Equations reduced: 374863 / 481842
-Kira committed results ( 44125.9 s )
- 77.9% []
-
-Equations reduced: 375786 / 481842
-Kira committed results ( 44427.5 s )
- 78.1% []
-
-Equations reduced: 377063 / 481842
-Kira committed results ( 44728.6 s )
- 78.3% [] 78.3% [] 78.3% []
-
-Equations reduced: 378196 / 481842
-Kira committed results ( 45029.8 s )
- 78.6% []
-
-Equations reduced: 379493 / 481842
-Kira committed results ( 45330.3 s )
-
-
-Equations reduced: 380298 / 481842
-Kira committed results ( 45635.7 s )
- 79.1% [] 79.1% [] 79.1% []
-
-Equations reduced: 381271 / 481842
-Kira committed results ( 45937.6 s )
- 79.2% [] 79.3% [] 79.3% [] 79.3% []
-
-Equations reduced: 382673 / 481842
-Kira committed results ( 46248.7 s )
- 79.4% [] 79.5% []
-
-Equations reduced: 383322 / 481842
-Kira committed results ( 46598.2 s )
- 79.6% []
-
-Equations reduced: 384011 / 481842
-Kira committed results ( 46965.3 s )
-
-
-Equations reduced: 384122 / 481842
-Kira committed results ( 47265.8 s )
- 79.7% [] 79.7% []
-
-Equations reduced: 384516 / 481842
-Kira committed results ( 47566.8 s )
-
-
-Equations reduced: 385034 / 481842
-Kira committed results ( 47867.0 s )
-
-
-Equations reduced: 385549 / 481842
-Kira committed results ( 48171.7 s )
-
-
-Equations reduced: 385905 / 481842
-Kira committed results ( 48510.0 s )
-
-
-Equations reduced: 386152 / 481842
-Kira committed results ( 48848.2 s )
-
-
-Equations reduced: 386315 / 481842
-Kira committed results ( 49162.3 s )
-
-
-Equations reduced: 386553 / 481842
-Kira committed results ( 49463.2 s )
-
-
-Equations reduced: 386864 / 481842
-Kira committed results ( 49849.4 s )
-
-
-Equations reduced: 386986 / 481842
-Kira committed results ( 50149.3 s )
- 80.3% []
-
-Equations reduced: 387174 / 481842
-Kira committed results ( 50449.5 s )
-
-
-Equations reduced: 387327 / 481842
-Kira committed results ( 50822.0 s )
-
-
-Equations reduced: 387711 / 481842
-Kira committed results ( 51131.9 s )
-
-
-Equations reduced: 388184 / 481842
-Kira committed results ( 51438.3 s )
- 80.6% []
-
-Equations reduced: 388862 / 481842
-Kira committed results ( 51738.7 s )
- 80.7% []
-
-Equations reduced: 389434 / 481842
-Kira committed results ( 52039.6 s )
-
-
-Equations reduced: 390065 / 481842
-Kira committed results ( 52348.6 s )
- 81.0% []
-
-Equations reduced: 390818 / 481842
-Kira committed results ( 52662.5 s )
- 81.2% [] 81.2% []
-
-Equations reduced: 391960 / 481842
-Kira committed results ( 52963.0 s )
-
-
-Equations reduced: 393212 / 481842
-Kira committed results ( 53264.9 s )
-
-
-Equations reduced: 394278 / 481842
-Kira committed results ( 53565.1 s )
- 82.0% []
-
-Equations reduced: 395635 / 481842
-Kira committed results ( 53866.5 s )
- 82.1% []
-
-Equations reduced: 396757 / 481842
-Kira committed results ( 54167.3 s )
-
-
-Equations reduced: 397583 / 481842
-Kira committed results ( 54468.0 s )
- 82.5% [] 82.6% []
-
-Equations reduced: 398345 / 481842
-Kira committed results ( 54768.3 s )
-
-
-Equations reduced: 399305 / 481842
-Kira committed results ( 55087.6 s )
-
-
-Equations reduced: 399943 / 481842
-Kira committed results ( 55560.6 s )
- 83.0% []
-
-Equations reduced: 400917 / 481842
-Kira committed results ( 55880.8 s )
-
-
-Equations reduced: 401993 / 481842
-Kira committed results ( 56181.0 s )
-
-
-Equations reduced: 402755 / 481842
-Kira committed results ( 56480.9 s )
- 83.6% [] 83.8% [] 83.8% []
-
-Equations reduced: 404585 / 481842
-Kira committed results ( 56782.4 s )
- 84.1% [] 84.2% [] 84.3% []
-
-Equations reduced: 406596 / 481842
-Kira committed results ( 57087.1 s )
- 84.4% []
-
-Equations reduced: 407472 / 481842
-Kira committed results ( 57392.9 s )
-
-
-Equations reduced: 409348 / 481842
-Kira committed results ( 57694.8 s )
- 85.0% []
-
-Equations reduced: 410566 / 481842
-Kira committed results ( 58097.6 s )
- 85.3% []
-
-Equations reduced: 411199 / 481842
-Kira committed results ( 58207.2 s )
-
-
-Equations reduced: 411728 / 481842
-Kira committed results ( 58362.4 s )
-
-
-Equations reduced: 411747 / 481842
-Kira committed results ( 58362.4 s )
-
-
-Equations reduced: 411859 / 481842
-Kira committed results ( 58399.2 s )
-
-
-Equations reduced: 412586 / 481842
-Kira committed results ( 58663.6 s )
-
-
-Equations reduced: 412697 / 481842
-Kira committed results ( 58738.7 s )
-
-
-Equations reduced: 413313 / 481842
-Kira committed results ( 58987.4 s )
-
-
-Equations reduced: 413367 / 481842
-Kira committed results ( 59065.1 s )
-
-
-Equations reduced: 413524 / 481842
-Kira committed results ( 59367.0 s )
-
-
-Equations reduced: 413713 / 481842
-Kira committed results ( 59667.7 s )
-
-
-Equations reduced: 414128 / 481842
-Kira committed results ( 60088.9 s )
-
-
-Equations reduced: 414835 / 481842
-Kira committed results ( 60390.4 s )
-
-
-Equations reduced: 415484 / 481842
-Kira committed results ( 60838.2 s )
- 86.2% [] 86.2% []
-
-Equations reduced: 415950 / 481842
-Kira committed results ( 61140.8 s )
-
-
-Equations reduced: 416426 / 481842
-Kira committed results ( 61441.7 s )
-
-
-Equations reduced: 416737 / 481842
-Kira committed results ( 61693.1 s )
-
-
-Equations reduced: 416845 / 481842
-Kira committed results ( 61742.0 s )
-
-
-Equations reduced: 417403 / 481842
-Kira committed results ( 62044.5 s )
- 86.6% []
-
-Equations reduced: 417474 / 481842
-Kira committed results ( 62074.9 s )
-
-
-Equations reduced: 417763 / 481842
-Kira committed results ( 62354.3 s )
- 86.7% []
-
-Equations reduced: 418365 / 481842
-Kira committed results ( 62659.7 s )
-
-
-Equations reduced: 418764 / 481842
-Kira committed results ( 62959.9 s )
- 86.9% []
-
-Equations reduced: 419302 / 481842
-Kira committed results ( 63260.0 s )
-
-
-Equations reduced: 419742 / 481842
-Kira committed results ( 63560.0 s )
-
-
-Equations reduced: 420079 / 481842
-Kira committed results ( 63859.9 s )
- 87.2% [] 87.2% [] 87.2% []
-
-Equations reduced: 420588 / 481842
-Kira committed results ( 64160.8 s )
- 87.3% []
-
-Equations reduced: 421134 / 481842
-Kira committed results ( 64460.9 s )
-
-
-Equations reduced: 421695 / 481842
-Kira committed results ( 64709.2 s )
-
-
-Equations reduced: 421823 / 481842
-Kira committed results ( 64761.4 s )
- 87.6% []
-
-Equations reduced: 422908 / 481842
-Kira committed results ( 65042.3 s )
-
-
-Equations reduced: 422955 / 481842
-Kira committed results ( 65061.4 s )
-
-
-Equations reduced: 423710 / 481842
-Kira committed results ( 65321.4 s )
-
-
-Equations reduced: 423778 / 481842
-Kira committed results ( 65361.9 s )
- 88.0% []
-
-Equations reduced: 424513 / 481842
-Kira committed results ( 65662.3 s )
- 88.1% []
-
-Equations reduced: 425203 / 481842
-Kira committed results ( 65968.3 s )
- 88.3% [] 88.3% []
-
-Equations reduced: 425614 / 481842
-Kira committed results ( 66282.4 s )
-
-
-Equations reduced: 426319 / 481842
-Kira committed results ( 66583.3 s )
-
-
-Equations reduced: 426941 / 481842
-Kira committed results ( 66883.8 s )
-
-
-Equations reduced: 427679 / 481842
-Kira committed results ( 67184.6 s )
-
-
-Equations reduced: 428075 / 481842
-Kira committed results ( 67631.7 s )
-
-
-Equations reduced: 428357 / 481842
-Kira committed results ( 67963.5 s )
- 88.9% []
-
-Equations reduced: 428504 / 481842
-Kira committed results ( 68287.4 s )
-
-
-Equations reduced: 428581 / 481842
-Kira committed results ( 68588.4 s )
-
-
-Equations reduced: 428780 / 481842
-Kira committed results ( 68922.1 s )
-
-
-Equations reduced: 428956 / 481842
-Kira committed results ( 69231.0 s )
-
-
-Equations reduced: 429188 / 481842
-Kira committed results ( 69534.2 s )
-
-
-Equations reduced: 429456 / 481842
-Kira committed results ( 69842.2 s )
-
-
-Equations reduced: 429698 / 481842
-Kira committed results ( 70197.3 s )
-
-
-Equations reduced: 429922 / 481842
-Kira committed results ( 70497.6 s )
- 89.2% [] 89.2% []
-
-Equations reduced: 430117 / 481842
-Kira committed results ( 70797.9 s )
-
-
-Equations reduced: 430534 / 481842
-Kira committed results ( 71100.5 s )
-
-
-Equations reduced: 430803 / 481842
-Kira committed results ( 71419.7 s )
-
-
-Equations reduced: 430995 / 481842
-Kira committed results ( 71719.9 s )
-
-
-Equations reduced: 431444 / 481842
-Kira committed results ( 72022.4 s )
-
-
-Equations reduced: 431877 / 481842
-Kira committed results ( 72324.6 s )
-
-
-Equations reduced: 432239 / 481842
-Kira committed results ( 72625.2 s )
- 89.7% []
-
-Equations reduced: 432491 / 481842
-Kira committed results ( 72942.6 s )
-
-
-Equations reduced: 432744 / 481842
-Kira committed results ( 73243.5 s )
-
-
-Equations reduced: 433267 / 481842
-Kira committed results ( 73543.8 s )
-
-
-Equations reduced: 433918 / 481842
-Kira committed results ( 73847.1 s )
-
-
-Equations reduced: 434717 / 481842
-Kira committed results ( 74152.5 s )
-
-
-Equations reduced: 435174 / 481842
-Kira committed results ( 74452.6 s )
-
-
-Equations reduced: 435647 / 481842
-Kira committed results ( 74758.4 s )
-
-
-Equations reduced: 436050 / 481842
-Kira committed results ( 75001.7 s )
-
-
-Equations reduced: 436143 / 481842
-Kira committed results ( 75060.1 s )
- 90.5% []
-
-Equations reduced: 436826 / 481842
-Kira committed results ( 75362.7 s )
-
-
-Equations reduced: 436968 / 481842
-Kira committed results ( 75858.5 s )
-
-
-Equations reduced: 437396 / 481842
-Kira committed results ( 76159.2 s )
-
-
-Equations reduced: 438145 / 481842
-Kira committed results ( 77769.0 s )
-
-
-Equations reduced: 438619 / 481842
-Kira committed results ( 78070.1 s )
-
-
-Equations reduced: 439064 / 481842
-Kira committed results ( 78401.6 s )
-
-
-Equations reduced: 439318 / 481842
-Kira committed results ( 78706.4 s )
-
-
-Equations reduced: 439714 / 481842
-Kira committed results ( 79025.7 s )
-
-
-Equations reduced: 439927 / 481842
-Kira committed results ( 79326.8 s )
-
-
-Equations reduced: 440256 / 481842
-Kira committed results ( 79627.2 s )
-
-
-Equations reduced: 440916 / 481842
-Kira committed results ( 79931.7 s )
-
-
-Equations reduced: 441092 / 481842
-Kira committed results ( 80757.2 s )
-
-
-Equations reduced: 441270 / 481842
-Kira committed results ( 81141.3 s )
-
-
-Equations reduced: 441564 / 481842
-Kira committed results ( 81447.0 s )
- 91.7% []
-
-Equations reduced: 442101 / 481842
-Kira committed results ( 81747.4 s )
-
-
-Equations reduced: 442652 / 481842
-Kira committed results ( 82334.0 s )
-
-
-Equations reduced: 442904 / 481842
-Kira committed results ( 82636.9 s )
-
-
-Equations reduced: 443280 / 481842
-Kira committed results ( 82943.4 s )
-
-
-Equations reduced: 443454 / 481842
-Kira committed results ( 83537.9 s )
-
-
-Equations reduced: 443751 / 481842
-Kira committed results ( 83935.2 s )
-
-
-Equations reduced: 444474 / 481842
-Kira committed results ( 85200.0 s )
-
-
-Equations reduced: 444668 / 481842
-Kira committed results ( 85560.3 s )
-
-
-Equations reduced: 444830 / 481842
-Kira committed results ( 85865.1 s )
- 92.3% []
-
-Equations reduced: 444941 / 481842
-Kira committed results ( 86168.4 s )
-
-
-Equations reduced: 444987 / 481842
-Kira committed results ( 86547.7 s )
-
-
-Equations reduced: 445424 / 481842
-Kira committed results ( 87171.8 s )
-
-
-Equations reduced: 445969 / 481842
-Kira committed results ( 87474.4 s )
- 92.6% []
-
-Equations reduced: 446598 / 481842
-Kira committed results ( 87774.9 s )
-
-
-Equations reduced: 447006 / 481842
-Kira committed results ( 88078.7 s )
-
-
-Equations reduced: 447813 / 481842
-Kira committed results ( 88302.0 s )
-
-
-Equations reduced: 448009 / 481842
-Kira committed results ( 88431.8 s )
- 93.1% []
-
-Equations reduced: 448805 / 481842
-Kira committed results ( 88745.9 s )
-
-
-Equations reduced: 449414 / 481842
-Kira committed results ( 89078.1 s )
-
-
-Equations reduced: 450272 / 481842
-Kira committed results ( 89415.1 s )
- 93.5% []
-
-Equations reduced: 451554 / 481842
-Kira committed results ( 89682.3 s )
-
-
-Equations reduced: 451706 / 481842
-Kira committed results ( 89715.1 s )
-
-
-Equations reduced: 452901 / 481842
-Kira committed results ( 90019.8 s )
-
-
-Equations reduced: 453409 / 481842
-Kira committed results ( 90164.8 s )
- 94.1% [] 94.1% [] 94.1% []
-
-Equations reduced: 454271 / 481842
-Kira committed results ( 90321.9 s )
- 94.5% []
-
-Equations reduced: 455749 / 481842
-Kira committed results ( 90622.1 s )
-
-
-Equations reduced: 456260 / 481842
-Kira committed results ( 90809.1 s )
-
-
-Equations reduced: 456620 / 481842
-Kira committed results ( 90895.8 s )
-
-
-Equations reduced: 456704 / 481842
-Kira committed results ( 90920.6 s )
-
-
-Equations reduced: 456716 / 481842
-Kira committed results ( 90927.5 s )
- 94.8% []
-
-Equations reduced: 457213 / 481842
-Kira committed results ( 91118.4 s )
-
-
-Equations reduced: 457369 / 481842
-Kira committed results ( 91272.1 s )
- 94.9% []
-
-Equations reduced: 457694 / 481842
-Kira committed results ( 91574.0 s )
-
-
-Equations reduced: 457983 / 481842
-Kira committed results ( 92095.0 s )
-
-
-Equations reduced: 458260 / 481842
-Kira committed results ( 92303.7 s )
-
-
-Equations reduced: 458317 / 481842
-Kira committed results ( 92411.6 s )
-
-
-Equations reduced: 458549 / 481842
-Kira committed results ( 92739.2 s )
-
-
-Equations reduced: 458700 / 481842
-Kira committed results ( 93047.0 s )
-
-
-Equations reduced: 460102 / 481842
-Kira committed results ( 93624.9 s )
-
-
-Equations reduced: 460382 / 481842
-Kira committed results ( 93988.2 s )
-
-
-Equations reduced: 460674 / 481842
-Kira committed results ( 94288.6 s )
-
-
-Equations reduced: 460779 / 481842
-Kira committed results ( 94367.1 s )
-
-
-Equations reduced: 460928 / 481842
-Kira committed results ( 94606.4 s )
-
-
-Equations reduced: 460932 / 481842
-Kira committed results ( 94609.1 s )
-
-
-Equations reduced: 461473 / 481842
-Kira committed results ( 94936.9 s )
-
-
-Equations reduced: 461844 / 481842
-Kira committed results ( 95237.6 s )
-
-
-Equations reduced: 462308 / 481842
-Kira committed results ( 95557.3 s )
-
-
-Equations reduced: 462725 / 481842
-Kira committed results ( 95857.5 s )
-
-
-Equations reduced: 463318 / 481842
-Kira committed results ( 96157.9 s )
- 96.2% []
-
-Equations reduced: 464263 / 481842
-Kira committed results ( 96458.8 s )
-
-
-Equations reduced: 465210 / 481842
-Kira committed results ( 96763.2 s )
- 96.6% []
-
-Equations reduced: 465949 / 481842
-Kira committed results ( 96929.7 s )
-
-
-Equations reduced: 466429 / 481842
-Kira committed results ( 97064.3 s )
-
-
-Equations reduced: 467375 / 481842
-Kira committed results ( 97367.0 s )
-
-
-Equations reduced: 468491 / 481842
-Kira committed results ( 97667.2 s )
-
-
-Equations reduced: 468806 / 481842
-Kira committed results ( 97711.7 s )
-
-
-Equations reduced: 468975 / 481842
-Kira committed results ( 97727.8 s )
-
-
-Equations reduced: 469614 / 481842
-Kira committed results ( 97967.7 s )
-
-
-Equations reduced: 470565 / 481842
-Kira committed results ( 98268.1 s )
-
-
-Equations reduced: 470719 / 481842
-Kira committed results ( 98291.7 s )
- 97.7% [] 97.8% []
-
-Equations reduced: 471440 / 481842
-Kira committed results ( 98408.0 s )
- 97.9% []
-
-Equations reduced: 471947 / 481842
-Kira committed results ( 98569.8 s )
-
-
-Equations reduced: 472823 / 481842
-Kira committed results ( 98871.6 s )
-
-
-Equations reduced: 474048 / 481842
-Kira committed results ( 99171.7 s )
- 98.4% [] 98.5% []
-
-Equations reduced: 474818 / 481842
-Kira committed results ( 99376.0 s )
-
-
-Equations reduced: 475263 / 481842
-Kira committed results ( 99472.5 s )
-
-
-Equations reduced: 476757 / 481842
-Kira committed results ( 99774.0 s )
-
-
-Equations reduced: 478145 / 481842
-Kira committed results ( 100042.1 s )
-
-
-Equations reduced: 478455 / 481842
-Kira committed results ( 100074.3 s )
-
-
-Equations reduced: 480270 / 481842
-Kira committed results ( 100375.9 s )
-100.0% [=]
-
-Equations reduced: 481842 / 481842
-Kira committed results ( 100626.3 s )
-
-481842 equations were reduced
-
-*****Master integrals***********************************
-B1[0,1,1,0,0,0,0,0,0]  #   6
-B1[1,1,1,0,0,0,0,0,0]  #   7
-B1[0,1,1,1,0,0,0,0,0]  #  14
-B1[1,1,1,1,0,0,0,0,0]  #  15
-B1[1,1,0,0,1,0,0,0,0]  #  19
-B1[1,1,-1,0,1,0,0,0,0] #  19
-B1[1,1,0,1,1,0,0,0,0]  #  27
-B1[1,1,-1,1,1,0,0,0,0] #  27
-B1[0,0,1,1,1,0,0,0,0]  #  28
-B1[-1,0,1,1,1,0,0,0,0] #  28
-B1[1,0,1,1,1,0,0,0,0]  #  29
-B1[1,-1,1,1,1,0,0,0,0] #  29
-B1[1,0,1,1,1,-1,0,0,0] #  29
-B1[1,1,1,1,1,0,0,0,0]  #  31
-B1[1,1,1,1,1,-1,0,0,0] #  31
-B1[1,1,1,1,1,0,-1,0,0] #  31
-B1[1,1,1,1,1,-2,0,0,0] #  31
-B1[1,1,1,0,0,1,0,0,0]  #  39
-B1[0,1,1,1,0,1,0,0,0]  #  46
-B1[1,1,1,1,0,1,0,0,0]  #  47
-B1[1,1,1,0,0,0,0,0,1]  # 263
-B1[1,1,1,1,0,0,0,0,1]  # 271
-B1[1,0,1,1,1,0,0,0,1]  # 285
-B1[1,1,1,1,0,1,0,0,1]  # 303
-
-Total number of master integrals: 24
-( 100626.4 s )
-closeCalc: 102022
-Total time:
-( 100956.1 s )
-The user defined environment variable FERMATPATH for Fermat is set:
-./packages/Fermat/ferl6/fer64
-One variable is set to 1: {}
-The input directory is set to:
-./results
-
-*****Integral ordering*************************************
-Kira will use the integral ordering: 1.
-symbol_to_replace_by_one: x in kinematics.yaml is not set. 
-Mass reconstruction is disabled.
-################################################
-kira2math: Reconstruct results
-################################################
-
-Algebraic reconstruction is switched off.
-This requested integral is a master integral: B1[0,0,1,1,1,0,0,0,0] # 28
-This requested integral is a master integral: B1[0,1,1,1,0,1,0,0,0] # 46
-This requested integral is a master integral: B1[1,-1,1,1,1,0,0,0,0] # 29
-This requested integral is a master integral: B1[1,0,1,1,1,-1,0,0,0] # 29
-This requested integral is a master integral: B1[1,0,1,1,1,0,0,0,0] # 29
-This requested integral is a master integral: B1[1,1,0,0,1,0,0,0,0] # 19
-This requested integral is a master integral: B1[1,1,0,1,1,0,0,0,0] # 27
-This requested integral is a master integral: B1[1,1,1,0,0,0,0,0,0] # 7
-This requested integral is a master integral: B1[1,1,1,0,0,1,0,0,0] # 39
-This requested integral is a master integral: B1[1,1,1,1,0,0,0,0,0] # 15
-This requested integral is a master integral: B1[1,1,1,1,0,1,0,0,0] # 47
-This requested integral is a master integral: B1[1,1,1,1,1,-1,0,0,0] # 31
-This requested integral is a master integral: B1[1,1,1,1,1,0,-1,0,0] # 31
-This requested integral is a master integral: B1[1,1,1,1,1,0,0,0,0] # 31
-This requested integral is a master integral: B1[1,1,-1,1,1,0,0,0,0] # 27
-unreduced integrals: 0.
-
-closeCalc: 117523
-Total time:
-( 0.234008 s )
-cp: error writing '/home/riccardoriva/pmm_2L/pmm_qed_kira/kira_run/B1/output/./results/kira.db': No space left on device
-cp: cannot create regular file '/home/riccardoriva/pmm_2L/pmm_qed_kira/kira_run/B1/output/./results/preferredMasters': No space left on device
-cp: cannot create directory '/home/riccardoriva/pmm_2L/pmm_qed_kira/kira_run/B1/output/./tmp': No space left on device
-cp: cannot create directory '/home/riccardoriva/pmm_2L/pmm_qed_kira/kira_run/B1/output/./sectormappings': No space left on device
-cp: cannot create regular file '/home/riccardoriva/pmm_2L/pmm_qed_kira/kira_run/B1/output/./kira.log': No space left on device

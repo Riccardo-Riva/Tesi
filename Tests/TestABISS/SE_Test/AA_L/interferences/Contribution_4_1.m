@@ -1,7 +1,10 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-((-I/4)*EL^2*gAl^2*MM^2*KiraPropagator[q1, MM]*KiraPropagator[-p1 + q1, MM])/
-  Pi^4 + ((I/4)*EL^2*gAl^2*KiraPropagator[q1, MM]*
-   KiraPropagator[-p1 + q1, MM]*SP[p1, q1])/Pi^4 - 
- ((I/2)*EL^2*gAl^2*KiraPropagator[q1, MM]*KiraPropagator[-p1 + q1, MM]*
-   SP[p1, q1]^2)/(Pi^4*psq) + ((I/4)*EL^2*gAl^2*KiraPropagator[q1, MM]*
-   KiraPropagator[-p1 + q1, MM]*SP[q1, q1])/Pi^4
+(PropList[PropList[KiraPropagator[q1, mm]], PropList[KiraPropagator[q1, mm]], 
+   PropList[KiraPropagator[q1, mm]], PropList[KiraPropagator[-p1 + q1, mm]], 
+   PropList[KiraPropagator[-p1 + q1, mm]], 
+   PropList[KiraPropagator[-p1 + q1, mm]]]*
+  (((-I)*2^(1 - d)*EL^2*gAl^2*mm^2)/Pi^d + 
+   (I*2^(1 - d)*EL^2*gAl^2*SPList[SPList[SP[p1, q1]]])/Pi^d + 
+   (I*2^(1 - d)*EL^2*gAl^2*SPList[SPList[SP[q1, q1]]])/Pi^d - 
+   (I*2^(2 - d)*EL^2*gAl^2*SPList[SPList[SP[p1, q1]], SPList[SP[p1, q1]]])/
+    (Pi^d*psq)))/2

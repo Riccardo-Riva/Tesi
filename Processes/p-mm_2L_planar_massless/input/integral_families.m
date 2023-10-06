@@ -40,6 +40,7 @@ userPropagatorMomenta[B2]={
 
 userIntegralMasses[B2]={0,0,M1,0,0,M1,0,0,0};
 
+
 userPropagatorMomenta[B3]={
 	q1,
 	q2,
@@ -262,7 +263,7 @@ userPropagatorMomenta[C3]={
 	p1-q2
 };
 
-userIntegralMasses[C3]={0,M1,0,0,0,0,0,0,0,0};
+userIntegralMasses[C3]={0,M1,0,0,0,0,0,0,0};
 
 userPropagatorMomenta[C4]={
 	q1,
@@ -291,7 +292,6 @@ userPropagatorMomenta[C5]={
 };
 
 userIntegralMasses[C5]={0,0,M1,M1,0,M1,0,0,0};
-
 
 userPropagatorMomenta[C6]={
 	q1,

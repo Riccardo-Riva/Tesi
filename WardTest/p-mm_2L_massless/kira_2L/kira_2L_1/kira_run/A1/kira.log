@@ -1,0 +1,49 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The directories for the temporary files, result files and the sector mapping files are: 
+./tmp
+./results
+./sectormappings
+Kira prepares topology: A1 and top level sector: 
+511 
+Following reductions will be performed for the topology: A1
+Sector: 511 rmax: 9 smax: 3 
+
+***********************************************************
+Find IBP LI and symmetry relations for the topology: A1
+***********************************************************
+
+*****Search trivial sectors********************************
+read from: ./sectormappings/A1/nonTrivialSector
+
+Non trivial sectors in total: 380
+Trivial sectors in total: 132
+( 0.003862 s )
+
+Search symmetry relations: 
+read from: ./sectormappings/A1/canonica
+Number of symmetries read out: 380
+
+( 0.001558 s )
+***********************************************************
+Prepare Symmetries for the topology: A1
+***********************************************************
+read from: ./sectormappings/A1/sectorRelations
+Number of symmetries read out: 77
+read from: ./sectormappings/A1/sectorSymmetries
+Number of symmetries read out: 104
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 1.
+
+***********************************************************
+Kira starts the reduction of the topology: A1
+***********************************************************
+
+***** Select equations recursively ************************
+Select integrals for: topology: A1
+ sectors: 511 rmax: 9 smax: 3
+
+length of mandatory list: 1616479
+Algebraic reconstruction is switched off.

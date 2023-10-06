@@ -1,2317 +1,0 @@
-config
-export.yaml
-jobs.yaml
-myintegrals
-output
-packages
-The user defined environment variable FERMATPATH for Fermat is set:
-./packages/Fermat/ferl6/fer64
-One variable is set to 1: {}
-The directories for the temporary files, result files and the sector mapping files are: 
-./tmp
-./results
-./sectormappings
-Kira prepares topology: C1 and top level sector: 
-63 
-Following reductions will be performed for the topology: C1
-Sector: 63 rmax: 9 smax: 3 
-
-***********************************************************
-Find IBP LI and symmetry relations for the topology: C1
-***********************************************************
-
-*****Generate IBP identities*******************************
-There are 10 IBP identities
-( 0.0125 s )
-
-*****Generate LI identities********************************
-There are 3 LI identities
-( 0.018575 s )
-
-*****Search trivial sectors********************************
-  1.2% []  2.3% [=]  3.5% [=]  4.7% [==]  5.9% [==]  7.0% [===]  8.2% [====]  9.4% [====] 10.5% [=====] 11.7% [=====] 12.9% [======] 14.1% [=======] 15.2% [=======] 16.4% [========] 17.6% [========] 18.8% [=========] 19.9% [=========] 21.1% [==========] 22.3% [===========] 23.4% [===========] 24.6% [============] 25.8% [============] 27.0% [=============] 28.1% [==============] 29.3% [==============] 30.5% [===============] 31.6% [===============] 32.8% [================] 34.0% [================] 35.2% [=================] 36.3% [==================] 37.5% [==================] 38.7% [===================] 39.8% [===================] 41.0% [====================] 42.2% [=====================] 43.4% [=====================] 44.5% [======================] 45.7% [======================] 46.9% [=======================] 48.0% [========================] 49.2% [========================] 50.4% [=========================] 51.6% [=========================] 52.7% [==========================] 53.9% [==========================] 55.1% [===========================] 56.2% [============================] 57.4% [============================] 58.6% [=============================] 59.8% [=============================] 60.9% [==============================] 62.1% [===============================] 63.3% [===============================] 64.5% [================================] 65.6% [================================] 66.8% [=================================] 68.0% [=================================] 69.1% [==================================] 70.3% [===================================] 71.5% [===================================] 72.7% [====================================] 73.8% [====================================] 75.0% [=====================================] 76.2% [======================================] 77.3% [======================================] 78.5% [=======================================] 79.7% [=======================================] 80.9% [========================================] 82.0% [=========================================] 83.2% [=========================================] 84.4% [==========================================] 85.5% [==========================================] 86.7% [===========================================] 87.9% [===========================================] 89.1% [============================================] 90.2% [=============================================] 91.4% [=============================================] 92.6% [==============================================] 93.8% [==============================================] 94.9% [===============================================] 96.1% [================================================] 97.3% [================================================] 98.4% [=================================================] 99.6% [=================================================]100.0% [==================================================]
-Non trivial sectors in total: 418
-Trivial sectors in total: 94
-( 0.0 s )
-
-Search symmetry relations: 
-  0.0% [] 16.7% [========] 33.3% [================] 50.0% [=========================] 66.7% [=================================] 83.3% [=========================================]100.0% [==================================================]
-( 0.0 s )
-***********************************************************
-Prepare Symmetries for the topology: C1
-***********************************************************
-Build symmetries for C1 x C1 
- 14.3% [=======] 28.6% [==============] 42.9% [=====================] 57.1% [============================] 71.4% [===================================] 85.7% [==========================================]100.0% [==================================================]
-Sector relations: 39
-Sector symmetries: 21
-( 0.0 s )
-
-*****Integral ordering*************************************
-VERSION table created successfully
-Kira database version number: 2.1
-WEIGHTBITS table created successfully
-INTEGRALORDERING table created successfully
-Kira will use the integral ordering: 1.
-
-***********************************************************
-Kira starts the reduction of the topology: C1
-***********************************************************
-
-***** Select equations recursively ************************
-Select integrals for: topology: C1
- sectors: 63 rmax: 9 smax: 3
-
-length of mandatory list: 268476
-Algebraic reconstruction is switched off.
-Generate equations for topology C1, sector 5 (1 of 43)
-Generate equations for topology C1, sector 7 (2 of 43)
-Generate equations for topology C1, sector 13 (3 of 43)
-Generate equations for topology C1, sector 14 (4 of 43)
-Generate equations for topology C1, sector 15 (5 of 43)
-Generate equations for topology C1, sector 17 (6 of 43)
-Generate equations for topology C1, sector 19 (7 of 43)
-Generate equations for topology C1, sector 20 (8 of 43)
-Generate equations for topology C1, sector 21 (9 of 43)
-Generate equations for topology C1, sector 22 (10 of 43)
-Generate equations for topology C1, sector 23 (11 of 43)
-Generate equations for topology C1, sector 25 (12 of 43)
-Generate equations for topology C1, sector 27 (13 of 43)
-Generate equations for topology C1, sector 28 (14 of 43)
-Generate equations for topology C1, sector 29 (15 of 43)
-Generate equations for topology C1, sector 30 (16 of 43)
-Generate equations for topology C1, sector 31 (17 of 43)
-Generate equations for topology C1, sector 33 (18 of 43)
-Generate equations for topology C1, sector 35 (19 of 43)
-Generate equations for topology C1, sector 37 (20 of 43)
-Generate equations for topology C1, sector 39 (21 of 43)
-Generate equations for topology C1, sector 41 (22 of 43)
-Generate equations for topology C1, sector 42 (23 of 43)
-Generate equations for topology C1, sector 43 (24 of 43)
-Generate equations for topology C1, sector 45 (25 of 43)
-Generate equations for topology C1, sector 46 (26 of 43)
-Generate equations for topology C1, sector 47 (27 of 43)
-Generate equations for topology C1, sector 48 (28 of 43)
-Generate equations for topology C1, sector 49 (29 of 43)
-Generate equations for topology C1, sector 50 (30 of 43)
-Generate equations for topology C1, sector 51 (31 of 43)
-Generate equations for topology C1, sector 52 (32 of 43)
-Generate equations for topology C1, sector 53 (33 of 43)
-Generate equations for topology C1, sector 54 (34 of 43)
-Generate equations for topology C1, sector 55 (35 of 43)
-Generate equations for topology C1, sector 56 (36 of 43)
-Generate equations for topology C1, sector 57 (37 of 43)
-Generate equations for topology C1, sector 58 (38 of 43)
-Generate equations for topology C1, sector 59 (39 of 43)
-Generate equations for topology C1, sector 60 (40 of 43)
-Generate equations for topology C1, sector 61 (41 of 43)
-Generate equations for topology C1, sector 62 (42 of 43)
-Generate equations for topology C1, sector 63 (43 of 43)
-2347750 equations: 1527161 zero + 820589 independent
-solve backward: 0.8
-prepare content for selector: 0.1
-4366 independent coefficients
-directory to the masters: C1
-Number of master integrals: 35
-C1[1,0,1,0,0,0,0,0,0]  #  5
-C1[1,0,1,1,0,0,0,0,0]  # 13
-C1[0,1,1,1,0,0,0,0,0]  # 14
-C1[-1,1,1,1,0,0,0,0,0] # 14
-C1[1,0,1,0,1,0,0,0,0]  # 21
-C1[1,-2,1,0,1,0,0,0,0] # 21
-C1[1,1,0,1,1,0,0,0,0]  # 27
-C1[0,0,1,1,1,0,0,0,0]  # 28
-C1[-1,0,1,1,1,0,0,0,0] # 28
-C1[1,0,1,1,1,0,0,0,0]  # 29
-C1[1,-1,1,1,1,0,0,0,0] # 29
-C1[1,-2,1,1,1,0,0,0,0] # 29
-C1[0,1,1,1,1,0,0,0,0]  # 30
-C1[-1,1,1,1,1,0,0,0,0] # 30
-C1[0,1,1,1,1,-1,0,0,0] # 30
-C1[1,1,1,1,1,0,0,0,0]  # 31
-C1[1,1,1,1,1,-1,0,0,0] # 31
-C1[1,1,1,1,1,0,-1,0,0] # 31
-C1[1,0,1,0,0,1,0,0,0]  # 37
-C1[1,0,1,1,0,1,0,0,0]  # 45
-C1[0,1,1,1,0,1,0,0,0]  # 46
-C1[-1,1,1,1,0,1,0,0,0] # 46
-C1[1,1,1,1,0,1,0,0,0]  # 47
-C1[1,1,1,1,-1,1,0,0,0] # 47
-C1[1,1,1,1,0,1,-1,0,0] # 47
-C1[1,1,1,1,-2,1,0,0,0] # 47
-C1[1,0,1,0,1,1,0,0,0]  # 53
-C1[1,-1,1,0,1,1,0,0,0] # 53
-C1[1,-2,1,0,1,1,0,0,0] # 53
-C1[1,1,1,0,1,1,0,0,0]  # 55
-C1[1,1,1,-1,1,1,0,0,0] # 55
-C1[1,1,1,0,1,1,-1,0,0] # 55
-C1[1,1,1,1,1,1,0,0,0]  # 63
-C1[1,1,1,1,1,1,-1,0,0] # 63
-C1[1,1,1,1,1,1,-2,0,0] # 63
-Regenerate:
-Generate equations for topology C1, sector 5 (1 of 43)
-Generate equations for topology C1, sector 7 (2 of 43)
-Generate equations for topology C1, sector 13 (3 of 43)
-Generate equations for topology C1, sector 14 (4 of 43)
-Generate equations for topology C1, sector 15 (5 of 43)
-Generate equations for topology C1, sector 17 (6 of 43)
-Generate equations for topology C1, sector 19 (7 of 43)
-Generate equations for topology C1, sector 20 (8 of 43)
-Generate equations for topology C1, sector 21 (9 of 43)
-Generate equations for topology C1, sector 22 (10 of 43)
-Generate equations for topology C1, sector 23 (11 of 43)
-Generate equations for topology C1, sector 25 (12 of 43)
-Generate equations for topology C1, sector 27 (13 of 43)
-Generate equations for topology C1, sector 28 (14 of 43)
-Generate equations for topology C1, sector 29 (15 of 43)
-Generate equations for topology C1, sector 30 (16 of 43)
-Generate equations for topology C1, sector 31 (17 of 43)
-Generate equations for topology C1, sector 33 (18 of 43)
-Generate equations for topology C1, sector 35 (19 of 43)
-Generate equations for topology C1, sector 37 (20 of 43)
-Generate equations for topology C1, sector 39 (21 of 43)
-Generate equations for topology C1, sector 41 (22 of 43)
-Generate equations for topology C1, sector 42 (23 of 43)
-Generate equations for topology C1, sector 43 (24 of 43)
-Generate equations for topology C1, sector 45 (25 of 43)
-Generate equations for topology C1, sector 46 (26 of 43)
-Generate equations for topology C1, sector 47 (27 of 43)
-Generate equations for topology C1, sector 48 (28 of 43)
-Generate equations for topology C1, sector 49 (29 of 43)
-Generate equations for topology C1, sector 50 (30 of 43)
-Generate equations for topology C1, sector 51 (31 of 43)
-Generate equations for topology C1, sector 52 (32 of 43)
-Generate equations for topology C1, sector 53 (33 of 43)
-Generate equations for topology C1, sector 54 (34 of 43)
-Generate equations for topology C1, sector 55 (35 of 43)
-Generate equations for topology C1, sector 56 (36 of 43)
-Generate equations for topology C1, sector 57 (37 of 43)
-Generate equations for topology C1, sector 58 (38 of 43)
-Generate equations for topology C1, sector 59 (39 of 43)
-Generate equations for topology C1, sector 60 (40 of 43)
-Generate equations for topology C1, sector 61 (41 of 43)
-Generate equations for topology C1, sector 62 (42 of 43)
-Generate equations for topology C1, sector 63 (43 of 43)
-
-Number of selected equations to reduce: 347654 equations
-( 52.1 s )
-closeCalc: 119401
-Algebraic reconstruction is switched off.
-
-***** Select equations recursively ************************
-Select integrals for: topology: C1
- sectors: 63 rmax: 9 smax: 3
-
-length of mandatory list: 268476
-
-***** Bring system in triangular form *********************
-
-Iterate the system until it is in triangular form: 
-iteration: 0; items left: 64268; time: ( 11.3 s )
-iteration: 1; items left: 44931; time: ( 20.3 s )
-iteration: 2; items left: 33056; time: ( 28.3 s )
-iteration: 3; items left: 21579; time: ( 35.0 s )
-iteration: 4; items left: 16332; time: ( 40.7 s )
-iteration: 5; items left: 12652; time: ( 45.9 s )
-iteration: 6; items left: 10235; time: ( 50.5 s )
-iteration: 7; items left: 8906; time: ( 54.7 s )
-iteration: 8; items left: 7708; time: ( 58.7 s )
-iteration: 9; items left: 6663; time: ( 62.5 s )
-iteration: 10; items left: 5892; time: ( 66.1 s )
-iteration: 11; items left: 5271; time: ( 69.3 s )
-iteration: 12; items left: 4775; time: ( 72.6 s )
-iteration: 13; items left: 4382; time: ( 75.7 s )
-iteration: 14; items left: 4019; time: ( 78.6 s )
-iteration: 15; items left: 3677; time: ( 81.6 s )
-iteration: 16; items left: 3485; time: ( 84.5 s )
-iteration: 17; items left: 3293; time: ( 87.5 s )
-iteration: 18; items left: 3137; time: ( 90.6 s )
-iteration: 19; items left: 2985; time: ( 93.6 s )
-iteration: 20; items left: 2866; time: ( 96.3 s )
-iteration: 21; items left: 2707; time: ( 99.4 s )
-iteration: 22; items left: 2638; time: ( 102.2 s )
-iteration: 23; items left: 2525; time: ( 104.8 s )
-iteration: 24; items left: 2442; time: ( 107.8 s )
-iteration: 25; items left: 2360; time: ( 110.9 s )
-iteration: 26; items left: 2273; time: ( 114.4 s )
-iteration: 27; items left: 2205; time: ( 117.3 s )
-iteration: 28; items left: 2121; time: ( 120.3 s )
-iteration: 29; items left: 2064; time: ( 123.5 s )
-iteration: 30; items left: 2024; time: ( 126.5 s )
-iteration: 31; items left: 1990; time: ( 130.0 s )
-iteration: 32; items left: 1944; time: ( 133.4 s )
-iteration: 33; items left: 1883; time: ( 137.5 s )
-iteration: 34; items left: 1850; time: ( 141.4 s )
-iteration: 35; items left: 1786; time: ( 145.4 s )
-iteration: 36; items left: 1746; time: ( 148.7 s )
-iteration: 37; items left: 1715; time: ( 152.2 s )
-iteration: 38; items left: 1678; time: ( 155.4 s )
-iteration: 39; items left: 1637; time: ( 160.7 s )
-iteration: 40; items left: 1598; time: ( 166.0 s )
-iteration: 41; items left: 1565; time: ( 171.2 s )
-iteration: 42; items left: 1533; time: ( 175.5 s )
-iteration: 43; items left: 1503; time: ( 179.5 s )
-iteration: 44; items left: 1470; time: ( 183.0 s )
-iteration: 45; items left: 1437; time: ( 187.5 s )
-iteration: 46; items left: 1412; time: ( 194.0 s )
-iteration: 47; items left: 1390; time: ( 200.9 s )
-iteration: 48; items left: 1362; time: ( 207.6 s )
-iteration: 49; items left: 1344; time: ( 210.9 s )
-iteration: 50; items left: 1303; time: ( 214.4 s )
-iteration: 51; items left: 1282; time: ( 218.0 s )
-iteration: 52; items left: 1261; time: ( 221.6 s )
-iteration: 53; items left: 1223; time: ( 225.1 s )
-iteration: 54; items left: 1200; time: ( 229.4 s )
-iteration: 55; items left: 1183; time: ( 233.7 s )
-iteration: 56; items left: 1167; time: ( 239.2 s )
-iteration: 57; items left: 1138; time: ( 244.2 s )
-iteration: 58; items left: 1126; time: ( 249.8 s )
-iteration: 59; items left: 1110; time: ( 254.1 s )
-iteration: 60; items left: 1100; time: ( 257.1 s )
-iteration: 61; items left: 1071; time: ( 260.5 s )
-iteration: 62; items left: 1056; time: ( 264.1 s )
-iteration: 63; items left: 1040; time: ( 267.2 s )
-iteration: 64; items left: 1026; time: ( 270.1 s )
-iteration: 65; items left: 1006; time: ( 273.1 s )
-iteration: 66; items left: 987; time: ( 275.9 s )
-iteration: 67; items left: 971; time: ( 278.4 s )
-iteration: 68; items left: 955; time: ( 280.8 s )
-iteration: 69; items left: 947; time: ( 283.7 s )
-iteration: 70; items left: 934; time: ( 286.5 s )
-iteration: 71; items left: 919; time: ( 289.1 s )
-iteration: 72; items left: 912; time: ( 291.6 s )
-iteration: 73; items left: 900; time: ( 294.5 s )
-iteration: 74; items left: 890; time: ( 297.0 s )
-iteration: 75; items left: 885; time: ( 299.6 s )
-iteration: 76; items left: 863; time: ( 302.3 s )
-iteration: 77; items left: 857; time: ( 304.9 s )
-iteration: 78; items left: 850; time: ( 307.7 s )
-iteration: 79; items left: 840; time: ( 310.6 s )
-iteration: 80; items left: 830; time: ( 313.4 s )
-iteration: 81; items left: 820; time: ( 316.0 s )
-iteration: 82; items left: 803; time: ( 318.8 s )
-iteration: 83; items left: 798; time: ( 321.5 s )
-iteration: 84; items left: 785; time: ( 324.4 s )
-iteration: 85; items left: 774; time: ( 327.3 s )
-iteration: 86; items left: 770; time: ( 329.8 s )
-iteration: 87; items left: 756; time: ( 332.0 s )
-iteration: 88; items left: 744; time: ( 334.6 s )
-iteration: 89; items left: 735; time: ( 337.4 s )
-iteration: 90; items left: 727; time: ( 339.6 s )
-iteration: 91; items left: 720; time: ( 342.1 s )
-iteration: 92; items left: 706; time: ( 344.3 s )
-iteration: 93; items left: 697; time: ( 347.0 s )
-iteration: 94; items left: 689; time: ( 349.1 s )
-iteration: 95; items left: 686; time: ( 351.5 s )
-iteration: 96; items left: 674; time: ( 353.8 s )
-iteration: 97; items left: 667; time: ( 356.1 s )
-iteration: 98; items left: 656; time: ( 358.6 s )
-iteration: 99; items left: 647; time: ( 361.1 s )
-iteration: 100; items left: 638; time: ( 363.3 s )
-iteration: 101; items left: 633; time: ( 365.6 s )
-iteration: 102; items left: 635; time: ( 367.9 s )
-iteration: 103; items left: 626; time: ( 370.2 s )
-iteration: 104; items left: 619; time: ( 372.4 s )
-iteration: 105; items left: 608; time: ( 374.5 s )
-iteration: 106; items left: 600; time: ( 376.9 s )
-iteration: 107; items left: 591; time: ( 379.4 s )
-iteration: 108; items left: 581; time: ( 382.8 s )
-iteration: 109; items left: 569; time: ( 385.5 s )
-iteration: 110; items left: 564; time: ( 387.7 s )
-iteration: 111; items left: 558; time: ( 390.1 s )
-iteration: 112; items left: 546; time: ( 392.7 s )
-iteration: 113; items left: 541; time: ( 394.8 s )
-iteration: 114; items left: 530; time: ( 396.9 s )
-iteration: 115; items left: 520; time: ( 399.3 s )
-iteration: 116; items left: 514; time: ( 402.2 s )
-iteration: 117; items left: 514; time: ( 404.8 s )
-iteration: 118; items left: 504; time: ( 407.4 s )
-iteration: 119; items left: 499; time: ( 409.8 s )
-iteration: 120; items left: 493; time: ( 413.5 s )
-iteration: 121; items left: 482; time: ( 416.7 s )
-iteration: 122; items left: 472; time: ( 421.2 s )
-iteration: 123; items left: 471; time: ( 427.9 s )
-iteration: 124; items left: 468; time: ( 429.8 s )
-iteration: 125; items left: 468; time: ( 433.1 s )
-iteration: 126; items left: 461; time: ( 435.5 s )
-iteration: 127; items left: 456; time: ( 437.7 s )
-iteration: 128; items left: 450; time: ( 439.6 s )
-iteration: 129; items left: 444; time: ( 441.6 s )
-iteration: 130; items left: 441; time: ( 443.8 s )
-iteration: 131; items left: 435; time: ( 445.6 s )
-iteration: 132; items left: 431; time: ( 447.5 s )
-iteration: 133; items left: 426; time: ( 449.2 s )
-iteration: 134; items left: 418; time: ( 451.0 s )
-iteration: 135; items left: 413; time: ( 452.7 s )
-iteration: 136; items left: 408; time: ( 454.2 s )
-iteration: 137; items left: 403; time: ( 456.1 s )
-iteration: 138; items left: 400; time: ( 458.1 s )
-iteration: 139; items left: 397; time: ( 459.9 s )
-iteration: 140; items left: 394; time: ( 462.2 s )
-iteration: 141; items left: 386; time: ( 464.2 s )
-iteration: 142; items left: 382; time: ( 465.9 s )
-iteration: 143; items left: 376; time: ( 467.5 s )
-iteration: 144; items left: 375; time: ( 469.0 s )
-iteration: 145; items left: 369; time: ( 470.9 s )
-iteration: 146; items left: 365; time: ( 472.4 s )
-iteration: 147; items left: 356; time: ( 473.9 s )
-iteration: 148; items left: 356; time: ( 475.4 s )
-iteration: 149; items left: 355; time: ( 477.2 s )
-iteration: 150; items left: 351; time: ( 478.9 s )
-iteration: 151; items left: 351; time: ( 480.4 s )
-iteration: 152; items left: 349; time: ( 481.8 s )
-iteration: 153; items left: 346; time: ( 483.5 s )
-iteration: 154; items left: 345; time: ( 485.2 s )
-iteration: 155; items left: 338; time: ( 486.8 s )
-iteration: 156; items left: 334; time: ( 488.2 s )
-iteration: 157; items left: 331; time: ( 490.1 s )
-iteration: 158; items left: 329; time: ( 492.1 s )
-iteration: 159; items left: 326; time: ( 493.6 s )
-iteration: 160; items left: 318; time: ( 495.3 s )
-iteration: 161; items left: 314; time: ( 496.9 s )
-iteration: 162; items left: 313; time: ( 498.7 s )
-iteration: 163; items left: 311; time: ( 500.3 s )
-iteration: 164; items left: 308; time: ( 501.8 s )
-iteration: 165; items left: 309; time: ( 503.6 s )
-iteration: 166; items left: 302; time: ( 505.0 s )
-iteration: 167; items left: 299; time: ( 506.5 s )
-iteration: 168; items left: 298; time: ( 507.9 s )
-iteration: 169; items left: 298; time: ( 509.0 s )
-iteration: 170; items left: 293; time: ( 510.3 s )
-iteration: 171; items left: 289; time: ( 511.6 s )
-iteration: 172; items left: 286; time: ( 512.9 s )
-iteration: 173; items left: 285; time: ( 514.5 s )
-iteration: 174; items left: 280; time: ( 515.7 s )
-iteration: 175; items left: 274; time: ( 517.0 s )
-iteration: 176; items left: 273; time: ( 518.4 s )
-iteration: 177; items left: 272; time: ( 519.5 s )
-iteration: 178; items left: 269; time: ( 521.0 s )
-iteration: 179; items left: 265; time: ( 522.3 s )
-iteration: 180; items left: 261; time: ( 523.7 s )
-iteration: 181; items left: 261; time: ( 524.8 s )
-iteration: 182; items left: 260; time: ( 526.1 s )
-iteration: 183; items left: 257; time: ( 527.4 s )
-iteration: 184; items left: 256; time: ( 528.6 s )
-iteration: 185; items left: 254; time: ( 529.9 s )
-iteration: 186; items left: 252; time: ( 530.9 s )
-iteration: 187; items left: 249; time: ( 532.0 s )
-iteration: 188; items left: 247; time: ( 533.0 s )
-iteration: 189; items left: 246; time: ( 534.0 s )
-iteration: 190; items left: 243; time: ( 535.3 s )
-iteration: 191; items left: 242; time: ( 536.6 s )
-iteration: 192; items left: 239; time: ( 537.8 s )
-iteration: 193; items left: 238; time: ( 539.3 s )
-iteration: 194; items left: 238; time: ( 540.4 s )
-iteration: 195; items left: 236; time: ( 541.7 s )
-iteration: 196; items left: 235; time: ( 543.0 s )
-iteration: 197; items left: 231; time: ( 544.4 s )
-iteration: 198; items left: 228; time: ( 545.7 s )
-iteration: 199; items left: 228; time: ( 546.9 s )
-iteration: 200; items left: 225; time: ( 548.5 s )
-iteration: 201; items left: 223; time: ( 550.1 s )
-iteration: 202; items left: 223; time: ( 551.6 s )
-iteration: 203; items left: 220; time: ( 552.7 s )
-iteration: 204; items left: 219; time: ( 553.9 s )
-iteration: 205; items left: 217; time: ( 555.1 s )
-iteration: 206; items left: 217; time: ( 556.5 s )
-iteration: 207; items left: 216; time: ( 557.9 s )
-iteration: 208; items left: 215; time: ( 559.2 s )
-iteration: 209; items left: 213; time: ( 560.4 s )
-iteration: 210; items left: 213; time: ( 561.5 s )
-iteration: 211; items left: 213; time: ( 562.9 s )
-iteration: 212; items left: 211; time: ( 564.2 s )
-iteration: 213; items left: 209; time: ( 565.5 s )
-iteration: 214; items left: 207; time: ( 566.8 s )
-iteration: 215; items left: 205; time: ( 567.9 s )
-iteration: 216; items left: 205; time: ( 569.2 s )
-iteration: 217; items left: 206; time: ( 570.3 s )
-iteration: 218; items left: 202; time: ( 571.6 s )
-iteration: 219; items left: 201; time: ( 572.8 s )
-iteration: 220; items left: 197; time: ( 574.0 s )
-iteration: 221; items left: 194; time: ( 575.2 s )
-iteration: 222; items left: 193; time: ( 576.4 s )
-iteration: 223; items left: 193; time: ( 577.7 s )
-iteration: 224; items left: 192; time: ( 578.7 s )
-iteration: 225; items left: 189; time: ( 580.0 s )
-iteration: 226; items left: 188; time: ( 581.4 s )
-iteration: 227; items left: 186; time: ( 582.4 s )
-iteration: 228; items left: 186; time: ( 583.4 s )
-iteration: 229; items left: 185; time: ( 584.4 s )
-iteration: 230; items left: 183; time: ( 585.3 s )
-iteration: 231; items left: 182; time: ( 586.4 s )
-iteration: 232; items left: 180; time: ( 587.3 s )
-iteration: 233; items left: 177; time: ( 588.5 s )
-iteration: 234; items left: 176; time: ( 589.3 s )
-iteration: 235; items left: 173; time: ( 590.2 s )
-iteration: 236; items left: 173; time: ( 590.9 s )
-iteration: 237; items left: 171; time: ( 591.7 s )
-iteration: 238; items left: 170; time: ( 593.1 s )
-iteration: 239; items left: 168; time: ( 594.0 s )
-iteration: 240; items left: 168; time: ( 595.1 s )
-iteration: 241; items left: 167; time: ( 595.8 s )
-iteration: 242; items left: 166; time: ( 597.1 s )
-iteration: 243; items left: 165; time: ( 597.8 s )
-iteration: 244; items left: 164; time: ( 599.1 s )
-iteration: 245; items left: 164; time: ( 600.0 s )
-iteration: 246; items left: 164; time: ( 601.0 s )
-iteration: 247; items left: 163; time: ( 602.0 s )
-iteration: 248; items left: 161; time: ( 603.2 s )
-iteration: 249; items left: 157; time: ( 604.3 s )
-iteration: 250; items left: 156; time: ( 605.5 s )
-iteration: 251; items left: 156; time: ( 606.2 s )
-iteration: 252; items left: 158; time: ( 607.1 s )
-iteration: 253; items left: 157; time: ( 608.3 s )
-iteration: 254; items left: 156; time: ( 609.1 s )
-iteration: 255; items left: 156; time: ( 610.1 s )
-iteration: 256; items left: 155; time: ( 611.2 s )
-iteration: 257; items left: 156; time: ( 613.0 s )
-iteration: 258; items left: 154; time: ( 613.9 s )
-iteration: 259; items left: 154; time: ( 614.8 s )
-iteration: 260; items left: 152; time: ( 615.8 s )
-iteration: 261; items left: 150; time: ( 617.1 s )
-iteration: 262; items left: 146; time: ( 618.2 s )
-iteration: 263; items left: 145; time: ( 619.4 s )
-iteration: 264; items left: 144; time: ( 621.1 s )
-iteration: 265; items left: 144; time: ( 623.3 s )
-iteration: 266; items left: 143; time: ( 625.1 s )
-iteration: 267; items left: 142; time: ( 627.3 s )
-iteration: 268; items left: 142; time: ( 628.7 s )
-iteration: 269; items left: 142; time: ( 632.5 s )
-iteration: 270; items left: 142; time: ( 635.4 s )
-iteration: 271; items left: 142; time: ( 641.2 s )
-iteration: 272; items left: 141; time: ( 649.2 s )
-iteration: 273; items left: 140; time: ( 650.8 s )
-iteration: 274; items left: 138; time: ( 654.0 s )
-iteration: 275; items left: 137; time: ( 655.6 s )
-iteration: 276; items left: 137; time: ( 657.0 s )
-iteration: 277; items left: 135; time: ( 657.9 s )
-iteration: 278; items left: 135; time: ( 659.1 s )
-iteration: 279; items left: 135; time: ( 660.4 s )
-iteration: 280; items left: 134; time: ( 661.0 s )
-iteration: 281; items left: 133; time: ( 661.9 s )
-iteration: 282; items left: 133; time: ( 662.7 s )
-iteration: 283; items left: 132; time: ( 663.6 s )
-iteration: 284; items left: 132; time: ( 664.3 s )
-iteration: 285; items left: 132; time: ( 665.0 s )
-iteration: 286; items left: 131; time: ( 665.7 s )
-iteration: 287; items left: 129; time: ( 666.3 s )
-iteration: 288; items left: 127; time: ( 667.0 s )
-iteration: 289; items left: 126; time: ( 667.7 s )
-iteration: 290; items left: 126; time: ( 668.3 s )
-iteration: 291; items left: 124; time: ( 669.1 s )
-iteration: 292; items left: 124; time: ( 669.8 s )
-iteration: 293; items left: 122; time: ( 670.6 s )
-iteration: 294; items left: 122; time: ( 671.3 s )
-iteration: 295; items left: 121; time: ( 671.9 s )
-iteration: 296; items left: 121; time: ( 672.6 s )
-iteration: 297; items left: 121; time: ( 673.5 s )
-iteration: 298; items left: 121; time: ( 674.3 s )
-iteration: 299; items left: 120; time: ( 675.0 s )
-iteration: 300; items left: 119; time: ( 675.6 s )
-iteration: 301; items left: 119; time: ( 676.6 s )
-iteration: 302; items left: 119; time: ( 677.3 s )
-iteration: 303; items left: 119; time: ( 678.1 s )
-iteration: 304; items left: 119; time: ( 678.9 s )
-iteration: 305; items left: 119; time: ( 679.8 s )
-iteration: 306; items left: 119; time: ( 680.6 s )
-iteration: 307; items left: 117; time: ( 681.3 s )
-iteration: 308; items left: 115; time: ( 681.8 s )
-iteration: 309; items left: 115; time: ( 682.3 s )
-iteration: 310; items left: 115; time: ( 683.2 s )
-iteration: 311; items left: 115; time: ( 684.2 s )
-iteration: 312; items left: 114; time: ( 685.0 s )
-iteration: 313; items left: 114; time: ( 685.8 s )
-iteration: 314; items left: 114; time: ( 686.8 s )
-iteration: 315; items left: 112; time: ( 687.5 s )
-iteration: 316; items left: 112; time: ( 688.2 s )
-iteration: 317; items left: 112; time: ( 688.9 s )
-iteration: 318; items left: 110; time: ( 689.6 s )
-iteration: 319; items left: 108; time: ( 690.6 s )
-iteration: 320; items left: 108; time: ( 691.3 s )
-iteration: 321; items left: 108; time: ( 691.8 s )
-iteration: 322; items left: 107; time: ( 692.4 s )
-iteration: 323; items left: 105; time: ( 693.0 s )
-iteration: 324; items left: 104; time: ( 693.6 s )
-iteration: 325; items left: 104; time: ( 694.3 s )
-iteration: 326; items left: 103; time: ( 695.0 s )
-iteration: 327; items left: 103; time: ( 695.7 s )
-iteration: 328; items left: 103; time: ( 696.7 s )
-iteration: 329; items left: 101; time: ( 697.3 s )
-iteration: 330; items left: 100; time: ( 698.0 s )
-iteration: 331; items left: 100; time: ( 698.7 s )
-iteration: 332; items left: 100; time: ( 699.6 s )
-iteration: 333; items left: 99; time: ( 701.1 s )
-iteration: 334; items left: 99; time: ( 702.0 s )
-iteration: 335; items left: 99; time: ( 702.8 s )
-iteration: 336; items left: 98; time: ( 704.1 s )
-iteration: 337; items left: 98; time: ( 704.9 s )
-iteration: 338; items left: 97; time: ( 705.8 s )
-iteration: 339; items left: 96; time: ( 706.4 s )
-iteration: 340; items left: 96; time: ( 707.1 s )
-iteration: 341; items left: 96; time: ( 707.9 s )
-iteration: 342; items left: 96; time: ( 708.7 s )
-iteration: 343; items left: 96; time: ( 709.7 s )
-iteration: 344; items left: 96; time: ( 710.5 s )
-iteration: 345; items left: 96; time: ( 711.3 s )
-iteration: 346; items left: 96; time: ( 712.0 s )
-iteration: 347; items left: 96; time: ( 712.5 s )
-iteration: 348; items left: 95; time: ( 713.2 s )
-iteration: 349; items left: 95; time: ( 713.8 s )
-iteration: 350; items left: 95; time: ( 714.3 s )
-iteration: 351; items left: 95; time: ( 715.6 s )
-iteration: 352; items left: 94; time: ( 716.4 s )
-iteration: 353; items left: 93; time: ( 717.2 s )
-iteration: 354; items left: 92; time: ( 717.9 s )
-iteration: 355; items left: 92; time: ( 718.5 s )
-iteration: 356; items left: 92; time: ( 719.1 s )
-iteration: 357; items left: 88; time: ( 719.7 s )
-iteration: 358; items left: 88; time: ( 720.1 s )
-iteration: 359; items left: 87; time: ( 720.6 s )
-iteration: 360; items left: 87; time: ( 721.2 s )
-iteration: 361; items left: 87; time: ( 721.6 s )
-iteration: 362; items left: 87; time: ( 722.1 s )
-iteration: 363; items left: 87; time: ( 722.7 s )
-iteration: 364; items left: 87; time: ( 723.3 s )
-iteration: 365; items left: 86; time: ( 724.0 s )
-iteration: 366; items left: 85; time: ( 724.9 s )
-iteration: 367; items left: 85; time: ( 725.4 s )
-iteration: 368; items left: 85; time: ( 726.4 s )
-iteration: 369; items left: 85; time: ( 727.0 s )
-iteration: 370; items left: 84; time: ( 727.7 s )
-iteration: 371; items left: 83; time: ( 729.1 s )
-iteration: 372; items left: 82; time: ( 729.9 s )
-iteration: 373; items left: 82; time: ( 730.7 s )
-iteration: 374; items left: 82; time: ( 731.6 s )
-iteration: 375; items left: 82; time: ( 732.3 s )
-iteration: 376; items left: 82; time: ( 732.9 s )
-iteration: 377; items left: 81; time: ( 733.6 s )
-iteration: 378; items left: 81; time: ( 734.3 s )
-iteration: 379; items left: 81; time: ( 735.1 s )
-iteration: 380; items left: 81; time: ( 735.8 s )
-iteration: 381; items left: 81; time: ( 736.7 s )
-iteration: 382; items left: 81; time: ( 737.4 s )
-iteration: 383; items left: 80; time: ( 738.3 s )
-iteration: 384; items left: 80; time: ( 739.3 s )
-iteration: 385; items left: 80; time: ( 740.6 s )
-iteration: 386; items left: 79; time: ( 741.3 s )
-iteration: 387; items left: 79; time: ( 743.3 s )
-iteration: 388; items left: 79; time: ( 745.1 s )
-iteration: 389; items left: 78; time: ( 748.0 s )
-iteration: 390; items left: 78; time: ( 748.7 s )
-iteration: 391; items left: 77; time: ( 749.3 s )
-iteration: 392; items left: 76; time: ( 750.7 s )
-iteration: 393; items left: 75; time: ( 751.9 s )
-iteration: 394; items left: 74; time: ( 753.1 s )
-iteration: 395; items left: 74; time: ( 754.6 s )
-iteration: 396; items left: 74; time: ( 757.0 s )
-iteration: 397; items left: 73; time: ( 760.7 s )
-iteration: 398; items left: 73; time: ( 763.0 s )
-iteration: 399; items left: 73; time: ( 766.2 s )
-iteration: 400; items left: 73; time: ( 768.1 s )
-iteration: 401; items left: 73; time: ( 773.5 s )
-iteration: 402; items left: 73; time: ( 777.8 s )
-iteration: 403; items left: 73; time: ( 786.2 s )
-iteration: 404; items left: 73; time: ( 798.7 s )
-iteration: 405; items left: 72; time: ( 799.7 s )
-iteration: 406; items left: 72; time: ( 804.4 s )
-iteration: 407; items left: 72; time: ( 806.0 s )
-iteration: 408; items left: 72; time: ( 807.0 s )
-iteration: 409; items left: 72; time: ( 807.7 s )
-iteration: 410; items left: 72; time: ( 808.6 s )
-iteration: 411; items left: 72; time: ( 810.2 s )
-iteration: 412; items left: 72; time: ( 810.9 s )
-iteration: 413; items left: 72; time: ( 811.2 s )
-iteration: 414; items left: 72; time: ( 811.7 s )
-iteration: 415; items left: 72; time: ( 812.2 s )
-iteration: 416; items left: 71; time: ( 812.6 s )
-iteration: 417; items left: 70; time: ( 813.2 s )
-iteration: 418; items left: 68; time: ( 813.7 s )
-iteration: 419; items left: 67; time: ( 814.2 s )
-iteration: 420; items left: 67; time: ( 814.6 s )
-iteration: 421; items left: 67; time: ( 815.9 s )
-iteration: 422; items left: 66; time: ( 816.6 s )
-iteration: 423; items left: 66; time: ( 817.0 s )
-iteration: 424; items left: 66; time: ( 817.5 s )
-iteration: 425; items left: 66; time: ( 818.1 s )
-iteration: 426; items left: 66; time: ( 818.5 s )
-iteration: 427; items left: 66; time: ( 819.0 s )
-iteration: 428; items left: 65; time: ( 819.7 s )
-iteration: 429; items left: 64; time: ( 820.6 s )
-iteration: 430; items left: 62; time: ( 821.1 s )
-iteration: 431; items left: 61; time: ( 822.0 s )
-iteration: 432; items left: 61; time: ( 822.4 s )
-iteration: 433; items left: 61; time: ( 822.9 s )
-iteration: 434; items left: 61; time: ( 823.7 s )
-iteration: 435; items left: 61; time: ( 824.2 s )
-iteration: 436; items left: 61; time: ( 824.8 s )
-iteration: 437; items left: 61; time: ( 825.3 s )
-iteration: 438; items left: 61; time: ( 825.9 s )
-iteration: 439; items left: 61; time: ( 826.4 s )
-iteration: 440; items left: 61; time: ( 826.9 s )
-iteration: 441; items left: 61; time: ( 827.6 s )
-iteration: 442; items left: 61; time: ( 828.3 s )
-iteration: 443; items left: 61; time: ( 829.0 s )
-iteration: 444; items left: 61; time: ( 829.5 s )
-iteration: 445; items left: 60; time: ( 830.2 s )
-iteration: 446; items left: 59; time: ( 830.9 s )
-iteration: 447; items left: 58; time: ( 831.6 s )
-iteration: 448; items left: 57; time: ( 832.1 s )
-iteration: 449; items left: 57; time: ( 832.7 s )
-iteration: 450; items left: 57; time: ( 833.1 s )
-iteration: 451; items left: 57; time: ( 833.9 s )
-iteration: 452; items left: 56; time: ( 834.5 s )
-iteration: 453; items left: 56; time: ( 835.1 s )
-iteration: 454; items left: 56; time: ( 835.8 s )
-iteration: 455; items left: 56; time: ( 836.8 s )
-iteration: 456; items left: 56; time: ( 837.6 s )
-iteration: 457; items left: 56; time: ( 838.3 s )
-iteration: 458; items left: 56; time: ( 839.1 s )
-iteration: 459; items left: 56; time: ( 840.0 s )
-iteration: 460; items left: 56; time: ( 841.0 s )
-iteration: 461; items left: 55; time: ( 841.9 s )
-iteration: 462; items left: 55; time: ( 843.5 s )
-iteration: 463; items left: 54; time: ( 844.3 s )
-iteration: 464; items left: 54; time: ( 846.4 s )
-iteration: 465; items left: 54; time: ( 849.5 s )
-iteration: 466; items left: 53; time: ( 854.0 s )
-iteration: 467; items left: 53; time: ( 854.7 s )
-iteration: 468; items left: 53; time: ( 855.6 s )
-iteration: 469; items left: 53; time: ( 857.5 s )
-iteration: 470; items left: 52; time: ( 859.2 s )
-iteration: 471; items left: 52; time: ( 860.6 s )
-iteration: 472; items left: 52; time: ( 862.8 s )
-iteration: 473; items left: 52; time: ( 866.7 s )
-iteration: 474; items left: 51; time: ( 872.0 s )
-iteration: 475; items left: 49; time: ( 875.9 s )
-iteration: 476; items left: 49; time: ( 881.3 s )
-iteration: 477; items left: 49; time: ( 884.0 s )
-iteration: 478; items left: 49; time: ( 891.9 s )
-iteration: 479; items left: 49; time: ( 898.9 s )
-iteration: 480; items left: 49; time: ( 911.0 s )
-iteration: 481; items left: 49; time: ( 928.1 s )
-iteration: 482; items left: 49; time: ( 929.8 s )
-iteration: 483; items left: 48; time: ( 937.5 s )
-iteration: 484; items left: 48; time: ( 940.3 s )
-iteration: 485; items left: 48; time: ( 941.9 s )
-iteration: 486; items left: 48; time: ( 943.3 s )
-iteration: 487; items left: 48; time: ( 944.7 s )
-iteration: 488; items left: 48; time: ( 947.3 s )
-iteration: 489; items left: 47; time: ( 947.7 s )
-iteration: 490; items left: 47; time: ( 948.0 s )
-iteration: 491; items left: 46; time: ( 948.7 s )
-iteration: 492; items left: 46; time: ( 949.1 s )
-iteration: 493; items left: 46; time: ( 949.5 s )
-iteration: 494; items left: 46; time: ( 949.9 s )
-iteration: 495; items left: 46; time: ( 950.2 s )
-iteration: 496; items left: 46; time: ( 950.6 s )
-iteration: 497; items left: 46; time: ( 951.1 s )
-iteration: 498; items left: 46; time: ( 951.4 s )
-iteration: 499; items left: 46; time: ( 951.8 s )
-iteration: 500; items left: 46; time: ( 952.1 s )
-iteration: 501; items left: 46; time: ( 952.4 s )
-iteration: 502; items left: 46; time: ( 953.0 s )
-iteration: 503; items left: 46; time: ( 953.5 s )
-iteration: 504; items left: 46; time: ( 953.8 s )
-iteration: 505; items left: 46; time: ( 954.3 s )
-iteration: 506; items left: 45; time: ( 954.7 s )
-iteration: 507; items left: 45; time: ( 955.1 s )
-iteration: 508; items left: 45; time: ( 955.6 s )
-iteration: 509; items left: 44; time: ( 956.1 s )
-iteration: 510; items left: 44; time: ( 956.5 s )
-iteration: 511; items left: 44; time: ( 957.3 s )
-iteration: 512; items left: 44; time: ( 957.8 s )
-iteration: 513; items left: 43; time: ( 958.4 s )
-iteration: 514; items left: 43; time: ( 959.0 s )
-iteration: 515; items left: 43; time: ( 959.5 s )
-iteration: 516; items left: 43; time: ( 960.1 s )
-iteration: 517; items left: 43; time: ( 960.7 s )
-iteration: 518; items left: 43; time: ( 961.2 s )
-iteration: 519; items left: 43; time: ( 961.5 s )
-iteration: 520; items left: 43; time: ( 961.8 s )
-iteration: 521; items left: 43; time: ( 962.1 s )
-iteration: 522; items left: 43; time: ( 962.5 s )
-iteration: 523; items left: 43; time: ( 962.8 s )
-iteration: 524; items left: 43; time: ( 963.4 s )
-iteration: 525; items left: 43; time: ( 963.7 s )
-iteration: 526; items left: 43; time: ( 964.4 s )
-iteration: 527; items left: 43; time: ( 964.8 s )
-iteration: 528; items left: 43; time: ( 965.3 s )
-iteration: 529; items left: 43; time: ( 965.9 s )
-iteration: 530; items left: 43; time: ( 966.3 s )
-iteration: 531; items left: 42; time: ( 966.9 s )
-iteration: 532; items left: 42; time: ( 967.3 s )
-iteration: 533; items left: 42; time: ( 967.7 s )
-iteration: 534; items left: 42; time: ( 968.2 s )
-iteration: 535; items left: 42; time: ( 968.8 s )
-iteration: 536; items left: 42; time: ( 969.6 s )
-iteration: 537; items left: 41; time: ( 970.1 s )
-iteration: 538; items left: 41; time: ( 970.4 s )
-iteration: 539; items left: 40; time: ( 970.8 s )
-iteration: 540; items left: 40; time: ( 971.5 s )
-iteration: 541; items left: 41; time: ( 972.0 s )
-iteration: 542; items left: 40; time: ( 972.6 s )
-iteration: 543; items left: 40; time: ( 973.0 s )
-iteration: 544; items left: 41; time: ( 973.6 s )
-iteration: 545; items left: 41; time: ( 974.1 s )
-iteration: 546; items left: 41; time: ( 974.6 s )
-iteration: 547; items left: 40; time: ( 975.0 s )
-iteration: 548; items left: 40; time: ( 975.4 s )
-iteration: 549; items left: 40; time: ( 976.0 s )
-iteration: 550; items left: 40; time: ( 976.4 s )
-iteration: 551; items left: 39; time: ( 976.8 s )
-iteration: 552; items left: 39; time: ( 977.2 s )
-iteration: 553; items left: 39; time: ( 977.6 s )
-iteration: 554; items left: 39; time: ( 978.1 s )
-iteration: 555; items left: 38; time: ( 978.3 s )
-iteration: 556; items left: 38; time: ( 978.9 s )
-iteration: 557; items left: 38; time: ( 979.2 s )
-iteration: 558; items left: 38; time: ( 979.6 s )
-iteration: 559; items left: 38; time: ( 979.9 s )
-iteration: 560; items left: 38; time: ( 980.4 s )
-iteration: 561; items left: 38; time: ( 980.7 s )
-iteration: 562; items left: 38; time: ( 981.0 s )
-iteration: 563; items left: 38; time: ( 981.9 s )
-iteration: 564; items left: 37; time: ( 982.4 s )
-iteration: 565; items left: 36; time: ( 982.9 s )
-iteration: 566; items left: 36; time: ( 983.5 s )
-iteration: 567; items left: 36; time: ( 984.0 s )
-iteration: 568; items left: 36; time: ( 984.3 s )
-iteration: 569; items left: 36; time: ( 984.6 s )
-iteration: 570; items left: 36; time: ( 985.3 s )
-iteration: 571; items left: 36; time: ( 985.9 s )
-iteration: 572; items left: 36; time: ( 986.4 s )
-iteration: 573; items left: 36; time: ( 986.7 s )
-iteration: 574; items left: 35; time: ( 987.2 s )
-iteration: 575; items left: 35; time: ( 988.0 s )
-iteration: 576; items left: 35; time: ( 988.4 s )
-iteration: 577; items left: 35; time: ( 988.7 s )
-iteration: 578; items left: 35; time: ( 988.9 s )
-iteration: 579; items left: 35; time: ( 989.4 s )
-iteration: 580; items left: 35; time: ( 989.7 s )
-iteration: 581; items left: 35; time: ( 990.1 s )
-iteration: 582; items left: 35; time: ( 990.4 s )
-iteration: 583; items left: 35; time: ( 990.7 s )
-iteration: 584; items left: 35; time: ( 991.2 s )
-iteration: 585; items left: 35; time: ( 991.6 s )
-iteration: 586; items left: 35; time: ( 991.9 s )
-iteration: 587; items left: 35; time: ( 992.5 s )
-iteration: 588; items left: 35; time: ( 993.9 s )
-iteration: 589; items left: 35; time: ( 994.2 s )
-iteration: 590; items left: 35; time: ( 994.9 s )
-iteration: 591; items left: 34; time: ( 995.5 s )
-iteration: 592; items left: 34; time: ( 996.0 s )
-iteration: 593; items left: 34; time: ( 997.5 s )
-iteration: 594; items left: 34; time: ( 998.1 s )
-iteration: 595; items left: 34; time: ( 998.7 s )
-iteration: 596; items left: 34; time: ( 999.2 s )
-iteration: 597; items left: 34; time: ( 1000.3 s )
-iteration: 598; items left: 34; time: ( 1001.3 s )
-iteration: 599; items left: 33; time: ( 1001.9 s )
-iteration: 600; items left: 33; time: ( 1002.4 s )
-iteration: 601; items left: 33; time: ( 1002.8 s )
-iteration: 602; items left: 33; time: ( 1004.1 s )
-iteration: 603; items left: 32; time: ( 1004.9 s )
-iteration: 604; items left: 32; time: ( 1005.8 s )
-iteration: 605; items left: 32; time: ( 1007.0 s )
-iteration: 606; items left: 32; time: ( 1007.7 s )
-iteration: 607; items left: 32; time: ( 1008.0 s )
-iteration: 608; items left: 32; time: ( 1008.4 s )
-iteration: 609; items left: 32; time: ( 1008.6 s )
-iteration: 610; items left: 32; time: ( 1009.1 s )
-iteration: 611; items left: 32; time: ( 1009.4 s )
-iteration: 612; items left: 32; time: ( 1009.6 s )
-iteration: 613; items left: 32; time: ( 1009.9 s )
-iteration: 614; items left: 32; time: ( 1010.2 s )
-iteration: 615; items left: 32; time: ( 1010.5 s )
-iteration: 616; items left: 32; time: ( 1010.8 s )
-iteration: 617; items left: 32; time: ( 1011.2 s )
-iteration: 618; items left: 32; time: ( 1012.0 s )
-iteration: 619; items left: 32; time: ( 1012.2 s )
-iteration: 620; items left: 32; time: ( 1012.8 s )
-iteration: 621; items left: 31; time: ( 1013.5 s )
-iteration: 622; items left: 31; time: ( 1013.9 s )
-iteration: 623; items left: 31; time: ( 1014.9 s )
-iteration: 624; items left: 31; time: ( 1015.4 s )
-iteration: 625; items left: 31; time: ( 1016.0 s )
-iteration: 626; items left: 31; time: ( 1016.5 s )
-iteration: 627; items left: 31; time: ( 1017.0 s )
-iteration: 628; items left: 31; time: ( 1017.2 s )
-iteration: 629; items left: 31; time: ( 1017.4 s )
-iteration: 630; items left: 31; time: ( 1017.7 s )
-iteration: 631; items left: 31; time: ( 1018.2 s )
-iteration: 632; items left: 31; time: ( 1018.7 s )
-iteration: 633; items left: 31; time: ( 1019.2 s )
-iteration: 634; items left: 31; time: ( 1019.8 s )
-iteration: 635; items left: 31; time: ( 1020.1 s )
-iteration: 636; items left: 31; time: ( 1020.4 s )
-iteration: 637; items left: 31; time: ( 1021.0 s )
-iteration: 638; items left: 31; time: ( 1021.3 s )
-iteration: 639; items left: 31; time: ( 1021.5 s )
-iteration: 640; items left: 31; time: ( 1022.0 s )
-iteration: 641; items left: 31; time: ( 1022.5 s )
-iteration: 642; items left: 31; time: ( 1023.0 s )
-iteration: 643; items left: 31; time: ( 1023.8 s )
-iteration: 644; items left: 31; time: ( 1024.7 s )
-iteration: 645; items left: 31; time: ( 1025.5 s )
-iteration: 646; items left: 30; time: ( 1026.0 s )
-iteration: 647; items left: 30; time: ( 1026.7 s )
-iteration: 648; items left: 30; time: ( 1027.0 s )
-iteration: 649; items left: 30; time: ( 1027.4 s )
-iteration: 650; items left: 30; time: ( 1028.0 s )
-iteration: 651; items left: 30; time: ( 1028.3 s )
-iteration: 652; items left: 30; time: ( 1028.7 s )
-iteration: 653; items left: 30; time: ( 1029.1 s )
-iteration: 654; items left: 30; time: ( 1030.0 s )
-iteration: 655; items left: 30; time: ( 1030.4 s )
-iteration: 656; items left: 30; time: ( 1031.0 s )
-iteration: 657; items left: 30; time: ( 1031.6 s )
-iteration: 658; items left: 30; time: ( 1032.0 s )
-iteration: 659; items left: 30; time: ( 1032.4 s )
-iteration: 660; items left: 30; time: ( 1032.6 s )
-iteration: 661; items left: 30; time: ( 1032.8 s )
-iteration: 662; items left: 30; time: ( 1033.1 s )
-iteration: 663; items left: 30; time: ( 1033.3 s )
-iteration: 664; items left: 30; time: ( 1033.5 s )
-iteration: 665; items left: 30; time: ( 1033.7 s )
-iteration: 666; items left: 30; time: ( 1034.2 s )
-iteration: 667; items left: 30; time: ( 1034.5 s )
-iteration: 668; items left: 30; time: ( 1034.9 s )
-iteration: 669; items left: 30; time: ( 1035.2 s )
-iteration: 670; items left: 30; time: ( 1035.5 s )
-iteration: 671; items left: 30; time: ( 1035.7 s )
-iteration: 672; items left: 30; time: ( 1036.0 s )
-iteration: 673; items left: 30; time: ( 1036.2 s )
-iteration: 674; items left: 30; time: ( 1036.5 s )
-iteration: 675; items left: 30; time: ( 1037.1 s )
-iteration: 676; items left: 30; time: ( 1037.5 s )
-iteration: 677; items left: 30; time: ( 1037.9 s )
-iteration: 678; items left: 30; time: ( 1038.2 s )
-iteration: 679; items left: 30; time: ( 1038.5 s )
-iteration: 680; items left: 29; time: ( 1038.9 s )
-iteration: 681; items left: 29; time: ( 1039.2 s )
-iteration: 682; items left: 29; time: ( 1039.5 s )
-iteration: 683; items left: 29; time: ( 1039.8 s )
-iteration: 684; items left: 29; time: ( 1040.2 s )
-iteration: 685; items left: 29; time: ( 1040.7 s )
-iteration: 686; items left: 29; time: ( 1041.0 s )
-iteration: 687; items left: 29; time: ( 1041.3 s )
-iteration: 688; items left: 29; time: ( 1041.7 s )
-iteration: 689; items left: 28; time: ( 1042.0 s )
-iteration: 690; items left: 28; time: ( 1042.4 s )
-iteration: 691; items left: 28; time: ( 1042.8 s )
-iteration: 692; items left: 28; time: ( 1043.1 s )
-iteration: 693; items left: 28; time: ( 1043.3 s )
-iteration: 694; items left: 28; time: ( 1043.8 s )
-iteration: 695; items left: 28; time: ( 1044.3 s )
-iteration: 696; items left: 28; time: ( 1044.5 s )
-iteration: 697; items left: 28; time: ( 1044.8 s )
-iteration: 698; items left: 28; time: ( 1045.1 s )
-iteration: 699; items left: 28; time: ( 1045.6 s )
-iteration: 700; items left: 28; time: ( 1045.9 s )
-iteration: 701; items left: 27; time: ( 1046.2 s )
-iteration: 702; items left: 27; time: ( 1046.6 s )
-iteration: 703; items left: 27; time: ( 1047.5 s )
-iteration: 704; items left: 27; time: ( 1048.0 s )
-iteration: 705; items left: 26; time: ( 1048.4 s )
-iteration: 706; items left: 26; time: ( 1048.9 s )
-iteration: 707; items left: 26; time: ( 1049.2 s )
-iteration: 708; items left: 25; time: ( 1049.5 s )
-iteration: 709; items left: 25; time: ( 1050.1 s )
-iteration: 710; items left: 25; time: ( 1050.6 s )
-iteration: 711; items left: 25; time: ( 1050.8 s )
-iteration: 712; items left: 25; time: ( 1051.1 s )
-iteration: 713; items left: 25; time: ( 1051.8 s )
-iteration: 714; items left: 25; time: ( 1052.0 s )
-iteration: 715; items left: 25; time: ( 1052.5 s )
-iteration: 716; items left: 24; time: ( 1052.9 s )
-iteration: 717; items left: 24; time: ( 1053.1 s )
-iteration: 718; items left: 24; time: ( 1053.6 s )
-iteration: 719; items left: 23; time: ( 1053.9 s )
-iteration: 720; items left: 23; time: ( 1054.3 s )
-iteration: 721; items left: 23; time: ( 1054.7 s )
-iteration: 722; items left: 23; time: ( 1055.0 s )
-iteration: 723; items left: 23; time: ( 1055.3 s )
-iteration: 724; items left: 23; time: ( 1055.6 s )
-iteration: 725; items left: 23; time: ( 1055.9 s )
-iteration: 726; items left: 23; time: ( 1056.2 s )
-iteration: 727; items left: 23; time: ( 1056.5 s )
-iteration: 728; items left: 23; time: ( 1056.8 s )
-iteration: 729; items left: 23; time: ( 1057.3 s )
-iteration: 730; items left: 23; time: ( 1058.1 s )
-iteration: 731; items left: 23; time: ( 1058.6 s )
-iteration: 732; items left: 23; time: ( 1059.2 s )
-iteration: 733; items left: 23; time: ( 1059.7 s )
-iteration: 734; items left: 23; time: ( 1060.0 s )
-iteration: 735; items left: 23; time: ( 1060.7 s )
-iteration: 736; items left: 23; time: ( 1061.4 s )
-iteration: 737; items left: 23; time: ( 1061.7 s )
-iteration: 738; items left: 23; time: ( 1062.2 s )
-iteration: 739; items left: 23; time: ( 1063.3 s )
-iteration: 740; items left: 23; time: ( 1064.0 s )
-iteration: 741; items left: 23; time: ( 1064.6 s )
-iteration: 742; items left: 23; time: ( 1065.2 s )
-iteration: 743; items left: 23; time: ( 1065.7 s )
-iteration: 744; items left: 23; time: ( 1066.2 s )
-iteration: 745; items left: 23; time: ( 1066.9 s )
-iteration: 746; items left: 23; time: ( 1067.5 s )
-iteration: 747; items left: 23; time: ( 1068.7 s )
-iteration: 748; items left: 23; time: ( 1069.0 s )
-iteration: 749; items left: 23; time: ( 1069.7 s )
-iteration: 750; items left: 23; time: ( 1070.8 s )
-iteration: 751; items left: 23; time: ( 1071.1 s )
-iteration: 752; items left: 23; time: ( 1071.7 s )
-iteration: 753; items left: 22; time: ( 1072.2 s )
-iteration: 754; items left: 21; time: ( 1072.6 s )
-iteration: 755; items left: 21; time: ( 1072.9 s )
-iteration: 756; items left: 21; time: ( 1073.2 s )
-iteration: 757; items left: 21; time: ( 1073.7 s )
-iteration: 758; items left: 21; time: ( 1073.9 s )
-iteration: 759; items left: 21; time: ( 1074.5 s )
-iteration: 760; items left: 21; time: ( 1074.9 s )
-iteration: 761; items left: 20; time: ( 1075.2 s )
-iteration: 762; items left: 20; time: ( 1075.6 s )
-iteration: 763; items left: 20; time: ( 1075.8 s )
-iteration: 764; items left: 20; time: ( 1076.2 s )
-iteration: 765; items left: 20; time: ( 1076.6 s )
-iteration: 766; items left: 20; time: ( 1077.1 s )
-iteration: 767; items left: 20; time: ( 1077.5 s )
-iteration: 768; items left: 20; time: ( 1078.1 s )
-iteration: 769; items left: 20; time: ( 1078.8 s )
-iteration: 770; items left: 20; time: ( 1079.4 s )
-iteration: 771; items left: 20; time: ( 1079.7 s )
-iteration: 772; items left: 20; time: ( 1080.2 s )
-iteration: 773; items left: 20; time: ( 1080.6 s )
-iteration: 774; items left: 20; time: ( 1081.0 s )
-iteration: 775; items left: 20; time: ( 1081.4 s )
-iteration: 776; items left: 20; time: ( 1082.0 s )
-iteration: 777; items left: 20; time: ( 1082.4 s )
-iteration: 778; items left: 20; time: ( 1082.7 s )
-iteration: 779; items left: 20; time: ( 1083.0 s )
-iteration: 780; items left: 20; time: ( 1083.4 s )
-iteration: 781; items left: 20; time: ( 1084.5 s )
-iteration: 782; items left: 20; time: ( 1085.1 s )
-iteration: 783; items left: 20; time: ( 1085.5 s )
-iteration: 784; items left: 20; time: ( 1085.7 s )
-iteration: 785; items left: 20; time: ( 1086.2 s )
-iteration: 786; items left: 19; time: ( 1086.7 s )
-iteration: 787; items left: 18; time: ( 1087.3 s )
-iteration: 788; items left: 18; time: ( 1087.9 s )
-iteration: 789; items left: 18; time: ( 1088.4 s )
-iteration: 790; items left: 18; time: ( 1089.2 s )
-iteration: 791; items left: 18; time: ( 1090.1 s )
-iteration: 792; items left: 18; time: ( 1091.3 s )
-iteration: 793; items left: 18; time: ( 1093.0 s )
-iteration: 794; items left: 17; time: ( 1093.4 s )
-iteration: 795; items left: 17; time: ( 1095.4 s )
-iteration: 796; items left: 17; time: ( 1098.1 s )
-iteration: 797; items left: 17; time: ( 1103.7 s )
-iteration: 798; items left: 17; time: ( 1104.3 s )
-iteration: 799; items left: 17; time: ( 1105.3 s )
-iteration: 800; items left: 17; time: ( 1107.0 s )
-iteration: 801; items left: 17; time: ( 1109.0 s )
-iteration: 802; items left: 17; time: ( 1110.7 s )
-iteration: 803; items left: 17; time: ( 1113.3 s )
-iteration: 804; items left: 17; time: ( 1117.8 s )
-iteration: 805; items left: 17; time: ( 1124.1 s )
-iteration: 806; items left: 17; time: ( 1128.1 s )
-iteration: 807; items left: 17; time: ( 1134.7 s )
-iteration: 808; items left: 17; time: ( 1138.2 s )
-iteration: 809; items left: 17; time: ( 1147.0 s )
-iteration: 810; items left: 17; time: ( 1154.4 s )
-iteration: 811; items left: 17; time: ( 1167.5 s )
-iteration: 812; items left: 17; time: ( 1187.2 s )
-iteration: 813; items left: 17; time: ( 1188.5 s )
-iteration: 814; items left: 17; time: ( 1196.6 s )
-iteration: 815; items left: 17; time: ( 1199.5 s )
-iteration: 816; items left: 17; time: ( 1201.3 s )
-iteration: 817; items left: 17; time: ( 1203.1 s )
-iteration: 818; items left: 17; time: ( 1204.5 s )
-iteration: 819; items left: 17; time: ( 1206.1 s )
-iteration: 820; items left: 17; time: ( 1209.4 s )
-iteration: 821; items left: 17; time: ( 1211.3 s )
-iteration: 822; items left: 17; time: ( 1211.7 s )
-iteration: 823; items left: 17; time: ( 1212.4 s )
-iteration: 824; items left: 17; time: ( 1213.8 s )
-iteration: 825; items left: 17; time: ( 1214.4 s )
-iteration: 826; items left: 16; time: ( 1215.5 s )
-iteration: 827; items left: 15; time: ( 1216.0 s )
-iteration: 828; items left: 15; time: ( 1216.6 s )
-iteration: 829; items left: 15; time: ( 1217.0 s )
-iteration: 830; items left: 15; time: ( 1219.5 s )
-iteration: 831; items left: 14; time: ( 1219.8 s )
-iteration: 832; items left: 14; time: ( 1219.9 s )
-iteration: 833; items left: 14; time: ( 1220.1 s )
-iteration: 834; items left: 14; time: ( 1220.4 s )
-iteration: 835; items left: 14; time: ( 1220.6 s )
-iteration: 836; items left: 14; time: ( 1220.9 s )
-iteration: 837; items left: 14; time: ( 1221.2 s )
-iteration: 838; items left: 14; time: ( 1221.6 s )
-iteration: 839; items left: 14; time: ( 1222.0 s )
-iteration: 840; items left: 14; time: ( 1222.4 s )
-iteration: 841; items left: 14; time: ( 1223.3 s )
-iteration: 842; items left: 14; time: ( 1223.5 s )
-iteration: 843; items left: 14; time: ( 1224.5 s )
-iteration: 844; items left: 14; time: ( 1224.7 s )
-iteration: 845; items left: 14; time: ( 1224.9 s )
-iteration: 846; items left: 14; time: ( 1225.9 s )
-iteration: 847; items left: 14; time: ( 1226.1 s )
-iteration: 848; items left: 14; time: ( 1226.4 s )
-iteration: 849; items left: 14; time: ( 1226.6 s )
-iteration: 850; items left: 14; time: ( 1228.0 s )
-iteration: 851; items left: 14; time: ( 1228.6 s )
-iteration: 852; items left: 14; time: ( 1229.8 s )
-iteration: 853; items left: 14; time: ( 1230.4 s )
-iteration: 854; items left: 14; time: ( 1230.7 s )
-iteration: 855; items left: 14; time: ( 1231.7 s )
-iteration: 856; items left: 14; time: ( 1232.5 s )
-iteration: 857; items left: 14; time: ( 1233.2 s )
-iteration: 858; items left: 14; time: ( 1234.0 s )
-iteration: 859; items left: 14; time: ( 1235.2 s )
-iteration: 860; items left: 14; time: ( 1235.6 s )
-iteration: 861; items left: 14; time: ( 1236.6 s )
-iteration: 862; items left: 14; time: ( 1237.0 s )
-iteration: 863; items left: 14; time: ( 1237.6 s )
-iteration: 864; items left: 14; time: ( 1239.5 s )
-iteration: 865; items left: 14; time: ( 1239.8 s )
-iteration: 866; items left: 14; time: ( 1240.8 s )
-iteration: 867; items left: 14; time: ( 1241.2 s )
-iteration: 868; items left: 14; time: ( 1241.9 s )
-iteration: 869; items left: 14; time: ( 1243.7 s )
-iteration: 870; items left: 14; time: ( 1244.1 s )
-iteration: 871; items left: 14; time: ( 1244.8 s )
-iteration: 872; items left: 14; time: ( 1245.2 s )
-iteration: 873; items left: 14; time: ( 1246.8 s )
-iteration: 874; items left: 14; time: ( 1247.8 s )
-iteration: 875; items left: 14; time: ( 1248.9 s )
-iteration: 876; items left: 14; time: ( 1250.0 s )
-iteration: 877; items left: 14; time: ( 1250.9 s )
-iteration: 878; items left: 14; time: ( 1251.5 s )
-iteration: 879; items left: 14; time: ( 1251.6 s )
-iteration: 880; items left: 14; time: ( 1251.7 s )
-iteration: 881; items left: 14; time: ( 1251.9 s )
-iteration: 882; items left: 14; time: ( 1252.4 s )
-iteration: 883; items left: 14; time: ( 1252.6 s )
-iteration: 884; items left: 14; time: ( 1252.9 s )
-iteration: 885; items left: 14; time: ( 1253.1 s )
-iteration: 886; items left: 14; time: ( 1253.3 s )
-iteration: 887; items left: 14; time: ( 1253.6 s )
-iteration: 888; items left: 14; time: ( 1253.8 s )
-iteration: 889; items left: 14; time: ( 1253.9 s )
-iteration: 890; items left: 14; time: ( 1254.1 s )
-iteration: 891; items left: 14; time: ( 1254.4 s )
-iteration: 892; items left: 14; time: ( 1254.6 s )
-iteration: 893; items left: 14; time: ( 1254.7 s )
-iteration: 894; items left: 14; time: ( 1254.8 s )
-iteration: 895; items left: 14; time: ( 1255.0 s )
-iteration: 896; items left: 14; time: ( 1255.1 s )
-iteration: 897; items left: 14; time: ( 1255.3 s )
-iteration: 898; items left: 14; time: ( 1255.4 s )
-iteration: 899; items left: 14; time: ( 1255.6 s )
-iteration: 900; items left: 14; time: ( 1255.8 s )
-iteration: 901; items left: 14; time: ( 1256.0 s )
-iteration: 902; items left: 14; time: ( 1256.1 s )
-iteration: 903; items left: 14; time: ( 1256.3 s )
-iteration: 904; items left: 14; time: ( 1256.5 s )
-iteration: 905; items left: 14; time: ( 1256.7 s )
-iteration: 906; items left: 14; time: ( 1256.8 s )
-iteration: 907; items left: 14; time: ( 1257.0 s )
-iteration: 908; items left: 14; time: ( 1257.1 s )
-iteration: 909; items left: 14; time: ( 1257.3 s )
-iteration: 910; items left: 14; time: ( 1257.5 s )
-iteration: 911; items left: 14; time: ( 1257.6 s )
-iteration: 912; items left: 14; time: ( 1257.8 s )
-iteration: 913; items left: 14; time: ( 1257.9 s )
-iteration: 914; items left: 14; time: ( 1258.1 s )
-iteration: 915; items left: 14; time: ( 1258.3 s )
-iteration: 916; items left: 14; time: ( 1258.5 s )
-iteration: 917; items left: 14; time: ( 1258.8 s )
-iteration: 918; items left: 14; time: ( 1259.1 s )
-iteration: 919; items left: 14; time: ( 1259.4 s )
-iteration: 920; items left: 14; time: ( 1259.7 s )
-iteration: 921; items left: 14; time: ( 1260.0 s )
-iteration: 922; items left: 13; time: ( 1260.3 s )
-iteration: 923; items left: 13; time: ( 1260.5 s )
-iteration: 924; items left: 13; time: ( 1260.7 s )
-iteration: 925; items left: 13; time: ( 1260.9 s )
-iteration: 926; items left: 13; time: ( 1261.1 s )
-iteration: 927; items left: 13; time: ( 1261.4 s )
-iteration: 928; items left: 13; time: ( 1261.6 s )
-iteration: 929; items left: 13; time: ( 1261.9 s )
-iteration: 930; items left: 13; time: ( 1262.0 s )
-iteration: 931; items left: 13; time: ( 1262.4 s )
-iteration: 932; items left: 13; time: ( 1262.7 s )
-iteration: 933; items left: 13; time: ( 1263.0 s )
-iteration: 934; items left: 13; time: ( 1263.2 s )
-iteration: 935; items left: 13; time: ( 1263.5 s )
-iteration: 936; items left: 13; time: ( 1263.7 s )
-iteration: 937; items left: 13; time: ( 1263.9 s )
-iteration: 938; items left: 13; time: ( 1264.1 s )
-iteration: 939; items left: 13; time: ( 1264.7 s )
-iteration: 940; items left: 13; time: ( 1264.9 s )
-iteration: 941; items left: 13; time: ( 1265.2 s )
-iteration: 942; items left: 13; time: ( 1265.5 s )
-iteration: 943; items left: 13; time: ( 1265.9 s )
-iteration: 944; items left: 13; time: ( 1266.2 s )
-iteration: 945; items left: 13; time: ( 1266.5 s )
-iteration: 946; items left: 13; time: ( 1266.8 s )
-iteration: 947; items left: 13; time: ( 1267.3 s )
-iteration: 948; items left: 13; time: ( 1267.5 s )
-iteration: 949; items left: 13; time: ( 1268.4 s )
-iteration: 950; items left: 13; time: ( 1268.8 s )
-iteration: 951; items left: 13; time: ( 1269.4 s )
-iteration: 952; items left: 13; time: ( 1269.7 s )
-iteration: 953; items left: 13; time: ( 1270.2 s )
-iteration: 954; items left: 13; time: ( 1271.2 s )
-iteration: 955; items left: 13; time: ( 1271.4 s )
-iteration: 956; items left: 13; time: ( 1271.6 s )
-iteration: 957; items left: 13; time: ( 1272.2 s )
-iteration: 958; items left: 13; time: ( 1272.8 s )
-iteration: 959; items left: 13; time: ( 1273.4 s )
-iteration: 960; items left: 13; time: ( 1273.6 s )
-iteration: 961; items left: 13; time: ( 1273.8 s )
-iteration: 962; items left: 13; time: ( 1274.7 s )
-iteration: 963; items left: 13; time: ( 1275.1 s )
-iteration: 964; items left: 13; time: ( 1275.6 s )
-iteration: 965; items left: 13; time: ( 1275.7 s )
-iteration: 966; items left: 13; time: ( 1276.4 s )
-iteration: 967; items left: 13; time: ( 1276.9 s )
-iteration: 968; items left: 13; time: ( 1277.2 s )
-iteration: 969; items left: 13; time: ( 1277.5 s )
-iteration: 970; items left: 13; time: ( 1277.7 s )
-iteration: 971; items left: 13; time: ( 1278.5 s )
-iteration: 972; items left: 13; time: ( 1278.6 s )
-iteration: 973; items left: 13; time: ( 1278.8 s )
-iteration: 974; items left: 13; time: ( 1279.0 s )
-iteration: 975; items left: 13; time: ( 1279.2 s )
-iteration: 976; items left: 13; time: ( 1279.5 s )
-iteration: 977; items left: 13; time: ( 1280.0 s )
-iteration: 978; items left: 13; time: ( 1280.4 s )
-iteration: 979; items left: 13; time: ( 1280.8 s )
-iteration: 980; items left: 13; time: ( 1281.0 s )
-iteration: 981; items left: 13; time: ( 1281.7 s )
-iteration: 982; items left: 13; time: ( 1282.1 s )
-iteration: 983; items left: 13; time: ( 1282.3 s )
-iteration: 984; items left: 13; time: ( 1282.6 s )
-iteration: 985; items left: 13; time: ( 1283.0 s )
-iteration: 986; items left: 13; time: ( 1283.3 s )
-iteration: 987; items left: 13; time: ( 1283.5 s )
-iteration: 988; items left: 12; time: ( 1283.7 s )
-iteration: 989; items left: 12; time: ( 1283.9 s )
-iteration: 990; items left: 12; time: ( 1284.2 s )
-iteration: 991; items left: 12; time: ( 1284.5 s )
-iteration: 992; items left: 12; time: ( 1284.7 s )
-iteration: 993; items left: 12; time: ( 1284.9 s )
-iteration: 994; items left: 12; time: ( 1285.1 s )
-iteration: 995; items left: 12; time: ( 1285.3 s )
-iteration: 996; items left: 12; time: ( 1285.5 s )
-iteration: 997; items left: 12; time: ( 1285.7 s )
-iteration: 998; items left: 12; time: ( 1286.0 s )
-iteration: 999; items left: 12; time: ( 1286.2 s )
-iteration: 1000; items left: 12; time: ( 1286.5 s )
-iteration: 1001; items left: 12; time: ( 1286.8 s )
-iteration: 1002; items left: 12; time: ( 1287.0 s )
-iteration: 1003; items left: 12; time: ( 1287.3 s )
-iteration: 1004; items left: 12; time: ( 1287.5 s )
-iteration: 1005; items left: 11; time: ( 1287.7 s )
-iteration: 1006; items left: 11; time: ( 1287.9 s )
-iteration: 1007; items left: 11; time: ( 1288.2 s )
-iteration: 1008; items left: 10; time: ( 1288.5 s )
-iteration: 1009; items left: 10; time: ( 1288.6 s )
-iteration: 1010; items left: 10; time: ( 1288.9 s )
-iteration: 1011; items left: 10; time: ( 1289.1 s )
-iteration: 1012; items left: 10; time: ( 1289.2 s )
-iteration: 1013; items left: 10; time: ( 1289.5 s )
-iteration: 1014; items left: 10; time: ( 1289.7 s )
-iteration: 1015; items left: 10; time: ( 1290.0 s )
-iteration: 1016; items left: 10; time: ( 1290.2 s )
-iteration: 1017; items left: 10; time: ( 1290.5 s )
-iteration: 1018; items left: 10; time: ( 1290.9 s )
-iteration: 1019; items left: 10; time: ( 1291.2 s )
-iteration: 1020; items left: 10; time: ( 1291.3 s )
-iteration: 1021; items left: 10; time: ( 1291.6 s )
-iteration: 1022; items left: 10; time: ( 1291.9 s )
-iteration: 1023; items left: 10; time: ( 1292.1 s )
-iteration: 1024; items left: 10; time: ( 1292.4 s )
-iteration: 1025; items left: 10; time: ( 1292.8 s )
-iteration: 1026; items left: 10; time: ( 1293.2 s )
-iteration: 1027; items left: 10; time: ( 1293.5 s )
-iteration: 1028; items left: 10; time: ( 1293.9 s )
-iteration: 1029; items left: 10; time: ( 1294.1 s )
-iteration: 1030; items left: 10; time: ( 1294.5 s )
-iteration: 1031; items left: 10; time: ( 1294.8 s )
-iteration: 1032; items left: 10; time: ( 1295.1 s )
-iteration: 1033; items left: 10; time: ( 1295.6 s )
-iteration: 1034; items left: 10; time: ( 1295.9 s )
-iteration: 1035; items left: 10; time: ( 1296.9 s )
-iteration: 1036; items left: 10; time: ( 1297.4 s )
-iteration: 1037; items left: 10; time: ( 1297.7 s )
-iteration: 1038; items left: 10; time: ( 1298.1 s )
-iteration: 1039; items left: 10; time: ( 1298.7 s )
-iteration: 1040; items left: 10; time: ( 1299.7 s )
-iteration: 1041; items left: 10; time: ( 1300.3 s )
-iteration: 1042; items left: 10; time: ( 1301.0 s )
-iteration: 1043; items left: 10; time: ( 1301.9 s )
-iteration: 1044; items left: 10; time: ( 1302.4 s )
-iteration: 1045; items left: 10; time: ( 1303.3 s )
-iteration: 1046; items left: 10; time: ( 1305.8 s )
-iteration: 1047; items left: 10; time: ( 1306.3 s )
-iteration: 1048; items left: 10; time: ( 1309.3 s )
-iteration: 1049; items left: 10; time: ( 1313.6 s )
-iteration: 1050; items left: 10; time: ( 1321.6 s )
-iteration: 1051; items left: 10; time: ( 1322.1 s )
-iteration: 1052; items left: 10; time: ( 1322.5 s )
-iteration: 1053; items left: 10; time: ( 1325.5 s )
-iteration: 1054; items left: 10; time: ( 1327.7 s )
-iteration: 1055; items left: 10; time: ( 1329.0 s )
-iteration: 1056; items left: 10; time: ( 1332.6 s )
-iteration: 1057; items left: 10; time: ( 1338.9 s )
-iteration: 1058; items left: 10; time: ( 1347.9 s )
-iteration: 1059; items left: 10; time: ( 1354.0 s )
-iteration: 1060; items left: 10; time: ( 1363.0 s )
-iteration: 1061; items left: 10; time: ( 1367.4 s )
-iteration: 1062; items left: 10; time: ( 1380.4 s )
-iteration: 1063; items left: 10; time: ( 1392.1 s )
-iteration: 1064; items left: 10; time: ( 1412.1 s )
-iteration: 1065; items left: 10; time: ( 1443.1 s )
-iteration: 1066; items left: 10; time: ( 1444.6 s )
-iteration: 1067; items left: 10; time: ( 1457.2 s )
-iteration: 1068; items left: 10; time: ( 1462.1 s )
-iteration: 1069; items left: 10; time: ( 1464.0 s )
-iteration: 1070; items left: 10; time: ( 1466.7 s )
-iteration: 1071; items left: 10; time: ( 1467.8 s )
-iteration: 1072; items left: 10; time: ( 1469.5 s )
-iteration: 1073; items left: 10; time: ( 1475.0 s )
-iteration: 1074; items left: 9; time: ( 1475.2 s )
-iteration: 1075; items left: 9; time: ( 1475.9 s )
-iteration: 1076; items left: 9; time: ( 1476.1 s )
-iteration: 1077; items left: 9; time: ( 1476.4 s )
-iteration: 1078; items left: 9; time: ( 1476.8 s )
-iteration: 1079; items left: 9; time: ( 1476.9 s )
-iteration: 1080; items left: 9; time: ( 1477.2 s )
-iteration: 1081; items left: 9; time: ( 1477.3 s )
-iteration: 1082; items left: 9; time: ( 1478.2 s )
-iteration: 1083; items left: 9; time: ( 1478.4 s )
-iteration: 1084; items left: 9; time: ( 1478.5 s )
-iteration: 1085; items left: 9; time: ( 1478.6 s )
-iteration: 1086; items left: 9; time: ( 1478.8 s )
-iteration: 1087; items left: 9; time: ( 1479.5 s )
-iteration: 1088; items left: 9; time: ( 1479.8 s )
-iteration: 1089; items left: 9; time: ( 1480.5 s )
-iteration: 1090; items left: 9; time: ( 1480.7 s )
-iteration: 1091; items left: 9; time: ( 1480.8 s )
-iteration: 1092; items left: 9; time: ( 1481.0 s )
-iteration: 1093; items left: 9; time: ( 1481.5 s )
-iteration: 1094; items left: 9; time: ( 1481.7 s )
-iteration: 1095; items left: 9; time: ( 1481.9 s )
-iteration: 1096; items left: 9; time: ( 1481.9 s )
-iteration: 1097; items left: 9; time: ( 1482.1 s )
-iteration: 1098; items left: 9; time: ( 1483.0 s )
-iteration: 1099; items left: 9; time: ( 1483.1 s )
-iteration: 1100; items left: 9; time: ( 1484.1 s )
-iteration: 1101; items left: 9; time: ( 1484.1 s )
-iteration: 1102; items left: 9; time: ( 1484.6 s )
-iteration: 1103; items left: 9; time: ( 1484.8 s )
-iteration: 1104; items left: 9; time: ( 1485.1 s )
-iteration: 1105; items left: 9; time: ( 1485.2 s )
-iteration: 1106; items left: 9; time: ( 1485.4 s )
-iteration: 1107; items left: 9; time: ( 1486.8 s )
-iteration: 1108; items left: 9; time: ( 1486.9 s )
-iteration: 1109; items left: 8; time: ( 1487.0 s )
-iteration: 1110; items left: 8; time: ( 1487.1 s )
-iteration: 1111; items left: 8; time: ( 1487.2 s )
-iteration: 1112; items left: 8; time: ( 1487.3 s )
-iteration: 1113; items left: 8; time: ( 1487.4 s )
-iteration: 1114; items left: 8; time: ( 1487.5 s )
-iteration: 1115; items left: 8; time: ( 1487.6 s )
-iteration: 1116; items left: 8; time: ( 1487.7 s )
-iteration: 1117; items left: 8; time: ( 1487.8 s )
-iteration: 1118; items left: 8; time: ( 1487.9 s )
-iteration: 1119; items left: 8; time: ( 1488.2 s )
-iteration: 1120; items left: 8; time: ( 1488.4 s )
-iteration: 1121; items left: 8; time: ( 1488.5 s )
-iteration: 1122; items left: 8; time: ( 1488.7 s )
-iteration: 1123; items left: 8; time: ( 1488.8 s )
-iteration: 1124; items left: 8; time: ( 1489.0 s )
-iteration: 1125; items left: 8; time: ( 1489.1 s )
-iteration: 1126; items left: 8; time: ( 1489.2 s )
-iteration: 1127; items left: 8; time: ( 1489.4 s )
-iteration: 1128; items left: 8; time: ( 1489.5 s )
-iteration: 1129; items left: 8; time: ( 1489.6 s )
-iteration: 1130; items left: 7; time: ( 1489.8 s )
-iteration: 1131; items left: 7; time: ( 1489.9 s )
-iteration: 1132; items left: 7; time: ( 1490.1 s )
-iteration: 1133; items left: 7; time: ( 1490.3 s )
-iteration: 1134; items left: 7; time: ( 1490.5 s )
-iteration: 1135; items left: 7; time: ( 1491.2 s )
-iteration: 1136; items left: 7; time: ( 1491.6 s )
-iteration: 1137; items left: 7; time: ( 1491.7 s )
-iteration: 1138; items left: 7; time: ( 1491.9 s )
-iteration: 1139; items left: 7; time: ( 1492.5 s )
-iteration: 1140; items left: 7; time: ( 1493.2 s )
-iteration: 1141; items left: 7; time: ( 1493.5 s )
-iteration: 1142; items left: 7; time: ( 1493.8 s )
-iteration: 1143; items left: 7; time: ( 1494.0 s )
-iteration: 1144; items left: 7; time: ( 1494.2 s )
-iteration: 1145; items left: 7; time: ( 1494.5 s )
-iteration: 1146; items left: 7; time: ( 1494.8 s )
-iteration: 1147; items left: 7; time: ( 1495.3 s )
-iteration: 1148; items left: 7; time: ( 1495.7 s )
-iteration: 1149; items left: 7; time: ( 1496.4 s )
-iteration: 1150; items left: 7; time: ( 1496.9 s )
-iteration: 1151; items left: 7; time: ( 1498.1 s )
-iteration: 1152; items left: 7; time: ( 1500.8 s )
-iteration: 1153; items left: 7; time: ( 1501.0 s )
-iteration: 1154; items left: 7; time: ( 1503.4 s )
-iteration: 1155; items left: 7; time: ( 1503.8 s )
-iteration: 1156; items left: 7; time: ( 1504.1 s )
-iteration: 1157; items left: 7; time: ( 1508.4 s )
-iteration: 1158; items left: 7; time: ( 1508.8 s )
-iteration: 1159; items left: 7; time: ( 1509.4 s )
-iteration: 1160; items left: 7; time: ( 1509.8 s )
-iteration: 1161; items left: 7; time: ( 1513.1 s )
-iteration: 1162; items left: 7; time: ( 1513.9 s )
-iteration: 1163; items left: 7; time: ( 1514.9 s )
-iteration: 1164; items left: 7; time: ( 1515.9 s )
-iteration: 1165; items left: 7; time: ( 1516.8 s )
-iteration: 1166; items left: 7; time: ( 1518.6 s )
-iteration: 1167; items left: 7; time: ( 1519.3 s )
-iteration: 1168; items left: 7; time: ( 1520.3 s )
-iteration: 1169; items left: 7; time: ( 1521.0 s )
-iteration: 1170; items left: 7; time: ( 1521.8 s )
-iteration: 1171; items left: 7; time: ( 1522.2 s )
-iteration: 1172; items left: 7; time: ( 1522.7 s )
-iteration: 1173; items left: 7; time: ( 1522.8 s )
-iteration: 1174; items left: 7; time: ( 1522.9 s )
-iteration: 1175; items left: 7; time: ( 1522.9 s )
-iteration: 1176; items left: 7; time: ( 1523.1 s )
-iteration: 1177; items left: 7; time: ( 1523.2 s )
-iteration: 1178; items left: 7; time: ( 1523.3 s )
-iteration: 1179; items left: 7; time: ( 1523.4 s )
-iteration: 1180; items left: 7; time: ( 1523.5 s )
-iteration: 1181; items left: 7; time: ( 1523.6 s )
-iteration: 1182; items left: 7; time: ( 1523.8 s )
-iteration: 1183; items left: 7; time: ( 1523.9 s )
-iteration: 1184; items left: 7; time: ( 1524.3 s )
-iteration: 1185; items left: 7; time: ( 1524.5 s )
-iteration: 1186; items left: 7; time: ( 1524.7 s )
-iteration: 1187; items left: 7; time: ( 1524.9 s )
-iteration: 1188; items left: 7; time: ( 1525.0 s )
-iteration: 1189; items left: 7; time: ( 1525.2 s )
-iteration: 1190; items left: 7; time: ( 1525.4 s )
-iteration: 1191; items left: 7; time: ( 1525.6 s )
-iteration: 1192; items left: 7; time: ( 1525.7 s )
-iteration: 1193; items left: 7; time: ( 1525.8 s )
-iteration: 1194; items left: 7; time: ( 1526.2 s )
-iteration: 1195; items left: 7; time: ( 1526.4 s )
-iteration: 1196; items left: 7; time: ( 1526.6 s )
-iteration: 1197; items left: 7; time: ( 1526.7 s )
-iteration: 1198; items left: 7; time: ( 1526.8 s )
-iteration: 1199; items left: 7; time: ( 1527.2 s )
-iteration: 1200; items left: 7; time: ( 1527.3 s )
-iteration: 1201; items left: 7; time: ( 1527.4 s )
-iteration: 1202; items left: 7; time: ( 1527.8 s )
-iteration: 1203; items left: 7; time: ( 1528.0 s )
-iteration: 1204; items left: 7; time: ( 1528.3 s )
-iteration: 1205; items left: 7; time: ( 1528.4 s )
-iteration: 1206; items left: 7; time: ( 1529.4 s )
-iteration: 1207; items left: 7; time: ( 1529.5 s )
-iteration: 1208; items left: 7; time: ( 1529.6 s )
-iteration: 1209; items left: 7; time: ( 1529.8 s )
-iteration: 1210; items left: 7; time: ( 1529.9 s )
-iteration: 1211; items left: 7; time: ( 1530.7 s )
-iteration: 1212; items left: 7; time: ( 1530.8 s )
-iteration: 1213; items left: 7; time: ( 1531.0 s )
-iteration: 1214; items left: 7; time: ( 1531.1 s )
-iteration: 1215; items left: 7; time: ( 1531.2 s )
-iteration: 1216; items left: 7; time: ( 1531.3 s )
-iteration: 1217; items left: 7; time: ( 1531.8 s )
-iteration: 1218; items left: 7; time: ( 1532.1 s )
-iteration: 1219; items left: 7; time: ( 1532.4 s )
-iteration: 1220; items left: 7; time: ( 1532.4 s )
-iteration: 1221; items left: 7; time: ( 1532.6 s )
-iteration: 1222; items left: 7; time: ( 1532.8 s )
-iteration: 1223; items left: 7; time: ( 1532.9 s )
-iteration: 1224; items left: 7; time: ( 1533.0 s )
-iteration: 1225; items left: 7; time: ( 1533.1 s )
-iteration: 1226; items left: 7; time: ( 1533.2 s )
-iteration: 1227; items left: 7; time: ( 1533.3 s )
-iteration: 1228; items left: 7; time: ( 1533.4 s )
-iteration: 1229; items left: 7; time: ( 1533.5 s )
-iteration: 1230; items left: 7; time: ( 1533.6 s )
-iteration: 1231; items left: 7; time: ( 1534.7 s )
-iteration: 1232; items left: 7; time: ( 1534.9 s )
-iteration: 1233; items left: 7; time: ( 1535.1 s )
-iteration: 1234; items left: 7; time: ( 1535.3 s )
-iteration: 1235; items left: 7; time: ( 1535.4 s )
-iteration: 1236; items left: 7; time: ( 1535.6 s )
-iteration: 1237; items left: 7; time: ( 1535.7 s )
-iteration: 1238; items left: 7; time: ( 1535.8 s )
-iteration: 1239; items left: 7; time: ( 1536.0 s )
-iteration: 1240; items left: 7; time: ( 1536.1 s )
-iteration: 1241; items left: 7; time: ( 1536.2 s )
-iteration: 1242; items left: 7; time: ( 1537.5 s )
-iteration: 1243; items left: 7; time: ( 1537.7 s )
-iteration: 1244; items left: 7; time: ( 1537.8 s )
-iteration: 1245; items left: 7; time: ( 1538.0 s )
-iteration: 1246; items left: 7; time: ( 1538.1 s )
-iteration: 1247; items left: 7; time: ( 1538.3 s )
-iteration: 1248; items left: 7; time: ( 1538.4 s )
-iteration: 1249; items left: 7; time: ( 1538.6 s )
-iteration: 1250; items left: 7; time: ( 1538.8 s )
-iteration: 1251; items left: 7; time: ( 1538.9 s )
-iteration: 1252; items left: 7; time: ( 1539.3 s )
-iteration: 1253; items left: 7; time: ( 1539.5 s )
-iteration: 1254; items left: 7; time: ( 1539.7 s )
-iteration: 1255; items left: 6; time: ( 1539.9 s )
-iteration: 1256; items left: 6; time: ( 1540.1 s )
-iteration: 1257; items left: 6; time: ( 1540.5 s )
-iteration: 1258; items left: 6; time: ( 1541.3 s )
-iteration: 1259; items left: 6; time: ( 1541.5 s )
-iteration: 1260; items left: 6; time: ( 1541.9 s )
-iteration: 1261; items left: 6; time: ( 1542.1 s )
-iteration: 1262; items left: 6; time: ( 1542.3 s )
-iteration: 1263; items left: 6; time: ( 1542.9 s )
-iteration: 1264; items left: 6; time: ( 1543.1 s )
-iteration: 1265; items left: 6; time: ( 1543.2 s )
-iteration: 1266; items left: 6; time: ( 1543.5 s )
-iteration: 1267; items left: 6; time: ( 1544.0 s )
-iteration: 1268; items left: 6; time: ( 1544.1 s )
-iteration: 1269; items left: 6; time: ( 1544.3 s )
-iteration: 1270; items left: 6; time: ( 1544.5 s )
-iteration: 1271; items left: 6; time: ( 1544.8 s )
-iteration: 1272; items left: 6; time: ( 1545.8 s )
-iteration: 1273; items left: 6; time: ( 1545.9 s )
-iteration: 1274; items left: 6; time: ( 1546.4 s )
-iteration: 1275; items left: 6; time: ( 1546.6 s )
-iteration: 1276; items left: 6; time: ( 1546.8 s )
-iteration: 1277; items left: 6; time: ( 1548.3 s )
-iteration: 1278; items left: 6; time: ( 1548.6 s )
-iteration: 1279; items left: 6; time: ( 1548.8 s )
-iteration: 1280; items left: 6; time: ( 1548.9 s )
-iteration: 1281; items left: 6; time: ( 1550.1 s )
-iteration: 1282; items left: 6; time: ( 1550.2 s )
-iteration: 1283; items left: 6; time: ( 1550.4 s )
-iteration: 1284; items left: 6; time: ( 1550.7 s )
-iteration: 1285; items left: 6; time: ( 1550.9 s )
-iteration: 1286; items left: 6; time: ( 1551.8 s )
-iteration: 1287; items left: 6; time: ( 1552.0 s )
-iteration: 1288; items left: 6; time: ( 1552.4 s )
-iteration: 1289; items left: 6; time: ( 1552.8 s )
-iteration: 1290; items left: 6; time: ( 1553.2 s )
-iteration: 1291; items left: 6; time: ( 1554.1 s )
-iteration: 1292; items left: 6; time: ( 1554.7 s )
-iteration: 1293; items left: 6; time: ( 1555.5 s )
-iteration: 1294; items left: 6; time: ( 1557.8 s )
-iteration: 1295; items left: 6; time: ( 1558.0 s )
-iteration: 1296; items left: 6; time: ( 1559.7 s )
-iteration: 1297; items left: 6; time: ( 1559.9 s )
-iteration: 1298; items left: 6; time: ( 1560.4 s )
-iteration: 1299; items left: 6; time: ( 1563.7 s )
-iteration: 1300; items left: 6; time: ( 1564.1 s )
-iteration: 1301; items left: 6; time: ( 1564.6 s )
-iteration: 1302; items left: 6; time: ( 1565.1 s )
-iteration: 1303; items left: 6; time: ( 1567.9 s )
-iteration: 1304; items left: 6; time: ( 1568.4 s )
-iteration: 1305; items left: 6; time: ( 1569.1 s )
-iteration: 1306; items left: 6; time: ( 1569.7 s )
-iteration: 1307; items left: 6; time: ( 1570.2 s )
-iteration: 1308; items left: 6; time: ( 1571.9 s )
-iteration: 1309; items left: 6; time: ( 1573.0 s )
-iteration: 1310; items left: 6; time: ( 1574.1 s )
-iteration: 1311; items left: 6; time: ( 1575.0 s )
-iteration: 1312; items left: 6; time: ( 1576.0 s )
-iteration: 1313; items left: 6; time: ( 1576.7 s )
-iteration: 1314; items left: 6; time: ( 1577.3 s )
-iteration: 1315; items left: 6; time: ( 1577.4 s )
-iteration: 1316; items left: 6; time: ( 1577.5 s )
-iteration: 1317; items left: 6; time: ( 1577.7 s )
-iteration: 1318; items left: 6; time: ( 1577.9 s )
-iteration: 1319; items left: 6; time: ( 1578.0 s )
-iteration: 1320; items left: 6; time: ( 1578.1 s )
-iteration: 1321; items left: 6; time: ( 1578.2 s )
-iteration: 1322; items left: 6; time: ( 1578.5 s )
-iteration: 1323; items left: 6; time: ( 1578.6 s )
-iteration: 1324; items left: 6; time: ( 1579.0 s )
-iteration: 1325; items left: 6; time: ( 1579.1 s )
-iteration: 1326; items left: 6; time: ( 1579.2 s )
-iteration: 1327; items left: 6; time: ( 1579.3 s )
-iteration: 1328; items left: 6; time: ( 1579.3 s )
-iteration: 1329; items left: 5; time: ( 1579.6 s )
-iteration: 1330; items left: 5; time: ( 1579.7 s )
-iteration: 1331; items left: 5; time: ( 1579.8 s )
-iteration: 1332; items left: 5; time: ( 1579.9 s )
-iteration: 1333; items left: 5; time: ( 1580.1 s )
-iteration: 1334; items left: 5; time: ( 1580.4 s )
-iteration: 1335; items left: 5; time: ( 1580.6 s )
-iteration: 1336; items left: 5; time: ( 1580.7 s )
-iteration: 1337; items left: 5; time: ( 1580.8 s )
-iteration: 1338; items left: 5; time: ( 1581.0 s )
-iteration: 1339; items left: 5; time: ( 1581.1 s )
-iteration: 1340; items left: 5; time: ( 1581.4 s )
-iteration: 1341; items left: 5; time: ( 1581.6 s )
-iteration: 1342; items left: 5; time: ( 1582.0 s )
-iteration: 1343; items left: 5; time: ( 1582.3 s )
-iteration: 1344; items left: 5; time: ( 1582.5 s )
-iteration: 1345; items left: 5; time: ( 1582.6 s )
-iteration: 1346; items left: 5; time: ( 1583.0 s )
-iteration: 1347; items left: 5; time: ( 1583.1 s )
-iteration: 1348; items left: 5; time: ( 1583.3 s )
-iteration: 1349; items left: 5; time: ( 1584.0 s )
-iteration: 1350; items left: 5; time: ( 1584.2 s )
-iteration: 1351; items left: 5; time: ( 1585.4 s )
-iteration: 1352; items left: 5; time: ( 1585.9 s )
-iteration: 1353; items left: 5; time: ( 1586.1 s )
-iteration: 1354; items left: 5; time: ( 1586.6 s )
-iteration: 1355; items left: 5; time: ( 1587.2 s )
-iteration: 1356; items left: 5; time: ( 1588.1 s )
-iteration: 1357; items left: 5; time: ( 1588.7 s )
-iteration: 1358; items left: 5; time: ( 1589.6 s )
-iteration: 1359; items left: 5; time: ( 1590.7 s )
-iteration: 1360; items left: 5; time: ( 1591.2 s )
-iteration: 1361; items left: 5; time: ( 1592.4 s )
-iteration: 1362; items left: 5; time: ( 1595.9 s )
-iteration: 1363; items left: 5; time: ( 1596.4 s )
-iteration: 1364; items left: 5; time: ( 1600.7 s )
-iteration: 1365; items left: 5; time: ( 1606.1 s )
-iteration: 1366; items left: 5; time: ( 1617.5 s )
-iteration: 1367; items left: 5; time: ( 1618.0 s )
-iteration: 1368; items left: 5; time: ( 1618.4 s )
-iteration: 1369; items left: 5; time: ( 1622.4 s )
-iteration: 1370; items left: 5; time: ( 1625.0 s )
-iteration: 1371; items left: 5; time: ( 1626.6 s )
-iteration: 1372; items left: 5; time: ( 1631.2 s )
-iteration: 1373; items left: 5; time: ( 1639.5 s )
-iteration: 1374; items left: 5; time: ( 1651.5 s )
-iteration: 1375; items left: 5; time: ( 1659.5 s )
-iteration: 1376; items left: 5; time: ( 1671.6 s )
-iteration: 1377; items left: 5; time: ( 1677.6 s )
-iteration: 1378; items left: 5; time: ( 1695.0 s )
-iteration: 1379; items left: 5; time: ( 1710.1 s )
-iteration: 1380; items left: 5; time: ( 1737.4 s )
-iteration: 1381; items left: 5; time: ( 1776.8 s )
-iteration: 1382; items left: 5; time: ( 1778.3 s )
-iteration: 1383; items left: 5; time: ( 1795.5 s )
-iteration: 1384; items left: 5; time: ( 1802.1 s )
-iteration: 1385; items left: 5; time: ( 1804.8 s )
-iteration: 1386; items left: 5; time: ( 1807.5 s )
-iteration: 1387; items left: 5; time: ( 1809.0 s )
-iteration: 1388; items left: 5; time: ( 1811.4 s )
-iteration: 1389; items left: 5; time: ( 1819.4 s )
-iteration: 1390; items left: 5; time: ( 1819.5 s )
-iteration: 1391; items left: 5; time: ( 1819.5 s )
-iteration: 1392; items left: 4; time: ( 1819.6 s )
-iteration: 1393; items left: 4; time: ( 1819.6 s )
-iteration: 1394; items left: 4; time: ( 1819.7 s )
-iteration: 1395; items left: 4; time: ( 1819.7 s )
-iteration: 1396; items left: 4; time: ( 1819.8 s )
-iteration: 1397; items left: 4; time: ( 1819.9 s )
-iteration: 1398; items left: 4; time: ( 1819.9 s )
-iteration: 1399; items left: 4; time: ( 1820.0 s )
-iteration: 1400; items left: 4; time: ( 1820.1 s )
-iteration: 1401; items left: 4; time: ( 1820.1 s )
-iteration: 1402; items left: 4; time: ( 1820.2 s )
-iteration: 1403; items left: 4; time: ( 1820.3 s )
-iteration: 1404; items left: 4; time: ( 1820.4 s )
-iteration: 1405; items left: 4; time: ( 1820.5 s )
-iteration: 1406; items left: 4; time: ( 1820.5 s )
-iteration: 1407; items left: 4; time: ( 1820.6 s )
-iteration: 1408; items left: 4; time: ( 1820.7 s )
-iteration: 1409; items left: 4; time: ( 1820.8 s )
-iteration: 1410; items left: 4; time: ( 1820.8 s )
-iteration: 1411; items left: 4; time: ( 1820.9 s )
-iteration: 1412; items left: 4; time: ( 1820.9 s )
-iteration: 1413; items left: 4; time: ( 1821.0 s )
-iteration: 1414; items left: 4; time: ( 1821.0 s )
-iteration: 1415; items left: 4; time: ( 1821.1 s )
-iteration: 1416; items left: 4; time: ( 1821.1 s )
-iteration: 1417; items left: 4; time: ( 1821.1 s )
-iteration: 1418; items left: 4; time: ( 1821.2 s )
-iteration: 1419; items left: 4; time: ( 1821.2 s )
-iteration: 1420; items left: 4; time: ( 1821.4 s )
-iteration: 1421; items left: 4; time: ( 1821.5 s )
-iteration: 1422; items left: 4; time: ( 1821.7 s )
-iteration: 1423; items left: 4; time: ( 1821.8 s )
-iteration: 1424; items left: 4; time: ( 1822.0 s )
-iteration: 1425; items left: 4; time: ( 1822.3 s )
-iteration: 1426; items left: 4; time: ( 1822.4 s )
-iteration: 1427; items left: 4; time: ( 1822.6 s )
-iteration: 1428; items left: 4; time: ( 1822.7 s )
-iteration: 1429; items left: 4; time: ( 1822.8 s )
-iteration: 1430; items left: 4; time: ( 1822.9 s )
-iteration: 1431; items left: 4; time: ( 1823.0 s )
-iteration: 1432; items left: 4; time: ( 1823.0 s )
-iteration: 1433; items left: 4; time: ( 1823.1 s )
-iteration: 1434; items left: 4; time: ( 1823.2 s )
-iteration: 1435; items left: 4; time: ( 1824.2 s )
-iteration: 1436; items left: 4; time: ( 1824.3 s )
-iteration: 1437; items left: 4; time: ( 1824.7 s )
-iteration: 1438; items left: 4; time: ( 1824.7 s )
-iteration: 1439; items left: 4; time: ( 1824.8 s )
-iteration: 1440; items left: 4; time: ( 1825.8 s )
-iteration: 1441; items left: 4; time: ( 1825.8 s )
-iteration: 1442; items left: 4; time: ( 1825.9 s )
-iteration: 1443; items left: 4; time: ( 1826.1 s )
-iteration: 1444; items left: 4; time: ( 1827.3 s )
-iteration: 1445; items left: 4; time: ( 1827.4 s )
-iteration: 1446; items left: 4; time: ( 1827.5 s )
-iteration: 1447; items left: 4; time: ( 1827.7 s )
-iteration: 1448; items left: 4; time: ( 1827.7 s )
-iteration: 1449; items left: 4; time: ( 1828.5 s )
-iteration: 1450; items left: 4; time: ( 1828.6 s )
-iteration: 1451; items left: 4; time: ( 1828.6 s )
-iteration: 1452; items left: 4; time: ( 1828.8 s )
-iteration: 1453; items left: 4; time: ( 1828.9 s )
-iteration: 1454; items left: 4; time: ( 1828.9 s )
-iteration: 1455; items left: 4; time: ( 1829.3 s )
-iteration: 1456; items left: 4; time: ( 1829.3 s )
-iteration: 1457; items left: 4; time: ( 1829.5 s )
-iteration: 1458; items left: 4; time: ( 1829.5 s )
-iteration: 1459; items left: 4; time: ( 1829.7 s )
-iteration: 1460; items left: 4; time: ( 1829.8 s )
-iteration: 1461; items left: 4; time: ( 1829.9 s )
-iteration: 1462; items left: 4; time: ( 1830.1 s )
-iteration: 1463; items left: 4; time: ( 1830.2 s )
-iteration: 1464; items left: 4; time: ( 1830.3 s )
-iteration: 1465; items left: 4; time: ( 1830.4 s )
-iteration: 1466; items left: 4; time: ( 1830.6 s )
-iteration: 1467; items left: 4; time: ( 1830.8 s )
-iteration: 1468; items left: 4; time: ( 1831.2 s )
-iteration: 1469; items left: 4; time: ( 1831.4 s )
-iteration: 1470; items left: 4; time: ( 1831.6 s )
-iteration: 1471; items left: 4; time: ( 1831.8 s )
-iteration: 1472; items left: 4; time: ( 1832.1 s )
-iteration: 1473; items left: 4; time: ( 1832.2 s )
-iteration: 1474; items left: 4; time: ( 1832.5 s )
-iteration: 1475; items left: 4; time: ( 1832.8 s )
-iteration: 1476; items left: 4; time: ( 1832.9 s )
-iteration: 1477; items left: 4; time: ( 1833.0 s )
-iteration: 1478; items left: 4; time: ( 1833.2 s )
-iteration: 1479; items left: 4; time: ( 1833.8 s )
-iteration: 1480; items left: 4; time: ( 1834.1 s )
-iteration: 1481; items left: 4; time: ( 1834.4 s )
-iteration: 1482; items left: 4; time: ( 1835.1 s )
-iteration: 1483; items left: 4; time: ( 1835.5 s )
-iteration: 1484; items left: 4; time: ( 1836.2 s )
-iteration: 1485; items left: 4; time: ( 1836.7 s )
-iteration: 1486; items left: 4; time: ( 1837.2 s )
-iteration: 1487; items left: 4; time: ( 1837.5 s )
-iteration: 1488; items left: 4; time: ( 1837.9 s )
-iteration: 1489; items left: 4; time: ( 1838.6 s )
-iteration: 1490; items left: 4; time: ( 1839.0 s )
-iteration: 1491; items left: 4; time: ( 1840.7 s )
-iteration: 1492; items left: 4; time: ( 1841.2 s )
-iteration: 1493; items left: 4; time: ( 1841.8 s )
-iteration: 1494; items left: 4; time: ( 1843.3 s )
-iteration: 1495; items left: 4; time: ( 1843.8 s )
-iteration: 1496; items left: 4; time: ( 1844.7 s )
-iteration: 1497; items left: 4; time: ( 1845.1 s )
-iteration: 1498; items left: 3; time: ( 1845.2 s )
-iteration: 1499; items left: 3; time: ( 1845.3 s )
-iteration: 1500; items left: 3; time: ( 1845.3 s )
-iteration: 1501; items left: 3; time: ( 1845.6 s )
-iteration: 1502; items left: 3; time: ( 1845.9 s )
-iteration: 1503; items left: 3; time: ( 1846.1 s )
-iteration: 1504; items left: 3; time: ( 1846.2 s )
-iteration: 1505; items left: 3; time: ( 1846.3 s )
-iteration: 1506; items left: 3; time: ( 1846.5 s )
-iteration: 1507; items left: 3; time: ( 1846.6 s )
-iteration: 1508; items left: 3; time: ( 1846.9 s )
-iteration: 1509; items left: 3; time: ( 1847.1 s )
-iteration: 1510; items left: 3; time: ( 1847.6 s )
-iteration: 1511; items left: 3; time: ( 1847.9 s )
-iteration: 1512; items left: 3; time: ( 1848.0 s )
-iteration: 1513; items left: 3; time: ( 1848.2 s )
-iteration: 1514; items left: 3; time: ( 1848.6 s )
-iteration: 1515; items left: 3; time: ( 1848.7 s )
-iteration: 1516; items left: 3; time: ( 1848.9 s )
-iteration: 1517; items left: 3; time: ( 1849.7 s )
-iteration: 1518; items left: 3; time: ( 1849.9 s )
-iteration: 1519; items left: 3; time: ( 1851.2 s )
-iteration: 1520; items left: 3; time: ( 1851.7 s )
-iteration: 1521; items left: 3; time: ( 1852.0 s )
-iteration: 1522; items left: 3; time: ( 1852.4 s )
-iteration: 1523; items left: 3; time: ( 1853.1 s )
-iteration: 1524; items left: 3; time: ( 1854.1 s )
-iteration: 1525; items left: 3; time: ( 1854.8 s )
-iteration: 1526; items left: 3; time: ( 1855.8 s )
-iteration: 1527; items left: 3; time: ( 1857.0 s )
-iteration: 1528; items left: 3; time: ( 1857.7 s )
-iteration: 1529; items left: 3; time: ( 1859.0 s )
-iteration: 1530; items left: 3; time: ( 1863.0 s )
-iteration: 1531; items left: 3; time: ( 1863.5 s )
-iteration: 1532; items left: 3; time: ( 1868.1 s )
-iteration: 1533; items left: 3; time: ( 1874.3 s )
-iteration: 1534; items left: 3; time: ( 1887.0 s )
-iteration: 1535; items left: 3; time: ( 1887.4 s )
-iteration: 1536; items left: 3; time: ( 1887.9 s )
-iteration: 1537; items left: 3; time: ( 1892.5 s )
-iteration: 1538; items left: 3; time: ( 1895.4 s )
-iteration: 1539; items left: 3; time: ( 1897.3 s )
-iteration: 1540; items left: 3; time: ( 1902.5 s )
-iteration: 1541; items left: 3; time: ( 1911.8 s )
-iteration: 1542; items left: 3; time: ( 1925.3 s )
-iteration: 1543; items left: 3; time: ( 1934.1 s )
-iteration: 1544; items left: 3; time: ( 1947.7 s )
-iteration: 1545; items left: 3; time: ( 1954.3 s )
-iteration: 1546; items left: 3; time: ( 1973.7 s )
-iteration: 1547; items left: 3; time: ( 1990.7 s )
-iteration: 1548; items left: 3; time: ( 2020.5 s )
-iteration: 1549; items left: 3; time: ( 2063.8 s )
-iteration: 1550; items left: 3; time: ( 2065.5 s )
-iteration: 1551; items left: 3; time: ( 2084.8 s )
-iteration: 1552; items left: 3; time: ( 2092.1 s )
-iteration: 1553; items left: 3; time: ( 2095.0 s )
-iteration: 1554; items left: 3; time: ( 2098.1 s )
-iteration: 1555; items left: 3; time: ( 2099.5 s )
-iteration: 1556; items left: 3; time: ( 2101.9 s )
-iteration: 1557; items left: 3; time: ( 2109.9 s )
-iteration: 1558; items left: 2; time: ( 2109.9 s )
-iteration: 1559; items left: 2; time: ( 2109.9 s )
-iteration: 1560; items left: 2; time: ( 2109.9 s )
-iteration: 1561; items left: 2; time: ( 2109.9 s )
-iteration: 1562; items left: 2; time: ( 2109.9 s )
-iteration: 1563; items left: 2; time: ( 2109.9 s )
-iteration: 1564; items left: 2; time: ( 2110.0 s )
-iteration: 1565; items left: 2; time: ( 2110.0 s )
-iteration: 1566; items left: 2; time: ( 2110.0 s )
-iteration: 1567; items left: 2; time: ( 2110.0 s )
-iteration: 1568; items left: 2; time: ( 2110.0 s )
-iteration: 1569; items left: 2; time: ( 2110.1 s )
-iteration: 1570; items left: 2; time: ( 2110.3 s )
-iteration: 1571; items left: 2; time: ( 2110.3 s )
-iteration: 1572; items left: 2; time: ( 2110.4 s )
-iteration: 1573; items left: 2; time: ( 2110.4 s )
-iteration: 1574; items left: 2; time: ( 2110.4 s )
-iteration: 1575; items left: 2; time: ( 2110.7 s )
-iteration: 1576; items left: 2; time: ( 2110.7 s )
-iteration: 1577; items left: 2; time: ( 2110.7 s )
-iteration: 1578; items left: 2; time: ( 2110.7 s )
-iteration: 1579; items left: 2; time: ( 2110.7 s )
-iteration: 1580; items left: 2; time: ( 2110.7 s )
-iteration: 1581; items left: 2; time: ( 2110.7 s )
-iteration: 1582; items left: 2; time: ( 2110.7 s )
-iteration: 1583; items left: 1; time: ( 2110.7 s )
-iteration: 1584; items left: 1; time: ( 2110.7 s )
-iteration: 1585; items left: 1; time: ( 2110.7 s )
-iteration: 1586; items left: 1; time: ( 2110.7 s )
-iteration: 1587; items left: 1; time: ( 2110.7 s )
-iteration: 1588; items left: 1; time: ( 2110.7 s )
-iteration: 1589; items left: 1; time: ( 2110.7 s )
-iteration: 1590; items left: 1; time: ( 2110.7 s )
-iteration: 1591; items left: 1; time: ( 2110.7 s )
-iteration: 1592; items left: 1; time: ( 2110.7 s )
-iteration: 1593; items left: 1; time: ( 2110.7 s )
-iteration: 1594; items left: 1; time: ( 2110.7 s )
-iteration: 1595; items left: 1; time: ( 2110.7 s )
-iteration: 1596; items left: 1; time: ( 2110.7 s )
-iteration: 1597; items left: 1; time: ( 2110.8 s )
-iteration: 1598; items left: 1; time: ( 2110.8 s )
-iteration: 1599; items left: 1; time: ( 2110.8 s )
-iteration: 1600; items left: 1; time: ( 2110.8 s )
-iteration: 1601; items left: 1; time: ( 2110.8 s )
-iteration: 1602; items left: 1; time: ( 2110.8 s )
-iteration: 1603; items left: 1; time: ( 2110.8 s )
-iteration: 1604; items left: 1; time: ( 2110.8 s )
-iteration: 1605; items left: 1; time: ( 2110.8 s )
-iteration: 1606; items left: 1; time: ( 2110.8 s )
-iteration: 1607; items left: 1; time: ( 2110.8 s )
-iteration: 1608; items left: 1; time: ( 2110.9 s )
-iteration: 1609; items left: 1; time: ( 2110.9 s )
-iteration: 1610; items left: 1; time: ( 2110.9 s )
-iteration: 1611; items left: 1; time: ( 2110.9 s )
-iteration: 1612; items left: 1; time: ( 2110.9 s )
-iteration: 1613; items left: 1; time: ( 2110.9 s )
-iteration: 1614; items left: 1; time: ( 2110.9 s )
-iteration: 1615; items left: 1; time: ( 2110.9 s )
-iteration: 1616; items left: 1; time: ( 2111.0 s )
-iteration: 1617; items left: 1; time: ( 2111.0 s )
-iteration: 1618; items left: 1; time: ( 2111.0 s )
-iteration: 1619; items left: 1; time: ( 2111.0 s )
-iteration: 1620; items left: 1; time: ( 2111.0 s )
-iteration: 1621; items left: 1; time: ( 2111.0 s )
-iteration: 1622; items left: 1; time: ( 2111.0 s )
-iteration: 1623; items left: 1; time: ( 2111.0 s )
-iteration: 1624; items left: 1; time: ( 2111.1 s )
-iteration: 1625; items left: 1; time: ( 2111.1 s )
-iteration: 1626; items left: 1; time: ( 2111.1 s )
-iteration: 1627; items left: 1; time: ( 2111.1 s )
-iteration: 1628; items left: 1; time: ( 2111.1 s )
-iteration: 1629; items left: 1; time: ( 2111.1 s )
-iteration: 1630; items left: 1; time: ( 2111.1 s )
-iteration: 1631; items left: 1; time: ( 2111.1 s )
-iteration: 1632; items left: 1; time: ( 2111.1 s )
-iteration: 1633; items left: 1; time: ( 2111.1 s )
-iteration: 1634; items left: 1; time: ( 2111.1 s )
-iteration: 1635; items left: 1; time: ( 2111.1 s )
-iteration: 1636; items left: 1; time: ( 2111.1 s )
-iteration: 1637; items left: 1; time: ( 2111.1 s )
-iteration: 1638; items left: 1; time: ( 2111.1 s )
-iteration: 1639; items left: 1; time: ( 2111.2 s )
-iteration: 1640; items left: 1; time: ( 2111.2 s )
-iteration: 1641; items left: 1; time: ( 2111.2 s )
-iteration: 1642; items left: 1; time: ( 2111.2 s )
-iteration: 1643; items left: 1; time: ( 2111.2 s )
-iteration: 1644; items left: 1; time: ( 2111.2 s )
-iteration: 1645; items left: 1; time: ( 2111.2 s )
-iteration: 1646; items left: 1; time: ( 2111.2 s )
-iteration: 1647; items left: 1; time: ( 2111.2 s )
-iteration: 1648; items left: 1; time: ( 2111.2 s )
-iteration: 1649; items left: 1; time: ( 2111.2 s )
-iteration: 1650; items left: 1; time: ( 2111.2 s )
-iteration: 1651; items left: 1; time: ( 2111.2 s )
-iteration: 1652; items left: 1; time: ( 2111.2 s )
-iteration: 1653; items left: 1; time: ( 2111.2 s )
-iteration: 1654; items left: 1; time: ( 2111.2 s )
-iteration: 1655; items left: 1; time: ( 2111.2 s )
-iteration: 1656; items left: 1; time: ( 2111.2 s )
-iteration: 1657; items left: 1; time: ( 2111.2 s )
-iteration: 1658; items left: 1; time: ( 2111.2 s )
-iteration: 1659; items left: 1; time: ( 2111.2 s )
-iteration: 1660; items left: 1; time: ( 2111.2 s )
-iteration: 1661; items left: 1; time: ( 2111.2 s )
-iteration: 1662; items left: 1; time: ( 2111.3 s )
-iteration: 1663; items left: 1; time: ( 2111.3 s )
-iteration: 1664; items left: 1; time: ( 2111.3 s )
-iteration: 1665; items left: 1; time: ( 2111.3 s )
-iteration: 1666; items left: 1; time: ( 2111.3 s )
-iteration: 1667; items left: 1; time: ( 2111.3 s )
-iteration: 1668; items left: 1; time: ( 2111.3 s )
-iteration: 1669; items left: 1; time: ( 2111.3 s )
-iteration: 1670; items left: 1; time: ( 2111.3 s )
-iteration: 1671; items left: 1; time: ( 2111.3 s )
-iteration: 1672; items left: 1; time: ( 2111.3 s )
-iteration: 1673; items left: 1; time: ( 2111.3 s )
-iteration: 1674; items left: 1; time: ( 2111.3 s )
-iteration: 1675; items left: 1; time: ( 2111.3 s )
-iteration: 1676; items left: 1; time: ( 2111.3 s )
-iteration: 1677; items left: 1; time: ( 2111.3 s )
-iteration: 1678; items left: 1; time: ( 2111.4 s )
-iteration: 1679; items left: 1; time: ( 2111.4 s )
-iteration: 1680; items left: 1; time: ( 2111.4 s )
-iteration: 1681; items left: 1; time: ( 2111.4 s )
-iteration: 1682; items left: 1; time: ( 2111.4 s )
-iteration: 1683; items left: 1; time: ( 2111.5 s )
-iteration: 1684; items left: 1; time: ( 2111.5 s )
-iteration: 1685; items left: 1; time: ( 2111.5 s )
-iteration: 1686; items left: 1; time: ( 2111.5 s )
-iteration: 1687; items left: 1; time: ( 2111.5 s )
-iteration: 1688; items left: 1; time: ( 2111.5 s )
-iteration: 1689; items left: 1; time: ( 2111.5 s )
-iteration: 1690; items left: 1; time: ( 2111.6 s )
-iteration: 1691; items left: 1; time: ( 2111.6 s )
-iteration: 1692; items left: 1; time: ( 2111.6 s )
-iteration: 1693; items left: 1; time: ( 2111.6 s )
-iteration: 1694; items left: 1; time: ( 2111.6 s )
-iteration: 1695; items left: 1; time: ( 2111.6 s )
-iteration: 1696; items left: 1; time: ( 2111.6 s )
-iteration: 1697; items left: 1; time: ( 2111.6 s )
-iteration: 1698; items left: 1; time: ( 2111.7 s )
-iteration: 1699; items left: 1; time: ( 2111.7 s )
-iteration: 1700; items left: 1; time: ( 2111.7 s )
-iteration: 1701; items left: 1; time: ( 2111.7 s )
-iteration: 1702; items left: 1; time: ( 2111.7 s )
-iteration: 1703; items left: 1; time: ( 2111.7 s )
-iteration: 1704; items left: 1; time: ( 2111.7 s )
-iteration: 1705; items left: 1; time: ( 2111.7 s )
-iteration: 1706; items left: 1; time: ( 2111.7 s )
-iteration: 1707; items left: 1; time: ( 2111.8 s )
-iteration: 1708; items left: 1; time: ( 2111.8 s )
-iteration: 1709; items left: 1; time: ( 2111.8 s )
-iteration: 1710; items left: 1; time: ( 2111.8 s )
-iteration: 1711; items left: 1; time: ( 2111.8 s )
-iteration: 1712; items left: 1; time: ( 2111.8 s )
-iteration: 1713; items left: 1; time: ( 2111.8 s )
-iteration: 1714; items left: 1; time: ( 2111.8 s )
-iteration: 1715; items left: 1; time: ( 2111.8 s )
-iteration: 1716; items left: 1; time: ( 2111.9 s )
-iteration: 1717; items left: 1; time: ( 2111.9 s )
-iteration: 1718; items left: 1; time: ( 2111.9 s )
-iteration: 1719; items left: 1; time: ( 2111.9 s )
-iteration: 1720; items left: 1; time: ( 2111.9 s )
-iteration: 1721; items left: 1; time: ( 2111.9 s )
-iteration: 1722; items left: 1; time: ( 2111.9 s )
-iteration: 1723; items left: 1; time: ( 2111.9 s )
-iteration: 1724; items left: 1; time: ( 2111.9 s )
-iteration: 1725; items left: 1; time: ( 2111.9 s )
-iteration: 1726; items left: 1; time: ( 2111.9 s )
-iteration: 1727; items left: 1; time: ( 2111.9 s )
-iteration: 1728; items left: 1; time: ( 2111.9 s )
-iteration: 1729; items left: 1; time: ( 2111.9 s )
-iteration: 1730; items left: 1; time: ( 2111.9 s )
-iteration: 1731; items left: 1; time: ( 2111.9 s )
-iteration: 1732; items left: 1; time: ( 2111.9 s )
-iteration: 1733; items left: 1; time: ( 2111.9 s )
-iteration: 1734; items left: 1; time: ( 2111.9 s )
-iteration: 1735; items left: 1; time: ( 2111.9 s )
-iteration: 1736; items left: 1; time: ( 2111.9 s )
-iteration: 1737; items left: 1; time: ( 2111.9 s )
-iteration: 1738; items left: 1; time: ( 2111.9 s )
-iteration: 1739; items left: 1; time: ( 2112.0 s )
-iteration: 1740; items left: 1; time: ( 2112.0 s )
-iteration: 1741; items left: 1; time: ( 2112.0 s )
-iteration: 1742; items left: 1; time: ( 2112.0 s )
-iteration: 1743; items left: 1; time: ( 2112.0 s )
-iteration: 1744; items left: 1; time: ( 2112.0 s )
-iteration: 1745; items left: 1; time: ( 2112.0 s )
-iteration: 1746; items left: 1; time: ( 2112.0 s )
-iteration: 1747; items left: 1; time: ( 2112.0 s )
-iteration: 1748; items left: 1; time: ( 2112.0 s )
-iteration: 1749; items left: 1; time: ( 2112.0 s )
-iteration: 1750; items left: 1; time: ( 2112.0 s )
-iteration: 1751; items left: 1; time: ( 2112.0 s )
-iteration: 1752; items left: 1; time: ( 2112.0 s )
-iteration: 1753; items left: 1; time: ( 2112.0 s )
-iteration: 1754; items left: 1; time: ( 2112.0 s )
-iteration: 1755; items left: 1; time: ( 2112.0 s )
-iteration: 1756; items left: 1; time: ( 2112.0 s )
-iteration: 1757; items left: 1; time: ( 2112.0 s )
-iteration: 1758; items left: 1; time: ( 2112.0 s )
-iteration: 1759; items left: 1; time: ( 2112.0 s )
-iteration: 1760; items left: 1; time: ( 2112.0 s )
-iteration: 1761; items left: 1; time: ( 2112.0 s )
-iteration: 1762; items left: 1; time: ( 2112.0 s )
-iteration: 1763; items left: 1; time: ( 2112.0 s )
-iteration: 1764; items left: 1; time: ( 2112.1 s )
-iteration: 1765; items left: 1; time: ( 2112.1 s )
-iteration: 1766; items left: 1; time: ( 2112.1 s )
-iteration: 1767; items left: 1; time: ( 2112.1 s )
-iteration: 1768; items left: 1; time: ( 2112.1 s )
-iteration: 1769; items left: 1; time: ( 2112.1 s )
-iteration: 1770; items left: 1; time: ( 2112.1 s )
-iteration: 1771; items left: 1; time: ( 2112.1 s )
-iteration: 1772; items left: 1; time: ( 2112.1 s )
-iteration: 1773; items left: 1; time: ( 2112.1 s )
-iteration: 1774; items left: 1; time: ( 2112.1 s )
-iteration: 1775; items left: 1; time: ( 2112.1 s )
-iteration: 1776; items left: 1; time: ( 2112.1 s )
-iteration: 1777; items left: 1; time: ( 2112.1 s )
-iteration: 1778; items left: 1; time: ( 2112.1 s )
-iteration: 1779; items left: 1; time: ( 2112.1 s )
-iteration: 1780; items left: 1; time: ( 2112.1 s )
-iteration: 1781; items left: 1; time: ( 2112.1 s )
-iteration: 1782; items left: 1; time: ( 2112.1 s )
-iteration: 1783; items left: 1; time: ( 2112.1 s )
-iteration: 1784; items left: 1; time: ( 2112.2 s )
-iteration: 1785; items left: 1; time: ( 2112.2 s )
-iteration: 1786; items left: 1; time: ( 2112.2 s )
-iteration: 1787; items left: 1; time: ( 2112.2 s )
-iteration: 1788; items left: 1; time: ( 2112.2 s )
-iteration: 1789; items left: 1; time: ( 2112.2 s )
-iteration: 1790; items left: 1; time: ( 2112.2 s )
-iteration: 1791; items left: 1; time: ( 2112.2 s )
-iteration: 1792; items left: 1; time: ( 2112.2 s )
-iteration: 1793; items left: 1; time: ( 2112.2 s )
-iteration: 1794; items left: 1; time: ( 2112.2 s )
-iteration: 1795; items left: 1; time: ( 2112.2 s )
-iteration: 1796; items left: 1; time: ( 2112.3 s )
-iteration: 1797; items left: 1; time: ( 2112.3 s )
-iteration: 1798; items left: 1; time: ( 2112.3 s )
-iteration: 1799; items left: 1; time: ( 2112.3 s )
-iteration: 1800; items left: 1; time: ( 2112.3 s )
-iteration: 1801; items left: 1; time: ( 2112.3 s )
-iteration: 1802; items left: 1; time: ( 2112.3 s )
-iteration: 1803; items left: 1; time: ( 2112.4 s )
-iteration: 1804; items left: 1; time: ( 2112.4 s )
-iteration: 1805; items left: 1; time: ( 2112.4 s )
-iteration: 1806; items left: 1; time: ( 2112.5 s )
-iteration: 1807; items left: 1; time: ( 2112.5 s )
-iteration: 1808; items left: 1; time: ( 2112.5 s )
-iteration: 1809; items left: 1; time: ( 2112.5 s )
-iteration: 1810; items left: 1; time: ( 2112.5 s )
-iteration: 1811; items left: 1; time: ( 2112.5 s )
-iteration: 1812; items left: 1; time: ( 2112.6 s )
-iteration: 1813; items left: 1; time: ( 2112.6 s )
-iteration: 1814; items left: 1; time: ( 2112.6 s )
-iteration: 1815; items left: 1; time: ( 2112.6 s )
-iteration: 1816; items left: 1; time: ( 2112.7 s )
-iteration: 1817; items left: 1; time: ( 2112.7 s )
-iteration: 1818; items left: 1; time: ( 2112.7 s )
-iteration: 1819; items left: 1; time: ( 2112.7 s )
-iteration: 1820; items left: 1; time: ( 2112.8 s )
-iteration: 1821; items left: 1; time: ( 2112.9 s )
-iteration: 1822; items left: 1; time: ( 2112.9 s )
-iteration: 1823; items left: 1; time: ( 2112.9 s )
-iteration: 1824; items left: 1; time: ( 2113.0 s )
-iteration: 1825; items left: 1; time: ( 2113.0 s )
-iteration: 1826; items left: 1; time: ( 2113.0 s )
-iteration: 1827; items left: 1; time: ( 2113.0 s )
-iteration: 1828; items left: 1; time: ( 2113.0 s )
-iteration: 1829; items left: 1; time: ( 2113.0 s )
-iteration: 1830; items left: 1; time: ( 2113.0 s )
-iteration: 1831; items left: 1; time: ( 2113.1 s )
-iteration: 1832; items left: 1; time: ( 2113.1 s )
-iteration: 1833; items left: 1; time: ( 2113.1 s )
-iteration: 1834; items left: 1; time: ( 2113.2 s )
-iteration: 1835; items left: 1; time: ( 2113.3 s )
-iteration: 1836; items left: 1; time: ( 2113.3 s )
-iteration: 1837; items left: 1; time: ( 2113.4 s )
-iteration: 1838; items left: 1; time: ( 2113.4 s )
-iteration: 1839; items left: 1; time: ( 2113.4 s )
-iteration: 1840; items left: 1; time: ( 2113.5 s )
-iteration: 1841; items left: 1; time: ( 2113.5 s )
-iteration: 1842; items left: 1; time: ( 2113.5 s )
-iteration: 1843; items left: 1; time: ( 2113.5 s )
-iteration: 1844; items left: 1; time: ( 2113.5 s )
-iteration: 1845; items left: 1; time: ( 2113.5 s )
-iteration: 1846; items left: 1; time: ( 2113.6 s )
-iteration: 1847; items left: 1; time: ( 2113.6 s )
-iteration: 1848; items left: 1; time: ( 2113.6 s )
-iteration: 1849; items left: 1; time: ( 2113.6 s )
-iteration: 1850; items left: 1; time: ( 2113.6 s )
-iteration: 1851; items left: 1; time: ( 2113.6 s )
-iteration: 1852; items left: 1; time: ( 2113.7 s )
-iteration: 1853; items left: 1; time: ( 2113.7 s )
-iteration: 1854; items left: 1; time: ( 2113.7 s )
-iteration: 1855; items left: 1; time: ( 2113.8 s )
-iteration: 1856; items left: 1; time: ( 2113.9 s )
-iteration: 1857; items left: 1; time: ( 2113.9 s )
-iteration: 1858; items left: 1; time: ( 2114.0 s )
-iteration: 1859; items left: 1; time: ( 2114.0 s )
-iteration: 1860; items left: 1; time: ( 2114.0 s )
-iteration: 1861; items left: 1; time: ( 2114.1 s )
-iteration: 1862; items left: 1; time: ( 2114.1 s )
-iteration: 1863; items left: 1; time: ( 2114.1 s )
-iteration: 1864; items left: 1; time: ( 2114.1 s )
-iteration: 1865; items left: 1; time: ( 2114.1 s )
-iteration: 1866; items left: 1; time: ( 2114.1 s )
-iteration: 1867; items left: 1; time: ( 2114.1 s )
-iteration: 1868; items left: 1; time: ( 2114.1 s )
-iteration: 1869; items left: 1; time: ( 2114.2 s )
-iteration: 1870; items left: 1; time: ( 2114.2 s )
-iteration: 1871; items left: 1; time: ( 2114.2 s )
-iteration: 1872; items left: 1; time: ( 2114.2 s )
-iteration: 1873; items left: 1; time: ( 2114.2 s )
-iteration: 1874; items left: 1; time: ( 2114.2 s )
-iteration: 1875; items left: 1; time: ( 2114.2 s )
-iteration: 1876; items left: 1; time: ( 2114.3 s )
-iteration: 1877; items left: 1; time: ( 2114.3 s )
-iteration: 1878; items left: 1; time: ( 2114.3 s )
-iteration: 1879; items left: 1; time: ( 2114.3 s )
-iteration: 1880; items left: 1; time: ( 2114.4 s )
-iteration: 1881; items left: 1; time: ( 2114.4 s )
-iteration: 1882; items left: 1; time: ( 2114.4 s )
-iteration: 1883; items left: 1; time: ( 2114.4 s )
-iteration: 1884; items left: 1; time: ( 2114.4 s )
-iteration: 1885; items left: 1; time: ( 2114.4 s )
-iteration: 1886; items left: 1; time: ( 2114.4 s )
-iteration: 1887; items left: 1; time: ( 2114.4 s )
-iteration: 1888; items left: 1; time: ( 2114.4 s )
-iteration: 1889; items left: 1; time: ( 2114.4 s )
-iteration: 1890; items left: 1; time: ( 2114.5 s )
-redundant: 0; insertions 550063
-All coefficients will be normalized
-
-Equations out of bounds rmax and smax: 79213
-Equations in the bounds rmax and smax: 268441
-( 2215.4 s )
-
-Write the triangular system to ./tmp/ on hard disk
-(--> ./tmp/C1/VERconfig, ./tmp/C1/VER###) 
-
-Triangular form completed after ( 2237.2 s )
-closeCalc: 119494
-FIREFLY table created successfully
-Algebraic reconstruction is switched off.
-Equation table created successfully
-
-***** Run the back substitution ***********************
-
-Load all files from ./tmp/
-Take 268441 equations to reduce 268441 missing equations
-
-Back substitution: 
-  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.0% []  0.1% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.2% []  0.3% []  0.4% []  0.5% []  0.5% []  0.5% []  0.5% []  0.5% []  0.7% []  0.7% []  0.7% []  0.7% []  0.7% []  0.8% []  0.8% []  0.9% []  0.9% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.0% []  1.2% []  1.2% []  1.3% []  1.3% []  1.3% []  1.3% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  1.9% []  2.2% []  2.2% []  2.2% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.3% []  2.5% []  2.5% []  2.7% []  2.8% []  2.8% []  2.8% []  2.8% []  2.8% []  2.8% []  2.8% []  2.8% []  3.0% []  3.0% []  3.1% []  3.6% []  3.6% []  3.6% []
-
-Equations reduced: 9949 / 268441
-Kira committed results ( 600.8 s )
-  4.1% []  4.1% []  4.1% []  4.1% []  4.1% []  4.1% []  4.2% []  4.2% []  4.3% []  4.3% []  4.4% []  4.4% []  4.4% []  4.4% []  4.4% []  4.4% []  4.4% []
-
-Equations reduced: 11948 / 268441
-Kira committed results ( 907.5 s )
-  4.8% []  4.8% []
-
-Equations reduced: 14137 / 268441
-Kira committed results ( 1209.3 s )
-  5.3% []
-
-Equations reduced: 15114 / 268441
-Kira committed results ( 1556.5 s )
-  5.7% []  5.7% []  5.7% []  5.7% []  5.7% []  5.7% []  5.7% []  5.7% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []  6.0% []
-
-Equations reduced: 16200 / 268441
-Kira committed results ( 1856.7 s )
-  6.1% []  6.1% []  6.1% []  6.1% []  6.1% []  6.1% []  6.1% []  6.1% []  6.1% []  6.2% []  6.2% []  6.2% []
-
-Equations reduced: 17209 / 268441
-Kira committed results ( 2157.1 s )
-  6.5% []  6.5% []  6.5% []  6.5% []  6.5% []  6.7% []
-
-Equations reduced: 18215 / 268441
-Kira committed results ( 2459.2 s )
-  6.8% []  6.8% []  6.8% []  6.8% []  6.8% []  6.8% []  6.8% []  6.8% []  6.8% []  7.0% []  7.0% []  7.1% []
-
-Equations reduced: 19361 / 268441
-Kira committed results ( 2782.2 s )
-  7.3% []  7.3% []  7.3% []  7.3% []  7.3% []  7.3% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []  7.5% []
-
-Equations reduced: 20220 / 268441
-Kira committed results ( 3082.1 s )
-  7.7% []  7.7% []  7.7% []  7.7% []  7.7% []  7.7% []  7.7% []  7.7% []  7.7% []
-
-Equations reduced: 20721 / 268441
-Kira committed results ( 3444.7 s )
-  7.9% []  8.1% []
-
-Equations reduced: 21972 / 268441
-Kira committed results ( 3747.8 s )
-  8.3% []  8.3% []  8.3% []  8.4% []  8.4% []  8.4% []  8.4% []  8.4% []  8.4% []  8.4% []
-
-Equations reduced: 23143 / 268441
-Kira committed results ( 4048.0 s )
-  9.0% []  9.0% []  9.1% []  9.1% []  9.1% []  9.1% []  9.1% []  9.1% []  9.1% []  9.1% []
-
-Equations reduced: 24600 / 268441
-Kira committed results ( 4369.2 s )
-  9.2% []  9.2% []  9.2% []
-
-Equations reduced: 25460 / 268441
-Kira committed results ( 4670.2 s )
-  9.5% []  9.6% []  9.6% []  9.6% []  9.6% []  9.6% []  9.6% []  9.6% []
-
-Equations reduced: 26051 / 268441
-Kira committed results ( 4996.6 s )
-  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.7% []  9.8% []  9.8% []  9.8% []  9.8% []  9.8% []  9.8% []  9.8% []
-
-Equations reduced: 26819 / 268441
-Kira committed results ( 5380.8 s )
- 10.3% []
-
-Equations reduced: 27831 / 268441
-Kira committed results ( 5681.8 s )
- 10.4% [] 10.4% [] 10.4% [] 10.4% [] 10.4% [] 10.4% [] 10.4% [] 10.4% [] 10.4% [] 10.8% [] 10.8% [] 10.8% [] 10.8% [] 10.8% [] 10.8% []
-
-Equations reduced: 29232 / 268441
-Kira committed results ( 5993.7 s )
- 11.0% [] 11.0% [] 11.1% [] 11.1% [] 11.2% [] 11.2% [] 11.3% []
-
-Equations reduced: 30539 / 268441
-Kira committed results ( 6293.9 s )
- 11.7% [] 11.8% [] 11.8% [] 11.8% [] 11.8% []
-
-Equations reduced: 32141 / 268441
-Kira committed results ( 6594.1 s )
- 12.1% [] 12.2% []
-
-Equations reduced: 33329 / 268441
-Kira committed results ( 6895.3 s )
- 12.6% [] 12.8% []
-
-Equations reduced: 34466 / 268441
-Kira committed results ( 7195.7 s )
- 12.9% []
-
-Equations reduced: 34836 / 268441
-Kira committed results ( 7596.2 s )
-
-
-Equations reduced: 34947 / 268441
-Kira committed results ( 8057.0 s )
- 13.0% [] 13.0% [] 13.0% [] 13.0% [] 13.0% [] 13.0% [] 13.0% [] 13.0% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% [] 13.1% []
-
-Equations reduced: 35390 / 268441
-Kira committed results ( 8358.3 s )
- 13.3% [] 13.3% [] 13.3% []
-
-Equations reduced: 36395 / 268441
-Kira committed results ( 8664.9 s )
- 13.6% []
-
-Equations reduced: 36882 / 268441
-Kira committed results ( 8989.9 s )
-
-
-Equations reduced: 38132 / 268441
-Kira committed results ( 9306.4 s )
- 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.2% [] 14.2% []
-
-Equations reduced: 38332 / 268441
-Kira committed results ( 9659.2 s )
-
-
-Equations reduced: 38489 / 268441
-Kira committed results ( 9970.9 s )
-
-
-Equations reduced: 39275 / 268441
-Kira committed results ( 10467.0 s )
-
-
-Equations reduced: 39406 / 268441
-Kira committed results ( 10769.6 s )
-
-
-Equations reduced: 39431 / 268441
-Kira committed results ( 11162.2 s )
-
-
-Equations reduced: 39677 / 268441
-Kira committed results ( 11464.9 s )
- 14.8% [] 14.8% [] 14.8% []
-
-Equations reduced: 40000 / 268441
-Kira committed results ( 11766.6 s )
-
-
-Equations reduced: 40564 / 268441
-Kira committed results ( 12066.8 s )
-
-
-Equations reduced: 40803 / 268441
-Kira committed results ( 12367.5 s )
-
-
-Equations reduced: 41004 / 268441
-Kira committed results ( 12667.6 s )
-
-
-Equations reduced: 41115 / 268441
-Kira committed results ( 13003.2 s )
- 15.3% []
-
-Equations reduced: 41398 / 268441
-Kira committed results ( 13308.7 s )
-
-
-Equations reduced: 41887 / 268441
-Kira committed results ( 13618.3 s )
-
-
-Equations reduced: 42117 / 268441
-Kira committed results ( 13921.4 s )
- 15.7% [] 15.7% [] 15.7% [] 15.7% [] 15.7% []
-
-Equations reduced: 42370 / 268441
-Kira committed results ( 14284.3 s )
-
-
-Equations reduced: 42866 / 268441
-Kira committed results ( 14585.2 s )
- 16.1% [] 16.1% [] 16.1% [] 16.1% []
-
-Equations reduced: 43352 / 268441
-Kira committed results ( 14888.6 s )
-
-
-Equations reduced: 43737 / 268441
-Kira committed results ( 15189.4 s )
- 16.3% [] 16.4% []
-
-Equations reduced: 44252 / 268441
-Kira committed results ( 15494.3 s )
-
-
-Equations reduced: 45296 / 268441
-Kira committed results ( 15862.7 s )
-
-
-Equations reduced: 45610 / 268441
-Kira committed results ( 16163.1 s )

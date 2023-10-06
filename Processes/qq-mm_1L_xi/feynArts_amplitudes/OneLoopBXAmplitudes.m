@@ -806,9 +806,10 @@
     I*EL*gFud*MU*CKM[1, 1]*NonCommutative[ChiralityProjector[-1]] - 
      I*EL*gFud*MD*CKM[1, 1]*NonCommutative[ChiralityProjector[1]], 
     NonCommutative[MD + DiracSlash[FourMomentum[Internal, 1]]], 
-    (-I)*EL*gFdu*MD*CKMC[1, 1]*NonCommutative[ChiralityProjector[-1]] + 
-     I*EL*gFdu*MU*CKMC[1, 1]*NonCommutative[ChiralityProjector[1]], 
-    NonCommutative[DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
+    (-I)*EL*gFdu*MD*Conjugate[CKM[1, 1]]*NonCommutative[
+       ChiralityProjector[-1]] + I*EL*gFdu*MU*Conjugate[CKM[1, 1]]*
+      NonCommutative[ChiralityProjector[1]], NonCommutative[
+     DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
    FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
     (-I)*EL*gFll*MM*NonCommutative[ChiralityProjector[-1]], 
     NonCommutative[DiracSlash[-FourMomentum[Incoming, 2] - 
@@ -978,9 +979,10 @@
       MU]], I*EL*gWud*CKM[1, 1]*NonCommutative[
       DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]], 
     NonCommutative[MD + DiracSlash[FourMomentum[Internal, 1]]], 
-    (-I)*EL*gFdu*MD*CKMC[1, 1]*NonCommutative[ChiralityProjector[-1]] + 
-     I*EL*gFdu*MU*CKMC[1, 1]*NonCommutative[ChiralityProjector[1]], 
-    NonCommutative[DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
+    (-I)*EL*gFdu*MD*Conjugate[CKM[1, 1]]*NonCommutative[
+       ChiralityProjector[-1]] + I*EL*gFdu*MU*Conjugate[CKM[1, 1]]*
+      NonCommutative[ChiralityProjector[1]], NonCommutative[
+     DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
    FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
     I*EL*gWlN*NonCommutative[DiracMatrix[Index[Lorentz, 2]], 
       ChiralityProjector[-1]], NonCommutative[
@@ -1177,9 +1179,9 @@
       MU]], I*EL*gFud*MU*CKM[1, 1]*NonCommutative[ChiralityProjector[-1]] - 
      I*EL*gFud*MD*CKM[1, 1]*NonCommutative[ChiralityProjector[1]], 
     NonCommutative[MD + DiracSlash[FourMomentum[Internal, 1]]], 
-    I*EL*gWdu*CKMC[1, 1]*NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
-      ChiralityProjector[-1]], NonCommutative[
-     DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
+    I*EL*gWdu*Conjugate[CKM[1, 1]]*NonCommutative[
+      DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]], 
+    NonCommutative[DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
    FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
     (-I)*EL*gFll*MM*NonCommutative[ChiralityProjector[-1]], 
     NonCommutative[DiracSlash[-FourMomentum[Incoming, 2] - 
@@ -1523,9 +1525,9 @@
     I*EL*gWud*CKM[1, 1]*NonCommutative[DiracMatrix[Index[Lorentz, 3]], 
       ChiralityProjector[-1]], NonCommutative[
      MD + DiracSlash[FourMomentum[Internal, 1]]], 
-    I*EL*gWdu*CKMC[1, 1]*NonCommutative[DiracMatrix[Index[Lorentz, 1]], 
-      ChiralityProjector[-1]], NonCommutative[
-     DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
+    I*EL*gWdu*Conjugate[CKM[1, 1]]*NonCommutative[
+      DiracMatrix[Index[Lorentz, 1]], ChiralityProjector[-1]], 
+    NonCommutative[DiracSpinor[FourMomentum[Incoming, 1], MU]]]*
    FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]], 
     I*EL*gWlN*NonCommutative[DiracMatrix[Index[Lorentz, 4]], 
       ChiralityProjector[-1]], NonCommutative[
