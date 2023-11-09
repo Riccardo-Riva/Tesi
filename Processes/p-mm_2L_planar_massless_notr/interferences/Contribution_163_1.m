@@ -1,11 +1,10 @@
-(* Created with the Wolfram Language : www.wolfram.com *)
 (PropList[KiraPropagator[q1, 0], KiraPropagator[p3 + q1, mz], 
    KiraPropagator[-p1 - p2 + p3 + q1, mz], KiraPropagator[q2, mw], 
    KiraPropagator[p1 + p2 + q2, mw], KiraPropagator[p3 + q1 + q2, mw]]*
   ((2^(3 - 2*d)*EL^8*gAl*gAu^2*ggpgpA*ggpgpZ^2*(gZlL^2 + gZlR^2)*
      SPList[SP[p3, q1], SP[q2, q2]])/Pi^(2*d) - 
-   (2^(3 - 2*d)*EL^8*gAl*gAu^2*ggpgpA*ggpgpZ^2*(gZlL^2*s + gZlR^2*s)*
-     SPList[SP[p3, q2], SP[q1, q2]])/(Pi^(2*d)*s) + 
+   (2^(3 - 2*d)*EL^8*gAl*gAu^2*ggpgpA*ggpgpZ^2*(gZlL^2 + gZlR^2)*
+     SPList[SP[p3, q2], SP[q1, q2]])/Pi^(2*d) + 
    (4^(1 - d)*EL^8*gAl*gAu^2*ggpgpA*ggpgpZ^2*(gZlL^2 + gZlR^2)*
      SPList[SP[q1, q1], SP[q2, q2]])/Pi^(2*d) + 
    (4^(1 - d)*EL^8*gAl*gAu^2*ggpgpA*ggpgpZ^2*(gZlL^2 + gZlR^2)*

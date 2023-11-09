@@ -26,7 +26,15 @@ zeroMass={mu->0,md->0,me->0,mm->0};
 SetZeroMassParticles[zeroMass]
 
 
-time=(SquareAndSave[myAmp2L,myAmpBorn]//AbsoluteTiming)[[1]]
+Do[
+{time,aa}=AbsoluteTiming[AmpSquare[myAmp2L[[i]],myAmpBorn[[1]]]];
+Print[i,":  ",time];
+aa>>(NotebookDirectory[]<>"interferences/Contribution_"<>ToString[i]<>"_1.m")
+,{i,1,10}]
 
 
-Export[(Directory[]<>"/time/time.m"),time]
+Do[
+{time,aa}=AbsoluteTiming[AmpSquare[myAmp2L[[i]],myAmpBorn[[1]]]];
+Print[i,":  ",time];
+aa>>(NotebookDirectory[]<>"interferences/Contribution_"<>ToString[i]<>"_1.m")
+,{i,230,Length[myAmp2L]}]

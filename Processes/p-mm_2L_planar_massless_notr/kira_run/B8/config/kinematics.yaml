@@ -6,6 +6,7 @@ kinematics:
      - [s,  2]
      - [t,  2]
      - [m1,  1]
+     - [m2,  1]
   scalarproduct_rules:
      - [[p1, p1], 0]
      - [[p2, p2], 0]
