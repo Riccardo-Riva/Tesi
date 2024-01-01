@@ -1,0 +1,1290 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The directories for the temporary files, result files and the sector mapping files are: 
+./tmp
+./results
+./sectormappings
+Kira prepares topology: C5 and top level sector: 
+63 
+Following reductions will be performed for the topology: C5
+Sector: 63 rmax: 6 smax: 3 
+
+***********************************************************
+Find IBP LI and symmetry relations for the topology: C5
+***********************************************************
+
+*****Generate IBP identities*******************************
+There are 10 IBP identities
+( 0.012669 s )
+
+*****Generate LI identities********************************
+There are 3 LI identities
+( 0.010859 s )
+
+*****Search trivial sectors********************************
+non trivial sector 7 3
+non trivial sector 12 2
+non trivial sector 13 3
+non trivial sector 14 3
+non trivial sector 15 4
+non trivial sector 20 2
+non trivial sector 21 3
+non trivial sector 22 3
+non trivial sector 23 4
+non trivial sector 24 2
+non trivial sector 25 3
+non trivial sector 26 3
+non trivial sector 27 4
+non trivial sector 28 3
+non trivial sector 29 4
+non trivial sector 30 4
+non trivial sector 31 5
+non trivial sector 35 3
+non trivial sector 39 4
+non trivial sector 40 2
+non trivial sector 41 3
+non trivial sector 42 3
+non trivial sector 43 4
+non trivial sector 44 3
+non trivial sector 45 4
+non trivial sector 46 4
+non trivial sector 47 5
+non trivial sector 48 2
+non trivial sector 49 3
+non trivial sector 50 3
+non trivial sector 51 4
+non trivial sector 52 3
+non trivial sector 53 4
+non trivial sector 54 4
+non trivial sector 55 5
+non trivial sector 56 3
+non trivial sector 57 4
+non trivial sector 58 4
+non trivial sector 59 5
+non trivial sector 60 4
+non trivial sector 61 5
+non trivial sector 62 5
+non trivial sector 63 6
+non trivial sector 69 3
+non trivial sector 71 4
+non trivial sector 76 3
+non trivial sector 77 4
+non trivial sector 78 4
+non trivial sector 79 5
+non trivial sector 84 3
+non trivial sector 85 4
+non trivial sector 86 4
+non trivial sector 87 5
+non trivial sector 88 3
+non trivial sector 89 4
+non trivial sector 90 4
+non trivial sector 91 5
+non trivial sector 92 4
+non trivial sector 93 5
+non trivial sector 94 5
+non trivial sector 95 6
+non trivial sector 97 3
+non trivial sector 99 4
+non trivial sector 101 4
+non trivial sector 103 5
+non trivial sector 104 3
+non trivial sector 105 4
+non trivial sector 106 4
+non trivial sector 107 5
+non trivial sector 108 4
+non trivial sector 109 5
+non trivial sector 110 5
+non trivial sector 111 6
+non trivial sector 112 3
+non trivial sector 113 4
+non trivial sector 114 4
+non trivial sector 115 5
+non trivial sector 116 4
+non trivial sector 117 5
+non trivial sector 118 5
+non trivial sector 119 6
+non trivial sector 120 4
+non trivial sector 121 5
+non trivial sector 122 5
+non trivial sector 123 6
+non trivial sector 124 5
+non trivial sector 125 6
+non trivial sector 126 6
+non trivial sector 127 7
+non trivial sector 134 3
+non trivial sector 135 4
+non trivial sector 140 3
+non trivial sector 141 4
+non trivial sector 142 4
+non trivial sector 143 5
+non trivial sector 148 3
+non trivial sector 149 4
+non trivial sector 150 4
+non trivial sector 151 5
+non trivial sector 152 3
+non trivial sector 153 4
+non trivial sector 154 4
+non trivial sector 155 5
+non trivial sector 156 4
+non trivial sector 157 5
+non trivial sector 158 5
+non trivial sector 159 6
+non trivial sector 162 3
+non trivial sector 163 4
+non trivial sector 166 4
+non trivial sector 167 5
+non trivial sector 168 3
+non trivial sector 169 4
+non trivial sector 170 4
+non trivial sector 171 5
+non trivial sector 172 4
+non trivial sector 173 5
+non trivial sector 174 5
+non trivial sector 175 6
+non trivial sector 176 3
+non trivial sector 177 4
+non trivial sector 178 4
+non trivial sector 179 5
+non trivial sector 180 4
+non trivial sector 181 5
+non trivial sector 182 5
+non trivial sector 183 6
+non trivial sector 184 4
+non trivial sector 185 5
+non trivial sector 186 5
+non trivial sector 187 6
+non trivial sector 188 5
+non trivial sector 189 6
+non trivial sector 190 6
+non trivial sector 191 7
+non trivial sector 196 3
+non trivial sector 197 4
+non trivial sector 198 4
+non trivial sector 199 5
+non trivial sector 204 4
+non trivial sector 205 5
+non trivial sector 206 5
+non trivial sector 207 6
+non trivial sector 212 4
+non trivial sector 213 5
+non trivial sector 214 5
+non trivial sector 215 6
+non trivial sector 216 4
+non trivial sector 217 5
+non trivial sector 218 5
+non trivial sector 219 6
+non trivial sector 220 5
+non trivial sector 221 6
+non trivial sector 222 6
+non trivial sector 223 7
+non trivial sector 224 3
+non trivial sector 225 4
+non trivial sector 226 4
+non trivial sector 227 5
+non trivial sector 228 4
+non trivial sector 229 5
+non trivial sector 230 5
+non trivial sector 231 6
+non trivial sector 232 4
+non trivial sector 233 5
+non trivial sector 234 5
+non trivial sector 235 6
+non trivial sector 236 5
+non trivial sector 237 6
+non trivial sector 238 6
+non trivial sector 239 7
+non trivial sector 240 4
+non trivial sector 241 5
+non trivial sector 242 5
+non trivial sector 243 6
+non trivial sector 244 5
+non trivial sector 245 6
+non trivial sector 246 6
+non trivial sector 247 7
+non trivial sector 248 5
+non trivial sector 249 6
+non trivial sector 250 6
+non trivial sector 251 7
+non trivial sector 252 6
+non trivial sector 253 7
+non trivial sector 254 7
+non trivial sector 255 8
+non trivial sector 261 3
+non trivial sector 263 4
+non trivial sector 268 3
+non trivial sector 269 4
+non trivial sector 270 4
+non trivial sector 271 5
+non trivial sector 276 3
+non trivial sector 277 4
+non trivial sector 278 4
+non trivial sector 279 5
+non trivial sector 280 3
+non trivial sector 281 4
+non trivial sector 282 4
+non trivial sector 283 5
+non trivial sector 284 4
+non trivial sector 285 5
+non trivial sector 286 5
+non trivial sector 287 6
+non trivial sector 289 3
+non trivial sector 291 4
+non trivial sector 293 4
+non trivial sector 295 5
+non trivial sector 296 3
+non trivial sector 297 4
+non trivial sector 298 4
+non trivial sector 299 5
+non trivial sector 300 4
+non trivial sector 301 5
+non trivial sector 302 5
+non trivial sector 303 6
+non trivial sector 304 3
+non trivial sector 305 4
+non trivial sector 306 4
+non trivial sector 307 5
+non trivial sector 308 4
+non trivial sector 309 5
+non trivial sector 310 5
+non trivial sector 311 6
+non trivial sector 312 4
+non trivial sector 313 5
+non trivial sector 314 5
+non trivial sector 315 6
+non trivial sector 316 5
+non trivial sector 317 6
+non trivial sector 318 6
+non trivial sector 319 7
+non trivial sector 324 3
+non trivial sector 325 4
+non trivial sector 326 4
+non trivial sector 327 5
+non trivial sector 328 3
+non trivial sector 329 4
+non trivial sector 330 4
+non trivial sector 331 5
+non trivial sector 332 4
+non trivial sector 333 5
+non trivial sector 334 5
+non trivial sector 335 6
+non trivial sector 340 4
+non trivial sector 341 5
+non trivial sector 342 5
+non trivial sector 343 6
+non trivial sector 344 4
+non trivial sector 345 5
+non trivial sector 346 5
+non trivial sector 347 6
+non trivial sector 348 5
+non trivial sector 349 6
+non trivial sector 350 6
+non trivial sector 351 7
+non trivial sector 352 3
+non trivial sector 353 4
+non trivial sector 354 4
+non trivial sector 355 5
+non trivial sector 356 4
+non trivial sector 357 5
+non trivial sector 358 5
+non trivial sector 359 6
+non trivial sector 360 4
+non trivial sector 361 5
+non trivial sector 362 5
+non trivial sector 363 6
+non trivial sector 364 5
+non trivial sector 365 6
+non trivial sector 366 6
+non trivial sector 367 7
+non trivial sector 368 4
+non trivial sector 369 5
+non trivial sector 370 5
+non trivial sector 371 6
+non trivial sector 372 5
+non trivial sector 373 6
+non trivial sector 374 6
+non trivial sector 375 7
+non trivial sector 376 5
+non trivial sector 377 6
+non trivial sector 378 6
+non trivial sector 379 7
+non trivial sector 380 6
+non trivial sector 381 7
+non trivial sector 382 7
+non trivial sector 383 8
+non trivial sector 388 3
+non trivial sector 389 4
+non trivial sector 390 4
+non trivial sector 391 5
+non trivial sector 396 4
+non trivial sector 397 5
+non trivial sector 398 5
+non trivial sector 399 6
+non trivial sector 404 4
+non trivial sector 405 5
+non trivial sector 406 5
+non trivial sector 407 6
+non trivial sector 408 4
+non trivial sector 409 5
+non trivial sector 410 5
+non trivial sector 411 6
+non trivial sector 412 5
+non trivial sector 413 6
+non trivial sector 414 6
+non trivial sector 415 7
+non trivial sector 416 3
+non trivial sector 417 4
+non trivial sector 418 4
+non trivial sector 419 5
+non trivial sector 420 4
+non trivial sector 421 5
+non trivial sector 422 5
+non trivial sector 423 6
+non trivial sector 424 4
+non trivial sector 425 5
+non trivial sector 426 5
+non trivial sector 427 6
+non trivial sector 428 5
+non trivial sector 429 6
+non trivial sector 430 6
+non trivial sector 431 7
+non trivial sector 432 4
+non trivial sector 433 5
+non trivial sector 434 5
+non trivial sector 435 6
+non trivial sector 436 5
+non trivial sector 437 6
+non trivial sector 438 6
+non trivial sector 439 7
+non trivial sector 440 5
+non trivial sector 441 6
+non trivial sector 442 6
+non trivial sector 443 7
+non trivial sector 444 6
+non trivial sector 445 7
+non trivial sector 446 7
+non trivial sector 447 8
+non trivial sector 452 4
+non trivial sector 453 5
+non trivial sector 454 5
+non trivial sector 455 6
+non trivial sector 456 4
+non trivial sector 457 5
+non trivial sector 458 5
+non trivial sector 459 6
+non trivial sector 460 5
+non trivial sector 461 6
+non trivial sector 462 6
+non trivial sector 463 7
+non trivial sector 468 5
+non trivial sector 469 6
+non trivial sector 470 6
+non trivial sector 471 7
+non trivial sector 472 5
+non trivial sector 473 6
+non trivial sector 474 6
+non trivial sector 475 7
+non trivial sector 476 6
+non trivial sector 477 7
+non trivial sector 478 7
+non trivial sector 479 8
+non trivial sector 480 4
+non trivial sector 481 5
+non trivial sector 482 5
+non trivial sector 483 6
+non trivial sector 484 5
+non trivial sector 485 6
+non trivial sector 486 6
+non trivial sector 487 7
+non trivial sector 488 5
+non trivial sector 489 6
+non trivial sector 490 6
+non trivial sector 491 7
+non trivial sector 492 6
+non trivial sector 493 7
+non trivial sector 494 7
+non trivial sector 495 8
+non trivial sector 496 5
+non trivial sector 497 6
+non trivial sector 498 6
+non trivial sector 499 7
+non trivial sector 500 6
+non trivial sector 501 7
+non trivial sector 502 7
+non trivial sector 503 8
+non trivial sector 504 6
+non trivial sector 505 7
+non trivial sector 506 7
+non trivial sector 507 8
+non trivial sector 508 7
+non trivial sector 509 8
+non trivial sector 510 8
+non trivial sector 511 9
+
+Non trivial sectors in total: 397
+Trivial sectors in total: 115
+( 0.0 s )
+
+Search symmetry relations: 
+
+( 0.2 s )
+***********************************************************
+Prepare Symmetries for the topology: C5
+***********************************************************
+Build symmetries for C5 x C5 
+Kira maps this sector 12 to this sector 12
+with external Symmetry 0
+Kira maps this sector 40 to this sector 12
+with external Symmetry 0
+Kira maps this sector 40 to this sector 12
+with external Symmetry 0
+Kira maps this sector 24 to this sector 20
+with external Symmetry 0
+Kira maps this sector 48 to this sector 20
+with external Symmetry 0
+Kira maps this sector 7 to this sector 7
+with external Symmetry 0
+Kira maps this sector 41 to this sector 13
+with external Symmetry 0
+Kira maps this sector 14 to this sector 14
+with external Symmetry 0
+no propagator flow, only for dots: Kira maps this sector 42 to this sector 14
+with external Symmetry 0
+no propagator flow, only for dots: Kira maps this sector 42 to this sector 14
+with external Symmetry 0
+no propagator flow, only for dots: Kira maps this sector 49 to this sector 21
+with external Symmetry 0
+Kira maps this sector 26 to this sector 22
+with external Symmetry 0
+Kira maps this sector 50 to this sector 22
+with external Symmetry 0
+Kira maps this sector 28 to this sector 28
+with external Symmetry 0
+Kira maps this sector 35 to this sector 35
+with external Symmetry 0
+Kira maps this sector 44 to this sector 44
+with external Symmetry 0
+Kira maps this sector 52 to this sector 52
+with external Symmetry 0
+Kira maps this sector 56 to this sector 56
+with external Symmetry 0
+Kira maps this sector 30 to this sector 30
+with external Symmetry 0
+Kira maps this sector 39 to this sector 39
+with external Symmetry 0
+Kira maps this sector 45 to this sector 45
+with external Symmetry 0
+no propagator flow, only for dots: Kira maps this sector 46 to this sector 46
+with external Symmetry 0
+no propagator flow, only for dots: Kira maps this sector 53 to this sector 53
+with external Symmetry 0
+Kira maps this sector 54 to this sector 54
+with external Symmetry 0
+Kira maps this sector 58 to this sector 58
+with external Symmetry 0
+
+Sector relations: 10
+Sector symmetries: 15
+( 0.0 s )
+
+*****Integral ordering*************************************
+VERSION table created successfully
+Kira database version number: 2.1
+WEIGHTBITS table created successfully
+INTEGRALORDERING table created successfully
+Kira will use the integral ordering: 2.
+
+***********************************************************
+Kira starts the reduction of the topology: C5
+***********************************************************
+
+***** Select equations recursively ************************
+Select integrals for: topology: C5
+ sectors: 63 rmax: 6 smax: 3
+
+length of mandatory list: 49760
+Algebraic reconstruction is switched off.
+1958 independent coefficients
+Number of master integrals: 49
+C5[1,1,1,0,0,0,0,0,0]  #  7
+C5[0,0,1,1,0,0,0,0,0]  # 12
+C5[0,0,1,0,1,0,0,0,0]  # 20
+C5[1,0,1,0,1,0,0,0,0]  # 21
+C5[1,1,-3,1,1,0,0,0,0] # 27
+C5[0,0,1,1,1,0,0,0,0]  # 28
+C5[0,0,1,1,2,0,0,0,0]  # 28
+C5[0,0,1,2,1,0,0,0,0]  # 28
+C5[1,0,1,1,1,0,0,0,0]  # 29
+C5[1,0,1,1,2,0,0,0,0]  # 29
+C5[1,1,1,1,1,0,0,0,0]  # 31
+C5[1,1,1,1,2,0,0,0,0]  # 31
+C5[1,1,0,0,0,1,0,0,0]  # 35
+C5[1,1,0,0,0,2,0,0,0]  # 35
+C5[1,1,1,0,0,1,0,0,0]  # 39
+C5[1,1,0,1,0,1,0,0,0]  # 43
+C5[1,1,0,1,0,2,0,0,0]  # 43
+C5[0,0,1,1,0,1,0,0,0]  # 44
+C5[0,1,1,1,0,1,0,0,0]  # 46
+C5[0,1,1,1,0,2,0,0,0]  # 46
+C5[0,1,1,2,0,1,0,0,0]  # 46
+C5[1,1,1,1,0,1,0,0,0]  # 47
+C5[1,1,1,1,0,2,0,0,0]  # 47
+C5[1,1,1,2,0,1,0,0,0]  # 47
+C5[1,1,0,0,1,1,0,0,0]  # 51
+C5[1,1,0,0,1,2,0,0,0]  # 51
+C5[0,0,1,0,1,1,0,0,0]  # 52
+C5[1,0,1,0,1,1,0,0,0]  # 53
+C5[1,0,1,0,1,2,0,0,0]  # 53
+C5[1,0,1,0,2,1,0,0,0]  # 53
+C5[1,1,1,0,1,1,0,0,0]  # 55
+C5[1,1,1,0,1,2,0,0,0]  # 55
+C5[1,1,1,0,2,1,0,0,0]  # 55
+C5[0,0,0,1,1,1,0,0,0]  # 56
+C5[1,1,0,1,1,1,0,0,0]  # 59
+C5[1,1,0,1,1,2,0,0,0]  # 59
+C5[1,1,0,1,2,1,0,0,0]  # 59
+C5[0,0,1,1,1,1,0,0,0]  # 60
+C5[1,0,1,1,1,1,0,0,0]  # 61
+C5[1,0,1,1,1,2,0,0,0]  # 61
+C5[1,0,1,1,2,1,0,0,0]  # 61
+C5[1,0,1,2,1,1,0,0,0]  # 61
+C5[0,1,1,1,1,1,0,0,0]  # 62
+C5[0,1,1,1,1,2,0,0,0]  # 62
+C5[0,1,1,1,2,1,0,0,0]  # 62
+C5[0,1,1,2,1,1,0,0,0]  # 62
+C5[1,1,1,1,1,1,0,0,0]  # 63
+C5[1,1,1,1,1,2,0,0,0]  # 63
+C5[1,2,1,1,1,1,0,0,0]  # 63
+Regenerate:
+
+Number of selected equations to reduce: 71789 equations
+( 7.0 s )
+closeCalc: 7963
+Algebraic reconstruction is switched off.
+
+***** Select equations recursively ************************
+Select integrals for: topology: C5
+ sectors: 63 rmax: 6 smax: 3
+
+length of mandatory list: 49760
+
+***** Bring system in triangular form *********************
+
+Iterate the system until it is in triangular form: 
+iteration: 0; items left: 15298; time: ( 5.1 s )
+iteration: 1; items left: 10749; time: ( 6.8 s )
+iteration: 2; items left: 7588; time: ( 9.5 s )
+iteration: 3; items left: 5270; time: ( 11.0 s )
+iteration: 4; items left: 4167; time: ( 12.2 s )
+iteration: 5; items left: 3388; time: ( 12.9 s )
+iteration: 6; items left: 2935; time: ( 14.1 s )
+iteration: 7; items left: 2578; time: ( 15.0 s )
+iteration: 8; items left: 2329; time: ( 16.1 s )
+iteration: 9; items left: 2098; time: ( 17.0 s )
+iteration: 10; items left: 1923; time: ( 17.6 s )
+iteration: 11; items left: 1740; time: ( 18.0 s )
+iteration: 12; items left: 1625; time: ( 18.4 s )
+iteration: 13; items left: 1466; time: ( 18.8 s )
+iteration: 14; items left: 1363; time: ( 19.2 s )
+iteration: 15; items left: 1262; time: ( 19.6 s )
+iteration: 16; items left: 1176; time: ( 19.9 s )
+iteration: 17; items left: 1089; time: ( 20.3 s )
+iteration: 18; items left: 1024; time: ( 20.6 s )
+iteration: 19; items left: 970; time: ( 21.0 s )
+iteration: 20; items left: 902; time: ( 21.4 s )
+iteration: 21; items left: 843; time: ( 21.7 s )
+iteration: 22; items left: 792; time: ( 22.0 s )
+iteration: 23; items left: 737; time: ( 22.2 s )
+iteration: 24; items left: 703; time: ( 22.5 s )
+iteration: 25; items left: 668; time: ( 22.7 s )
+iteration: 26; items left: 635; time: ( 23.0 s )
+iteration: 27; items left: 600; time: ( 23.2 s )
+iteration: 28; items left: 580; time: ( 23.5 s )
+iteration: 29; items left: 544; time: ( 23.8 s )
+iteration: 30; items left: 517; time: ( 24.0 s )
+iteration: 31; items left: 493; time: ( 24.2 s )
+iteration: 32; items left: 481; time: ( 24.4 s )
+iteration: 33; items left: 461; time: ( 24.6 s )
+iteration: 34; items left: 429; time: ( 24.9 s )
+iteration: 35; items left: 413; time: ( 25.1 s )
+iteration: 36; items left: 397; time: ( 25.3 s )
+iteration: 37; items left: 377; time: ( 25.5 s )
+iteration: 38; items left: 353; time: ( 25.7 s )
+iteration: 39; items left: 345; time: ( 25.9 s )
+iteration: 40; items left: 329; time: ( 26.0 s )
+iteration: 41; items left: 319; time: ( 26.2 s )
+iteration: 42; items left: 312; time: ( 26.4 s )
+iteration: 43; items left: 297; time: ( 26.6 s )
+iteration: 44; items left: 286; time: ( 26.8 s )
+iteration: 45; items left: 273; time: ( 27.0 s )
+iteration: 46; items left: 264; time: ( 27.3 s )
+iteration: 47; items left: 255; time: ( 27.5 s )
+iteration: 48; items left: 243; time: ( 27.6 s )
+iteration: 49; items left: 236; time: ( 27.8 s )
+iteration: 50; items left: 231; time: ( 27.9 s )
+iteration: 51; items left: 226; time: ( 28.0 s )
+iteration: 52; items left: 220; time: ( 28.2 s )
+iteration: 53; items left: 211; time: ( 28.3 s )
+iteration: 54; items left: 199; time: ( 28.4 s )
+iteration: 55; items left: 191; time: ( 28.6 s )
+iteration: 56; items left: 181; time: ( 28.7 s )
+iteration: 57; items left: 176; time: ( 28.8 s )
+iteration: 58; items left: 167; time: ( 29.0 s )
+iteration: 59; items left: 162; time: ( 29.1 s )
+iteration: 60; items left: 153; time: ( 29.2 s )
+iteration: 61; items left: 146; time: ( 29.3 s )
+iteration: 62; items left: 139; time: ( 29.4 s )
+iteration: 63; items left: 139; time: ( 29.5 s )
+iteration: 64; items left: 130; time: ( 29.6 s )
+iteration: 65; items left: 124; time: ( 29.7 s )
+iteration: 66; items left: 117; time: ( 29.8 s )
+iteration: 67; items left: 113; time: ( 29.9 s )
+iteration: 68; items left: 107; time: ( 30.0 s )
+iteration: 69; items left: 103; time: ( 30.1 s )
+iteration: 70; items left: 101; time: ( 30.2 s )
+iteration: 71; items left: 102; time: ( 30.3 s )
+iteration: 72; items left: 100; time: ( 30.4 s )
+iteration: 73; items left: 98; time: ( 30.5 s )
+iteration: 74; items left: 94; time: ( 30.6 s )
+iteration: 75; items left: 94; time: ( 30.7 s )
+iteration: 76; items left: 92; time: ( 30.8 s )
+iteration: 77; items left: 91; time: ( 30.9 s )
+iteration: 78; items left: 87; time: ( 31.0 s )
+iteration: 79; items left: 86; time: ( 31.0 s )
+iteration: 80; items left: 85; time: ( 31.1 s )
+iteration: 81; items left: 85; time: ( 31.1 s )
+iteration: 82; items left: 84; time: ( 31.2 s )
+iteration: 83; items left: 83; time: ( 31.3 s )
+iteration: 84; items left: 83; time: ( 31.4 s )
+iteration: 85; items left: 81; time: ( 31.5 s )
+iteration: 86; items left: 81; time: ( 31.6 s )
+iteration: 87; items left: 77; time: ( 31.6 s )
+iteration: 88; items left: 75; time: ( 31.7 s )
+iteration: 89; items left: 74; time: ( 31.8 s )
+iteration: 90; items left: 73; time: ( 31.9 s )
+iteration: 91; items left: 72; time: ( 32.0 s )
+iteration: 92; items left: 70; time: ( 32.1 s )
+iteration: 93; items left: 69; time: ( 32.1 s )
+iteration: 94; items left: 66; time: ( 32.2 s )
+iteration: 95; items left: 66; time: ( 32.2 s )
+iteration: 96; items left: 61; time: ( 32.2 s )
+iteration: 97; items left: 60; time: ( 32.3 s )
+iteration: 98; items left: 57; time: ( 32.3 s )
+iteration: 99; items left: 57; time: ( 32.4 s )
+iteration: 100; items left: 54; time: ( 32.4 s )
+iteration: 101; items left: 53; time: ( 32.5 s )
+iteration: 102; items left: 52; time: ( 32.5 s )
+iteration: 103; items left: 52; time: ( 32.5 s )
+iteration: 104; items left: 51; time: ( 32.6 s )
+iteration: 105; items left: 50; time: ( 32.6 s )
+iteration: 106; items left: 50; time: ( 32.7 s )
+iteration: 107; items left: 48; time: ( 32.7 s )
+iteration: 108; items left: 48; time: ( 32.8 s )
+iteration: 109; items left: 48; time: ( 32.8 s )
+iteration: 110; items left: 48; time: ( 32.8 s )
+iteration: 111; items left: 48; time: ( 32.9 s )
+iteration: 112; items left: 47; time: ( 32.9 s )
+iteration: 113; items left: 46; time: ( 32.9 s )
+iteration: 114; items left: 45; time: ( 32.9 s )
+iteration: 115; items left: 43; time: ( 33.0 s )
+iteration: 116; items left: 43; time: ( 33.0 s )
+iteration: 117; items left: 42; time: ( 33.0 s )
+iteration: 118; items left: 41; time: ( 33.0 s )
+iteration: 119; items left: 41; time: ( 33.1 s )
+iteration: 120; items left: 40; time: ( 33.1 s )
+iteration: 121; items left: 40; time: ( 33.1 s )
+iteration: 122; items left: 39; time: ( 33.2 s )
+iteration: 123; items left: 37; time: ( 33.2 s )
+iteration: 124; items left: 36; time: ( 33.2 s )
+iteration: 125; items left: 35; time: ( 33.3 s )
+iteration: 126; items left: 35; time: ( 33.4 s )
+iteration: 127; items left: 34; time: ( 33.4 s )
+iteration: 128; items left: 34; time: ( 33.5 s )
+iteration: 129; items left: 33; time: ( 33.5 s )
+iteration: 130; items left: 31; time: ( 33.6 s )
+iteration: 131; items left: 30; time: ( 33.6 s )
+iteration: 132; items left: 29; time: ( 33.6 s )
+iteration: 133; items left: 29; time: ( 33.6 s )
+iteration: 134; items left: 28; time: ( 33.6 s )
+iteration: 135; items left: 28; time: ( 33.7 s )
+iteration: 136; items left: 27; time: ( 33.7 s )
+iteration: 137; items left: 27; time: ( 33.7 s )
+iteration: 138; items left: 27; time: ( 33.7 s )
+iteration: 139; items left: 27; time: ( 33.7 s )
+iteration: 140; items left: 25; time: ( 33.7 s )
+iteration: 141; items left: 25; time: ( 33.8 s )
+iteration: 142; items left: 25; time: ( 33.8 s )
+iteration: 143; items left: 24; time: ( 33.8 s )
+iteration: 144; items left: 24; time: ( 33.8 s )
+iteration: 145; items left: 24; time: ( 33.8 s )
+iteration: 146; items left: 24; time: ( 33.8 s )
+iteration: 147; items left: 23; time: ( 33.8 s )
+iteration: 148; items left: 22; time: ( 33.9 s )
+iteration: 149; items left: 22; time: ( 33.9 s )
+iteration: 150; items left: 22; time: ( 33.9 s )
+iteration: 151; items left: 22; time: ( 33.9 s )
+iteration: 152; items left: 21; time: ( 33.9 s )
+iteration: 153; items left: 19; time: ( 33.9 s )
+iteration: 154; items left: 19; time: ( 33.9 s )
+iteration: 155; items left: 19; time: ( 34.0 s )
+iteration: 156; items left: 19; time: ( 34.0 s )
+iteration: 157; items left: 19; time: ( 34.0 s )
+iteration: 158; items left: 19; time: ( 34.0 s )
+iteration: 159; items left: 18; time: ( 34.0 s )
+iteration: 160; items left: 18; time: ( 34.0 s )
+iteration: 161; items left: 17; time: ( 34.0 s )
+iteration: 162; items left: 15; time: ( 34.1 s )
+iteration: 163; items left: 15; time: ( 34.1 s )
+iteration: 164; items left: 15; time: ( 34.1 s )
+iteration: 165; items left: 15; time: ( 34.1 s )
+iteration: 166; items left: 15; time: ( 34.1 s )
+iteration: 167; items left: 15; time: ( 34.1 s )
+iteration: 168; items left: 15; time: ( 34.1 s )
+iteration: 169; items left: 15; time: ( 34.1 s )
+iteration: 170; items left: 15; time: ( 34.1 s )
+iteration: 171; items left: 14; time: ( 34.1 s )
+iteration: 172; items left: 14; time: ( 34.1 s )
+iteration: 173; items left: 14; time: ( 34.2 s )
+iteration: 174; items left: 14; time: ( 34.2 s )
+iteration: 175; items left: 13; time: ( 34.2 s )
+iteration: 176; items left: 13; time: ( 34.2 s )
+iteration: 177; items left: 13; time: ( 34.2 s )
+iteration: 178; items left: 13; time: ( 34.2 s )
+iteration: 179; items left: 13; time: ( 34.2 s )
+iteration: 180; items left: 13; time: ( 34.2 s )
+iteration: 181; items left: 13; time: ( 34.2 s )
+iteration: 182; items left: 13; time: ( 34.2 s )
+iteration: 183; items left: 13; time: ( 34.3 s )
+iteration: 184; items left: 13; time: ( 34.3 s )
+iteration: 185; items left: 13; time: ( 34.3 s )
+iteration: 186; items left: 13; time: ( 34.3 s )
+iteration: 187; items left: 12; time: ( 34.3 s )
+iteration: 188; items left: 12; time: ( 34.3 s )
+iteration: 189; items left: 12; time: ( 34.3 s )
+iteration: 190; items left: 12; time: ( 34.3 s )
+iteration: 191; items left: 11; time: ( 34.4 s )
+iteration: 192; items left: 10; time: ( 34.4 s )
+iteration: 193; items left: 10; time: ( 34.4 s )
+iteration: 194; items left: 10; time: ( 34.4 s )
+iteration: 195; items left: 10; time: ( 34.4 s )
+iteration: 196; items left: 10; time: ( 34.4 s )
+iteration: 197; items left: 10; time: ( 34.4 s )
+iteration: 198; items left: 9; time: ( 34.4 s )
+iteration: 199; items left: 9; time: ( 34.4 s )
+iteration: 200; items left: 9; time: ( 34.5 s )
+iteration: 201; items left: 9; time: ( 34.5 s )
+iteration: 202; items left: 9; time: ( 34.5 s )
+iteration: 203; items left: 9; time: ( 34.5 s )
+iteration: 204; items left: 9; time: ( 34.5 s )
+iteration: 205; items left: 9; time: ( 34.5 s )
+iteration: 206; items left: 9; time: ( 34.5 s )
+iteration: 207; items left: 9; time: ( 34.5 s )
+iteration: 208; items left: 9; time: ( 34.5 s )
+iteration: 209; items left: 9; time: ( 34.5 s )
+iteration: 210; items left: 9; time: ( 34.5 s )
+iteration: 211; items left: 8; time: ( 34.6 s )
+iteration: 212; items left: 8; time: ( 34.6 s )
+iteration: 213; items left: 8; time: ( 34.6 s )
+iteration: 214; items left: 8; time: ( 34.6 s )
+iteration: 215; items left: 8; time: ( 34.6 s )
+iteration: 216; items left: 8; time: ( 34.6 s )
+iteration: 217; items left: 8; time: ( 34.6 s )
+iteration: 218; items left: 8; time: ( 34.6 s )
+iteration: 219; items left: 8; time: ( 34.6 s )
+iteration: 220; items left: 8; time: ( 34.6 s )
+iteration: 221; items left: 8; time: ( 34.6 s )
+iteration: 222; items left: 7; time: ( 34.7 s )
+iteration: 223; items left: 7; time: ( 34.7 s )
+iteration: 224; items left: 7; time: ( 34.7 s )
+iteration: 225; items left: 7; time: ( 34.7 s )
+iteration: 226; items left: 7; time: ( 34.7 s )
+iteration: 227; items left: 7; time: ( 34.7 s )
+iteration: 228; items left: 7; time: ( 34.7 s )
+iteration: 229; items left: 6; time: ( 34.7 s )
+iteration: 230; items left: 6; time: ( 34.7 s )
+iteration: 231; items left: 6; time: ( 34.7 s )
+iteration: 232; items left: 6; time: ( 34.7 s )
+iteration: 233; items left: 6; time: ( 34.7 s )
+iteration: 234; items left: 6; time: ( 34.7 s )
+iteration: 235; items left: 6; time: ( 34.7 s )
+iteration: 236; items left: 6; time: ( 34.8 s )
+iteration: 237; items left: 6; time: ( 34.8 s )
+iteration: 238; items left: 6; time: ( 34.8 s )
+iteration: 239; items left: 6; time: ( 34.8 s )
+iteration: 240; items left: 6; time: ( 34.8 s )
+iteration: 241; items left: 6; time: ( 34.8 s )
+iteration: 242; items left: 6; time: ( 34.8 s )
+iteration: 243; items left: 6; time: ( 34.8 s )
+iteration: 244; items left: 6; time: ( 34.8 s )
+iteration: 245; items left: 6; time: ( 34.8 s )
+iteration: 246; items left: 6; time: ( 34.8 s )
+iteration: 247; items left: 6; time: ( 34.8 s )
+iteration: 248; items left: 6; time: ( 34.8 s )
+iteration: 249; items left: 5; time: ( 34.8 s )
+iteration: 250; items left: 5; time: ( 34.8 s )
+iteration: 251; items left: 5; time: ( 34.8 s )
+iteration: 252; items left: 5; time: ( 34.9 s )
+iteration: 253; items left: 5; time: ( 34.9 s )
+iteration: 254; items left: 5; time: ( 34.9 s )
+iteration: 255; items left: 5; time: ( 34.9 s )
+iteration: 256; items left: 5; time: ( 34.9 s )
+iteration: 257; items left: 5; time: ( 34.9 s )
+iteration: 258; items left: 5; time: ( 34.9 s )
+iteration: 259; items left: 5; time: ( 34.9 s )
+iteration: 260; items left: 5; time: ( 34.9 s )
+iteration: 261; items left: 5; time: ( 34.9 s )
+iteration: 262; items left: 5; time: ( 34.9 s )
+iteration: 263; items left: 5; time: ( 34.9 s )
+iteration: 264; items left: 5; time: ( 35.0 s )
+iteration: 265; items left: 5; time: ( 35.0 s )
+iteration: 266; items left: 5; time: ( 35.0 s )
+iteration: 267; items left: 5; time: ( 35.0 s )
+iteration: 268; items left: 4; time: ( 35.0 s )
+iteration: 269; items left: 4; time: ( 35.0 s )
+iteration: 270; items left: 4; time: ( 35.0 s )
+iteration: 271; items left: 4; time: ( 35.0 s )
+iteration: 272; items left: 4; time: ( 35.0 s )
+iteration: 273; items left: 4; time: ( 35.0 s )
+iteration: 274; items left: 4; time: ( 35.0 s )
+iteration: 275; items left: 4; time: ( 35.0 s )
+iteration: 276; items left: 4; time: ( 35.0 s )
+iteration: 277; items left: 4; time: ( 35.0 s )
+iteration: 278; items left: 4; time: ( 35.0 s )
+iteration: 279; items left: 4; time: ( 35.0 s )
+iteration: 280; items left: 4; time: ( 35.0 s )
+iteration: 281; items left: 3; time: ( 35.0 s )
+iteration: 282; items left: 3; time: ( 35.0 s )
+iteration: 283; items left: 3; time: ( 35.0 s )
+iteration: 284; items left: 3; time: ( 35.0 s )
+iteration: 285; items left: 3; time: ( 35.1 s )
+iteration: 286; items left: 3; time: ( 35.1 s )
+iteration: 287; items left: 3; time: ( 35.1 s )
+iteration: 288; items left: 3; time: ( 35.1 s )
+iteration: 289; items left: 3; time: ( 35.1 s )
+iteration: 290; items left: 3; time: ( 35.1 s )
+iteration: 291; items left: 3; time: ( 35.1 s )
+iteration: 292; items left: 3; time: ( 35.1 s )
+iteration: 293; items left: 3; time: ( 35.1 s )
+iteration: 294; items left: 3; time: ( 35.1 s )
+iteration: 295; items left: 3; time: ( 35.1 s )
+iteration: 296; items left: 3; time: ( 35.1 s )
+iteration: 297; items left: 3; time: ( 35.1 s )
+iteration: 298; items left: 3; time: ( 35.1 s )
+iteration: 299; items left: 3; time: ( 35.1 s )
+iteration: 300; items left: 3; time: ( 35.1 s )
+iteration: 301; items left: 3; time: ( 35.1 s )
+iteration: 302; items left: 3; time: ( 35.2 s )
+iteration: 303; items left: 3; time: ( 35.2 s )
+iteration: 304; items left: 3; time: ( 35.2 s )
+iteration: 305; items left: 3; time: ( 35.2 s )
+iteration: 306; items left: 3; time: ( 35.2 s )
+iteration: 307; items left: 3; time: ( 35.2 s )
+iteration: 308; items left: 3; time: ( 35.2 s )
+iteration: 309; items left: 3; time: ( 35.2 s )
+iteration: 310; items left: 3; time: ( 35.2 s )
+iteration: 311; items left: 3; time: ( 35.2 s )
+iteration: 312; items left: 3; time: ( 35.2 s )
+iteration: 313; items left: 3; time: ( 35.2 s )
+iteration: 314; items left: 3; time: ( 35.2 s )
+iteration: 315; items left: 3; time: ( 35.2 s )
+iteration: 316; items left: 3; time: ( 35.3 s )
+iteration: 317; items left: 3; time: ( 35.3 s )
+iteration: 318; items left: 3; time: ( 35.3 s )
+iteration: 319; items left: 3; time: ( 35.3 s )
+iteration: 320; items left: 3; time: ( 35.3 s )
+iteration: 321; items left: 3; time: ( 35.3 s )
+iteration: 322; items left: 3; time: ( 35.3 s )
+iteration: 323; items left: 3; time: ( 35.3 s )
+iteration: 324; items left: 3; time: ( 35.3 s )
+iteration: 325; items left: 3; time: ( 35.3 s )
+iteration: 326; items left: 3; time: ( 35.3 s )
+iteration: 327; items left: 3; time: ( 35.3 s )
+iteration: 328; items left: 3; time: ( 35.3 s )
+iteration: 329; items left: 3; time: ( 35.3 s )
+iteration: 330; items left: 3; time: ( 35.3 s )
+iteration: 331; items left: 3; time: ( 35.3 s )
+iteration: 332; items left: 3; time: ( 35.4 s )
+iteration: 333; items left: 3; time: ( 35.4 s )
+iteration: 334; items left: 3; time: ( 35.4 s )
+iteration: 335; items left: 3; time: ( 35.4 s )
+iteration: 336; items left: 3; time: ( 35.4 s )
+iteration: 337; items left: 3; time: ( 35.4 s )
+iteration: 338; items left: 3; time: ( 35.4 s )
+iteration: 339; items left: 3; time: ( 35.4 s )
+iteration: 340; items left: 3; time: ( 35.4 s )
+iteration: 341; items left: 3; time: ( 35.4 s )
+iteration: 342; items left: 3; time: ( 35.4 s )
+iteration: 343; items left: 3; time: ( 35.4 s )
+iteration: 344; items left: 3; time: ( 35.4 s )
+iteration: 345; items left: 3; time: ( 35.4 s )
+iteration: 346; items left: 3; time: ( 35.4 s )
+iteration: 347; items left: 3; time: ( 35.4 s )
+iteration: 348; items left: 3; time: ( 35.5 s )
+iteration: 349; items left: 3; time: ( 35.5 s )
+iteration: 350; items left: 3; time: ( 35.5 s )
+iteration: 351; items left: 3; time: ( 35.5 s )
+iteration: 352; items left: 3; time: ( 35.5 s )
+iteration: 353; items left: 3; time: ( 35.5 s )
+iteration: 354; items left: 3; time: ( 35.5 s )
+iteration: 355; items left: 3; time: ( 35.5 s )
+iteration: 356; items left: 3; time: ( 35.5 s )
+iteration: 357; items left: 3; time: ( 35.5 s )
+iteration: 358; items left: 3; time: ( 35.5 s )
+iteration: 359; items left: 3; time: ( 35.5 s )
+iteration: 360; items left: 3; time: ( 35.5 s )
+iteration: 361; items left: 3; time: ( 35.5 s )
+iteration: 362; items left: 3; time: ( 35.6 s )
+iteration: 363; items left: 3; time: ( 35.6 s )
+iteration: 364; items left: 3; time: ( 35.6 s )
+iteration: 365; items left: 3; time: ( 35.6 s )
+iteration: 366; items left: 3; time: ( 35.6 s )
+iteration: 367; items left: 3; time: ( 35.6 s )
+iteration: 368; items left: 3; time: ( 35.6 s )
+iteration: 369; items left: 3; time: ( 35.6 s )
+iteration: 370; items left: 3; time: ( 35.6 s )
+iteration: 371; items left: 3; time: ( 35.6 s )
+iteration: 372; items left: 3; time: ( 35.6 s )
+iteration: 373; items left: 3; time: ( 35.6 s )
+iteration: 374; items left: 3; time: ( 35.6 s )
+iteration: 375; items left: 3; time: ( 35.6 s )
+iteration: 376; items left: 3; time: ( 35.6 s )
+iteration: 377; items left: 3; time: ( 35.6 s )
+iteration: 378; items left: 3; time: ( 35.6 s )
+iteration: 379; items left: 3; time: ( 35.7 s )
+iteration: 380; items left: 3; time: ( 35.7 s )
+iteration: 381; items left: 2; time: ( 35.7 s )
+iteration: 382; items left: 2; time: ( 35.7 s )
+iteration: 383; items left: 2; time: ( 35.7 s )
+iteration: 384; items left: 2; time: ( 35.7 s )
+iteration: 385; items left: 2; time: ( 35.7 s )
+iteration: 386; items left: 2; time: ( 35.7 s )
+iteration: 387; items left: 2; time: ( 35.7 s )
+iteration: 388; items left: 2; time: ( 35.7 s )
+iteration: 389; items left: 2; time: ( 35.7 s )
+iteration: 390; items left: 2; time: ( 35.7 s )
+iteration: 391; items left: 2; time: ( 35.7 s )
+iteration: 392; items left: 2; time: ( 35.7 s )
+iteration: 393; items left: 2; time: ( 35.7 s )
+iteration: 394; items left: 2; time: ( 35.7 s )
+iteration: 395; items left: 2; time: ( 35.7 s )
+iteration: 396; items left: 2; time: ( 35.7 s )
+iteration: 397; items left: 2; time: ( 35.7 s )
+iteration: 398; items left: 2; time: ( 35.7 s )
+iteration: 399; items left: 2; time: ( 35.7 s )
+iteration: 400; items left: 2; time: ( 35.7 s )
+iteration: 401; items left: 2; time: ( 35.7 s )
+iteration: 402; items left: 2; time: ( 35.7 s )
+iteration: 403; items left: 2; time: ( 35.7 s )
+iteration: 404; items left: 2; time: ( 35.7 s )
+iteration: 405; items left: 2; time: ( 35.7 s )
+iteration: 406; items left: 2; time: ( 35.7 s )
+iteration: 407; items left: 2; time: ( 35.7 s )
+iteration: 408; items left: 2; time: ( 35.7 s )
+iteration: 409; items left: 2; time: ( 35.7 s )
+iteration: 410; items left: 2; time: ( 35.7 s )
+iteration: 411; items left: 2; time: ( 35.7 s )
+iteration: 412; items left: 2; time: ( 35.7 s )
+iteration: 413; items left: 2; time: ( 35.7 s )
+iteration: 414; items left: 2; time: ( 35.7 s )
+iteration: 415; items left: 2; time: ( 35.7 s )
+iteration: 416; items left: 2; time: ( 35.7 s )
+iteration: 417; items left: 2; time: ( 35.7 s )
+iteration: 418; items left: 2; time: ( 35.7 s )
+iteration: 419; items left: 2; time: ( 35.7 s )
+iteration: 420; items left: 2; time: ( 35.7 s )
+iteration: 421; items left: 2; time: ( 35.7 s )
+iteration: 422; items left: 2; time: ( 35.7 s )
+iteration: 423; items left: 2; time: ( 35.7 s )
+iteration: 424; items left: 2; time: ( 35.7 s )
+iteration: 425; items left: 2; time: ( 35.7 s )
+iteration: 426; items left: 2; time: ( 35.7 s )
+iteration: 427; items left: 2; time: ( 35.7 s )
+iteration: 428; items left: 2; time: ( 35.8 s )
+iteration: 429; items left: 2; time: ( 35.8 s )
+iteration: 430; items left: 2; time: ( 35.8 s )
+iteration: 431; items left: 2; time: ( 35.8 s )
+iteration: 432; items left: 2; time: ( 35.8 s )
+iteration: 433; items left: 2; time: ( 35.8 s )
+iteration: 434; items left: 2; time: ( 35.8 s )
+iteration: 435; items left: 1; time: ( 35.8 s )
+iteration: 436; items left: 1; time: ( 35.8 s )
+iteration: 437; items left: 1; time: ( 35.8 s )
+iteration: 438; items left: 1; time: ( 35.8 s )
+iteration: 439; items left: 1; time: ( 35.8 s )
+iteration: 440; items left: 1; time: ( 35.8 s )
+iteration: 441; items left: 1; time: ( 35.8 s )
+iteration: 442; items left: 1; time: ( 35.8 s )
+iteration: 443; items left: 1; time: ( 35.8 s )
+iteration: 444; items left: 1; time: ( 35.8 s )
+iteration: 445; items left: 1; time: ( 35.8 s )
+iteration: 446; items left: 1; time: ( 35.8 s )
+iteration: 447; items left: 1; time: ( 35.8 s )
+iteration: 448; items left: 1; time: ( 35.8 s )
+iteration: 449; items left: 1; time: ( 35.8 s )
+iteration: 450; items left: 1; time: ( 35.8 s )
+iteration: 451; items left: 1; time: ( 35.8 s )
+iteration: 452; items left: 1; time: ( 35.8 s )
+iteration: 453; items left: 1; time: ( 35.8 s )
+iteration: 454; items left: 1; time: ( 35.8 s )
+redundant: 0; insertions 116070
+All coefficients will be normalized
+
+Equations out of bounds rmax and smax: 19795
+Equations in the bounds rmax and smax: 51994
+( 56.4 s )
+
+Write the triangular system to ./tmp/ on hard disk
+(--> ./tmp/C5/VERconfig, ./tmp/C5/VER###) 
+
+Triangular form completed after ( 57.9 s )
+closeCalc: 7967
+FIREFLY table created successfully
+Algebraic reconstruction is switched off.
+Equation table created successfully
+
+***** Run the back substitution ***********************
+
+Load all files from ./tmp/
+Take 51994 equations to reduce 51994 missing equations
+
+Back substitution: 
+
+
+Equations reduced: 9468 / 51994
+Kira committed results ( 80.9 s )
+
+
+Equations reduced: 12646 / 51994
+Kira committed results ( 112.8 s )
+
+
+Equations reduced: 15736 / 51994
+Kira committed results ( 141.3 s )
+
+
+Equations reduced: 17199 / 51994
+Kira committed results ( 146.7 s )
+
+
+Equations reduced: 20036 / 51994
+Kira committed results ( 152.6 s )
+
+
+Equations reduced: 22360 / 51994
+Kira committed results ( 158.4 s )
+
+
+Equations reduced: 23163 / 51994
+Kira committed results ( 162.3 s )
+
+
+Equations reduced: 23258 / 51994
+Kira committed results ( 162.5 s )
+
+
+Equations reduced: 25298 / 51994
+Kira committed results ( 168.3 s )
+
+
+Equations reduced: 25501 / 51994
+Kira committed results ( 168.8 s )
+
+
+Equations reduced: 27464 / 51994
+Kira committed results ( 175.9 s )
+
+
+Equations reduced: 27647 / 51994
+Kira committed results ( 176.4 s )
+
+
+Equations reduced: 28328 / 51994
+Kira committed results ( 178.0 s )
+
+
+Equations reduced: 28609 / 51994
+Kira committed results ( 178.7 s )
+
+
+Equations reduced: 29087 / 51994
+Kira committed results ( 179.6 s )
+
+
+Equations reduced: 29118 / 51994
+Kira committed results ( 179.7 s )
+
+
+Equations reduced: 29504 / 51994
+Kira committed results ( 183.0 s )
+
+
+Equations reduced: 29602 / 51994
+Kira committed results ( 183.8 s )
+
+
+Equations reduced: 30398 / 51994
+Kira committed results ( 191.9 s )
+
+
+Equations reduced: 35381 / 51994
+Kira committed results ( 253.2 s )
+
+
+Equations reduced: 35406 / 51994
+Kira committed results ( 253.3 s )
+
+
+Equations reduced: 35479 / 51994
+Kira committed results ( 253.8 s )
+
+
+Equations reduced: 36426 / 51994
+Kira committed results ( 274.6 s )
+
+
+Equations reduced: 39651 / 51994
+Kira committed results ( 301.7 s )
+
+
+Equations reduced: 39737 / 51994
+Kira committed results ( 303.0 s )
+
+
+Equations reduced: 40474 / 51994
+Kira committed results ( 313.3 s )
+
+
+Equations reduced: 41136 / 51994
+Kira committed results ( 322.1 s )
+
+
+Equations reduced: 41248 / 51994
+Kira committed results ( 324.0 s )
+
+
+Equations reduced: 42873 / 51994
+Kira committed results ( 329.0 s )
+
+
+Equations reduced: 43349 / 51994
+Kira committed results ( 333.5 s )
+
+
+Equations reduced: 44192 / 51994
+Kira committed results ( 352.5 s )
+
+
+Equations reduced: 44413 / 51994
+Kira committed results ( 352.8 s )
+
+
+Equations reduced: 44622 / 51994
+Kira committed results ( 362.6 s )
+
+
+Equations reduced: 46182 / 51994
+Kira committed results ( 386.0 s )
+
+
+Equations reduced: 46448 / 51994
+Kira committed results ( 387.4 s )
+
+
+Equations reduced: 46481 / 51994
+Kira committed results ( 387.6 s )
+
+
+Equations reduced: 48463 / 51994
+Kira committed results ( 419.5 s )
+
+
+Equations reduced: 48976 / 51994
+Kira committed results ( 426.7 s )
+
+
+Equations reduced: 50476 / 51994
+Kira committed results ( 449.3 s )
+
+
+Equations reduced: 50761 / 51994
+Kira committed results ( 452.4 s )
+
+
+Equations reduced: 51145 / 51994
+Kira committed results ( 454.2 s )
+
+
+Equations reduced: 51742 / 51994
+Kira committed results ( 468.3 s )
+
+
+Equations reduced: 51994 / 51994
+Kira committed results ( 476.4 s )
+
+51994 equations were reduced
+
+*****Master integrals***********************************
+C5[1,1,1,0,0,0,0,0,0]  #  7
+C5[0,0,1,1,0,0,0,0,0]  # 12
+C5[0,0,1,0,1,0,0,0,0]  # 20
+C5[1,0,1,0,1,0,0,0,0]  # 21
+C5[1,1,-3,1,1,0,0,0,0] # 27
+C5[0,0,1,1,1,0,0,0,0]  # 28
+C5[0,0,1,1,2,0,0,0,0]  # 28
+C5[0,0,1,2,1,0,0,0,0]  # 28
+C5[1,0,1,1,1,0,0,0,0]  # 29
+C5[1,0,1,1,2,0,0,0,0]  # 29
+C5[1,1,1,1,1,0,0,0,0]  # 31
+C5[1,1,1,1,2,0,0,0,0]  # 31
+C5[1,1,0,0,0,1,0,0,0]  # 35
+C5[1,1,0,0,0,2,0,0,0]  # 35
+C5[1,1,1,0,0,1,0,0,0]  # 39
+C5[1,1,0,1,0,1,0,0,0]  # 43
+C5[1,1,0,1,0,2,0,0,0]  # 43
+C5[0,0,1,1,0,1,0,0,0]  # 44
+C5[0,1,1,1,0,1,0,0,0]  # 46
+C5[0,1,1,1,0,2,0,0,0]  # 46
+C5[0,1,1,2,0,1,0,0,0]  # 46
+C5[1,1,1,1,0,1,0,0,0]  # 47
+C5[1,1,1,1,0,2,0,0,0]  # 47
+C5[1,1,1,2,0,1,0,0,0]  # 47
+C5[1,1,0,0,1,1,0,0,0]  # 51
+C5[1,1,0,0,1,2,0,0,0]  # 51
+C5[0,0,1,0,1,1,0,0,0]  # 52
+C5[1,0,1,0,1,1,0,0,0]  # 53
+C5[1,0,1,0,1,2,0,0,0]  # 53
+C5[1,0,1,0,2,1,0,0,0]  # 53
+C5[1,1,1,0,1,1,0,0,0]  # 55
+C5[1,1,1,0,1,2,0,0,0]  # 55
+C5[1,1,1,0,2,1,0,0,0]  # 55
+C5[0,0,0,1,1,1,0,0,0]  # 56
+C5[1,1,0,1,1,1,0,0,0]  # 59
+C5[1,1,0,1,1,2,0,0,0]  # 59
+C5[1,1,0,1,2,1,0,0,0]  # 59
+C5[0,0,1,1,1,1,0,0,0]  # 60
+C5[1,0,1,1,1,1,0,0,0]  # 61
+C5[1,0,1,1,1,2,0,0,0]  # 61
+C5[1,0,1,1,2,1,0,0,0]  # 61
+C5[1,0,1,2,1,1,0,0,0]  # 61
+C5[0,1,1,1,1,1,0,0,0]  # 62
+C5[0,1,1,1,1,2,0,0,0]  # 62
+C5[0,1,1,1,2,1,0,0,0]  # 62
+C5[0,1,1,2,1,1,0,0,0]  # 62
+C5[1,1,1,1,1,1,0,0,0]  # 63
+C5[1,1,1,1,1,2,0,0,0]  # 63
+C5[1,2,1,1,1,1,0,0,0]  # 63
+
+Total number of master integrals: 49
+
+*****Not selected integrals******
+C5[0,5,1,1,0,0,0,0,0]  # 14
+C5[0,5,1,1,0,-1,0,0,0] # 14
+C5[5,0,1,0,1,0,0,0,0]  # 21
+C5[5,0,1,0,1,-1,0,0,0] # 21
+C5[4,0,1,0,1,1,0,0,0]  # 53
+
+Number of not selected integrals: 5
+( 476.5 s )
+closeCalc: 7988
+Total time:
+( 543.5 s )
