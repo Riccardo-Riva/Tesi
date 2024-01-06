@@ -12,8 +12,7 @@ B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,
 C1,C2,C3,C4,C5,
 D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,
 F1,F2,F3,
-H1,
-I1
+H1
 };
 
 userPropagatorMomenta[B1]={
@@ -25,7 +24,7 @@ userPropagatorMomenta[B1]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B1]={0,0,0,0,0,0,0,0,0};
@@ -39,7 +38,7 @@ userPropagatorMomenta[B2]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B2]={M1,0,0,0,0,0,0,0,0};
@@ -53,7 +52,7 @@ userPropagatorMomenta[B3]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B3]={0,0,0,0,M1,0,0,0,0};
@@ -67,7 +66,7 @@ userPropagatorMomenta[B4]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B4]={M1,0,0,0,M1,0,0,0,0};
@@ -81,7 +80,7 @@ userPropagatorMomenta[B5]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B5]={0,M1,0,M1,0,0,0,0,0};
@@ -95,7 +94,7 @@ userPropagatorMomenta[B6]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B6]={0,M1,0,M1,M1,0,0,0,0};
@@ -109,7 +108,7 @@ userPropagatorMomenta[B7]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B7]={M1,M1,0,M1,0,0,0,0,0};
@@ -123,7 +122,7 @@ userPropagatorMomenta[B8]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B8]={M1,M2,0,M2,0,0,0,0,0};
@@ -137,7 +136,7 @@ userPropagatorMomenta[B9]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B9]={0,M1,M1,M1,0,M1,0,0,0};
@@ -151,7 +150,7 @@ userPropagatorMomenta[B10]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B10]={0,M1,0,M1,M1,M2,0,0,0};
@@ -165,7 +164,7 @@ userPropagatorMomenta[B11]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B11]={0,M1,M1,M1,M2,M1,0,0,0};
@@ -179,7 +178,7 @@ userPropagatorMomenta[B12]={
 	-p1-p2+p3+q1,
 	q2-p1,
 	q1+p1,
-	q2+p3-p1
+	q2+p3+p1
 };
 
 userIntegralMasses[B12]={0,M1,M2,M1,M1,M2,0,0,0};
@@ -477,17 +476,3 @@ userPropagatorMomenta[H1]={
 };
 
 userIntegralMasses[H1]={0,M1,M2,M2,0,0,0,0,0};
-
-userPropagatorMomenta[I1]={
-	q1,
-	q2,
-	q1+p3,
-	q2-p1-p2,
-	q1+p3-p1-p2,
-	q1+q2,
-	q1+p1,
-	q2+p1,
-	q2+p3
-};
-
-userIntegralMasses[I1]={0,M1,M1,M1,M1,0,0,0,0};

@@ -643,11 +643,4 @@
  userIntegral[H1, {mh, mz}, 1, 1, 0, 1, 2, 0, 0, 0, 0], 
  userIntegral[H1, {mh, mz}, 1, 1, 0, 2, 1, 0, 0, 0, 0], 
  userIntegral[H1, {mh, mz}, 1, 1, 1, 0, 1, 0, 0, 0, 0], 
- userIntegral[H1, {mh, mz}, 1, 1, 1, 1, 1, 0, 0, 0, 0], 
- userIntegral[I1, {mw}, 0, 1, 1, 0, 1, 1, 0, 0, 0], 
- userIntegral[I1, {mw}, 0, 1, 1, 0, 1, 0, 0, 0, 0], 
- userIntegral[I1, {mw}, 0, 1, 1, 0, 0, 0, 0, 0, 0], 
- userIntegral[I1, {mw}, 0, 1, 1, 0, 1, 2, 0, 0, 0], 
- userIntegral[I1, {mw}, 0, 1, 1, 0, 2, 1, 0, 0, 0], 
- userIntegral[I1, {mw}, 1, 1, 0, 0, 0, 1, 0, 0, 0], 
- userIntegral[I1, {mw}, 1, 1, 1, 0, 1, 0, 0, 0, 0]}
+ userIntegral[H1, {mh, mz}, 1, 1, 1, 1, 1, 0, 0, 0, 0]}

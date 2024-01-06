@@ -16,7 +16,7 @@ mkdir -p ${OUTPUTDIR}output/${dir}
 
 echo "#!/bin/bash
 #SBATCH --cpus-per-task=2
-#SBATCH --mem-per-cpu=32G
+#SBATCH --mem-per-cpu=16G
 #SBATCH --time=30-0:0
 
 cd "'$SLURM_TMPDIR'"

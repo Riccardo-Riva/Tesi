@@ -207,7 +207,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B2"
     loop_momenta: [q1, q2]
@@ -221,7 +221,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B3"
     loop_momenta: [q1, q2]
@@ -235,7 +235,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B4"
     loop_momenta: [q1, q2]
@@ -249,7 +249,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B6"
     loop_momenta: [q1, q2]
@@ -263,7 +263,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B10"
     loop_momenta: [q1, q2]
@@ -277,7 +277,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",m2^2]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B12"
     loop_momenta: [q1, q2]
@@ -291,7 +291,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",m2^2]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B11"
     loop_momenta: [q1, q2]
@@ -305,7 +305,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",m1^2]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B9"
     loop_momenta: [q1, q2]
@@ -319,7 +319,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",m1^2]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B5"
     loop_momenta: [q1, q2]
@@ -333,7 +333,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B8"
     loop_momenta: [q1, q2]
@@ -347,7 +347,7 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
 
   - name: "B7"
     loop_momenta: [q1, q2]
@@ -361,7 +361,21 @@ integralfamilies:
       - ["-p1 - p2 + p3 + q1",0   ]
       - ["-p1 + q2",          0   ]
       - ["p1 + q1",           0   ]
-      - ["-p1 + p3 + q2",     0   ]
+      - ["p1 + p3 + q2",      0   ]
+
+  - name: "F1"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_F1>
+    propagators:
+      - ["q1",                0   ]
+      - ["q2",                0   ]
+      - ["p3 + q1",           m1^2]
+      - ["p3 + q1 - q2",      0   ]
+      - ["-p1 - p2 + p3 + q1",m1^2]
+      - ["q1 + q2",           0   ]
+      - ["p1 + q1",           0   ]
+      - ["p2 + q2",           0   ]
+      - ["p1 + q2",           0   ]
 
   - name: "C1"
     loop_momenta: [q1, q2]
@@ -405,20 +419,6 @@ integralfamilies:
       - ["p1 - q1",           0   ]
       - ["p1 - q2",           0   ]
 
-  - name: "F1"
-    loop_momenta: [q1, q2]
-    top_level_sectors: <SECTOR_F1>
-    propagators:
-      - ["q1",                0   ]
-      - ["q2",                0   ]
-      - ["p3 + q1",           m1^2]
-      - ["p3 + q1 - q2",      0   ]
-      - ["-p1 - p2 + p3 + q1",m1^2]
-      - ["q1 + q2",           0   ]
-      - ["p1 + q1",           0   ]
-      - ["p2 + q2",           0   ]
-      - ["p1 + q2",           0   ]
-
   - name: "F2"
     loop_momenta: [q1, q2]
     top_level_sectors: <SECTOR_F2>
@@ -460,18 +460,4 @@ integralfamilies:
       - ["p1 + q1",           0   ]
       - ["p1 + q2",           0   ]
       - ["p2 + q2",           0   ]
-
-  - name: "I1"
-    loop_momenta: [q1, q2]
-    top_level_sectors: <SECTOR_I1>
-    propagators:
-      - ["q1",                0   ]
-      - ["q2",                m1^2]
-      - ["p3 + q1",           m1^2]
-      - ["-p1 - p2 + q2",     m1^2]
-      - ["-p1 - p2 + p3 + q1",m1^2]
-      - ["q1 + q2",           0   ]
-      - ["p1 + q1",           0   ]
-      - ["p1 + q2",           0   ]
-      - ["p3 + q2",           0   ]
 
