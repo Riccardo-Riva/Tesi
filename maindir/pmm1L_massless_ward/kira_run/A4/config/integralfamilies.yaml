@@ -1,0 +1,10 @@
+integralfamilies:
+  - name: "A4"
+    loop_momenta: [q1]
+    top_level_sectors: [b1110]
+    propagators:
+      - ["q1",                m1^2]
+      - ["p3 + q1",           m2^2]
+      - ["-p1 - p2 + p3 + q1",m2^2]
+      - ["p1 + q1",           0   ]
+

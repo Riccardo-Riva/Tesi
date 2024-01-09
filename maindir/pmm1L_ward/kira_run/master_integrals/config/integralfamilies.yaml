@@ -1,25 +1,16 @@
 integralfamilies:
-  - name: "A1"
+  - name: "A4"
     loop_momenta: [q1]
-    top_level_sectors: [b1110]
-    propagators:
-      - ["q1",                0   ]
-      - ["p3 + q1",           0   ]
-      - ["-p1 - p2 + p3 + q1",0   ]
-      - ["p1 + q1",           0   ]
-
-  - name: "A2"
-    loop_momenta: [q1]
-    top_level_sectors: [b1110]
+    top_level_sectors: <SECTOR_A4>
     propagators:
       - ["q1",                m1^2]
-      - ["p3 + q1",           0   ]
-      - ["-p1 - p2 + p3 + q1",0   ]
+      - ["p3 + q1",           m2^2]
+      - ["-p1 - p2 + p3 + q1",m2^2]
       - ["p1 + q1",           0   ]
 
   - name: "A3"
     loop_momenta: [q1]
-    top_level_sectors: [b1110]
+    top_level_sectors: <SECTOR_A3>
     propagators:
       - ["q1",                0   ]
       - ["p3 + q1",           m1^2]

@@ -1,0 +1,11 @@
+jobs:
+ - reduce_sectors:
+    reduce:
+     - {sectors: [b1111], r: 4, s: 3}
+    select_integrals:
+     select_mandatory_recursively:
+      - {sectors: [b1111], r: 4, s: 3}
+    preferred_masters: my_basis
+    run_initiate: true
+    run_triangular: true
+    run_back_substitution: true
