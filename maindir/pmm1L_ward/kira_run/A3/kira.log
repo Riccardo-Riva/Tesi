@@ -19,6 +19,6 @@ This requested integral is a master integral: A3[0,1,0,0] # 2
 This requested integral is a master integral: A3[1,1,0,0] # 3
 unreduced integrals: 0.
 
-closeCalc: 4491
+closeCalc: 6073
 Total time:
-( 0.227655 s )
+( 0.257447 s )
