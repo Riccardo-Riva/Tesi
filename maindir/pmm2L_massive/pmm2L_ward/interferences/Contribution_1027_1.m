@@ -1,1728 +1,663 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-PropList[KiraPropagator[q1, mw], KiraPropagator[q2, 0], 
-   KiraPropagator[p3 + q2, 0], KiraPropagator[-p1 - p2 + p3 + q2, 0], 
-   KiraPropagator[q1 + q2, mw]]*
-  (((-5*I)*4^(-1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     s^2*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s^2*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*4^(-1 - d)*(aa - bb)*(-13 + 7*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) + 
-   (I*4^(-1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, q1]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, q2]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) + 
-   ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2]])/
-    (mz^2*Pi^(2*d)) - ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(3 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-56 + 29*d)*s + 30*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(3*s + 8*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-4 + d)*s + 30*(-2 + d)*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p2, q2]])/(mz^2*Pi^(2*d)) - ((5*I)*4^(-1 - d)*(aa - bb)*(-2 + d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p3, p3]])/(mz^2*Pi^(2*d)) + 
-   ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-49 + 26*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (2*(-17 + 8*d)*s + (-38 + 17*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
-   ((15*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(3 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(2*(-4 + d)*s + (-38 + 17*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (10*(-2 + d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q1], SP[p1, q1]])/(mz^2*Pi^(2*d)) + 
-   ((7*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q1], SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (5*s + 7*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(3*s + 5*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q1], SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q1, q2]])/(4^d*mz^2*Pi^(2*d)) - 
-   ((3*I)*4^(-1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-19 + 11*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
-      SP[p1, q2]])/(mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*s*(15*(-2 + d)*s + (-38 + 17*d)*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (2*s + 7*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-19 + 11*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*4^(-1 - d)*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(6*s + 11*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-22 + 13*d)*s + (-41 + 24*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*4^(-1 - d)*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-4 + d)*s + (-38 + 17*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(3 - 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-23 + 12*d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 3*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q1], SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
-   ((7*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(2*s + 5*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q1], SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q1, q2]])/(4^d*mz^2*Pi^(2*d)) - 
-   ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-19 + 11*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(5*s + 11*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-19 + 11*d)*s + (-41 + 24*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, p3], SP[p3, q1]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, p3], SP[p3, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q1], SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q1], SP[q1, q2]])/(4^d*mz^2*Pi^(2*d)) + 
-   ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q2], 
-      SP[q1, q2]])/(mz^2*Pi^(2*d)) - (I*4^(-1 - d)*(aa - bb)*(-7 + 3*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p1, p2]])/
-    (mz^2*Pi^(2*d)) + ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(3*s + 5*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p2], SP[p1, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-33 + 17*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p2], SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (2*s + 5*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*((-7 + 3*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p2], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p3, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-23 + 12*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p2], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(9*s + 14*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[p1, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], 
-      SP[p1, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(45*(-2 + d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p3], SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((35*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(2*s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p3], SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-38 + 17*d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-37 + 18*d)*s + 40*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 8*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], 
-      SP[p1, q1]])/(mz^2*Pi^(2*d)) + (I*2^(3 - 2*d)*(aa - bb)*(3 - 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(3 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s - t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 4*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(7*s + 10*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(7*s + 8*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(16 - 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[p1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-76 + 39*d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 4*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[p2, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-33 + 17*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(7*s + 12*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-19 + 11*d)*s + 5*(-7 + 4*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-12 + 7*d)*s + 4*(-5 + 3*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-27 + 13*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 14*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p2, p3], SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-24 + 11*d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (3*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-43 + 22*d)*s + 40*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 8*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(3*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (3*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) - (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(3*s + 10*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(16 - 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2], SP[p2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-7 + 3*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 12*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-16 + 9*d)*s + 5*(-7 + 4*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-8 + 5*d)*s + 4*(-5 + 3*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, p3], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, p3], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q1], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q2], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p3, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q2], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[p1, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[p1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-33 + 17*d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3], SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 9*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (10*(-2 + d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-7 + 3*d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], 
-      SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], 
-      SP[p1, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(4*s + 5*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], 
-      SP[p1, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*s + 6*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], 
-      SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(-56*s + 29*d*s - 86*t + 
-      44*d*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], 
-      SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-27 + 13*d)*s + 2*(-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-16 + 9*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-18 + 11*d)*s + 2*(-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (-33*s + 17*d*s - 46*t + 24*d*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(4*s + 9*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(15*(-2 + d)*s + 2*(-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((15*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-17 + 8*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + ((3*I)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   ((3*I)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, p3], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], 
-      SP[p3, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(2*s + 5*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q2], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-7 + 3*d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[p3, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-8 + 5*d)*s + (-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + (-23 + 12*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, p3], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], 
-      SP[p3, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q1], SP[p3, p3]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p1, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q1], SP[q2, q2]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p1, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 5*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[q2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], 
-      SP[p3, p3]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], 
-      SP[q2, q2]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (3*s + 4*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, p3], 
-      SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, p3], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1], SP[q2, q2]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], SP[q1, q1]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-23 + 12*d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], SP[p2, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[p3, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-16 + 9*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-5 + 3*d)*s + (-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-23 + 12*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 4*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
-      SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], 
-      SP[q2, q2]])/(mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, p3], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p3, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
-      SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], SP[q1, q1]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[p2, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 5*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 6*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q2], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-7 + 3*d)*s + 2*(-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-8 + 5*d)*s + 2*(-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (-13*s + 7*d*s - 46*t + 24*d*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, p3], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p3, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], SP[p3, p3]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], 
-      SP[p3, q2]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], 
-      SP[q2, q2]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, p3], 
-      SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, p3], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], 
-      SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], SP[q2, q2]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], 
-      SP[p3, p3]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], SP[q1, q1]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, p3], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], 
-      SP[p3, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q1], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], 
-      SP[p3, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q1], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d))) + 
- PropList[KiraPropagator[q1, mw], KiraPropagator[q2, mz], 
-   KiraPropagator[p3 + q2, 0], KiraPropagator[-p1 - p2 + p3 + q2, 0], 
-   KiraPropagator[q1 + q2, mw]]*
-  (((5*I)*4^(-1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     s^2*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s^2*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*4^(-1 - d)*(aa - bb)*(-13 + 7*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) - 
-   (I*4^(-1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, q1]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, q2]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) - 
-   ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2]])/
-    (mz^2*Pi^(2*d)) + ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-56 + 29*d)*s + 30*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(3*s + 8*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(3 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s^2*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-4 + d)*s + 30*(-2 + d)*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p2, q2]])/(mz^2*Pi^(2*d)) + ((5*I)*4^(-1 - d)*(aa - bb)*(-2 + d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p3, p3]])/(mz^2*Pi^(2*d)) - 
-   ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-49 + 26*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (2*(-17 + 8*d)*s + (-38 + 17*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2]])/(mz^2*Pi^(2*d)) - 
-   ((15*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(2*(-4 + d)*s + (-38 + 17*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (10*(-2 + d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q1], SP[p1, q1]])/(mz^2*Pi^(2*d)) - 
-   ((7*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q1], SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (5*s + 7*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(3*s + 5*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q1], SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q1, q2]])/(4^d*mz^2*Pi^(2*d)) + 
-   ((3*I)*4^(-1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-19 + 11*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
-      SP[p1, q2]])/(mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*s*(15*(-2 + d)*s + (-38 + 17*d)*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (2*s + 7*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-19 + 11*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*4^(-1 - d)*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(6*s + 11*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-22 + 13*d)*s + (-41 + 24*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*4^(-1 - d)*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-4 + d)*s + (-38 + 17*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-23 + 12*d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 3*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q1], SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
-   ((7*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(2*s + 5*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q1], SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q1, q2]])/(4^d*mz^2*Pi^(2*d)) + 
-   ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-19 + 11*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, p3]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(5*s + 11*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     ((-19 + 11*d)*s + (-41 + 24*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, p3], SP[p3, q1]])/(2^(2*(1 + d))*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, p3], SP[p3, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q1], SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q1], SP[q1, q2]])/(4^d*mz^2*Pi^(2*d)) - 
-   ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[q2, q2]])/
-    (2^(2*(1 + d))*mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q2], 
-      SP[q1, q2]])/(mz^2*Pi^(2*d)) + (I*4^(-1 - d)*(aa - bb)*(-7 + 3*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p1, p2]])/
-    (mz^2*Pi^(2*d)) - ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(3*s + 5*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p2], SP[p1, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-33 + 17*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p2], SP[p1, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (2*s + 5*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*((-7 + 3*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p2], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p3, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-23 + 12*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p2], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(9*s + 14*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[p1, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], 
-      SP[p1, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(45*(-2 + d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p3], SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((35*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(2*s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, p3], SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-38 + 17*d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-37 + 18*d)*s + 40*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 8*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], 
-      SP[p1, q1]])/(mz^2*Pi^(2*d)) + (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s - t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 4*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(7*s + 10*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(7*s + 8*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[p1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-76 + 39*d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 4*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[p2, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p1, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-33 + 17*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(7*s + 12*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-19 + 11*d)*s + 5*(-7 + 4*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-12 + 7*d)*s + 4*(-5 + 3*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-27 + 13*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p1, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 14*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(3 - 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p2, p3], SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-24 + 11*d)*s + 2*(-57 + 28*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (3*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-43 + 22*d)*s + 40*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 8*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(3*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (3*s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) + (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(3*s + 10*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 8*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2], SP[p2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-7 + 3*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 12*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-16 + 9*d)*s + 5*(-7 + 4*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-8 + 5*d)*s + 4*(-5 + 3*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + 20*(-2 + d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p2], SP[p2, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, p3], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, p3], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q1], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q2], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], 
-      SP[p3, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(7 - 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p3, q2], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[p1, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[p1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-33 + 17*d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3], SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(5*s + 9*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[p2, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (10*(-2 + d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-7 + 3*d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (2*s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], 
-      SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(3 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[p2, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], 
-      SP[p1, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(4*s + 5*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], 
-      SP[p1, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*s + 6*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q1], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], 
-      SP[p1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((56 - 29*d)*s + (86 - 44*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], SP[p2, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-27 + 13*d)*s + 2*(-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-16 + 9*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p1, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-18 + 11*d)*s + 2*(-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (-33*s + 17*d*s - 46*t + 24*d*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p1, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(4*s + 9*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], 
-      SP[p2, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(15*(-2 + d)*s + 2*(-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((15*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-17 + 8*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - ((3*I)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   ((3*I)*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, p3], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*
-     gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, p3], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], 
-      SP[p3, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(2*s + 5*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q1], 
-      SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q2], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-7 + 3*d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[p3, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p2, q2], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-8 + 5*d)*s + (-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + (-23 + 12*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p2, q2], SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, p3], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], 
-      SP[p3, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, p3], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, p3], SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q1], SP[p3, p3]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p1, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q1], SP[q2, q2]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p1, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[p2, p3]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(3*s + 5*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, p3], SP[q2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], 
-      SP[p3, p3]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], 
-      SP[q2, q2]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (3*s + 4*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, p3], 
-      SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, p3], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
-      SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1], SP[q2, q2]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], SP[q1, q1]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-23 + 12*d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], SP[p2, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[p3, p3]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-16 + 9*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, p3], SP[q1, q1]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-5 + 3*d)*s + (-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-23 + 12*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, p3], SP[q2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 4*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
-      SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], 
-      SP[q2, q2]])/(mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], SP[p3, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p2, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, p3], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*
-     EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p1, q2], SP[p3, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
-      SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], SP[q1, q1]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - ((5*I)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], 
-      SP[p2, p3]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[p2, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-43 + 22*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, p3], SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (5*(-2 + d)*s + (-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, p3], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 3*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*(-8 + 5*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 3*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, p3], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], 
-      SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 5*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p2, q1], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 6*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(13 - 7*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q2], SP[p2, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*((-7 + 3*d)*s + 2*(-17 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[p3, p3]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-13 + 7*d)*s + (-29 + 16*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 4*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p2, q2], SP[q1, q1]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((-8 + 5*d)*s + 2*(-13 + 8*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     ((13 - 7*d)*s + (46 - 24*d)*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p2, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, p3], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-13 + 7*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], 
-      SP[p3, p3], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q1], SP[p3, q1]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q1], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q1], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) - ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q2], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, p3], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + (I*2^(-1 - 2*d)*(aa - bb)*(-7 + 3*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, p3], SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], SP[p3, p3]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], 
-      SP[p3, q2]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], 
-      SP[q2, q2]])/(4^d*mz^2*Pi^(2*d)) - 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], SP[p3, p3]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], 
-      SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2], SP[q1, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, p3], 
-      SP[p3, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, p3], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], 
-      SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], SP[q2, q2]])/
-    (4^d*mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2], 
-      SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], 
-      SP[p3, p3]])/(mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], 
-      SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
-   (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*t*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], SP[q1, q1]])/
-    (4^d*mz^2*Pi^(2*d)) - (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], 
-      SP[q1, q2]])/(mz^2*(2*Pi)^(2*d)) - 
-   ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     t*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + ((3*I)*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, p3], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-16 + 9*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, p3], SP[p3, q2]])/
-    (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], 
-      SP[p3, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
-   (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q1], SP[p3, q2]])/
-    (mz^2*(2*Pi)^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
-     gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], 
-      SP[p3, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
-   (I*2^(-1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
-     (s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q1], SP[q2, q2]])/
-    (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
-     (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2], 
-      SP[q1, q1]])/(4^d*mz^2*Pi^(2*d)) + 
-   (I*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*
-     \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2], SP[q1, q2]])/
-    (mz^2*(2*Pi)^(2*d)) + ((5*I)*2^(-1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*
-     gWWA*gWWZ*(gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*
-     SPList[SP[p2, q2], SP[p3, q2], SP[q2, q2]])/(mz^2*Pi^(2*d)))
+{(PropList[KiraPropagator[q1, mm], KiraPropagator[p1 + p2 + q1, mm], 
+     KiraPropagator[p3 + q1, 0], KiraPropagator[q2, mw], 
+     KiraPropagator[-p3 - q1 + q2, mw]]*
+    (((-I)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*s*
+       (aa*mm^2*(5*(-2 + d)*psq + (-6 + d)*t) + 
+        aa*psq*(5*(2 + d)*psq - 5*d*s + 6*t - 11*d*t) + 
+        bb*psq*((22 - 17*d)*psq + 6*(-1 + d)*s + (-6 + 11*d)*t) + 
+        bb*mm^2*((-22 + 7*d)*psq - (-6 + d)*(s + t)))*\[Mu]^(8 - 2*d))/
+      (mz^2*(2*Pi)^(2*d)) + (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(2^(1 + 2*d)*(-8 + 3*d)*Pi^(2*d)*psq*s*(3*psq - s - t) + 
+          2^(1 + 2*d)*(-6 + d)*mm^4*Pi^(2*d)*(psq + s - t) + 
+          mm^2*(2*Pi)^(2*d)*((12 - 22*d)*psq^2 - 5*(-10 + d)*psq*s + 
+            2*(-6 + 11*d)*psq*t + (-6 + d)*s*(s + t))) - 
+        bb*(2^(1 + 2*d)*(-6 + d)*mm^4*Pi^(2*d)*(psq - s - t) + 
+          2^(1 + 2*d)*(-8 + 3*d)*Pi^(2*d)*psq*s*(psq - s - t) + 
+          mm^2*(2*Pi)^(2*d)*((12 - 22*d)*psq^2 + (-6 + d)*s*(s + t) + 
+            (-6 + 11*d)*psq*(s + 2*t))))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1]])/
+      (mz^2*(2*Pi)^(4*d)) - (I*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(-(bb*(2*psq^2 + 2*mm^2*(psq - s - t) + s*(s + t) - 
+           psq*(s + 2*t))) + aa*(2*psq^2 + 2*mm^2*(psq + s - t) + s*(s + t) - 
+          psq*(5*s + 2*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2]])/
+      (mz^2*(2*Pi)^(2*d)) + (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (-(bb*(2^(1 + 2*d)*(-6 + d)*mm^4*Pi^(2*d)*(psq - 2*s - t) - 
+           2^(1 + 2*d)*(-8 + 3*d)*Pi^(2*d)*psq*s*(psq + t) + 
+           mm^2*(2*Pi)^(2*d)*((12 - 22*d)*psq^2 + 25*(-2 + d)*psq*s + 
+             2*(-6 + 11*d)*psq*t + (-6 + d)*s*t))) + aa*(2*Pi)^(2*d)*
+         (2*(-6 + d)*mm^4*(psq - t) + 2*(-8 + 3*d)*psq*s*(psq - t) + 
+          mm^2*((12 - 22*d)*psq^2 + (6 + 9*d)*psq*s + 2*(-6 + 11*d)*psq*t + 
+            (-6 + d)*s*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1]])/
+      (mz^2*(2*Pi)^(4*d)) - (I*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(aa*(2*psq^2 - 3*psq*s + 2*mm^2*(psq - t) - 2*psq*t + s*t) - 
+        bb*(2*psq^2 + psq*s + 2*mm^2*(psq - 2*s - t) - 2*psq*t + s*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (aa*(4*(-8 + 3*d)*mm^4 + 2*psq*(5*(-2 + d)*psq - 2*(-1 + d)*s - 
+            5*(-2 + d)*t) + mm^2*(8*(4 + d)*psq + (6 - 11*d)*s - 20*d*t)) + 
+        bb*(4*(-8 + 3*d)*mm^4 + 2*psq*(-5*(-2 + d)*psq + (-8 + 3*d)*s + 
+            5*(-2 + d)*t) + mm^2*(-32*(-1 + d)*psq + (6 + 9*d)*s + 20*d*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*s*
+       (aa*(2*(-5 + 3*d)*mm^2 + 2*(2 + d)*psq - (-3 + 4*d)*(s + 2*t)) + 
+        bb*(2*(-5 + 3*d)*mm^2 - 2*(-8 + 7*d)*psq + (-3 + 4*d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*((16 - 6*d)*mm^4 + psq*((22 - 7*d)*psq + (-6 + d)*t) + 
+          mm^2*((-38 + 23*d)*psq - 5*d*s + 6*t - 11*d*t)) + 
+        aa*((16 - 6*d)*mm^4 + mm^2*((-26 + d)*psq + 6*(-1 + d)*s + 
+            (-6 + 11*d)*t) - psq*(5*(-2 + d)*psq + (-6 + d)*(s + t))))*
+       \[Mu]^(8 - 2*d)*SPList[SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (aa*((-5 + 3*d)*mm^4 - (-3 + 2*d)*psq*(psq - s - t) + 
+          mm^2*((2 + d)*psq + 3*s - 3*d*s + 3*t - 4*d*t)) + 
+        bb*((-5 + 3*d)*mm^4 + (-3 + 2*d)*psq*(psq - t) + 
+          mm^2*(8*psq - 7*d*psq + d*s - 3*t + 4*d*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*s*
+       (aa*((-5 + 3*d)*mm^2 + (-1 + 3*d)*psq - 3*(-1 + d)*(s + 2*t)) + 
+        bb*((-5 + 3*d)*mm^2 + (11 - 9*d)*psq + 3*(-1 + d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       ((-6 + d)*mm^2 + 2*(8 - 3*d)*psq)*(bb*(psq - s - t) + 
+        aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
+        SP[p1, q1]])/(mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*mm^2*(bb*(psq - s - t) + 
+        aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
+        SP[p1, q2]])/(mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*((-6 + d)*mm^2 + 2*(8 - 3*d)*psq)*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(-20*psq^2 + psq*(34*s + 20*t) - 2*s*(7*mm^2 + 5*(s + t)) + 
+          d*(10*psq^2 + mm^2*(20*psq - s - 20*t) + 5*s*(s + t) - 
+            psq*(19*s + 10*t))) + bb*(20*psq^2 + 6*mm^2*s + 10*s*(s + t) - 
+          2*psq*(13*s + 10*t) + d*(-10*psq^2 - 5*s*(s + t) + 
+            psq*(11*s + 10*t) + mm^2*(-20*psq + 9*s + 20*t))))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(-3 + 4*d)*mm^2*(2*psq - s - 2*t) - aa*(-5 + 3*d)*s*
+         (-3*psq + s + t) + bb*(-5 + 3*d)*s*(-psq + s + t) + 
+        aa*mm^2*((6 - 8*d)*psq + 7*s - 2*d*s - 6*t + 8*d*t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(-2*(-6 + d)*psq^2 - 5*(-2 + d)*psq*s + 2*(-6 + d)*psq*t + 
+          5*(-2 + d)*s*(s + t) + 2*mm^2*((-6 + 11*d)*psq - 5*d*s + 6*t - 
+            11*d*t)) + aa*(2*(-6 + d)*psq^2 + (-18 + 13*d)*psq*s - 
+          2*(-6 + d)*psq*t - 5*(-2 + d)*s*(s + t) + 
+          2*mm^2*((6 - 11*d)*psq + (4 + d)*s + (-6 + 11*d)*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*((6 - 4*d)*psq^2 + (-2 + d)*s*(s + t) + 
+          2*mm^2*((-3 + 4*d)*psq + s - 2*d*s + 3*t - 4*d*t) + 
+          psq*(d*s - 6*t + 4*d*t)) + bb*((-6 + 4*d)*psq^2 - 
+          (-2 + d)*s*(s + t) + psq*((-2 + d)*s + 6*t - 4*d*t) + 
+          mm^2*((6 - 8*d)*psq + 2*d*s - 6*t + 8*d*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 4*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (-(bb*(2*Pi)^(2*d)*(6*(-1 + d)*mm^2*(2*psq - s - 2*t) + 
+           (-5 + 3*d)*s*(-psq + s + t))) + 4^d*aa*Pi^(2*d)*
+         ((-5 + 3*d)*s*(-3*psq + s + t) + 4*mm^2*(3*(-1 + d)*psq - s + 3*t - 
+            3*d*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q2, q2]])/
+      (mz^2*Pi^(4*d)) + (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*mm^2*(bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*mm^2*(2*psq + s - 2*t) + aa*s*(-3*psq + s + t) - 
+        bb*s*(-psq + s + t) + bb*mm^2*(-2*psq + s + 2*t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(2*psq^2 + psq*(s - 2*t) + 2*mm^2*(psq - s - t) - 
+        s*(s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q1]])/
+      (mz^2*(2*Pi)^(2*d)) + (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*s*(bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       ((-6 + d)*mm^2 + 2*(8 - 3*d)*psq)*(bb*(2*mm^2 - psq - t) + 
+        aa*(-psq + t))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1]])/
+      (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*mm^2*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*aa*(-10*psq^2 + 3*mm^2*s + 7*psq*s + 10*psq*t - 5*s*t) + 
+        2*bb*(10*psq^2 - 7*mm^2*s - 3*psq*s - 10*psq*t + 5*s*t) + 
+        aa*d*(10*psq^2 - 9*psq*s + mm^2*(20*psq - 11*s - 20*t) - 10*psq*t + 
+          5*s*t) + bb*d*(-10*psq^2 - 5*s*t + psq*(s + 10*t) + 
+          mm^2*(-20*psq + 19*s + 20*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(-3 + 4*d)*mm^2*(2*psq - s - 2*t) - aa*(-5 + 3*d)*s*(psq - t) - 
+        bb*(-5 + 3*d)*s*(psq + t) + bb*mm^2*((6 - 8*d)*psq - 13*s + 10*d*s - 
+          6*t + 8*d*t))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) - (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*(-6 + d)*psq^2 - 5*(-2 + d)*psq*s - 2*(-6 + d)*psq*t - 
+          5*(-2 + d)*s*t - 2*mm^2*((-6 + 11*d)*psq - 10*(-1 + d)*s + 
+            (6 - 11*d)*t)) + aa*(-2*(-6 + d)*psq^2 - (2 + 3*d)*psq*s + 
+          2*(-6 + d)*psq*t + 5*(-2 + d)*s*t + 2*mm^2*((-6 + 11*d)*psq + 6*s - 
+            6*d*s + 6*t - 11*d*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], 
+        SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (-(bb*((6 - 4*d)*psq^2 + (-2 + d)*s*t + mm^2*((-6 + 8*d)*psq + 4*s - 
+             4*d*s + 6*t - 8*d*t) + psq*(-2*s + d*s - 6*t + 4*d*t))) + 
+        aa*((6 - 4*d)*psq^2 + (-2 + d)*s*t + mm^2*((-6 + 8*d)*psq + 6*s - 
+            6*d*s + 6*t - 8*d*t) + psq*(-4*s + 3*d*s - 6*t + 4*d*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 4*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(2*Pi)^(2*d)*(6*(-1 + d)*mm^2*(2*psq - s - 2*t) - 
+          (-5 + 3*d)*s*(psq - t)) - 4^d*bb*Pi^(2*d)*((-5 + 3*d)*s*(psq + t) + 
+          4*mm^2*(3*(-1 + d)*psq + 4*s - 3*d*s + 3*t - 3*d*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(4*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(mm^2*(2*psq - s - 2*t) + s*(-psq + t)) - 
+        bb*(mm^2*(2*psq - 3*s - 2*t) + s*(psq + t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) + (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(2*psq^2 + 2*mm^2*(psq - t) - s*t - psq*(s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[p3, q1]])/
+      (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*(4*(-8 + 3*d)*mm^2 - 2*(-6 + d)*psq - 5*(-2 + d)*(s + 2*t)) + 
+        aa*(4*(-8 + 3*d)*mm^2 + (52 - 22*d)*psq + 5*(-2 + d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*((10 - 6*d)*mm^2 + 2*(-8 + 5*d)*psq - (-3 + 2*d)*(s + 2*t)) + 
+        aa*((10 - 6*d)*mm^2 + 2*(-2 + d)*psq + (-3 + 2*d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q2], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q2], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa + bb)*(-8 + 3*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(mm^2 - psq)*s*\[Mu]^(8 - 2*d)*
+       SPList[SP[q1, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(aa + bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (mm^2 - psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[q1, q1], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa + bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(mm^2 - psq)*s*\[Mu]^(8 - 2*d)*
+       SPList[SP[q1, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*2^(1 - 2*d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[p3, q1]])/
+      (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) - ((5*I)*2^(1 - 2*d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[q1, q1]])/
+      (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[q2, q2]])/
+      (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*mm^2 - 2*psq + s)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) + (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) - ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1], 
+        SP[p3, q2]])/(mz^2*Pi^(2*d)) - ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*
+       EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1], 
+        SP[q1, q2]])/(mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-5 + 3*d)*EL^5*
+       gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) + (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*
+       EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p1, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p2, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*mm^2 - 2*psq + s)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) + (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(psq - s - t) + 
+        aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
+        SP[p2, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], SP[q1, q1]])/
+      (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p3, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) - ((5*I)*4^(1 - d)*(-2 + d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], SP[p3, q1]])/
+      (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*2^(1 - 2*d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], 
+        SP[p3, q1]])/(mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*
+       gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*
+       gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], 
+        SP[q2, q2]])/(mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*
+       EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2], 
+        SP[q1, q2]])/(mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], SP[q1, q1]])/
+      (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[p3, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d))) + 
+   PropList[KiraPropagator[q1, mm], KiraPropagator[p1 + p2 + q1, mm], 
+     KiraPropagator[p3 + q1, mz], KiraPropagator[q2, mw], 
+     KiraPropagator[-p3 - q1 + q2, mw]]*
+    ((I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*s*
+       (aa*mm^2*(5*(-2 + d)*psq + (-6 + d)*t) + 
+        aa*psq*(5*(2 + d)*psq - 5*d*s + 6*t - 11*d*t) + 
+        bb*psq*((22 - 17*d)*psq + 6*(-1 + d)*s + (-6 + 11*d)*t) + 
+        bb*mm^2*((-22 + 7*d)*psq - (-6 + d)*(s + t)))*\[Mu]^(8 - 2*d))/
+      (mz^2*(2*Pi)^(2*d)) - (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(2^(1 + 2*d)*(-8 + 3*d)*Pi^(2*d)*psq*s*(3*psq - s - t) + 
+          2^(1 + 2*d)*(-6 + d)*mm^4*Pi^(2*d)*(psq + s - t) + 
+          mm^2*(2*Pi)^(2*d)*((12 - 22*d)*psq^2 - 5*(-10 + d)*psq*s + 
+            2*(-6 + 11*d)*psq*t + (-6 + d)*s*(s + t))) - 
+        bb*(2^(1 + 2*d)*(-6 + d)*mm^4*Pi^(2*d)*(psq - s - t) + 
+          2^(1 + 2*d)*(-8 + 3*d)*Pi^(2*d)*psq*s*(psq - s - t) + 
+          mm^2*(2*Pi)^(2*d)*((12 - 22*d)*psq^2 + (-6 + d)*s*(s + t) + 
+            (-6 + 11*d)*psq*(s + 2*t))))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1]])/
+      (mz^2*(2*Pi)^(4*d)) + (I*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(-(bb*(2*psq^2 + 2*mm^2*(psq - s - t) + s*(s + t) - 
+           psq*(s + 2*t))) + aa*(2*psq^2 + 2*mm^2*(psq + s - t) + s*(s + t) - 
+          psq*(5*s + 2*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2]])/
+      (mz^2*(2*Pi)^(2*d)) - (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (-(bb*(2^(1 + 2*d)*(-6 + d)*mm^4*Pi^(2*d)*(psq - 2*s - t) - 
+           2^(1 + 2*d)*(-8 + 3*d)*Pi^(2*d)*psq*s*(psq + t) + 
+           mm^2*(2*Pi)^(2*d)*((12 - 22*d)*psq^2 + 25*(-2 + d)*psq*s + 
+             2*(-6 + 11*d)*psq*t + (-6 + d)*s*t))) + aa*(2*Pi)^(2*d)*
+         (2*(-6 + d)*mm^4*(psq - t) + 2*(-8 + 3*d)*psq*s*(psq - t) + 
+          mm^2*((12 - 22*d)*psq^2 + (6 + 9*d)*psq*s + 2*(-6 + 11*d)*psq*t + 
+            (-6 + d)*s*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1]])/
+      (mz^2*(2*Pi)^(4*d)) + (I*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(aa*(2*psq^2 - 3*psq*s + 2*mm^2*(psq - t) - 2*psq*t + s*t) - 
+        bb*(2*psq^2 + psq*s + 2*mm^2*(psq - 2*s - t) - 2*psq*t + s*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (aa*(4*(-8 + 3*d)*mm^4 + 2*psq*(5*(-2 + d)*psq - 2*(-1 + d)*s - 
+            5*(-2 + d)*t) + mm^2*(8*(4 + d)*psq + (6 - 11*d)*s - 20*d*t)) + 
+        bb*(4*(-8 + 3*d)*mm^4 + 2*psq*(-5*(-2 + d)*psq + (-8 + 3*d)*s + 
+            5*(-2 + d)*t) + mm^2*(-32*(-1 + d)*psq + (6 + 9*d)*s + 20*d*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*s*
+       (aa*(2*(-5 + 3*d)*mm^2 + 2*(2 + d)*psq - (-3 + 4*d)*(s + 2*t)) + 
+        bb*(2*(-5 + 3*d)*mm^2 - 2*(-8 + 7*d)*psq + (-3 + 4*d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q2]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*(2*(-8 + 3*d)*mm^4 + psq*(-22*psq + 7*d*psq + 6*t - d*t) + 
+          mm^2*(38*psq - 23*d*psq + 5*d*s - 6*t + 11*d*t)) + 
+        aa*(2*(-8 + 3*d)*mm^4 + mm^2*(-((-26 + d)*psq) + 6*s - 6*d*s + 6*t - 
+            11*d*t) + psq*(5*(-2 + d)*psq + (-6 + d)*(s + t))))*
+       \[Mu]^(8 - 2*d)*SPList[SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (aa*((-5 + 3*d)*mm^4 - (-3 + 2*d)*psq*(psq - s - t) + 
+          mm^2*((2 + d)*psq + 3*s - 3*d*s + 3*t - 4*d*t)) + 
+        bb*((-5 + 3*d)*mm^4 + (-3 + 2*d)*psq*(psq - t) + 
+          mm^2*(8*psq - 7*d*psq + d*s - 3*t + 4*d*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*s*
+       (aa*((-5 + 3*d)*mm^2 + (-1 + 3*d)*psq - 3*(-1 + d)*(s + 2*t)) + 
+        bb*((-5 + 3*d)*mm^2 + (11 - 9*d)*psq + 3*(-1 + d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       ((-6 + d)*mm^2 + 2*(8 - 3*d)*psq)*(bb*(psq - s - t) + 
+        aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
+        SP[p1, q1]])/(mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*mm^2*(bb*(psq - s - t) + 
+        aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], 
+        SP[p1, q2]])/(mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*((-6 + d)*mm^2 + 2*(8 - 3*d)*psq)*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(-20*psq^2 + psq*(34*s + 20*t) - 2*s*(7*mm^2 + 5*(s + t)) + 
+          d*(10*psq^2 + mm^2*(20*psq - s - 20*t) + 5*s*(s + t) - 
+            psq*(19*s + 10*t))) + bb*(20*psq^2 + 6*mm^2*s + 10*s*(s + t) - 
+          2*psq*(13*s + 10*t) + d*(-10*psq^2 - 5*s*(s + t) + 
+            psq*(11*s + 10*t) + mm^2*(-20*psq + 9*s + 20*t))))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(-3 + 4*d)*mm^2*(2*psq - s - 2*t) - aa*(-5 + 3*d)*s*
+         (-3*psq + s + t) + bb*(-5 + 3*d)*s*(-psq + s + t) + 
+        aa*mm^2*((6 - 8*d)*psq + 7*s - 2*d*s - 6*t + 8*d*t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(-2*(-6 + d)*psq^2 + (18 - 13*d)*psq*s + 2*(-6 + d)*psq*t + 
+          5*(-2 + d)*s*(s + t) + 2*mm^2*((-6 + 11*d)*psq - (4 + d)*s + 
+            (6 - 11*d)*t)) + bb*(2*(-6 + d)*psq^2 + 5*(-2 + d)*psq*s - 
+          2*(-6 + d)*psq*t - 5*(-2 + d)*s*(s + t) - 
+          2*mm^2*((-6 + 11*d)*psq - 5*d*s + 6*t - 11*d*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*((6 - 4*d)*psq^2 + (-2 + d)*s*(s + t) + 
+          2*mm^2*((-3 + 4*d)*psq + s - 2*d*s + 3*t - 4*d*t) + 
+          psq*(d*s - 6*t + 4*d*t)) + bb*((-6 + 4*d)*psq^2 - 
+          (-2 + d)*s*(s + t) + psq*((-2 + d)*s + 6*t - 4*d*t) + 
+          mm^2*((6 - 8*d)*psq + 2*d*s - 6*t + 8*d*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 4*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (-(bb*(2*Pi)^(2*d)*(6*(-1 + d)*mm^2*(2*psq - s - 2*t) + 
+           (-5 + 3*d)*s*(-psq + s + t))) + 4^d*aa*Pi^(2*d)*
+         ((-5 + 3*d)*s*(-3*psq + s + t) + 4*mm^2*(3*(-1 + d)*psq - s + 3*t - 
+            3*d*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[q2, q2]])/
+      (mz^2*Pi^(4*d)) - (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*mm^2*(bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*mm^2*(2*psq + s - 2*t) + aa*s*(-3*psq + s + t) - 
+        bb*s*(-psq + s + t) + bb*mm^2*(-2*psq + s + 2*t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(2*psq^2 + psq*(s - 2*t) + 2*mm^2*(psq - s - t) - 
+        s*(s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q1]])/
+      (mz^2*(2*Pi)^(2*d)) - (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*s*(bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       ((-6 + d)*mm^2 + 2*(8 - 3*d)*psq)*(bb*(2*mm^2 - psq - t) + 
+        aa*(-psq + t))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1]])/
+      (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*mm^2*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*aa*(-10*psq^2 + 3*mm^2*s + 7*psq*s + 10*psq*t - 5*s*t) + 
+        2*bb*(10*psq^2 - 7*mm^2*s - 3*psq*s - 10*psq*t + 5*s*t) + 
+        aa*d*(10*psq^2 - 9*psq*s + mm^2*(20*psq - 11*s - 20*t) - 10*psq*t + 
+          5*s*t) + bb*d*(-10*psq^2 - 5*s*t + psq*(s + 10*t) + 
+          mm^2*(-20*psq + 19*s + 20*t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(-3 + 4*d)*mm^2*(2*psq - s - 2*t) - aa*(-5 + 3*d)*s*(psq - t) - 
+        bb*(-5 + 3*d)*s*(psq + t) + bb*mm^2*((6 - 8*d)*psq - 13*s + 10*d*s - 
+          6*t + 8*d*t))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) + (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*(-6 + d)*psq^2 - 5*(-2 + d)*psq*s - 2*(-6 + d)*psq*t - 
+          5*(-2 + d)*s*t - 2*mm^2*((-6 + 11*d)*psq - 10*(-1 + d)*s + 
+            (6 - 11*d)*t)) + aa*(-2*(-6 + d)*psq^2 - (2 + 3*d)*psq*s + 
+          2*(-6 + d)*psq*t + 5*(-2 + d)*s*t + 2*mm^2*((-6 + 11*d)*psq + 6*s - 
+            6*d*s + 6*t - 11*d*t)))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], 
+        SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*2^(1 - 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (-(bb*((6 - 4*d)*psq^2 + (-2 + d)*s*t + mm^2*((-6 + 8*d)*psq + 4*s - 
+             4*d*s + 6*t - 8*d*t) + psq*(-2*s + d*s - 6*t + 4*d*t))) + 
+        aa*((6 - 4*d)*psq^2 + (-2 + d)*s*t + mm^2*((-6 + 8*d)*psq + 6*s - 
+            6*d*s + 6*t - 8*d*t) + psq*(-4*s + 3*d*s - 6*t + 4*d*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 4*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(2*Pi)^(2*d)*(6*(-1 + d)*mm^2*(2*psq - s - 2*t) - 
+          (-5 + 3*d)*s*(psq - t)) - 4^d*bb*Pi^(2*d)*((-5 + 3*d)*s*(psq + t) + 
+          4*mm^2*(3*(-1 + d)*psq + 4*s - 3*d*s + 3*t - 3*d*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(4*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*mm^2*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[p2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (aa*(mm^2*(2*psq - s - 2*t) + s*(-psq + t)) - 
+        bb*(mm^2*(2*psq - 3*s - 2*t) + s*(psq + t)))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       mm^2*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) - (I*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(2*psq^2 + 2*mm^2*(psq - t) - s*t - psq*(s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) - 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) - 
+     ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[p3, q1]])/
+      (mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*(4*(-8 + 3*d)*mm^2 - 2*(-6 + d)*psq - 5*(-2 + d)*(s + 2*t)) + 
+        aa*(4*(-8 + 3*d)*mm^2 + (52 - 22*d)*psq + 5*(-2 + d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q1], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) - 
+     (I*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (bb*((10 - 6*d)*mm^2 + 2*(-8 + 5*d)*psq - (-3 + 2*d)*(s + 2*t)) + 
+        aa*((10 - 6*d)*mm^2 + 2*(-2 + d)*psq + (-3 + 2*d)*(s + 2*t)))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p3, q2], SP[q1, q1]])/(mz^2*(2*Pi)^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*s*
+       (-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p3, q2], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa + bb)*(-8 + 3*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(mm^2 - psq)*s*\[Mu]^(8 - 2*d)*
+       SPList[SP[q1, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(aa + bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (mm^2 - psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[q1, q1], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa + bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(mm^2 - psq)*s*\[Mu]^(8 - 2*d)*
+       SPList[SP[q1, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*2^(1 - 2*d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p1, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[p3, q1]])/
+      (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[p3, q2]])/
+      (mz^2*Pi^(2*d)) + ((5*I)*2^(1 - 2*d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[q1, q1]])/
+      (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q1], SP[q2, q2]])/
+      (mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*mm^2 - 2*psq + s)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) - (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2], SP[q1, q2]])/
+      (mz^2*Pi^(2*d)) + ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1], 
+        SP[p3, q2]])/(mz^2*Pi^(2*d)) + ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*
+       EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1], 
+        SP[q1, q2]])/(mz^2*Pi^(2*d)) + (I*4^(1 - d)*(aa - bb)*(-5 + 3*d)*EL^5*
+       gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) - (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*
+       EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q1], SP[p3, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p1, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p2, q1], SP[p3, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*mm^2 - 2*psq + s)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) - (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(psq - s - t) + 
+        aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], 
+        SP[p2, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - s - 2*t) + aa*(2*mm^2 - 4*psq + s + 2*t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2], SP[q1, q1]])/
+      (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p1, q2], SP[p3, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p3, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) + ((5*I)*4^(1 - d)*(-2 + d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1], SP[p3, q1]])/
+      (mz^2*Pi^(2*d)) - (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*
+       (gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*2^(1 - 2*d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*4^(1 - d)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q1], SP[q2, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q2], SP[p3, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(3 - 2*d)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p2, q2], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], 
+        SP[p3, q1]])/(mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*
+       gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q1], SP[p3, q2]])/(mz^2*Pi^(2*d)) + 
+     ((5*I)*2^(1 - 2*d)*(aa - bb)*(-2 + d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d)) - (I*4^(1 - d)*(aa - bb)*(-2 + d)*EL^5*
+       gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q1], SP[q1, q2]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1], 
+        SP[q2, q2]])/(mz^2*Pi^(2*d)) + (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*
+       EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q1], SP[p3, q2], SP[q1, q1]])/(mz^2*Pi^(2*d)) - 
+     (I*2^(3 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q2], 
+        SP[q1, q2]])/(mz^2*Pi^(2*d)) + (I*4^(1 - d)*(-3 + 2*d)*EL^5*gAl^2*
+       gWWA*gWWZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + aa*(-psq + t))*
+       \[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p2, q2], SP[q1, q1]])/
+      (mz^2*Pi^(2*d)) - (I*2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*
+       gWWZ*(gZlL + gZlR)*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+       SPList[SP[p2, q2], SP[p3, q1], SP[q1, q1]])/(mz^2*Pi^(2*d)) + 
+     (I*4^(1 - d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl^2*gWWA*gWWZ*(gZlL + gZlR)*
+       (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2], SP[p3, q2], 
+        SP[q1, q1]])/(mz^2*Pi^(2*d))))/4}

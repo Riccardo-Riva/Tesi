@@ -35,8 +35,8 @@ inMom=FourVector[FourMomentum[Incoming,1]+FourMomentum[Incoming,2],Index[Lorentz
 
 projP=
  FermionChain[NonCommutative[DiracSpinor[FourMomentum[Outgoing, 1], MM]],
- aa*EL*NonCommutative[DiracSlash[p1]]+bb*EL*NonCommutative[DiracSlash[p2]],
- NonCommutative[DiracSpinor[-FourMomentum[Outgoing, 2], MM]]]/EL
+ aa*NonCommutative[DiracSlash[p1]]+bb*NonCommutative[DiracSlash[p2]],
+ NonCommutative[DiracSpinor[-FourMomentum[Outgoing, 2], MM]]]
 
 
 zeroMass={mu->0,md->0,me->0};
