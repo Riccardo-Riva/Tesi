@@ -1,0 +1,15 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+-((2^(-1 - 2*d)*EL^6*gAu*gFFAZ*gFll*gFZW*gWlN*mm^2*sw*(psq - t)*
+    (-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*userIntegral[B10, {mw, mz}, 0, 0, 1, 
+     1, 1, 1, 0, 0, 0])/(Pi^(2*d)*s)) + 
+ (EL^6*gAu*gFFAZ*gFll*gFZW*gWlN*mm^2*sw*(-psq + s + t)*(-2*psq + s + 2*t)*
+   \[Mu]^(8 - 2*d)*userIntegral[B10, {mw, mz}, 1, 0, 0, 1, 1, 1, 0, 0, 0])/
+  (2^(2*(1 + d))*Pi^(2*d)*s) + (EL^6*gAu*gFFAZ*gFll*gFZW*gWlN*mm^2*sw*
+   (psq - t)*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d)*userIntegral[B10, {mw, mz}, 
+    1, 0, 1, 1, 1, 0, 0, 0, 0])/(2^(2*(1 + d))*Pi^(2*d)*s) - 
+ (EL^6*gAu*gFFAZ*gFll*gFZW*gWlN*mm^2*sw*(-2*psq + s + 2*t)^2*\[Mu]^(8 - 2*d)*
+   userIntegral[B10, {mw, mz}, 1, 0, 1, 1, 1, 1, 0, -1, 0])/
+  (2^(2*(1 + d))*Pi^(2*d)*s) - (EL^6*gAu*gFFAZ*gFll*gFZW*gWlN*mm^2*
+   (mw^2 - psq)*sw*(2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*
+   userIntegral[B10, {mw, mz}, 1, 0, 1, 1, 1, 1, 0, 0, 0])/
+  (2^(2*(1 + d))*Pi^(2*d))

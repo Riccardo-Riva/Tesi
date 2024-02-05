@@ -1,0 +1,780 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     30112,        772]
+NotebookOptionsPosition[     24461,        655]
+NotebookOutlinePosition[     24794,        670]
+CellTagsIndexPosition[     24751,        667]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["C7", "Section",
+ CellChangeTimes->{{3.915959067580822*^9, 
+  3.9159590679777613`*^9}},ExpressionUUID->"bc54bad6-a015-41c8-a967-\
+55078d238fe7"],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915946201344063*^9, 
+  3.915946203370234*^9}},ExpressionUUID->"6d0dfd76-2245-43a0-b779-\
+a663dccb8de3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 1983 / 69834\nKira committed results ( 67114.6 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+  3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+  3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+  3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+  3.915946191673473*^9}, {3.915957803837881*^9, 
+  3.9159578086935387`*^9}},ExpressionUUID->"763a8924-5951-465f-b7ea-\
+079a28bdb583"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 11:50:05\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "11", ",", "50", ",", 
+           "5.586528`7.499716967612629"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9},
+ CellLabel->"Out[71]=",ExpressionUUID->"3cad4bc2-e2c5-466f-8f50-f3b775391758"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["656.5362492855944`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}},
+ CellLabel->
+  "During evaluation of \
+In[71]:=",ExpressionUUID->"ee440699-0b7e-4b29-b823-6ea51339f835"],
+
+Cell[BoxData["27.355677053566428`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205607607*^9}},
+ CellLabel->
+  "During evaluation of \
+In[71]:=",ExpressionUUID->"67e1415b-69d6-4601-afcc-09294e448747"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915946201344063*^9, 
+  3.915946203370234*^9}},ExpressionUUID->"32ce427a-ff11-4c90-9025-\
+7aa2b6afaefc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 2986 / 69834\nKira committed results ( 78449.8 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+  3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+  3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+  3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+  3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"1730924d-0789-406a-8558-b6fb0feb3eb7"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 15:03:51\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "15", ",", "3", ",", 
+           "51.911507`8.467838611955106"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"8ae1615d-399f-4429-b50c-c6cd543db2b7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["509.6434595891941`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"d57c814f-510e-4de1-a74c-234b42bfd0db"],
+
+Cell[BoxData["21.23514414954975`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831976842*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"8aa3c33d-4bcf-43e3-81d1-15f69351e49e"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915946201344063*^9, 
+  3.915946203370234*^9}},ExpressionUUID->"513defec-b254-469c-bccd-\
+30203d7de408"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 3097 / 69834\nKira committed results ( 79904.6 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, 
+   3.91596317664637*^9},
+ CellLabel->"In[44]:=",ExpressionUUID->"a1c0be65-63eb-48e8-9ec0-c45f3d438c7e"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 16:33:02\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "16", ",", "33", ",", 
+           "2.037748`7.061725464174798"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915963182074265*^9},
+ CellLabel->"Out[44]=",ExpressionUUID->"b25e9ebd-15b0-4a96-a131-7162b8b7cf3e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["500.4895271768379`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.915963182090678*^9},
+ CellLabel->
+  "During evaluation of \
+In[44]:=",ExpressionUUID->"d6ea5b78-3436-4206-9573-801503f4436c"],
+
+Cell[BoxData["20.853730299034908`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.9159631821029053`*^9},
+ CellLabel->
+  "During evaluation of \
+In[44]:=",ExpressionUUID->"62cb35d2-a0d4-47ab-9456-24520d70854b"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915946201344063*^9, 
+  3.915946203370234*^9}},ExpressionUUID->"a01826fe-b38f-42fc-94a5-\
+a99867056763"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 3131 / 69834\nKira committed results ( 85109.2 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, 
+   3.91596317664637*^9, {3.9159683887864523`*^9, 3.915968389504773*^9}},
+ CellLabel->"In[71]:=",ExpressionUUID->"f37d926c-be9e-4b88-914f-a43e973c714f"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 17:59:49\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "17", ",", "59", ",", 
+           "49.84647`8.450209383903042"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915963182074265*^9, 3.915968389862719*^9},
+ CellLabel->"Out[71]=",ExpressionUUID->"851c4669-8456-4265-91d3-b2b04eb8eff3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["527.3001058234855`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.915963182090678*^9, 3.915968389867779*^9},
+ CellLabel->
+  "During evaluation of \
+In[71]:=",ExpressionUUID->"1cc889d6-13dd-4d21-9ddb-46a4b8b5e2ac"],
+
+Cell[BoxData["21.970837742645227`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.915963182090678*^9, 3.91596838987284*^9},
+ CellLabel->
+  "During evaluation of \
+In[71]:=",ExpressionUUID->"8075ea82-2dd3-41bc-853f-0ee52ba79a6f"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915946201344063*^9, 
+  3.915946203370234*^9}},ExpressionUUID->"039c8666-0767-4219-b761-\
+8361f78bc0d8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 3718 / 69834\nKira committed results ( 144052.6 \
+s )\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, 
+   3.91596317664637*^9, {3.9159683887864523`*^9, 3.915968389504773*^9}, 
+   3.916039974302383*^9},
+ CellLabel->"In[2]:=",ExpressionUUID->"9eeeb2ce-ac66-4bb9-a63e-2eb62e17eded"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sun 4 Feb 2024 13:52:56\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "4", ",", "13", ",", "52", ",", 
+           "56.457577`8.50429720940214"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915963182074265*^9, 3.915968389862719*^9, 3.916039976475833*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"0abb51e8-35f2-4575-be7e-4af674c07bdf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["751.5815901918594`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.915963182090678*^9, 3.915968389867779*^9, 
+   3.916039976478695*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"f37803d0-bda1-431c-a36f-8194cfbd822e"],
+
+Cell[BoxData["31.315899591327476`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.915963182090678*^9, 3.915968389867779*^9, 
+   3.916039976479895*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"c87c3503-9db9-4765-ad5d-958d0e4b470d"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["C4", "Section",
+ CellChangeTimes->{{3.915959079201635*^9, 
+  3.915959079943426*^9}},ExpressionUUID->"3bfab186-3e52-4afc-b5ca-\
+e9cfb9a3238d"],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915946201344063*^9, 
+  3.915946203370234*^9}},ExpressionUUID->"1793b94b-80a4-4a0b-a99d-\
+a74a10c9854e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 1249 / 59745\nKira committed results ( 72452.8 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, {
+   3.915958782074626*^9, 3.9159587830373907`*^9}, 3.915959106049716*^9},
+ CellLabel->"In[38]:=",ExpressionUUID->"eb362003-b1d0-45e6-8cca-51bc5cbd3285"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 15:25:07\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "15", ",", "25", ",", 
+           "7.208457`7.610417299390217"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915958783474142*^9, 3.915959107213378*^9},
+ CellLabel->"Out[38]=",ExpressionUUID->"125801a6-f4a5-4ebe-8b18-6be45169ca1e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["962.7018361355751`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.9159587834907417`*^9, 3.91595910722012*^9},
+ CellLabel->
+  "During evaluation of \
+In[38]:=",ExpressionUUID->"42e043ac-253c-4731-ad59-a97009f2d18f"],
+
+Cell[BoxData["40.11257650564896`"], "Print",
+ CellChangeTimes->{
+  3.9159459908205214`*^9, 3.915946025224712*^9, {3.9159460768965063`*^9, 
+   3.915946086300313*^9}, {3.9159461819115257`*^9, 3.915946205599401*^9}, 
+   3.915957831973158*^9, 3.9159587834907417`*^9, 3.9159591072216473`*^9},
+ CellLabel->
+  "During evaluation of \
+In[38]:=",ExpressionUUID->"d6460a0f-4327-4593-a7bf-b2254d255237"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915963115618712*^9, 
+  3.915963126910185*^9}},ExpressionUUID->"6bda1532-8bad-4058-b78b-\
+0f4cbc9a3b95"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 1266 / 59745\nKira committed results ( 84698.8 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, {
+   3.915958782074626*^9, 3.9159587830373907`*^9}, 3.915959106049716*^9, {
+   3.9159631366878033`*^9, 3.9159631376066*^9}},
+ CellLabel->"In[41]:=",ExpressionUUID->"f96201df-a8a4-4ce9-999f-1f1ff0ce053b"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 16:32:18\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "16", ",", "32", ",", 
+           "18.090659`8.010029371721087"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915958783474142*^9, 3.915959107213378*^9, 3.91596313809381*^9},
+ CellLabel->"Out[41]=",ExpressionUUID->"fd4c1567-6a5e-4da3-8784-806f0f7bdfe8"]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915963115618712*^9, 
+  3.915963126910185*^9}},ExpressionUUID->"7c143aa4-61dc-4cb2-81c4-\
+35f9429a6d13"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 1389 / 59745\nKira committed results ( 87901.3 s \
+)\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, {
+   3.915958782074626*^9, 3.9159587830373907`*^9}, 3.915959106049716*^9, {
+   3.9159631366878033`*^9, 3.9159631376066*^9}, {3.915968336727335*^9, 
+   3.915968337654436*^9}},
+ CellLabel->"In[68]:=",ExpressionUUID->"04fd7f1f-530d-46a7-9c43-2310dd7da259"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sat 3 Feb 2024 17:58:58\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "3", ",", "17", ",", "58", ",", 
+           "58.080841`8.51660786958285"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915958783474142*^9, 3.915959107213378*^9, 3.91596313809381*^9, 
+  3.915968338083971*^9},
+ CellLabel->"Out[68]=",ExpressionUUID->"db32925d-fe11-42ff-9970-ca430197c7b8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["1050.2486138108952`"], "Print",
+ CellChangeTimes->{3.915968338097437*^9},
+ CellLabel->
+  "During evaluation of \
+In[68]:=",ExpressionUUID->"fd1ebb3b-5402-4465-9bb4-ef6ab4ab6ed7"],
+
+Cell[BoxData["43.760358908787296`"], "Print",
+ CellChangeTimes->{3.915968338106785*^9},
+ CellLabel->
+  "During evaluation of \
+In[68]:=",ExpressionUUID->"03b8065e-7bc7-4b99-8c52-46a0722fb461"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Update", "Subsubsection",
+ CellChangeTimes->{{3.915963115618712*^9, 
+  3.915963126910185*^9}},ExpressionUUID->"cdc200fc-e8ca-4de1-86a2-\
+030942bdeee0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{"Now", "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+  "s", "=", 
+   "\"\<\nEquations reduced: 2541 / 59745\nKira committed results ( 166331.5 \
+s )\n\>\""}], ";"}], "\n", 
+ RowBox[{"timeleft", "[", "s", "]"}]}], "Input",
+ CellChangeTimes->{{3.915944979888897*^9, 3.9159449834527197`*^9}, {
+   3.915945347716004*^9, 3.9159454662478943`*^9}, {3.915945718991045*^9, 
+   3.915945776323187*^9}, {3.91594598513769*^9, 3.9159459903266277`*^9}, {
+   3.915946063344803*^9, 3.9159460760118093`*^9}, {3.9159461808291063`*^9, 
+   3.915946191673473*^9}, {3.915957812993421*^9, 3.9159578291144657`*^9}, {
+   3.915958782074626*^9, 3.9159587830373907`*^9}, 3.915959106049716*^9, {
+   3.9159631366878033`*^9, 3.9159631376066*^9}, {3.915968336727335*^9, 
+   3.915968337654436*^9}, {3.916039999970024*^9, 3.9160400009510193`*^9}, 
+   3.916041903572814*^9, {3.91604893505624*^9, 3.9160489361250467`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"00f8d569-c2db-4926-98e1-c5315eb021c2"],
+
+Cell[BoxData[
+ TemplateBox[{RowBox[{"\"Sun 4 Feb 2024 16:22:17\"", 
+     StyleBox[
+      RowBox[{"\"GMT+\"", "\[InvisibleSpace]", 
+        StyleBox["1.`", NumberMarks -> False, StripOnInput -> False]}], 
+      FontColor -> GrayLevel[0.5]]}],RowBox[{"DateObject", "[", 
+     RowBox[{
+       RowBox[{"{", 
+         RowBox[{
+          "2024", ",", "2", ",", "4", ",", "16", ",", "22", ",", 
+           "17.832823`8.003795083518817"}], "}"}], ",", "\"Instant\"", ",", 
+       "\"Gregorian\"", ",", "1.`"}], "]"}]},
+  "DateObject",
+  Editable->False]], "Output",
+ CellChangeTimes->{3.9159462055897417`*^9, 3.91595783196774*^9, 
+  3.915958783474142*^9, 3.915959107213378*^9, 3.91596313809381*^9, 
+  3.915968338083971*^9, 3.916040004480932*^9, 3.916041904537209*^9, 
+  3.916048937933888*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"528d5522-90bb-42c2-8c74-442f2c47077c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["1086.3478363177228`"], "Print",
+ CellChangeTimes->{3.915968338097437*^9, 3.916040004493861*^9, 
+  3.916041904549238*^9, 3.9160489379381533`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"f2112660-d146-4bad-a0dc-3d8fa6215227"],
+
+Cell[BoxData["45.26449317990511`"], "Print",
+ CellChangeTimes->{3.915968338097437*^9, 3.916040004493861*^9, 
+  3.916041904549238*^9, 3.9160489379464407`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"d6c179b8-fa8c-4a05-b236-090abeccb546"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Function", "Section",
+ CellChangeTimes->{{3.915946225336039*^9, 
+  3.9159462271537037`*^9}},ExpressionUUID->"52c9a1a7-7276-4131-a706-\
+ade40871008c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"timeleft", "[", "string_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"s", ",", "time"}], "}"}], ",", "\n", 
+    RowBox[{
+     RowBox[{"s", "=", "string"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"s", "=", 
+      RowBox[{"StringDelete", "[", 
+       RowBox[{"s", ",", "LetterCharacter"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"s", "=", 
+      RowBox[{"StringDelete", "[", 
+       RowBox[{"s", ",", 
+        RowBox[{"{", 
+         RowBox[{
+         "\"\<:\>\"", ",", "\"\</\>\"", ",", "\"\<(\>\"", ",", "\"\<)\>\""}], 
+         "}"}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"s", "=", 
+      RowBox[{"StringSplit", "[", "s", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"s", "=", 
+      RowBox[{"Map", "[", 
+       RowBox[{"ToExpression", ",", "s"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"time", "=", 
+      RowBox[{"N", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"s", "[", 
+          RowBox[{"[", "2", "]"}], "]"}], "/", 
+         RowBox[{"s", "[", 
+          RowBox[{"[", "1", "]"}], "]"}]}], "*", 
+        RowBox[{"s", "[", 
+         RowBox[{"[", "3", "]"}], "]"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"time", "/", "3600"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{
+       RowBox[{"time", "/", "24"}], "/", "3600"}], "]"}], ";"}]}], 
+   "\[IndentingNewLine]", 
+   RowBox[{"(*", 
+    RowBox[{"Return", "[", "time", "]"}], "*)"}], "\[IndentingNewLine]", 
+   "]"}]}]], "Code",
+ CellChangeTimes->{{3.915945789824341*^9, 3.915945960701275*^9}, {
+  3.915946014958518*^9, 3.915946037725711*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"fa6a92b5-37d9-46c1-bac8-18289ea301e7"]
+}, Closed]]
+},
+WindowSize->{923, 1016},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 149, 3, 68, "Section",ExpressionUUID->"bc54bad6-a015-41c8-a967-55078d238fe7"],
+Cell[CellGroupData[{
+Cell[754, 29, 157, 3, 46, "Subsubsection",ExpressionUUID->"6d0dfd76-2245-43a0-b779-a663dccb8de3"],
+Cell[CellGroupData[{
+Cell[936, 36, 658, 13, 147, "Input",ExpressionUUID->"763a8924-5951-465f-b7ea-079a28bdb583"],
+Cell[1597, 51, 679, 15, 44, "Output",ExpressionUUID->"3cad4bc2-e2c5-466f-8f50-f3b775391758"],
+Cell[CellGroupData[{
+Cell[2301, 70, 318, 6, 25, "Print",ExpressionUUID->"ee440699-0b7e-4b29-b823-6ea51339f835"],
+Cell[2622, 78, 319, 6, 25, "Print",ExpressionUUID->"67e1415b-69d6-4601-afcc-09294e448747"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[3002, 91, 157, 3, 38, "Subsubsection",ExpressionUUID->"32ce427a-ff11-4c90-9025-7aa2b6afaefc"],
+Cell[CellGroupData[{
+Cell[3184, 98, 676, 12, 147, "Input",ExpressionUUID->"1730924d-0789-406a-8558-b6fb0feb3eb7"],
+Cell[3863, 112, 699, 15, 44, "Output",ExpressionUUID->"8ae1615d-399f-4429-b50c-c6cd543db2b7"],
+Cell[CellGroupData[{
+Cell[4587, 131, 343, 7, 25, "Print",ExpressionUUID->"d57c814f-510e-4de1-a74c-234b42bfd0db"],
+Cell[4933, 140, 343, 7, 25, "Print",ExpressionUUID->"8aa3c33d-4bcf-43e3-81d1-15f69351e49e"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[5337, 154, 157, 3, 38, "Subsubsection",ExpressionUUID->"513defec-b254-469c-bccd-30203d7de408"],
+Cell[CellGroupData[{
+Cell[5519, 161, 706, 13, 147, "Input",ExpressionUUID->"a1c0be65-63eb-48e8-9ec0-c45f3d438c7e"],
+Cell[6228, 176, 725, 16, 44, "Output",ExpressionUUID->"b25e9ebd-15b0-4a96-a131-7162b8b7cf3e"],
+Cell[CellGroupData[{
+Cell[6978, 196, 366, 7, 25, "Print",ExpressionUUID->"d6ea5b78-3436-4206-9573-801503f4436c"],
+Cell[7347, 205, 369, 7, 25, "Print",ExpressionUUID->"62cb35d2-a0d4-47ab-9456-24520d70854b"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[7777, 219, 157, 3, 38, "Subsubsection",ExpressionUUID->"a01826fe-b38f-42fc-94a5-a99867056763"],
+Cell[CellGroupData[{
+Cell[7959, 226, 754, 13, 147, "Input",ExpressionUUID->"f37d926c-be9e-4b88-914f-a43e973c714f"],
+Cell[8716, 241, 747, 16, 44, "Output",ExpressionUUID->"851c4669-8456-4265-91d3-b2b04eb8eff3"],
+Cell[CellGroupData[{
+Cell[9488, 261, 388, 7, 25, "Print",ExpressionUUID->"1cc889d6-13dd-4d21-9ddb-46a4b8b5e2ac"],
+Cell[9879, 270, 388, 7, 25, "Print",ExpressionUUID->"8075ea82-2dd3-41bc-853f-0ee52ba79a6f"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[10328, 284, 157, 3, 38, "Subsubsection",ExpressionUUID->"039c8666-0767-4219-b761-8361f78bc0d8"],
+Cell[CellGroupData[{
+Cell[10510, 291, 780, 14, 147, "Input",ExpressionUUID->"9eeeb2ce-ac66-4bb9-a63e-2eb62e17eded"],
+Cell[11293, 307, 768, 16, 44, "Output",ExpressionUUID->"0abb51e8-35f2-4575-be7e-4af674c07bdf"],
+Cell[CellGroupData[{
+Cell[12086, 327, 413, 8, 25, "Print",ExpressionUUID->"f37803d0-bda1-431c-a36f-8194cfbd822e"],
+Cell[12502, 337, 414, 8, 25, "Print",ExpressionUUID->"c87c3503-9db9-4765-ad5d-958d0e4b470d"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12989, 353, 147, 3, 68, "Section",ExpressionUUID->"3bfab186-3e52-4afc-b5ca-e9cfb9a3238d"],
+Cell[CellGroupData[{
+Cell[13161, 360, 157, 3, 46, "Subsubsection",ExpressionUUID->"1793b94b-80a4-4a0b-a99d-a74a10c9854e"],
+Cell[CellGroupData[{
+Cell[13343, 367, 755, 13, 147, "Input",ExpressionUUID->"eb362003-b1d0-45e6-8cca-51bc5cbd3285"],
+Cell[14101, 382, 747, 16, 44, "Output",ExpressionUUID->"125801a6-f4a5-4ebe-8b18-6be45169ca1e"],
+Cell[CellGroupData[{
+Cell[14873, 402, 389, 7, 25, "Print",ExpressionUUID->"42e043ac-253c-4731-ad59-a97009f2d18f"],
+Cell[15265, 411, 392, 7, 25, "Print",ExpressionUUID->"d6460a0f-4327-4593-a7bf-b2254d255237"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[15718, 425, 157, 3, 38, "Subsubsection",ExpressionUUID->"6bda1532-8bad-4058-b78b-0f4cbc9a3b95"],
+Cell[CellGroupData[{
+Cell[15900, 432, 805, 14, 147, "Input",ExpressionUUID->"f96201df-a8a4-4ce9-999f-1f1ff0ce053b"],
+Cell[16708, 448, 769, 16, 44, "Output",ExpressionUUID->"fd4c1567-6a5e-4da3-8784-806f0f7bdfe8"]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[17526, 470, 157, 3, 38, "Subsubsection",ExpressionUUID->"7c143aa4-61dc-4cb2-81c4-35f9429a6d13"],
+Cell[CellGroupData[{
+Cell[17708, 477, 855, 15, 147, "Input",ExpressionUUID->"04fd7f1f-530d-46a7-9c43-2310dd7da259"],
+Cell[18566, 494, 793, 17, 44, "Output",ExpressionUUID->"db32925d-fe11-42ff-9970-ca430197c7b8"],
+Cell[CellGroupData[{
+Cell[19384, 515, 192, 4, 25, "Print",ExpressionUUID->"fd1ebb3b-5402-4465-9bb4-ef6ab4ab6ed7"],
+Cell[19579, 521, 192, 4, 25, "Print",ExpressionUUID->"03b8065e-7bc7-4b99-8c52-46a0722fb461"]
+}, Open  ]]
+}, Open  ]]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[19832, 532, 157, 3, 38, "Subsubsection",ExpressionUUID->"cdc200fc-e8ca-4de1-86a2-030942bdeee0"],
+Cell[CellGroupData[{
+Cell[20014, 539, 976, 16, 147, "Input",ExpressionUUID->"00f8d569-c2db-4926-98e1-c5315eb021c2"],
+Cell[20993, 557, 862, 18, 44, "Output",ExpressionUUID->"528d5522-90bb-42c2-8c74-442f2c47077c"],
+Cell[CellGroupData[{
+Cell[21880, 579, 262, 5, 25, "Print",ExpressionUUID->"f2112660-d146-4bad-a0dc-3d8fa6215227"],
+Cell[22145, 586, 261, 5, 25, "Print",ExpressionUUID->"d6c179b8-fa8c-4a05-b236-090abeccb546"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22479, 599, 155, 3, 68, "Section",ExpressionUUID->"52c9a1a7-7276-4131-a706-ade40871008c"],
+Cell[22637, 604, 1808, 48, 274, "Code",ExpressionUUID->"fa6a92b5-37d9-46c1-bac8-18289ea301e7"]
+}, Closed]]
+}
+]
+*)
+
