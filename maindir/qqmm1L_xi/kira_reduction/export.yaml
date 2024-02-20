@@ -1,4 +1,0 @@
-jobs:
- - kira2math:
-    target:
-     - [myintegrals]

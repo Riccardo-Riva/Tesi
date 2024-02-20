@@ -1,0 +1,100 @@
+integralfamilies:
+  - name: "A1p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           0   ]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "B1p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           0   ]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "A2p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           m1^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "A5p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b0111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           0   ]
+      - ["-p1 + p3 + q1",     m1^2]
+
+  - name: "B2p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           m1^2]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "A3p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m1^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "B3p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m1^2]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "A4p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b0111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m2^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "A4p2"
+    loop_momenta: [q1]
+    top_level_sectors: [b0111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m2^2]
+      - ["p2 + q1",           m1^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "B4p1"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m2^2]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "B4p2"
+    loop_momenta: [q1]
+    top_level_sectors: [b1111]
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m2^2]
+      - ["p2 + q1",           m1^2]
+      - ["p2 - p3 + q1",      0   ]
+

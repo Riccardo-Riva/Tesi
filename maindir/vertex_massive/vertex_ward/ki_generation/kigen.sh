@@ -7,7 +7,7 @@ mkdir -p ${MYDIR}results
 
 echo "#!/bin/bash
 #SBATCH --cpus-per-task=2
-#SBATCH --mem-per-cpu=16G
+#SBATCH --mem-per-cpu=8G
 #SBATCH --time=20-0:0
 
 cd "'$SLURM_TMPDIR'"

@@ -1,0 +1,457 @@
+integralfamilies:
+  - name: "D44"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D44>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     0   ]
+      - ["-p1 + q1 + q2",     m2^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D54"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D54>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "C52"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_C52>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p2 + q2",          m3^2]
+      - ["q1 + q2",           0   ]
+      - ["p1 - p2 + q1 + q2", m1^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "C42"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_C42>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["p1 + q1",           m1^2]
+      - ["-p2 + q2",          m1^2]
+      - ["q1 + q2",           m2^2]
+      - ["p1 - p2 + q1 + q2", 0   ]
+      - ["p2 + q1",           0   ]
+
+  - name: "B61"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B61>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m1^2]
+      - ["q1 + q2",           m2^2]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B62"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B62>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m1^2]
+      - ["q1 + q2",           m2^2]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B43"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B43>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          0   ]
+      - ["q1 + q2",           m2^2]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B53"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B53>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m2^2]
+      - ["q1 + q2",           0   ]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B42"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B42>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          0   ]
+      - ["q1 + q2",           m2^2]
+      - ["-p1 + p2 + q2",     m1^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B63"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B63>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m2^2]
+      - ["q1 + q2",           m1^2]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B52"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B52>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m1^2]
+      - ["q1 + q2",           m2^2]
+      - ["-p1 + p2 + q2",     0   ]
+      - ["p2 + q1",           0   ]
+
+  - name: "B51"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B51>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m1^2]
+      - ["q1 + q2",           0   ]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B44"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B44>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m2^2]
+      - ["q1 + q2",           0   ]
+      - ["-p1 + p2 + q2",     0   ]
+      - ["p2 + q1",           0   ]
+
+  - name: "B54"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B54>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m2^2]
+      - ["q1 + q2",           m1^2]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B64"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B64>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m3^2]
+      - ["q1 + q2",           m1^2]
+      - ["-p1 + p2 + q2",     m4^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "B41"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B41>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          m1^2]
+      - ["q1 + q2",           0   ]
+      - ["-p1 + p2 + q2",     0   ]
+      - ["p2 + q1",           0   ]
+
+  - name: "B45"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_B45>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["p1 + q1",           m1^2]
+      - ["-p1 + q2",          0   ]
+      - ["q1 + q2",           m1^2]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "D61"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D61>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m1^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D63"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D63>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m3^2]
+      - ["-p1 + p2 + q2",     m1^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D62"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D62>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["-p1 + q1 + q2",     m2^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D64"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D64>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["-p1 + q1 + q2",     m3^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D65"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D65>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["-p1 + q1 + q2",     m3^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D66"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D66>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["-p1 + q1 + q2",     m2^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D53"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D53>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["-p1 + q1 + q2",     m3^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D51"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D51>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     m1^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D45"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D45>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m3^2]
+      - ["-p1 + p2 + q2",     0   ]
+      - ["-p1 + q1 + q2",     0   ]
+      - ["p1 + q2",           0   ]
+
+  - name: "D52"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D52>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p1 + p2 + q2",     m1^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D46"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D46>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m2^2]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     m3^2]
+      - ["-p1 + q1 + q2",     0   ]
+      - ["p1 + q2",           0   ]
+
+  - name: "D42"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D42>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["-p1 + q1 + q2",     m2^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D43"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D43>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     m2^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "D41"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_D41>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + p2 + q2",     m1^2]
+      - ["-p1 + q1 + q2",     m1^2]
+      - ["p1 + q2",           0   ]
+
+  - name: "C61"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_C61>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p2 + q2",          m2^2]
+      - ["q1 + q2",           m2^2]
+      - ["p1 - p2 + q1 + q2", m1^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "C62"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_C62>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p2 + q2",          m2^2]
+      - ["q1 + q2",           m3^2]
+      - ["p1 - p2 + q1 + q2", m1^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "C51"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_C51>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p2 + q2",          0   ]
+      - ["q1 + q2",           m2^2]
+      - ["p1 - p2 + q1 + q2", m1^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "C41"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_C41>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                m1^2]
+      - ["p1 + q1",           m1^2]
+      - ["-p2 + q2",          0   ]
+      - ["q1 + q2",           0   ]
+      - ["p1 - p2 + q1 + q2", m1^2]
+      - ["p2 + q1",           0   ]
+
+  - name: "F21"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_F21>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + q1 - q2",     0   ]
+      - ["-p1 + q2",          0   ]
+      - ["p2 + q2",           0   ]
+
+  - name: "H21"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_H21>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p2 + q1 + q2",     0   ]
+      - ["-p1 + q2",          0   ]
+      - ["p2 + q2",           0   ]
+
+  - name: "H31"
+    loop_momenta: [q1, q2]
+    top_level_sectors: <SECTOR_H31>
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          m2^2]
+      - ["-p2 + q1 + q2",     0   ]
+      - ["-p1 + q2",          0   ]
+      - ["p2 + q2",           0   ]
+

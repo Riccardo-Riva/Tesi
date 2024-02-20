@@ -1,0 +1,57 @@
+\documentclass[12pt]{report}
+
+\usepackage[a4paper,width=155mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{minitoc}
+
+\title{Angular integrals for next-to-next-to-leading order corrections to Drell-Yan+jet production in the nested soft-collinear subtraction scheme}
+\author{Riccardo Riva}
+
+\begin{document}
+
+%\input{titlepage}
+
+%\input{abstract}
+
+\dominitoc% Initialization
+\tableofcontents
+
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction} \markboth{INTRODUCTION}{}
+\adjustmtc %important in order not to shift all the minitocs
+\label{chapter:intro}
+\input{chapters/intro}
+
+\chapter{Quantum Field Theory and Gauge Theories}
+\minitoc
+\label{chapter:qft}
+\input{chapters/qft}
+
+
+\chapter{Algorithms}
+\minitoc
+\label{chapter:algorithms}
+\input{chapters/algorithms}
+
+
+\chapter{Implementation and calculation}
+\minitoc
+\label{chapter:implementation}
+\input{chapters/implementation}
+    
+
+\chapter{Results}
+\minitoc
+\label{chapter:results}
+\input{chapters/results}
+
+
+\chapter*{Conclusions}
+\addcontentsline{toc}{chapter}{Conclusions} \markboth{CONCLUSIONS}{}
+\adjustmtc %important in order not to shift all the minitocs
+\label{chapter:conclusions}
+\input{chapters/conclusions}
+
+\end{document}

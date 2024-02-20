@@ -10,11 +10,8 @@ NOTE:
 *)
 
 {
-SP[p1,p1]-> 0,
-SP[p2,p2]-> 0,
+SP[p1,p1]-> s,
+SP[p2,p2]-> psq,
 SP[p3,p3]-> psq,
-SP[p4,p4]-> psq,
-SP[p1+p2, p1+p2] -> s,
-SP[p1-p3, p1-p3] -> t,
-SP[p1-p4, p1-p4] -> 2*psq-s-t
+SP[p2+p3, p2+p3] -> s
 }

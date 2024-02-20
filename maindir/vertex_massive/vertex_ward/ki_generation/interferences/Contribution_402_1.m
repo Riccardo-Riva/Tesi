@@ -1,16 +1,22 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-{(PropList[KiraPropagator[q1, 0], KiraPropagator[p3 + q1, mw], 
-    KiraPropagator[p3 + q1, mw], KiraPropagator[-p1 - p2 + p3 + q1, mw], 
-    KiraPropagator[q2, mz]]*(((-I)*(-2 + d)*EL^5*gWlN*gWNl*gWWA*gXXWW*
-      (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1], SP[p1, q1]])/(2*Pi)^(2*d) - 
-    (I*(-2 + d)*EL^5*gWlN*gWNl*gWWA*gXXWW*(bb*(2*mm^2 - s - 2*t) + 
-       aa*(2*mm^2 - 4*psq + s + 2*t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1], SP[p2, q1]])/(2*Pi)^(2*d) - 
-    (I*(aa - bb)*(-2 + d)*EL^5*gWlN*gWNl*gWWA*gXXWW*(2*psq - s - 2*t)*
-      \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1]])/(2*Pi)^(2*d) - 
-    (I*(-2 + d)*EL^5*gWlN*gWNl*gWWA*gXXWW*(bb*(2*mm^2 - psq - t) + 
-       aa*(-psq + t))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1]])/
-     (2*Pi)^(2*d) - (I*(aa - bb)*(-2 + d)*EL^5*gWlN*gWNl*gWWA*gXXWW*
-      (2*psq - s - 2*t)*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1]])/
-     (2*Pi)^(2*d)))/4}
+PropList[KiraPropagator[q2, mm], KiraPropagator[-p1 + q2, mm], 
+  KiraPropagator[-p1 + p2 + q2, mz], KiraPropagator[-p1 + p2 + q2, mz], 
+  KiraPropagator[q1 + q2, mw]]*
+ (((-1 + d)*EL^5*gAl*gWWZZ*mm^2*s*
+    (aa*((-2 + d)*gZlL^2*(mm^2 - psq) + (-2 + d)*gZlR^2*(mm^2 - psq) + 
+       2*d*gZlL*gZlR*(4*psq - s)) + bb*((-2 + d)*gZlL^2*(mm^2 - psq) + 
+       (-2 + d)*gZlR^2*(mm^2 - psq) + 2*d*gZlL*gZlR*(-4*psq + s)))*
+    \[Mu]^(8 - 2*d))/(2*Pi)^(2*d) - 
+  (2^(1 - 2*d)*(-1 + d)*EL^5*gAl*gWWZZ*(2*bb*(gZlL^2 + gZlR^2)*psq*s - 
+     bb*d*(2*gZlL*gZlR*mm^2*(4*psq - s) + gZlL^2*psq*s + gZlR^2*psq*s) + 
+     aa*mm^2*(-2*(gZlL^2 + gZlR^2)*s + d*(8*gZlL*gZlR*psq + gZlL^2*s - 
+         2*gZlL*gZlR*s + gZlR^2*s)))*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2]])/
+   Pi^(2*d) + (2^(1 - 2*d)*(aa - bb)*(2 - 3*d + d^2)*EL^5*gAl*gWWZZ*
+    (gZlL^2 + gZlR^2)*(mm^2 + psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/
+   Pi^(2*d) - ((aa + bb)*(-2 + d)*(-1 + d)*EL^5*gAl*gWWZZ*(gZlL^2 + gZlR^2)*
+    (mm^2 - psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[q2, q2]])/(2*Pi)^(2*d) + 
+  (4^(1 - d)*(2 - 3*d + d^2)*EL^5*gAl*gWWZZ*(gZlL^2 + gZlR^2)*
+    (aa*mm^2 - bb*psq)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2]])/
+   Pi^(2*d) - (4^(1 - d)*(aa - bb)*(2 - 3*d + d^2)*EL^5*gAl*gWWZZ*
+    (gZlL^2 + gZlR^2)*(mm^2 + psq)*\[Mu]^(8 - 2*d)*
+    SPList[SP[p1, q2], SP[p2, q2]])/Pi^(2*d))

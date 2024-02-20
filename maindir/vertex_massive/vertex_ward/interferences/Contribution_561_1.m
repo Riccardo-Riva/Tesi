@@ -1,67 +1,54 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-{(PropList[KiraPropagator[q1, mm], KiraPropagator[p3 + q1, mz], 
-    KiraPropagator[-p1 - p2 + p3 + q1, 0], KiraPropagator[q2, mw], 
-    KiraPropagator[p1 + p2 - p3 - q1 + q2, mw]]*
-   ((I*2^(-1 - 2*d)*(aa - bb)*(2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*mm^2*
-      s*(-2*psq + s + 2*t)*\[Mu]^(8 - 2*d))/Pi^(2*d) + 
-    (I*2^(-1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (bb*((-6 + 4*d)*psq^2 + d*s*(s + t) - 2*mm^2*((-3 + 4*d)*psq + s - 
-           3*d*s + 3*t - 4*d*t) + psq*(2*s - 5*d*s + 6*t - 4*d*t)) + 
-       aa*((6 - 4*d)*psq^2 - d*s*(s + t) + mm^2*((-6 + 8*d)*psq - 6*s + 6*t - 
-           8*d*t) + psq*(6*s - d*s - 6*t + 4*d*t)))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1]])/Pi^(2*d) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl*gWWA*
-      gWWAZ*(gZlL + gZlR)*mm^2*(6*(-1 + d)*psq - (2 + d)*s - 6*(-1 + d)*t)*
-      \[Mu]^(8 - 2*d)*SPList[SP[p1, q2]])/Pi^(2*d) + 
-    (I*2^(-1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (aa*((6 - 4*d)*psq^2 - d*s*t + mm^2*((-6 + 8*d)*psq + 4*s - 2*d*s + 
-           6*t - 8*d*t) + psq*(-4*s + d*s - 6*t + 4*d*t)) + 
-       bb*((-6 + 4*d)*psq^2 + d*s*t + psq*(12*s - 7*d*s + 6*t - 4*d*t) + 
-         mm^2*((6 - 8*d)*psq - 12*s + 8*d*s - 6*t + 8*d*t)))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p2, q1]])/Pi^(2*d) - (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl*gWWA*
-      gWWAZ*(gZlL + gZlR)*mm^2*(6*(-1 + d)*psq + (8 - 5*d)*s - 6*(-1 + d)*t)*
-      \[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/Pi^(2*d) + 
-    (I*2^(-1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*s*
-      (aa*((6 - 4*d)*mm^2 + 2*(-3 + d)*psq + d*(s + 2*t)) - 
-       bb*((-6 + 4*d)*mm^2 - 6*(-1 + d)*psq + d*(s + 2*t)))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p3, q1]])/Pi^(2*d) - (I*(aa + bb)*(-3 + 2*d)*EL^5*gAl*gWWA*
-      gWWAZ*(gZlL + gZlR)*(mm^2 - psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[q1, q1]])/
-     (2*Pi)^(2*d) + (I*2^(1 - 2*d)*(aa + bb)*(-3 + 2*d)*EL^5*gAl*gWWA*gWWAZ*
-      (gZlL + gZlR)*(mm^2 - psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[q1, q2]])/
-     Pi^(2*d) + (I*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1], SP[p1, q1]])/(2*Pi)^(2*d) - 
-    (I*2^(1 - 2*d)*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (bb*(psq - s - t) + aa*(2*mm^2 - 3*psq + s + t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1], SP[p1, q2]])/Pi^(2*d) + 
-    (I*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(bb*(2*mm^2 - s - 2*t) + 
-       aa*(2*mm^2 - 4*psq + s + 2*t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1], SP[p2, q1]])/(2*Pi)^(2*d) + 
-    (I*2^(1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (aa*((10 - 6*d)*mm^2 + (-12 + 7*d)*psq - (-2 + d)*(5*s + t)) + 
-       bb*((-6 + 4*d)*mm^2 + (8 - 5*d)*psq + (-2 + d)*(5*s + t)))*
-      \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2]])/Pi^(2*d) + 
-    (I*(aa - bb)*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(2*psq - s - 2*t)*
-      \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p3, q1]])/(2*Pi)^(2*d) + 
-    (I*4^(1 - d)*(aa - bb)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      ((-3 + 2*d)*psq - s + (3 - 2*d)*t)*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q1], SP[p3, q2]])/Pi^(2*d) + 
-    (I*2^(1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (bb*((10 - 6*d)*mm^2 + (-8 + 5*d)*psq - (-2 + d)*(4*s - t)) + 
-       aa*((-6 + 4*d)*mm^2 + (4 - 3*d)*psq + (-2 + d)*(4*s - t)))*
-      \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1]])/Pi^(2*d) - 
-    (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (2*(-5 + 3*d)*psq + 10*t - d*(s + 6*t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p1, q2], SP[p3, q1]])/Pi^(2*d) + 
-    (I*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(bb*(2*mm^2 - psq - t) + 
-       aa*(-psq + t))*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p2, q1]])/
-     (2*Pi)^(2*d) - (I*2^(1 - 2*d)*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (bb*(2*mm^2 - psq - t) + aa*(-psq + t))*\[Mu]^(8 - 2*d)*
-      SPList[SP[p2, q1], SP[p2, q2]])/Pi^(2*d) + 
-    (I*(aa - bb)*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(2*psq - s - 2*t)*
-      \[Mu]^(8 - 2*d)*SPList[SP[p2, q1], SP[p3, q1]])/(2*Pi)^(2*d) + 
-    (I*4^(1 - d)*(aa - bb)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      ((-3 + 2*d)*psq - 2*(-2 + d)*s + (3 - 2*d)*t)*\[Mu]^(8 - 2*d)*
-      SPList[SP[p2, q1], SP[p3, q2]])/Pi^(2*d) - 
-    (I*2^(1 - 2*d)*(aa - bb)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
-      (2*(-5 + 3*d)*psq - 5*(-2 + d)*s + 2*(5 - 3*d)*t)*\[Mu]^(8 - 2*d)*
-      SPList[SP[p2, q2], SP[p3, q1]])/Pi^(2*d)))/4}
+PropList[KiraPropagator[-q1, mw], KiraPropagator[p1 - q2, mz], 
+  KiraPropagator[p1 - p2 - q2, mm], KiraPropagator[-q1 - q2, mw], 
+  KiraPropagator[-q2, 0]]*
+ ((4^(-1 - d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*s*
+    (bb*mm^2*((-2 + 6*d)*psq + (16 - 7*d)*s) + 
+     2*aa*psq*((-5 + 3*d)*psq + s - d*s) + 
+     2*bb*psq*((5 - 3*d)*psq + (-3 + 2*d)*s) + 
+     aa*mm^2*((2 - 6*d)*psq + (-12 + 5*d)*s))*\[Mu]^(8 - 2*d))/Pi^(2*d) + 
+  (2^(-1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (2*aa*psq*((5 - 3*d)*psq + s) + bb*psq*(2*(-5 + 3*d)*psq + (4 - 3*d)*s) + 
+     2*aa*mm^2*((-1 + 3*d)*psq + (7 - 3*d)*s) + 
+     bb*mm^2*((2 - 6*d)*psq + (-20 + 9*d)*s))*\[Mu]^(8 - 2*d)*
+    SPList[SP[p1, p2]])/Pi^(2*d) - (EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (aa*psq*((10 - 6*d)*psq + s) + aa*mm^2*((-2 + 6*d)*psq + (11 - 7*d)*s) + 
+     bb*psq*(2*(-5 + 3*d)*psq + (-3 + 2*d)*s) + 
+     bb*mm^2*((2 - 6*d)*psq + (-9 + 5*d)*s))*\[Mu]^(8 - 2*d)*
+    SPList[SP[p1, q1]])/(2*Pi)^(2*d) + 
+  (2^(-1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (2*bb*mm^2*((-1 + 3*d)*psq + (5 - 3*d)*s) + 
+     2*bb*psq*((5 - 3*d)*psq + (3 - 2*d)*s) + 
+     aa*psq*(2*(-5 + 3*d)*psq + (-2 + d)*s) + 
+     aa*mm^2*((2 - 6*d)*psq + (-14 + 9*d)*s))*\[Mu]^(8 - 2*d)*
+    SPList[SP[p1, q2]])/Pi^(2*d) - (EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (aa*(-7 + 2*d)*mm^2 + bb*(1 + 2*d)*mm^2 + 9*aa*psq - 6*aa*d*psq + 
+     bb*(-3 + 2*d)*psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[p2, q1]])/(2*Pi)^(2*d) + 
+  (2^(-1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (bb*(4 - 5*d)*mm^2 + aa*(2 + d)*mm^2 + bb*(8 - 5*d)*psq + 
+     aa*(-14 + 9*d)*psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[p2, q2]])/Pi^(2*d) - 
+  ((aa + bb)*(-3 + 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(mm^2 - psq)*s*
+    \[Mu]^(8 - 2*d)*SPList[SP[q1, q2]])/(2*Pi)^(2*d) - 
+  (2^(-1 - 2*d)*(aa + bb)*(-3 + 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (mm^2 - psq)*s*\[Mu]^(8 - 2*d)*SPList[SP[q2, q2]])/Pi^(2*d) + 
+  ((-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(-(bb*(2*mm^2 + psq)) + 
+     aa*(mm^2 + 2*psq))*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, p2]])/
+   (2*Pi)^(2*d) + (2^(1 - 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (-((aa - bb)*(-5 + 3*d)*(mm^2 + psq)) + (-2 + d)*(bb*mm^2 - aa*psq))*
+    \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q1]])/Pi^(2*d) + 
+  ((aa - bb)*(8 - 5*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(mm^2 + psq)*
+    \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p1, q2]])/(2*Pi)^(2*d) - 
+  (2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (mm^2 + psq)*\[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q1]])/Pi^(2*d) - 
+  ((aa - bb)*(-8 + 5*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(mm^2 + psq)*
+    \[Mu]^(8 - 2*d)*SPList[SP[p1, p2], SP[p2, q2]])/(2*Pi)^(2*d) + 
+  (2^(1 - 2*d)*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(bb*mm^2 - aa*psq)*
+    \[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p1, q2]])/Pi^(2*d) + 
+  (2^(1 - 2*d)*(aa - bb)*(-5 + 3*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (mm^2 + psq)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q1], SP[p2, q2]])/Pi^(2*d) + 
+  ((-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(bb*mm^2 - aa*psq)*
+    \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p1, q2]])/(2*Pi)^(2*d) - 
+  (2^(1 - 2*d)*(aa - bb)*(-3 + 2*d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*
+    (mm^2 + psq)*\[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q1]])/Pi^(2*d) + 
+  ((aa - bb)*(-2 + d)*EL^5*gAl*gWWA*gWWAZ*(gZlL + gZlR)*(mm^2 + psq)*
+    \[Mu]^(8 - 2*d)*SPList[SP[p1, q2], SP[p2, q2]])/(2*Pi)^(2*d))

@@ -1,0 +1,13 @@
+integralfamilies:
+  - name: "F21"
+    loop_momenta: [q1, q2]
+    top_level_sectors: [b1111100]
+    propagators:
+      - ["q1",                m1^2]
+      - ["q2",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["-p2 + q1",          0   ]
+      - ["-p1 + q1 - q2",     0   ]
+      - ["-p1 + q2",          0   ]
+      - ["p2 + q2",           0   ]
+
