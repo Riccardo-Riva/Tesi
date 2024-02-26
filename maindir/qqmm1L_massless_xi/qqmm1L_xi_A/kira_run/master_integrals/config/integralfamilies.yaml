@@ -1,0 +1,82 @@
+integralfamilies:
+  - name: "A01"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_A01>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           0   ]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "A11"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_A11>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           m1^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "A21"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_A21>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m1^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "A22"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_A22>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m2^2]
+      - ["-p1 + p3 + q1",     0   ]
+
+  - name: "B01"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_B01>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           0   ]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "B11"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_B11>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           m1^2]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "B22"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_B22>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m2^2]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "B21"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_B21>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          m1^2]
+      - ["p2 + q1",           m1^2]
+      - ["p2 - p3 + q1",      0   ]
+
+  - name: "A12"
+    loop_momenta: [q1]
+    top_level_sectors: <SECTOR_A12>
+    propagators:
+      - ["q1",                0   ]
+      - ["-p1 + q1",          0   ]
+      - ["p2 + q1",           0   ]
+      - ["-p1 + p3 + q1",     m1^2]
+

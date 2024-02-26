@@ -4,7 +4,7 @@ MYDIR=$(pwd)/
 PACKAGEDIR=/home/riccardoriva/packages/
 STORAGEDIR=/farmstorage2/riccardoriva/
 # OUTPUTDIR=${MYDIR}
-OUTPUTDIR=${STORAGEDIR}pmm2L_massless/pmm2L_notr/total_kira/
+OUTPUTDIR=${STORAGEDIR}pmm2l_massless/pmm2l_notr/total_kira/
 
 mkdir -p ${OUTPUTDIR}output
 
@@ -16,7 +16,7 @@ mkdir -p ${OUTPUTDIR}output/${dir}
 
 echo "#!/bin/bash
 #SBATCH --cpus-per-task=2
-#SBATCH --mem-per-cpu=16G
+#SBATCH --mem-per-cpu=8G
 #SBATCH --time=30-0:0
 
 cd "'$SLURM_TMPDIR'"

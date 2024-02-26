@@ -1,0 +1,55 @@
+The user defined environment variable FERMATPATH for Fermat is set:
+/home/riccardo/Programs/Fermat/ferl6/fer64
+One variable is set to 1: {}
+The input directory is set to:
+./results
+
+*****Integral ordering*************************************
+Kira will use the integral ordering: 2.
+symbol_to_replace_by_one: x in kinematics.yaml is not set. 
+Mass reconstruction is disabled.
+################################################
+kira2math: Reconstruct results
+################################################
+
+Algebraic reconstruction is switched off.
+This requested integral is a master integral: A01p1[0,1,1,0] # 6
+This requested integral is a master integral: A01p1[1,0,0,1] # 9
+This requested integral is a master integral: A01p1[1,1,1,1] # 15
+This integral is unreduced: A11p1[0,1,1,0] # 6
+This integral is unreduced: A11p1[0,0,1,0] # 4
+This integral is unreduced: A11p1[0,1,1,0] # 6
+This integral is unreduced: A11p1[1,0,1,1] # 13
+This integral is unreduced: A11p1[1,1,1,1] # 15
+This integral is unreduced: A11p1[0,0,1,0] # 4
+This integral is unreduced: A21p1[0,1,1,0] # 6
+This integral is unreduced: A21p1[0,1,1,0] # 6
+This integral is unreduced: A21p1[1,1,1,0] # 7
+This integral is unreduced: A21p1[1,1,1,1] # 15
+This integral is unreduced: A22p1[0,0,1,0] # 4
+This integral is unreduced: A22p1[0,1,1,0] # 6
+This integral is unreduced: B01p1[1,0,0,1] # 9
+This integral is unreduced: B01p1[1,1,1,1] # 15
+This integral is unreduced: B11p1[1,0,1,1] # 13
+This integral is unreduced: B11p1[1,1,1,1] # 15
+This integral is unreduced: B22p1[1,1,1,1] # 15
+This integral is unreduced: B21p1[1,1,1,1] # 15
+This integral is unreduced: B21p1[1,1,1,1] # 15
+This integral is unreduced: A12p1[0,1,1,1] # 14
+This integral is unreduced: A12p1[0,1,1,1] # 14
+This integral is unreduced: A22p1[0,0,1,0] # 4
+This integral is unreduced: A22p1[0,1,1,0] # 6
+This integral is unreduced: A21p1[0,1,1,0] # 6
+This integral is unreduced: A21p1[0,1,1,0] # 6
+This integral is unreduced: A21p1[1,1,1,0] # 7
+This integral is unreduced: A22p1[0,1,1,1] # 14
+This integral is unreduced: A21p1[0,1,1,0] # 6
+This integral is unreduced: A22p1[0,0,1,0] # 4
+This integral is unreduced: A22p1[0,1,1,0] # 6
+This integral is unreduced: A22p1[0,0,1,0] # 4
+This integral is unreduced: A22p1[0,1,1,0] # 6
+unreduced integrals: 32.
+
+closeCalc: 8159
+Total time:
+( 0.19354 s )

@@ -8,390 +8,102 @@ q2
 (*User-defined integral families*)
 
 userIntegralFamiliesNames={
-B1,B2,B3,B4,B5,B6,B7,B8,B9,B10,B11,B12,
-C1,C2,C3,C4,C5,
-D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,
-F1,F2,F3,
-H1
+B01,C01,D01,
+
+B11,B12,C11,D11,D12,
+
+B21,B22,C21,D21,D22,F21,D23,
+
+B31,B32,C31,D31,B33,D32,D33,F31,H31,
+
+B41,B42,C41,D41,D42,F41,
+
+B51,B52
 };
 
-userPropagatorMomenta[B1]={
+userPropagatorMomenta[B01]={
 	q1,
 	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
 	q1+p1,
-	q2+p3+p1
+	q2+p1
 };
 
-userIntegralMasses[B1]={0,0,0,0,0,0,0,0,0};
+userIntegralMasses[B01]={0,0,0,0,0,0,0,0,0};
 
-userPropagatorMomenta[B2]={
+userPropagatorMomenta[C01]={
 	q1,
 	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
+	q1-p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1+q2-p1-p2,
+	q2-p3,
 	q1+p1,
-	q2+p3+p1
+	q2+p1
 };
 
-userIntegralMasses[B2]={M1,0,0,0,0,0,0,0,0};
+userIntegralMasses[C01]={0,0,0,0,0,0,0,0,0};
 
-userPropagatorMomenta[B3]={
+userPropagatorMomenta[D01]={
 	q1,
 	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
 	q1+p1,
-	q2+p3+p1
+	q2+p1
 };
 
-userIntegralMasses[B3]={0,0,0,0,M1,0,0,0,0};
-
-userPropagatorMomenta[B4]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B4]={M1,0,0,0,M1,0,0,0,0};
-
-userPropagatorMomenta[B5]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B5]={0,M1,0,M1,0,0,0,0,0};
-
-userPropagatorMomenta[B6]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B6]={0,M1,0,M1,M1,0,0,0,0};
-
-userPropagatorMomenta[B7]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B7]={M1,M1,0,M1,0,0,0,0,0};
-
-userPropagatorMomenta[B8]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B8]={M1,M2,0,M2,0,0,0,0,0};
-
-userPropagatorMomenta[B9]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B9]={0,M1,M1,M1,0,M1,0,0,0};
-
-userPropagatorMomenta[B10]={
-	q1,
-	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
-	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B10]={0,M1,0,M1,M1,M2,0,0,0};
+userIntegralMasses[D01]={0,0,0,0,0,0,0,0,0};
 
 userPropagatorMomenta[B11]={
 	q1,
 	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
 	q1+p1,
-	q2+p3+p1
+	q2+p1
 };
 
-userIntegralMasses[B11]={0,M1,M1,M1,M2,M1,0,0,0};
+userIntegralMasses[B11]={M1,0,0,0,0,0,0,0,0};
 
 userPropagatorMomenta[B12]={
 	q1,
 	q2,
-	p3+q1,
-	p1+p2+q2,
-	p3+q1+q2,
-	-p1-p2+p3+q1,
-	q2-p1,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
 	q1+p1,
-	q2+p3+p1
-};
-
-userIntegralMasses[B12]={0,M1,M2,M1,M1,M2,0,0,0};
-
-userPropagatorMomenta[C1]={
-	q1,
-	q2,
-	q1+q2,
-	q1-p3,
-	q2+p3-p1-p2,
-	p1+p2-q1-q2,
-	q2+p3-p1,
-	p1-q1,
-	p1-q2
-};
-
-userIntegralMasses[C1]={0,0,0,0,0,0,0,0,0};
-
-userPropagatorMomenta[C2]={
-	q1,
-	q2,
-	q1+q2,
-	q1-p3,
-	q2+p3-p1-p2,
-	p1+p2-q1-q2,
-	q2+p3-p1,
-	p1-q1,
-	p1-q2
-};
-
-userIntegralMasses[C2]={0,0,0,M1,0,0,0,0,0};
-
-userPropagatorMomenta[C3]={
-	q1,
-	q2,
-	q1+q2,
-	q1-p3,
-	q2+p3-p1-p2,
-	p1+p2-q1-q2,
-	q2+p3-p1,
-	p1-q1,
-	p1-q2
-};
-
-userIntegralMasses[C3]={0,M1,0,M1,0,0,0,0,0};
-
-userPropagatorMomenta[C4]={
-	q1,
-	q2,
-	q1+q2,
-	q1-p3,
-	q2+p3-p1-p2,
-	p1+p2-q1-q2,
-	q2+p3-p1,
-	p1-q1,
-	p1-q2
-};
-
-userIntegralMasses[C4]={0,0,M1,M1,0,M1,0,0,0};
-
-userPropagatorMomenta[C5]={
-	q1,
-	q2,
-	q1+q2,
-	q1-p3,
-	q2+p3-p1-p2,
-	p1+p2-q1-q2,
-	q2+p3-p1,
-	p1-q1,
-	p1-q2
-};
-
-userIntegralMasses[C5]={0,0,M1,M1,M2,M1,0,0,0};
-
-userPropagatorMomenta[D1]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
 	q2+p1
 };
 
-userIntegralMasses[D1]={0,0,0,0,0,0,0,0,0};
+userIntegralMasses[B12]={0,0,0,0,M1,0,0,0,0};
 
-userPropagatorMomenta[D2]={
+userPropagatorMomenta[C11]={
 	q1,
 	q2,
 	q1-p3,
-	q2+p3,
 	q1+q2,
 	q2+p3-p1-p2,
+	q1+q2-p1-p2,
+	q2-p3,
 	q1+p1,
-	q1+p2,
 	q2+p1
 };
 
-userIntegralMasses[D2]={0,0,M1,0,0,0,0,0,0};
-
-userPropagatorMomenta[D3]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D3]={0,M1,0,0,0,0,0,0,0};
-
-userPropagatorMomenta[D4]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D4]={0,M1,M1,0,0,0,0,0,0};
-
-userPropagatorMomenta[D5]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D5]={M1,0,0,0,M1,0,0,0,0};
-
-userPropagatorMomenta[D6]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D6]={0,M1,M2,0,0,0,0,0,0};
-
-userPropagatorMomenta[D7]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D7]={0,0,0,M1,M1,M1,0,0,0};
-
-userPropagatorMomenta[D8]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D8]={M1,0,0,M2,0,M2,0,0,0};
-
-userPropagatorMomenta[D9]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D9]={M1,M2,0,0,M1,0,0,0,0};
-
-userPropagatorMomenta[D10]={
-	q1,
-	q2,
-	q1-p3,
-	q2+p3,
-	q1+q2,
-	q2+p3-p1-p2,
-	q1+p1,
-	q1+p2,
-	q2+p1
-};
-
-userIntegralMasses[D10]={0,0,M1,0,M2,M1,0,0,0};
+userIntegralMasses[C11]={0,0,M1,0,0,0,0,0,0};
 
 userPropagatorMomenta[D11]={
 	q1,
@@ -400,12 +112,12 @@ userPropagatorMomenta[D11]={
 	q2+p3,
 	q1+q2,
 	q2+p3-p1-p2,
+	q1-p1-p2,
 	q1+p1,
-	q1+p2,
 	q2+p1
 };
 
-userIntegralMasses[D11]={0,0,M1,M1,M2,M1,0,0,0};
+userIntegralMasses[D11]={0,0,M1,0,0,0,0,0,0};
 
 userPropagatorMomenta[D12]={
 	q1,
@@ -414,65 +126,345 @@ userPropagatorMomenta[D12]={
 	q2+p3,
 	q1+q2,
 	q2+p3-p1-p2,
+	q1-p1-p2,
 	q1+p1,
-	q1+p2,
 	q2+p1
 };
 
-userIntegralMasses[D12]={0,0,M1,M2,M2,M2,0,0,0};
+userIntegralMasses[D12]={0,M1,0,0,0,0,0,0,0};
 
-userPropagatorMomenta[F1]={
+userPropagatorMomenta[B21]={
 	q1,
 	q2,
 	q1+p3,
-	p3+q1-q2,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B21]={M1,0,0,0,M1,0,0,0,0};
+
+userPropagatorMomenta[B22]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B22]={0,M1,0,M1,0,0,0,0,0};
+
+userPropagatorMomenta[C21]={
+	q1,
+	q2,
+	q1-p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1+q2-p1-p2,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[C21]={0,M1,M1,0,0,0,0,0,0};
+
+userPropagatorMomenta[D21]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D21]={0,M1,M1,0,0,0,0,0,0};
+
+userPropagatorMomenta[D22]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D22]={M1,0,0,0,M1,0,0,0,0};
+
+userPropagatorMomenta[D23]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D23]={0,M1,M2,0,0,0,0,0,0};
+
+userPropagatorMomenta[F21]={
+	q1,
+	q2,
+	q1+p3,
+	q1-q2+p3,
 	q1+p3-p1-p2,
+	q2+p1+p2,
 	q1+q2,
 	q1+p1,
-	q2+p2,
 	q2+p1
 };
 
-userIntegralMasses[F1]={0,0,M1,0,M1,0,0,0,0};
+userIntegralMasses[F21]={0,0,M1,0,M1,0,0,0,0};
 
-userPropagatorMomenta[F2]={
+userPropagatorMomenta[B31]={
 	q1,
 	q2,
 	q1+p3,
-	p3+q1-q2,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B31]={0,M1,0,M1,M1,0,0,0,0};
+
+userPropagatorMomenta[B32]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B32]={M1,M1,0,M1,0,0,0,0,0};
+
+userPropagatorMomenta[B33]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B33]={M1,M2,0,M2,0,0,0,0,0};
+
+userPropagatorMomenta[C31]={
+	q1,
+	q2,
+	q1-p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1+q2-p1-p2,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[C31]={0,0,M1,M1,0,M1,0,0,0};
+
+userPropagatorMomenta[D31]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D31]={0,0,0,M1,M1,M1,0,0,0};
+
+userPropagatorMomenta[D32]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D32]={M1,M2,0,0,M1,0,0,0,0};
+
+userPropagatorMomenta[D33]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D33]={M1,0,0,M2,0,M2,0,0,0};
+
+userPropagatorMomenta[F31]={
+	q1,
+	q2,
+	q1+p3,
+	q1-q2+p3,
 	q1+p3-p1-p2,
+	q2+p1+p2,
 	q1+q2,
 	q1+p1,
-	q2+p2,
 	q2+p1
 };
 
-userIntegralMasses[F2]={0,0,M1,M2,M1,0,0,0,0};
+userIntegralMasses[F31]={0,0,M1,M2,M1,0,0,0,0};
 
-userPropagatorMomenta[F3]={
+userPropagatorMomenta[H31]={
 	q1,
 	q2,
 	q1+p3,
-	p3+q1-q2,
-	q1+p3-p1-p2,
-	q1+q2,
-	q1+p1,
-	q2+p2,
-	q2+p1
-};
-
-userIntegralMasses[F3]={0,M1,M2,M3,M2,0,0,0,0};
-
-userPropagatorMomenta[H1]={
-	q1,
-	q2,
-	q1+p3,
-	p3+q1-q2,
 	q1+p1+p2,
+	q1-q2+p3,
+	q2-p1-p2,
 	q1+q2,
 	q1+p1,
-	q2+p1,
-	q2+p2
+	q2+p1
 };
 
-userIntegralMasses[H1]={0,M1,M2,M2,0,0,0,0,0};
+userIntegralMasses[H31]={0,M1,M2,0,M2,0,0,0,0};
+
+userPropagatorMomenta[B41]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B41]={0,M1,M1,M1,0,M1,0,0,0};
+
+userPropagatorMomenta[B42]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B42]={0,M1,0,M1,M1,M2,0,0,0};
+
+userPropagatorMomenta[D41]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D41]={0,0,M1,M1,M2,M1,0,0,0};
+
+userPropagatorMomenta[C41]={
+	q1,
+	q2,
+	q1-p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1+q2-p1-p2,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[C41]={0,0,M1,M1,M2,M1,0,0,0};
+
+userPropagatorMomenta[D42]={
+	q1,
+	q2,
+	q1-p3,
+	q2+p3,
+	q1+q2,
+	q2+p3-p1-p2,
+	q1-p1-p2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[D42]={0,0,M1,M2,M2,M2,0,0,0};
+
+userPropagatorMomenta[F41]={
+	q1,
+	q2,
+	q1+p3,
+	q1-q2+p3,
+	q1+p3-p1-p2,
+	q2+p1+p2,
+	q1+q2,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[F41]={0,M1,M2,M3,M2,0,0,0,0};
+
+userPropagatorMomenta[B51]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B51]={0,M1,M1,M1,M2,M1,0,0,0};
+
+userPropagatorMomenta[B52]={
+	q1,
+	q2,
+	q1+p3,
+	q2+p1+p2,
+	q1+q2+p3,
+	q1-p1-p2+p3,
+	q2-p3,
+	q1+p1,
+	q2+p1
+};
+
+userIntegralMasses[B52]={0,M1,M2,M1,M1,M2,0,0,0};

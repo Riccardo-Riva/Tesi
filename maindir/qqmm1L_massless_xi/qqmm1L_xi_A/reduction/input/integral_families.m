@@ -7,93 +7,94 @@ q1
 (*User-defined integral families*)
 
 userIntegralFamiliesNames={
-A1,B1,
+A01,
+B01,
 
-A2,A5,B2,
+A11,A12,
+B11,
 
-A3,B3,
-
-A4,B4
+A21,A22,
+B21,B22
 };
 
-userPropagatorMomenta[A1]={
+userPropagatorMomenta[A01]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	-p1+p3+q1	
 };
 
-userIntegralMasses[A1]={0,0,0,0};
+userIntegralMasses[A01]={0,0,0,0};
 
-userPropagatorMomenta[B1]={
+userPropagatorMomenta[B01]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	p2-p3+q1	
 };
 
-userIntegralMasses[B1]={0,0,0,0};
+userIntegralMasses[B01]={0,0,0,0};
 
-userPropagatorMomenta[A2]={
+userPropagatorMomenta[A11]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	-p1+p3+q1	
 };
 
-userIntegralMasses[A2]={0,0,M1,0};
+userIntegralMasses[A11]={0,0,M1,0};
 
-userPropagatorMomenta[A5]={
+userPropagatorMomenta[A12]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	-p1+p3+q1	
 };
 
-userIntegralMasses[A5]={0,0,0,M1};
+userIntegralMasses[A12]={0,0,0,M1};
 
-userPropagatorMomenta[B2]={
+userPropagatorMomenta[B11]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	p2-p3+q1	
 };
 
-userIntegralMasses[B2]={0,0,M1,0};
+userIntegralMasses[B11]={0,0,M1,0};
 
-userPropagatorMomenta[A3]={
+userPropagatorMomenta[A21]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	-p1+p3+q1	
 };
 
-userIntegralMasses[A3]={0,M1,M1,0};
+userIntegralMasses[A21]={0,M1,M1,0};
 
-userPropagatorMomenta[B3]={
+userPropagatorMomenta[B21]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	p2-p3+q1	
 };
 
-userIntegralMasses[B3]={0,M1,M1,0};
+userIntegralMasses[B21]={0,M1,M1,0};
 
-userPropagatorMomenta[A4]={
+userPropagatorMomenta[A22]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	-p1+p3+q1	
 };
 
-userIntegralMasses[A4]={0,M1,M2,0};
+userIntegralMasses[A22]={0,M1,M2,0};
 
 
-userPropagatorMomenta[B4]={
+userPropagatorMomenta[B22]={
 	q1,
 	-p1+q1,
 	p2+q1,
 	p2-p3+q1	
 };
 
-userIntegralMasses[B4]={0,M1,M2,0};
+userIntegralMasses[B22]={0,M1,M2,0};
