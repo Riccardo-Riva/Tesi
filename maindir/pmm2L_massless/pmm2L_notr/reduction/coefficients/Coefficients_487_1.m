@@ -1,0 +1,229 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ (2^(-4 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*(-2 + d)*mw^2 - (-3 + d)*(mz^2 - s))*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-3 + d)*mw^2*Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (2^(-4 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*(-2 + d)*mw^2 + (-3 + d)*(mz^2 - s))*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-3 + d)*mw^2*Pi^(2*d)*(mz^2 - s)*s^2) - 
+  (2^(-3 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*t*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/((-3 + d)*mw^2*Pi^(2*d)*s^3) + 
+  (2^(-3 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (-((-3 + d)*(mz^2 - s)^2) + 4*(-2 + d)*mw^2*(mz^2 + (-5 + d)*s))*t*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/((15 - 8*d + d^2)*mw^2*Pi^(2*d)*(mz^2 - s)^2*
+    s^3) - (2^(-3 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*(-2 + d)*mw^2*(mz^2 + (-5 + d)*s) - 
+     (mz^2 - s)*(2*(-4 + d)*mz^2 + (18 - 9*d + d^2)*s))*t*(s + 2*t)*
+    \[Mu]^(8 - 2*d))/((15 - 8*d + d^2)*mw^2*Pi^(2*d)*(mz^2 - s)^2*s^3) - 
+  (4^(-2 - d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/((-3 + d)*mw^2*Pi^(2*d)*s^2) - 
+  (4^(-2 - d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-3 + d)*mz^2 + (-1 + d)*s)*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-3 + d)*mw^2*Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (4^(-1 - d)*(-4 + d)*(-2 + d)^2*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*
+    \[Mu]^(8 - 2*d))/((15 - 8*d + d^2)*Pi^(2*d)*(mz^2 - s)^2*s^2) - 
+  (2^(-2 - 2*(1 + d))*(-2 + d)^2*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*(-4 + d)*mw^2 - (-5 + d)*(mz^2 - s))*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((15 - 8*d + d^2)*mw^2*Pi^(2*d)*(mz^2 - s)^2*s^2) - 
+  (2^(-3 - 2*d)*(-2 + d)^2*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*mw^2*(s + 2*t) - s*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-3 + d)*mw^2*Pi^(2*d)*(mz^2 - s)*s^2), 
+ -((2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+     ((-3*(-3 + d))/4 + ((-8 + 3*d)*mw^2)/(mz^2 - s))*(s + 2*t)*
+     \[Mu]^(8 - 2*d))/(Pi^(2*d)*s^2)) - 
+  (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((3*(-3 + d))/4 + ((-8 + 3*d)*mw^2)/(mz^2 - s))*(s + 2*t)*
+    \[Mu]^(8 - 2*d))/(Pi^(2*d)*s^2) - 
+  ((-8 + 3*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mw^2*
+    (mz^2 + (-5 + d)*s)*t*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*(2*Pi)^(2*d)*(mz^2 - s)^2*s^3) + 
+  (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*((3 - d)*s + t)*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/((-4 + 2*d)*Pi^(2*d)*s^3) - 
+  (4^(-1 - d)*(5 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/((-4 + 2*d)*Pi^(2*d)*s^2) - 
+  (4^(-1 - d)*(-3 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/((-4 + 2*d)*Pi^(2*d)*s^2) + 
+  (2^(-3 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (3*(-3 + d)*mz^2 + (-7 + 3*d)*s)*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*(mz^2 - s)*s^2) - (4^(-1 - d)*(64 - 40*d + 6*d^2)*EL^8*gAl^2*
+    gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mw^2*((-2 + d)*s^2 + 4*s*t + 4*t^2 + 
+     mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*Pi^(2*d)*(mz^2 - s)^2*s^2) + 
+  (2^(-1 - 2*(1 + d))*(-8 + 3*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*(-4 + d)*mw^2 - (-5 + d)*(mz^2 - s))*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*Pi^(2*d)*(mz^2 - s)^2*s^2) + 
+  (4^(-1 - d)*(-8 + 3*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*mw^2*(s + 2*t) - s*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*(mz^2 - s)*s^2) + (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(s + 2*t)*((-5 + d)*mz^4*((-3 + d)*s - t) + 
+     (-5 + d)*s*((-3 + d)*s^2 + 4*(16 - 14*d + 3*d^2)*mw^2*t + 
+       (15 - 14*d + 3*d^2)*s*t) + mz^2*(-2*(15 - 8*d + d^2)*s^2 + 
+       4*(16 - 14*d + 3*d^2)*mw^2*t + (70 - 84*d + 29*d^2 - 3*d^3)*s*t))*
+    \[Mu]^(8 - 2*d))/((10 - 7*d + d^2)*Pi^(2*d)*(mz^2 - s)^2*s^3), 
+ -((2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mz^2*
+     (-4*mw^2 + mz^2 - s)*(s + 2*t)*\[Mu]^(8 - 2*d))/
+    (Pi^(2*d)*(mz^2 - s)*s^2)) - (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*
+    ggmgmAZ*(gZlL + gZlR)*mz^2*(-4*mw^2 - mz^2 + s)*(s + 2*t)*
+    \[Mu]^(8 - 2*d))/(Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mz^2*
+    ((mz^2 - s)^2 + 4*mw^2*(5*mz^2 + (-21 + 4*d)*s))*t*(s + 2*t)*
+    \[Mu]^(8 - 2*d))/((-5 + d)*Pi^(2*d)*(mz^2 - s)^2*s^3) + 
+  (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*mw^2 + mz^2 - s)*(s + t)*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-2 + d)*Pi^(2*d)*s^3) - (4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*mw^2 + mz^2 - s)*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((4 - 2*d)*Pi^(2*d)*s^2) - (4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*mw^2 + mz^2 - s)*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-4 + 2*d)*Pi^(2*d)*s^2) - (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*mz^2*(mz^2 + s)*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*(mz^2 - s)*s^2) + (2^(-3 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*mw^2*(mw^(-2) - (4*((15 - 4*d)*mz^2 + s))/(mz^2 - s)^2)*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*Pi^(2*d)*s^2) + (2^(-1 - 2*(1 + d))*EL^8*gAl^2*gAu^2*ggmgmA*
+    ggmgmAZ*(gZlL + gZlR)*(4*mw^2*((15 - 4*d)*mz^2 + s) + 
+     (mz^2 - s)*((-21 + 4*d)*mz^2 + s))*((-2 + d)*s^2 + 4*s*t + 4*t^2 + 
+     mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*Pi^(2*d)*(mz^2 - s)^2*s^2) - 
+  (EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mz^2*
+    (4*mw^2*(s + 2*t) - s*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   (4^d*Pi^(2*d)*(mz^2 - s)*s^2) - (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*
+    ggmgmAZ*(gZlL + gZlR)*(s + 2*t)*
+    ((mz^2 - s)*((-5 + d)*s^2*(s + t) + mz^4*((-5 + d)*s + (-7 + 2*d)*t) + 
+       mz^2*s*(-2*(-5 + d)*s + (-28 + 25*d - 4*d^2)*t)) + 
+     4*mw^2*((-5 + d)*s^2*(s + t) + mz^4*((-5 + d)*s + 3*(-5 + 2*d)*t) + 
+       mz^2*s*(-2*(-5 + d)*s + (52 - 31*d + 4*d^2)*t)))*\[Mu]^(8 - 2*d))/
+   ((10 - 7*d + d^2)*Pi^(2*d)*(mz^2 - s)^2*s^3), 
+ -((2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+     ((-4*mw^4)/(mz^2 - s) + (mz^2 - s)/4)*(s + 2*t)*\[Mu]^(8 - 2*d))/
+    (Pi^(2*d)*s^2)) + (2^(-3 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*mw^2 + mz^2 - s)^2*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*(mz^2 - s)*s^2) + (EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    mw^2*(4*mw^2*(mz^2 + (-5 + d)*s) + (mz^2 - s)*(2*mz^2 + (-5 + d)*s))*t*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/((-5 + d)*(2*Pi)^(2*d)*(mz^2 - s)^2*s^3) + 
+  (EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mw^2*(s + t)*(s + 2*t)*
+    \[Mu]^(8 - 2*d))/((-2 + d)*(2*Pi)^(2*d)*s^3) - 
+  (2^(-3 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*mw^2 + mz^2 - s)*(mz^2 + s)*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*(mz^2 - s)*s^2) + (EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (1/2 - (8*(-4 + d)*mw^4)/((-5 + d)*(mz^2 - s)^2) - 
+     (4*mw^2)/((-5 + d)*(mz^2 - s)))*((-2 + d)*s^2 + 4*s*t + 4*t^2 + 
+     mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/(2^(2*(1 + d))*Pi^(2*d)*s^2) - 
+  (4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mw^2*
+    (-8*(-4 + d)*mw^2 - 2*(-3 + d)*(mz^2 - s))*((-2 + d)*s^2 + 4*s*t + 
+     4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*Pi^(2*d)*(mz^2 - s)^2*s^2) + 
+  (4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (-4*mw^2 - mz^2 + s)*(4*mw^2*(s + 2*t) - s*((-2 + d)*s + 2*t))*
+    \[Mu]^(8 - 2*d))/(Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*(s + 2*t)*
+    (t/2 - (8*mw^4*(mz^2 + (-5 + d)*s)*t)/((-5 + d)*(mz^2 - s)^2*s) - 
+     (2*mw^2*(-((-5 + d)*s*(s + t)) + mz^2*((-5 + d)*s + 3*(-3 + d)*t)))/
+      ((10 - 7*d + d^2)*(mz^2 - s)*s))*\[Mu]^(8 - 2*d))/(Pi^(2*d)*s^2), 
+ -((4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+     ((-6 + d)*s - 6*t)*\[Mu]^(8 - 2*d))/(Pi^(2*d)*s^2)) - 
+  (2^(-4 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*d*mw^2 + (-2 + d)*mz^2 - (-2 + d)*s)*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   (mw^2*Pi^(2*d)*s^2) - (2^(-4 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(4*d*mw^2 - (-2 + d)*mz^2 + (-2 + d)*s)*(s + 2*t)*
+    \[Mu]^(8 - 2*d))/(mw^2*Pi^(2*d)*s^2) - 
+  (2^(-1 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (mz^2 + (-4 + d)*s)*t*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-4 + d)*Pi^(2*d)*(mz^2 - s)*s^3) - 
+  (EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*(mz^2 + (-4 + d)*s)*t*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/((-4 + d)*(2*Pi)^(2*d)*(mz^2 - s)*s^3) + 
+  (2^(-3 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*d*mw^2*(mz^2 - 4*s) + 6*d*(mz^2 - s)*s + 8*s*(-mz^2 + s) + 
+     d^2*s*(4*mw^2 - mz^2 + s))*t*(s + 2*t)*\[Mu]^(8 - 2*d))/
+   ((-4 + d)*mw^2*Pi^(2*d)*(mz^2 - s)*s^3) + 
+  (4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (1 + ((-2 + d)*(mz^2 + s))/(4*mw^2))*((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*s^2) + (2^(1 - 2*(1 + d))*(-3 + d)*EL^8*gAl^2*gAu^2*ggmgmA*
+    ggmgmAZ*(gZlL + gZlR)*((-2 + d)*s^2 + 4*s*t + 4*t^2)*\[Mu]^(8 - 2*d))/
+   ((-4 + d)*Pi^(2*d)*(mz^2 - s)*s^2) - 
+  (4^(-1 - d)*(6 - 5*d + d^2)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-4 + d)*Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (2^(-2 - 2*(1 + d))*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (-8*mz^2 + 8*s - 6*d*(2*mw^2 - mz^2 + s) + d^2*(4*mw^2 - mz^2 + s))*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-4 + d)*mw^2*Pi^(2*d)*(mz^2 - s)*s^2) - 
+  (2^(-1 - 2*d)*(-3 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (2*(-2 + d)*s^2 + 8*s*t + 8*t^2 + mz^2*((-2 + d)*s + 2*t))*
+    \[Mu]^(8 - 2*d))/((-4 + d)*Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (2^(-3 - 2*d)*(-2 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (4*mw^2*(s + 2*t) - s*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   (mw^2*Pi^(2*d)*s^2), 0, 0, 0, 0, 0, 
+ (2^(-1 - 2*d)*(-3 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    \[Mu]^(8 - 2*d))/(mz^2*Pi^(2*d)*s) + 
+  (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*(s - t)*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/(mz^2*Pi^(2*d)*s^3) - 
+  (2^(-2 - 2*d)*(-2 + d)^2*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*t*
+    (s + 2*t)*\[Mu]^(8 - 2*d))/((20 - 9*d + d^2)*Pi^(2*d)*(mz^2 - s)*s^3) - 
+  (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/(mz^2*Pi^(2*d)*s^2) + 
+  ((2 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2)*\[Mu]^(8 - 2*d))/
+   (2^(2*(1 + d))*(-4 + d)*mz^2*Pi^(2*d)*(mz^2 - s)*s^2) + 
+  (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*(s + 2*t)*
+    (3 + ((44 - 17*d + 2*d^2)*t)/((20 - 9*d + d^2)*s) - (3*(s + t))/mz^2)*
+    \[Mu]^(8 - 2*d))/(Pi^(2*d)*(mz^2 - s)*s^2) - 
+  (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*(s + 2*t)*
+    (mz^2*((-4 + d)*s - 2*t) - (-4 + d)*s*(s + t))*\[Mu]^(8 - 2*d))/
+   ((-4 + d)*mz^2*Pi^(2*d)*(mz^2 - s)*s^3) - 
+  (2^(-3 - 2*d)*(-2 + d)^2*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((20 - 9*d + d^2)*mz^2*Pi^(2*d)*(mz^2 - s)*s^2) - 
+  (2^(-1 - 2*(1 + d))*(16 - 10*d + d^2)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*
+    \[Mu]^(8 - 2*d))/((20 - 9*d + d^2)*mz^2*Pi^(2*d)*(mz^2 - s)*s^2) - 
+  (4^(-1 - d)*(2 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (2*(-2 + d)*s^2 + 8*s*t + 8*t^2 + mz^2*((-2 + d)*s + 2*t))*
+    \[Mu]^(8 - 2*d))/((-4 + d)*mz^2*Pi^(2*d)*(mz^2 - s)*s^2), 
+ -((4^(-1 - d)*(-5 + 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mw^2*
+     ((-2 + d)*s + 2*t)*\[Mu]^(8 - 2*d))/((-2 + d)*Pi^(2*d)*s^2)) - 
+  (2^(-3 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2*(-3 + d)*mw^2)/(-2 + d) + mz^2 + s)*((-2 + d)*s + 2*t)*
+    \[Mu]^(8 - 2*d))/(Pi^(2*d)*s^2) - 
+  (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*mw^2*(s + 2*t)*
+    (((-3 + d)*mz^2*t)/((-5 + d)*mw^2) + 2*(s + t))*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*s^3) + (2^(-1 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(s + 2*t)*((8 - 6*d + d^2)*mz^2*t + 
+     (25 - 15*d + 2*d^2)*mw^2*(s + t))*\[Mu]^(8 - 2*d))/
+   ((10 - 7*d + d^2)*Pi^(2*d)*s^3) + 
+  (4^(-1 - d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    (mw^2*((-4 + d)*s - 2*t) - 2*t*(s + 2*t))*\[Mu]^(8 - 2*d))/
+   (Pi^(2*d)*s^2) + ((-4 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   (2^(2*(1 + d))*(-5 + d)*Pi^(2*d)*s^2) - 
+  (2^(-3 - 2*d)*(-3 + d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*(gZlL + gZlR)*
+    ((-2 + d)*s^2 + 4*s*t + 4*t^2 + mz^2*((-2 + d)*s + 2*t))*\[Mu]^(8 - 2*d))/
+   ((-5 + d)*Pi^(2*d)*s^2) + (2^(-2 - 2*d)*EL^8*gAl^2*gAu^2*ggmgmA*ggmgmAZ*
+    (gZlL + gZlR)*(s + 2*t)*((-mz^2 + s)*t + (2*mw^2*(s - (-3 + d)*t))/
+      (-2 + d))*\[Mu]^(8 - 2*d))/(Pi^(2*d)*s^3), 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}

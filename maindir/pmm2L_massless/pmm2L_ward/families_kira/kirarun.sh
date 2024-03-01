@@ -4,7 +4,7 @@ MYDIR=$(pwd)/
 PACKAGEDIR=/home/riccardoriva/packages/
 STORAGEDIR=/farmstorage2/riccardoriva/
 # OUTPUTDIR=${MYDIR}
-OUTPUTDIR=${STORAGEDIR}pmm2l_massless/pmm2l_notr/families_kira/
+OUTPUTDIR=${STORAGEDIR}pmm2L_massless/pmm2L_ward/families_kira/
 
 mkdir -p ${OUTPUTDIR}output
 

@@ -1,43 +1,44 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-(I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*t*
+(I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*(2*s + t)*
    \[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 0, 0, 1, 0, 1, 1, 0, 0, 0])/
   Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
    t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 0, 1, 1, -1, 1, 1, 0, 0, 0])/
-  Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
+  Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
    s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 0, 1, 1, 0, 1, 1, -1, 0, 0])/
   Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
    s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 0, 1, 1, 0, 1, 1, 0, 0, -1])/
   Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
-   s*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 0, 1, 1, 0, 1, 1, 0, 0, 
-    0])/Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*
-   (gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 0, 0, 1, 
+   s*(2*mw^2 + t)*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 0, 1, 1, 0, 1, 
     1, 0, 0, 0])/Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*
-   (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 1, 0, 1, 
-    0, 0, 0, 0])/Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*
-   (gZlL + gZlR)*s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 1, 0, 1, 
-    1, 0, -1, 0])/Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*
-   ggpgpAZ*(gZlL + gZlR)*mz^2*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 
-    1, 0, 1, 0, 1, 1, 0, 0, 0])/Pi^(2*d) + 
+   (gZlL + gZlR)*(s + 2*t)*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 
+    0, 0, 1, 1, 0, 0, 0])/Pi^(2*d) + 
  (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*t*
-   \[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, -1, 1, 1, 0, 0, 0])/
+   \[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 1, 0, 1, 0, 0, 0, 0])/
   Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
-   t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, 0, 1, 1, -1, 0, 0])/
+   s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 1, 0, 1, 1, 0, -1, 0])/
   Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
-   s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, 0, 1, 1, 0, 0, -1])/
-  Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
-   (mw^2*(s - t) + s*t)*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, 
-    0, 1, 1, 0, 0, 0])/Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*
+   mz^2*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 0, 1, 0, 1, 1, 0, 0, 
+    0])/Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*
+   (gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, -1, 
+    1, 1, 0, 0, 0])/Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*
    ggpgpAZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 
-    1, 0, 1, 0, -1, 0, 0])/Pi^(2*d) - 
+    0, 0, 1, 1, -1, 0, 0])/Pi^(2*d) + 
+ (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*s*
+   \[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, 0, 1, 1, 0, 0, -1])/
+  Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
+   (s*t + mw^2*(s + t))*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 0, 
+    0, 1, 1, 0, 0, 0])/Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*
+   ggpgpAZ*(gZlL + gZlR)*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 
+    1, 0, 1, 0, -1, 0, 0])/Pi^(2*d) + 
  (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*mw^2*t*
    \[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 1, 0, 1, 0, 0, 0, 0])/
-  Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
+  Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
    s*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 1, 0, 1, 1, -1, -1, 
-    0])/Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*
+    0])/Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*
    (gZlL + gZlR)*mz^2*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 1, 
-    0, 1, 1, -1, 0, 0])/Pi^(2*d) + 
+    0, 1, 1, -1, 0, 0])/Pi^(2*d) - 
  (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*mw^2*s*
    \[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 1, 0, 1, 1, 0, -1, 0])/
-  Pi^(2*d) - (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
+  Pi^(2*d) + (I*2^(-3 - 2*d)*(aa - bb)*EL^5*gAl*ggpgpA*ggpgpAZ*(gZlL + gZlR)*
    mw^2*mz^2*t*\[Mu]^(8 - 2*d)*userIntegral[B42, {mw, mz}, 1, 1, 1, 0, 1, 1, 
     0, 0, 0])/Pi^(2*d)
